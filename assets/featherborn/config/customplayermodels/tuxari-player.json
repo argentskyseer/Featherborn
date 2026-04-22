@@ -1,0 +1,106 @@
+{
+  "tuxari": {
+    "Enabled": true,
+    "Group": "Avians",
+    "GroupIcon": "featherborn:icons/avian-group",
+    "ShapePath": "featherborn:body/base/penguin-faceless",
+    "MainTextureCode": "body-feathers",
+    "Icon": "featherborn:icons/avian",
+    "SizeRange": [0.4, 1.5],
+    "CollisionBox": [0.8, 1.5],
+    "EyeHeight": 1.7,
+    "ModelSizeFactor": 1,
+    "AvailableClasses": [],
+    "GuiModelScale": 1.0,
+    "HeadBobbingScale": 0.8,
+    "ScaleColliderWithSizeHorizontally": true,
+    "ScaleColliderWithSizeVertically": true,
+    "SkinnableParts": [
+      {
+        "code": "facialbeak",
+        "type": "shape",
+        "shapeTemplate": {
+          "base": "featherborn:face/beaks/{code}"
+        },
+        "variants": [
+          {
+            "code": "penguin"
+          },
+        ]
+      },
+      {
+        "code": "beakcolor",
+        "type": "texture",
+        "textureTarget": "beakcolor",
+        "overlayTexture": false,
+        "targetSkinParts": ["facialbeak", "beakcore"],
+        "textureTemplate": "featherborn:face/beaks/{code}",
+        "variants": [
+          {
+            "code": "gray"
+          },
+          {
+            "code": "yellow"
+          },
+          {
+            "code": "black"
+          }
+        ]
+      },
+      {
+        "code": "facialeyes",
+        "type": "shape",
+        "shapeTemplate": {
+          "base": "featherborn:face/eyes/{code}"
+        },
+        "variants": [
+          {
+            "code": "bird"
+          },
+          {
+            "code": "harpy1"
+          },
+          {
+            "code": "harpy"
+          },
+          {
+            "code": "harpy-alt"
+          },
+          {
+            "code": "harpy-thick-brow"
+          },
+          {
+            "code": "harpy-alt-thick-brow"
+          },
+          {
+            "code": "cat"
+          },
+          {
+            "code": "angry"
+          }
+        ]
+      },
+      {
+        "code": "eyecolor",
+        "type": "texture",
+        "textureTarget": "iris",
+        "targetSkinParts": ["facialeyes"],
+        "textureTemplate": "featherborn:face/eyes/{code}",
+        "variants": [
+          {
+            "code": "red"
+          },
+          {
+            "code": "white"
+          },
+          {
+            "code": "black"
+          },
+          {
+            "code": "yellow"
+          }
+        ]
+      }
+    ]
+  }
+}

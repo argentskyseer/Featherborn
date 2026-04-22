@@ -1,0 +1,143 @@
+{
+	"editor": {
+		"backDropShape": "C:/Users/thedi/AppData/Roaming/VintagestoryData/Mods/Avian/assets/avian/shapes/entity/humanoid/avian-faceless-b",
+		"collapsedPaths": "Root/root/LowerTorso/UpperFootL/LowerFootL2/ankleL5,Root/root/LowerTorso/UpperFootL/LowerFootL2/ankleL3",
+		"allAngles": false,
+		"entityTextureMode": true
+	},
+	"textureWidth": 32,
+	"textureHeight": 36,
+	"textureSizes": {
+		"commoner-trousers": [32,36],
+		"hunter-leggings": [32,36],
+		"blackguard-leggings": [32,36],
+		"homespun-pants": [32,36],
+		"alchemist": [32,36],
+		"messenger-trousers": [32,36],
+		"marketeer": [32,36],
+		"jailor-pants": [32,36],
+		"chateau-pants": [32,36],
+		"forgotten": [32,36],
+		"miner": [32,36],
+		"deep": [32,36],
+		"pants": [32,36],
+		"seraph": [32,76],
+		"hair": [48,48],
+		"bands": [16,16],
+		"bodyfeathers": [32,76],
+		"accentblack": [32,76],
+		"rust": [32,76],
+		"feather-base": [48,48],
+		"playermodellib-iris": [8,8],
+		"seraph-for-eyes": [32,76],
+		"shirt": [28,44],
+		"king": [32,36],
+		"commoner-boots": [16,28]
+	},
+	"textures": {
+		"commoner-boots": "featherborn:replacements/foot/invis-boots"
+	},
+	"elements": [
+		{
+			"name": "ankleBootL",
+			"stepParentName": "ankleL3",
+			"from": [ -0.4, 0.0, 0.0 ],
+			"to": [ -0.4, 0.0, 0.0 ],
+			"uv": [ 4.0, 1.0 ],
+			"faces": {
+				"north": { "texture": "#commoner-boots", "uv": [ 4.0, 1.5, 4.5, 2.0 ] },
+				"east": { "texture": "#commoner-boots", "uv": [ 4.5, 1.5, 5.0, 2.0 ] },
+				"south": { "texture": "#commoner-boots", "uv": [ 5.0, 1.5, 5.5, 2.0 ] },
+				"west": { "texture": "#commoner-boots", "uv": [ 5.5, 1.5, 6.0, 2.0 ] },
+				"up": { "texture": "#commoner-boots", "uv": [ 4.0, 1.0, 4.5, 1.5 ] },
+				"down": { "texture": "#commoner-boots", "uv": [ 4.5, 1.0, 5.0, 1.5 ] }
+			},
+			"children": [
+				{
+					"name": "Cube12",
+					"from": [ -4.0, -0.9, 0.0 ],
+					"to": [ -4.0, -0.9, 0.0 ],
+					"autoUnwrap": false,
+					"uv": [ 2.0, 13.0 ],
+					"rotationOrigin": [ -4.0, 0.0, 0.0 ],
+					"rotationZ": 3.9,
+					"faces": {
+						"north": { "texture": "#commoner-boots", "uv": [ 2.0, 15.0, 2.5, 15.5 ] },
+						"east": { "texture": "#commoner-boots", "uv": [ 8.0, 15.0, 8.5, 15.5 ] },
+						"south": { "texture": "#commoner-boots", "uv": [ 9.5, 11.0, 10.0, 11.5 ] },
+						"west": { "texture": "#commoner-boots", "uv": [ 12.5, 15.5, 13.0, 16.0 ] },
+						"up": { "texture": "#commoner-boots", "uv": [ 1.0, 10.5, 1.5, 11.0 ] },
+						"down": { "texture": "#commoner-boots", "uv": [ 8.0, 12.0, 8.5, 12.5 ] }
+					}
+				},
+				{
+					"name": "Cube46",
+					"from": [ -4.0, 0.7, 0.0 ],
+					"to": [ -4.0, 0.7, 0.0 ],
+					"autoUnwrap": false,
+					"uv": [ 1.0, 14.5 ],
+					"rotationOrigin": [ 1.0, 1.0, 0.0 ],
+					"rotationZ": 19.0,
+					"faces": {
+						"north": { "texture": "#commoner-boots", "uv": [ 1.0, 16.5, 1.5, 17.0 ] },
+						"east": { "texture": "#commoner-boots", "uv": [ 6.0, 16.5, 6.5, 17.0 ] },
+						"south": { "texture": "#commoner-boots", "uv": [ 8.0, 16.5, 8.5, 17.0 ] },
+						"west": { "texture": "#commoner-boots", "uv": [ 13.0, 16.5, 13.5, 17.0 ] },
+						"up": { "texture": "#commoner-boots", "uv": [ 4.0, 20.0, 4.5, 20.5 ], "rotation": 90 },
+						"down": { "texture": "#commoner-boots", "uv": [ 6.0, 14.5, 6.5, 15.0 ] }
+					}
+				}
+			]
+		},
+		{
+			"name": "ankleBootR",
+			"stepParentName": "ankleL4",
+			"from": [ -0.4, 0.0, 0.0 ],
+			"to": [ -0.4, 0.0, 0.0 ],
+			"uv": [ 10.5, 1.0 ],
+			"faces": {
+				"north": { "texture": "#commoner-boots", "uv": [ 10.5, 1.5, 11.0, 2.0 ] },
+				"east": { "texture": "#commoner-boots", "uv": [ 11.0, 1.5, 11.5, 2.0 ] },
+				"south": { "texture": "#commoner-boots", "uv": [ 11.5, 1.5, 12.0, 2.0 ] },
+				"west": { "texture": "#commoner-boots", "uv": [ 12.0, 1.5, 12.5, 2.0 ] },
+				"up": { "texture": "#commoner-boots", "uv": [ 10.5, 1.0, 11.0, 1.5 ] },
+				"down": { "texture": "#commoner-boots", "uv": [ 11.0, 1.0, 11.5, 1.5 ] }
+			},
+			"children": [
+				{
+					"name": "Cube13",
+					"from": [ -4.0, -0.9, 0.0 ],
+					"to": [ -4.0, -0.9, 0.0 ],
+					"autoUnwrap": false,
+					"uv": [ 0.5, 25.0 ],
+					"rotationOrigin": [ -4.0, 0.0, 0.0 ],
+					"rotationZ": 3.9,
+					"faces": {
+						"north": { "texture": "#commoner-boots", "uv": [ 0.5, 27.0, 1.0, 27.5 ] },
+						"east": { "texture": "#commoner-boots", "uv": [ 6.5, 27.0, 7.0, 27.5 ] },
+						"south": { "texture": "#commoner-boots", "uv": [ 8.5, 27.0, 9.0, 27.5 ] },
+						"west": { "texture": "#commoner-boots", "uv": [ 13.0, 25.5, 13.5, 26.0 ] },
+						"up": { "texture": "#commoner-boots", "uv": [ 1.0, 21.5, 1.5, 22.0 ] },
+						"down": { "texture": "#commoner-boots", "uv": [ 0.5, 25.0, 1.0, 25.5 ] }
+					}
+				},
+				{
+					"name": "Cube47",
+					"from": [ -4.0, 0.7, 0.0 ],
+					"to": [ -4.0, 0.7, 0.0 ],
+					"autoUnwrap": false,
+					"uv": [ 0.5, 22.0 ],
+					"rotationOrigin": [ 1.0, 1.0, 0.0 ],
+					"rotationZ": 19.0,
+					"faces": {
+						"north": { "texture": "#commoner-boots", "uv": [ 0.5, 24.0, 1.0, 24.5 ] },
+						"east": { "texture": "#commoner-boots", "uv": [ 5.5, 24.0, 6.0, 24.5 ] },
+						"south": { "texture": "#commoner-boots", "uv": [ 7.5, 24.0, 8.0, 24.5 ] },
+						"west": { "texture": "#commoner-boots", "uv": [ 12.5, 24.0, 13.0, 24.5 ] },
+						"up": { "texture": "#commoner-boots", "uv": [ 4.0, 20.0, 4.5, 20.5 ], "rotation": 90 },
+						"down": { "texture": "#commoner-boots", "uv": [ 6.0, 21.5, 6.5, 22.0 ] }
+					}
+				}
+			]
+		}
+	]}

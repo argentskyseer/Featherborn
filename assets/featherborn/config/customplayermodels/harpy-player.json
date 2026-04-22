@@ -1,0 +1,750 @@
+{
+  "harpy": {
+    "Enabled": true,
+    "Group": "Avians",
+    "GroupIcon": "featherborn:icons/avian-group",
+    "ShapePath": "featherborn:body/base/harpy-faceless",
+    "MainTextureCode": "body-feathers",
+    "Icon": "featherborn:icons/harpy",
+    "SizeRange": [0.8, 1.5],
+    "CollisionBox": [0.8, 1.5],
+    "EyeHeight": 1.7,
+    "ModelSizeFactor": 1,
+    "AvailableClasses": [],
+    "GuiModelScale": 1.0,
+    "HeadBobbingScale": 0.8,
+    "ScaleColliderWithSizeHorizontally": true,
+    "ScaleColliderWithSizeVertically": true,
+    "SkinnableParts": [
+      {
+        "code": "feather-color",
+        "type": "texture",
+        "textureTarget": "body-feathers",
+        "overlayTexture": true,
+        "targetSkinParts": ["base"],
+        "textureTemplate": "featherborn:body/base/{code}",
+        "variants": [
+          {
+            "code": "blue"
+          },
+          {
+            "code": "red"
+          },
+          {
+            "code": "yellow"
+          },
+          {
+            "code": "brown"
+          },
+          {
+            "code": "gray"
+          },
+          {
+            "code": "rust"
+          },
+          {
+            "code": "black"
+          }
+        ]
+      },
+      {
+        "code": "accent-color",
+        "type": "texture",
+        "textureTarget": "body-feathers",
+        "overlayTexture": true,
+        "overlayMode": "Normal",
+        "targetSkinParts": ["base", "facial-feathers"],
+        "textureTemplate": "featherborn:body/accent/{code}",
+        "variants": [
+          {
+            "code": "black",
+            "color": "0"
+          },
+          {
+            "code": "cream",
+            "color": "223208194"
+          },
+          {
+            "code": "white",
+            "color": "255255255"
+          }
+        ]
+      },
+      {
+        "code": "underwear",
+        "type": "texture",
+        "textureTarget": "body-feathers",
+        "overlayTexture": true,
+        "useDropDown": true,
+        "overlayMode": "Normal",
+        "targetSkinParts": ["base"],
+        "textureTemplate": "featherborn:body/underwear/{code}",
+        "variants": [
+          {
+            "code": "twopiece"
+          },
+          {
+            "code": "leotard"
+          },
+          {
+            "code": "breeches"
+          }
+        ]
+      },
+      {
+        "code": "armfeathers",
+        "type": "shape",
+        "shapeTemplate": {
+          "base": "featherborn:feathers/arm/{code}"
+        },
+        "variants": [
+          {
+            "code": "short-forearm"
+          },
+          {
+            "code": "forearm"
+          },
+          {
+            "code": "short-full-arm"
+          },
+          {
+            "code": "full-arm"
+          },
+          {
+            "code": "none"
+          }
+        ]
+      },
+        {
+          "code": "tailfeathers",
+          "type": "shape",
+          "shapeTemplate": {
+            "base": "featherborn:feathers/tail/{code}"
+          },
+          "variants": [
+            {
+              "code": "none"
+            },
+            {
+              "code": "short"
+            },
+            // {
+            //   "code": "medium"
+            // },
+            {
+              "code": "long"
+            }
+          ]
+        },
+      {
+        "code": "voicetype",
+        "type": "voice",
+        "useDropDown": true,
+        "variants": [
+          {
+            "code": "altoflute",
+            "sound": "game:sounds/voice/altoflute"
+          },
+          {
+            "code": "harmonica",
+            "sound": "game:sounds/voice/harmonica"
+          },
+          {
+            "code": "oboe",
+            "sound": "game:sounds/voice/oboe"
+          },
+          {
+            "code": "clarinet",
+            "sound": "game:sounds/voice/clarinet"
+          },
+          {
+            "code": "accordion",
+            "sound": "game:sounds/voice/accordion"
+          },
+          {
+            "code": "trumpet",
+            "sound": "game:sounds/voice/trumpet"
+          },
+          {
+            "code": "sax",
+            "sound": "game:sounds/voice/sax"
+          },
+          {
+            "code": "tuba",
+            "sound": "game:sounds/voice/tuba"
+          },
+          {
+            "code": "owl",
+            "sound": "featherborn:sounds/voice/owl"
+          },
+          {
+            "code": "crow",
+            "sound": "featherborn:sounds/voice/crow"
+          },
+          {
+            "code": "hawk",
+            "sound": "featherborn:sounds/voice/hawk"
+          },
+          {
+            "code": "honk",
+            "sound": "featherborn:sounds/voice/honk"
+          },
+          {
+            "code": "jay",
+            "sound": "featherborn:sounds/voice/jay"
+          },
+          {
+            "code": "raven",
+            "sound": "featherborn:sounds/voice/raven"
+          }
+        ]
+      },
+      {
+        "code": "voicepitch",
+        "type": "voice",
+        "colbreak": true,
+        "useDropDown": true,
+        "variants": [
+          {
+            "code": "verylow"
+          },
+          {
+            "code": "low"
+          },
+          {
+            "code": "medium"
+          },
+          {
+            "code": "high"
+          }
+        ]
+      },
+      {
+        "code": "facial-feathers",
+        "type": "shape",
+        "shapeTemplate": {
+          "base": "featherborn:feathers/head/{code}"
+        },
+        "variants": [
+          {
+            "code": "owl"
+          }
+        ]
+      },
+      {
+        "code": "facial-feathers-color",
+        "type": "texture",
+        "textureTarget": "feather-base",
+        "overlayTexture": true,
+        "overlayMode": "Normal",
+        "targetSkinParts": ["facial-feathers"],
+        "textureTemplate": "featherborn:feathers/head/{code}",
+        "variants": [
+          {
+            "code": "feather-base"
+          },
+          {
+            "code": "feather-rust"
+          }
+        ]
+      },
+      {
+        "code": "facial-feathers-pattern",
+        "type": "texture",
+        "textureTarget": "feather-base",
+        "overlayTexture": true,
+        "overlayMode": "Normal",
+        "useDropDown": true,
+        "targetSkinParts": ["facial-feathers"],
+        "textureTemplate": "featherborn:feathers/head/{code}",
+        "variants": [
+          {
+            "code": "feather-pattern-1"
+          },
+          {
+            "code": "feather-pattern-2"
+          }
+        ]
+      },
+      {
+        "code": "hairbase",
+        "type": "shape",
+        "shapeTemplate": {
+          "base": "featherborn:seraph/hair-base/{code}"
+        },
+        "variants": [
+          {
+            "code": "cheek"
+          },
+          {
+            "code": "afro"
+          },
+          {
+            "code": "bald"
+          },
+          {
+            "code": "balding"
+          },
+          {
+            "code": "bowlcut"
+          },
+          {
+            "code": "boxbraids"
+          },
+          {
+            "code": "combed"
+          },
+          {
+            "code": "dreadlocks"
+          },
+          {
+            "code": "dreadlocksdense"
+          },
+          {
+            "code": "indigenousbalding"
+          },
+          {
+            "code": "iroquois"
+          },
+          {
+            "code": "kniaz"
+          },
+          {
+            "code": "layered"
+          },
+          {
+            "code": "longflowing"
+          },
+          {
+            "code": "longcurls"
+          },
+          {
+            "code": "longwithstrands"
+          },
+          {
+            "code": "mediumcurls"
+          },
+          {
+            "code": "mediumlength-bangs"
+          },
+          {
+            "code": "messy"
+          },
+          {
+            "code": "messy2"
+          },
+          {
+            "code": "classic"
+          },
+          {
+            "code": "rows"
+          },
+          {
+            "code": "rowsdense"
+          },
+          {
+            "code": "short"
+          },
+          {
+            "code": "shortcurls"
+          },
+          {
+            "code": "shortcurls2"
+          },
+          {
+            "code": "short-parted"
+          },
+          {
+            "code": "shortspiky"
+          },
+          {
+            "code": "short-trimmed"
+          },
+          {
+            "code": "tonsure"
+          }
+        ]
+      },
+      {
+        "code": "hairextra",
+        "type": "shape",
+        "shapeTemplate": {
+          "base": "game:entity/humanoid/seraphskinparts/hair-extra/{code}"
+        },
+        "variants": [
+          {
+            "code": "none"
+          },
+          {
+            "code": "backbun"
+          },
+          {
+            "code": "backbuncurls"
+          },
+          {
+            "code": "backbunpuffy"
+          },
+          {
+            "code": "bunboxbraid"
+          },
+          {
+            "code": "braidedup"
+          },
+          {
+            "code": "classicponytail"
+          },
+          {
+            "code": "cobrasidebraids"
+          },
+          {
+            "code": "elaboratestickbun"
+          },
+          {
+            "code": "headsidebraid"
+          },
+          {
+            "code": "largestickbun"
+          },
+          {
+            "code": "knots"
+          },
+          {
+            "code": "neatbraid"
+          },
+          {
+            "code": "ponytail"
+          },
+          {
+            "code": "ponytailcurly"
+          },
+          {
+            "code": "ponytailcrest"
+          },
+          {
+            "code": "rolledbraidwithbun"
+          },
+          {
+            "code": "shortmessybraid"
+          },
+          {
+            "code": "segmentedtopknot"
+          },
+          {
+            "code": "sidebraids"
+          },
+          {
+            "code": "sidebuns"
+          },
+          {
+            "code": "sidebunscurly"
+          },
+          {
+            "code": "sidepuffs"
+          },
+          {
+            "code": "siderolls"
+          },
+          {
+            "code": "skepbun"
+          },
+          {
+            "code": "snood"
+          },
+          {
+            "code": "toproll"
+          },
+          {
+            "code": "backroll"
+          },
+          {
+            "code": "backrollbun"
+          },
+          {
+            "code": "thickroll"
+          },
+          {
+            "code": "fishtailbraid"
+          },
+          {
+            "code": "steppesidetails"
+          },
+          {
+            "code": "steppebraidloop"
+          },
+          {
+            "code": "steppebraids"
+          },
+          {
+            "code": "thicklongfrenchbraid"
+          },
+          {
+            "code": "tiedback"
+          },
+          {
+            "code": "tieddreads"
+          },
+          {
+            "code": "tiedtopknot"
+          },
+          {
+            "code": "topbun"
+          },
+          {
+            "code": "topbuncurly"
+          },
+          {
+            "code": "topbunvoluminous"
+          },
+          {
+            "code": "topknot"
+          },
+          {
+            "code": "unkempt"
+          },
+          {
+            "code": "vikingtopbraid"
+          }
+        ]
+      },
+      {
+        "code": "haircolor",
+        "type": "texture",
+        "textureTarget": "hair",
+        "dyeWith": "hair",
+        "targetSkinParts": ["hairbase", "hairextra", "facial-feathers", "tail-feathers", "facialbrows", "arm-feathers"],
+        "textureTemplate": "featherborn:hair/{code}",
+        "variants": [
+          {
+            "code": "blue"
+          },
+          {
+            "code": "brown"
+          },
+          {
+            "code": "eerieblack"
+          },
+          {
+            "code": "gray"
+          },
+          {
+            "code": "lightgray"
+          },
+          {
+            "code": "red"
+          },
+          {
+            "code": "rust"
+          },
+          {
+            "code": "yellow"
+          }
+        ]
+      },
+      // {
+      //   "code": "facialbrows",
+      //   "type": "shape",
+      //   "shapeTemplate": {
+      //     "base": "featherborn:face/brows/{code}"
+      //   },
+      //   "variants": [
+      //     {
+      //       "code": "adequate"
+      //     },
+      //     {
+      //       "code": "angry"
+      //     },
+      //     {
+      //       "code": "caring"
+      //     },
+      //     {
+      //       "code": "determined"
+      //     },
+      //     {
+      //       "code": "exhausted"
+      //     },
+      //     {
+      //       "code": "fierce"
+      //     },
+      //     {
+      //       "code": "grin"
+      //     },
+      //     {
+      //       "code": "indifferent"
+      //     },
+      //     {
+      //       "code": "kind"
+      //     },
+      //     {
+      //       "code": "mellow"
+      //     },
+      //     {
+      //       "code": "neutral"
+      //     },
+      //     {
+      //       "code": "sad"
+      //     },
+      //     {
+      //       "code": "serious"
+      //     },
+      //     {
+      //       "code": "smirk"
+      //     },
+      //     {
+      //       "code": "thoughtful"
+      //     },
+      //     {
+      //       "code": "tired"
+      //     },
+      //     {
+      //       "code": "upset"
+      //     },
+      //     {
+      //       "code": "very-sad"
+      //     },
+      //     {
+      //       "code": "weary"
+      //     }
+      //   ]
+      // },
+      {
+        "code": "facialeyes",
+        "type": "shape",
+        "shapeTemplate": {
+          "base": "featherborn:face/eyes/{code}"
+        },
+        "variants": [
+          {
+            "code": "bird"
+          },
+          {
+            "code": "harpy1"
+          },
+          {
+            "code": "harpy"
+          },
+          {
+            "code": "harpy-alt"
+          },
+                    {
+            "code": "harpy-thick-brow"
+          },
+          {
+            "code": "harpy-alt-thick-brow"
+          },
+          {
+            "code": "cat"
+          },
+          {
+            "code": "angry"
+          }
+        ]
+      },
+      {
+        "code": "eyecolor",
+        "type": "texture",
+        "textureTarget": "iris",
+        "targetSkinParts": ["facialeyes"],
+        "textureTemplate": "featherborn:face/eyes/{code}",
+        "variants": [
+          {
+            "code": "red"
+          },
+          {
+            "code": "white"
+          },
+          {
+            "code": "black"
+          },
+          {
+            "code": "yellow"
+          }
+        ]
+      },
+      {
+        "code": "faciallips",
+        "type": "shape",
+        "shapeTemplate": {
+          "base": "featherborn:face/lips/{code}"
+        },
+        "variants": [
+          {
+            "code": "adequate"
+          },
+          {
+            "code": "angry"
+          },
+          {
+            "code": "caring"
+          },
+          {
+            "code": "determined"
+          },
+          {
+            "code": "exhausted"
+          },
+          {
+            "code": "fierce"
+          },
+          {
+            "code": "grin"
+          },
+          {
+            "code": "indifferent"
+          },
+          {
+            "code": "kind"
+          },
+          {
+            "code": "mellow"
+          },
+          {
+            "code": "neutral"
+          },
+          {
+            "code": "sad"
+          },
+          {
+            "code": "serious"
+          },
+          {
+            "code": "smirk"
+          },
+          {
+            "code": "thoughtful"
+          },
+          {
+            "code": "tired"
+          },
+          {
+            "code": "upset"
+          },
+          {
+            "code": "very-sad"
+          },
+          {
+            "code": "weary"
+          }
+        ]
+      },
+      {
+        "code": "legs",
+        "type": "texture",
+        "textureTarget": "body-feathers",
+        "overlayTexture": true,
+        "overlayMode": "Normal",
+        "targetSkinParts": ["base"],
+        "variants": [
+          {
+            "code": "gray",
+            "texture": "featherborn:legs/gray"
+          },
+          {
+            "code": "yellow",
+            "color": "16047425",
+            "texture": "featherborn:legs/yellow"
+          }
+        ]
+      }
+    ]
+  }
+}

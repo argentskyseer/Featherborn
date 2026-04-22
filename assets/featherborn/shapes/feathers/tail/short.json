@@ -1,0 +1,64 @@
+{
+	"editor": {
+		"backDropShape": "C:/Users/thedi/AppData/Roaming/VintagestoryData/Mods/Featherborn/assets/featherborn/shapes/body/base/harpy-faceless",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"tail-base": [64,64]
+	},
+	"textures": {
+		"tail-base": "featherborn:feathers/tail/tail-base"
+	},
+	"elements": [
+		{
+			"name": "Cube2",
+			"stepParentName": "LowerTorso",
+			"from": [ 4.0, 1.0, -1.0 ],
+			"to": [ 12.0, 1.2, 7.0 ],
+			"rotationOrigin": [ 4.0, 1.0, -1.0 ],
+			"rotationZ": -45.0,
+			"faces": {
+				"north": { "texture": "#tail-base", "uv": [ 0.0, 0.0, 8.0, 0.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,0,0] },
+				"east": { "texture": "#tail-base", "uv": [ 0.0, 0.0, 8.0, 0.5 ] },
+				"south": { "texture": "#tail-base", "uv": [ 0.0, 0.0, 8.0, 0.5 ] },
+				"west": { "texture": "#tail-base", "uv": [ 0.0, 0.0, 8.0, 0.5 ] },
+				"up": { "texture": "#tail-base", "uv": [ 0.0, 0.0, 64.0, 64.0 ], "rotation": 270, "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,0,0] },
+				"down": { "texture": "#tail-base", "uv": [ 0.0, 0.0, 64.0, 64.0 ], "rotation": 90, "autoUv": false }
+			},
+			"children": [
+				{
+					"name": "Cube3",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 7.5, 0.2, 7.5 ],
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationZ": -5.0,
+					"faces": {
+						"north": { "texture": "#tail-base", "uv": [ 0.0, 0.0, 8.0, 0.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,0,0] },
+						"east": { "texture": "#tail-base", "uv": [ 0.0, 0.0, 7.5, 0.5 ] },
+						"south": { "texture": "#tail-base", "uv": [ 0.0, 0.0, 7.5, 0.5 ] },
+						"west": { "texture": "#tail-base", "uv": [ 0.0, 0.0, 7.5, 0.5 ] },
+						"up": { "texture": "#tail-base", "uv": [ 0.0, 0.0, 64.0, 64.0 ], "rotation": 270, "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,0,0] },
+						"down": { "texture": "#tail-base", "uv": [ 0.0, 0.0, 64.0, 64.0 ], "rotation": 90, "autoUv": false }
+					}
+				},
+				{
+					"name": "Cube4",
+					"from": [ 0.0, 0.0, 1.5 ],
+					"to": [ 5.0, 0.2, 6.5 ],
+					"rotationOrigin": [ 0.0, 0.0, 2.0 ],
+					"rotationZ": 5.0,
+					"faces": {
+						"north": { "texture": "#tail-base", "uv": [ 0.0, 0.0, 8.0, 0.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,0,0] },
+						"east": { "texture": "#tail-base", "uv": [ 0.0, 0.0, 5.0, 0.5 ] },
+						"south": { "texture": "#tail-base", "uv": [ 0.0, 0.0, 5.0, 0.5 ] },
+						"west": { "texture": "#tail-base", "uv": [ 0.0, 0.0, 5.0, 0.5 ] },
+						"up": { "texture": "#tail-base", "uv": [ 0.0, 0.0, 64.0, 64.0 ], "rotation": 270, "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,0,0] },
+						"down": { "texture": "#tail-base", "uv": [ 0.0, 0.0, 64.0, 64.0 ], "rotation": 90, "autoUv": false }
+					}
+				}
+			]
+		}
+	]}

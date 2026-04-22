@@ -1,0 +1,28 @@
+{
+  "featherborn:avian": {
+    //Foot
+    "game:entity/humanoid/seraph/clothing/foot/commoner-boots": "featherborn:replacements/foot/custom-avian-boots-2",
+    "game:entity/humanoid/seraph/clothing/foot/hunter-boots": "featherborn:replacements/foot/custom-avian-boots-2",
+    "game:entity/humanoid/seraph/clothing/foot/malefactor-boots": "featherborn:replacements/foot/custom-avian-boots-2",
+    "game:entity/humanoid/seraph/clothing/foot/messenger-shoes": "featherborn:replacements/foot/custom-avian-boots-2",
+    "game:entity/humanoid/seraph/clothing/foot/minstrel-boots": "featherborn:replacements/foot/custom-avian-boots-2",
+    "game:entity/humanoid/seraph/clothing/foot/nomad-boots": "featherborn:replacements/foot/custom-avian-boots-2",
+    "game:entity/humanoid/seraph/clothing/foot/prince-boots": "featherborn:replacements/foot/custom-avian-boots-2",
+    "game:entity/humanoid/seraph/clothing/foot/rotwalker": "featherborn:replacements/foot/custom-avian-boots-2",
+    "game:entity/humanoid/seraph/clothing/foot/squire-boots": "featherborn:replacements/foot/custom-avian-boots-2",
+    "game:entity/humanoid/seraph/clothing/foot/tigh-high-boots": "featherborn:replacements/foot/custom-avian-boots-2"
+  },
+  "featherborn:harpy": {
+    //Foot
+    "game:entity/humanoid/seraph/clothing/foot/commoner-boots": "featherborn:replacements/foot/custom-avian-boots-2",
+    "game:entity/humanoid/seraph/clothing/foot/hunter-boots": "featherborn:replacements/foot/custom-avian-boots-2",
+    "game:entity/humanoid/seraph/clothing/foot/malefactor-boots": "featherborn:replacements/foot/custom-avian-boots-2",
+    "game:entity/humanoid/seraph/clothing/foot/messenger-shoes": "featherborn:replacements/foot/custom-avian-boots-2",
+    "game:entity/humanoid/seraph/clothing/foot/minstrel-boots": "featherborn:replacements/foot/custom-avian-boots-2",
+    "game:entity/humanoid/seraph/clothing/foot/nomad-boots": "featherborn:replacements/foot/custom-avian-boots-2",
+    "game:entity/humanoid/seraph/clothing/foot/prince-boots": "featherborn:replacements/foot/custom-avian-boots-2",
+    "game:entity/humanoid/seraph/clothing/foot/rotwalker": "featherborn:replacements/foot/custom-avian-boots-2",
+    "game:entity/humanoid/seraph/clothing/foot/squire-boots": "featherborn:replacements/foot/custom-avian-boots-2",
+    "game:entity/humanoid/seraph/clothing/foot/tigh-high-boots": "featherborn:replacements/foot/custom-avian-boots-2"
+  }
+}

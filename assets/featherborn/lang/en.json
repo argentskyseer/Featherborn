@@ -1,0 +1,70 @@
+{
+  "game:playermodel-avians": "Avians",
+  "featherborn:playermodel-harpy": "Harpy",
+  "featherborn:playermodel-avian": "Avian",
+  "featherborn:playermodel-raptori": "Raptori",
+  "featherborn:playermodel-tuxari": "Tuxari",
+  "game:skinpart-feather-color": "Body Color",
+  "game:skinpart-accent-color": "Accent Color",
+
+  //voice
+  "game:skinpart-voicetype-owl": "Owl",
+  "game:skinpart-voicetype-crow": "Crow",
+  "game:skinpart-voicetype-hawk": "Hawk",
+  "game:skinpart-voicetype-honk": "Goose",
+  "game:skinpart-voicetype-jay": "Jay",
+  "game:skinpart-voicetype-raven": "Raven",
+
+  "game:skinpart-facial-feathers": "Head Feathers",
+  "game:skinpart-facial-feathers-owl": "Owl",
+  "game:skinpart-facial-feathers-color": "Head Feather Color",
+
+  //eyes
+  "game:skinpart-facialeyes": "Eyes",
+  "game:skinpart-facialeyes-angry": "Angry",
+  "game:skinpart-facialeyes-harpy-1": "Harpy 1",
+
+  //brows
+  "game:skinpart-facialbrows": "Brows",
+
+  //lips
+  "game:skinpart-faciallips": "Lips",
+
+  //beaks
+  "game:skinpart-facialbeak": "Beak Type",
+  "game:skinpart-facialbeak-hawk": "Hawk",
+  "game:skinpart-facialbeak-songbird": "Songbird",
+  "game:skinpart-facialbeak-corvid": "Corvid",
+  "game:skinpart-facialbeak-penguin": "Penguin",
+
+  //beak colors
+  "game:skinpart-beakcolor": "Beak Color",
+  "game:skinpart-tailfeathers-long": "Long",
+  "game:skinpart-tailfeathers-short": "Short",
+
+  //arm feathers
+  "game:skinpart-armfeathers": "Arm Feathers",
+  "game:skinpart-armfeathers-short-forearm": "Short Forarm Feathers",
+  "game:skinpart-armfeathers-forarm": "Forearm Feathers",
+  "game:skinpart-armfeathers-short-full-arm": "Short Full Arm Feathers",
+  "game:skinpart-armfeathers-full-arm": "Full Arm Feathers",
+  "game:skinpart-armfeathers-none": "No Feathers",
+
+  //tail feathers
+  "game:skinpart-tailfeathers": "Tail Feathers",
+  "game:skinpart-tailfeathers-long": "Long",
+  "game:skinpart-tailfeathers-short": "Short",
+
+  //feather pattern
+  "game:skinpart-facial-feathers-pattern": "Head Feather Pattern",
+  "game:skinpart-facial-feathers-pattern-feather-pattern-1": "Barred",
+  "game:skinpart-facial-feathers-pattern-feather-pattern-2": "Fade",
+
+  //legs
+  "game:skinpart-legs": "Leg Color",
+
+  //colors
+  "game:color-rust": "Rust",
+  "game:color-feather-base": "White",
+  "game:color-feather-rust": "Rust"
+}
