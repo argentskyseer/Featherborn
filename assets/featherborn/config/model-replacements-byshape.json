@@ -23,6 +23,9 @@
     "game:entity/humanoid/seraph/clothing/foot/prince-boots": "featherborn:replacements/foot/custom-avian-boots-2",
     "game:entity/humanoid/seraph/clothing/foot/rotwalker": "featherborn:replacements/foot/custom-avian-boots-2",
     "game:entity/humanoid/seraph/clothing/foot/squire-boots": "featherborn:replacements/foot/custom-avian-boots-2",
-    "game:entity/humanoid/seraph/clothing/foot/tigh-high-boots": "featherborn:replacements/foot/custom-avian-boots-2"
+    "game:entity/humanoid/seraph/clothing/foot/tigh-high-boots": "featherborn:replacements/foot/custom-avian-boots-2",
+    "game:entity/humanoid/seraph/armor/plate/legs": "featherborn:replacements/armor/plate/legs",
   }
+
+      
 }

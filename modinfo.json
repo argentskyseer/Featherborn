@@ -6,7 +6,7 @@
     "argentskyseer"
   ],
   "description": "Add bird type player models, avian and harpy.",
-  "version": "0.9.01",
+  "version": "0.9.4",
   	"dependencies": {
 		"playermodellib": "1.10.11"
   }

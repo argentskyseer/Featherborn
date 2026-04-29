@@ -7,7 +7,7 @@
     "MainTextureCode": "body-feathers",
     "Icon": "featherborn:icons/harpy",
     "SizeRange": [0.8, 1.5],
-    "CollisionBox": [0.8, 1.5],
+    "CollisionBox": [0.6, 1.85],
     "EyeHeight": 1.7,
     "ModelSizeFactor": 1,
     "AvailableClasses": [],
@@ -19,10 +19,10 @@
       {
         "code": "feather-color",
         "type": "texture",
-        "textureTarget": "body-feathers",
+        "textureTarget": "baseskin",
         "overlayTexture": true,
         "targetSkinParts": ["base"],
-        "textureTemplate": "featherborn:body/base/{code}",
+        "textureTemplate": "featherborn:body/base/baseskin-{code}",
         "variants": [
           {
             "code": "blue"
@@ -50,11 +50,11 @@
       {
         "code": "accent-color",
         "type": "texture",
-        "textureTarget": "body-feathers",
+        "textureTarget": "baseskin",
         "overlayTexture": true,
         "overlayMode": "Normal",
         "targetSkinParts": ["base", "facial-feathers"],
-        "textureTemplate": "featherborn:body/accent/{code}",
+        "textureTemplate": "featherborn:body/accent/baseskin-accent-{code}",
         "variants": [
           {
             "code": "black",
@@ -65,8 +65,12 @@
             "color": "223208194"
           },
           {
-            "code": "white",
+            "code": "lighten",
             "color": "255255255"
+          },
+          {
+            "code": "darken",
+            "color": "0"
           }
         ]
       },
@@ -115,27 +119,59 @@
           }
         ]
       },
-        {
-          "code": "tailfeathers",
-          "type": "shape",
-          "shapeTemplate": {
-            "base": "featherborn:feathers/tail/{code}"
+      {
+        "code": "arm-feathers-color",
+        "type": "texture",
+        "textureTarget": "arm-feathers-base",
+        "overlayTexture": true,
+        "overlayMode": "Normal",
+        "targetSkinParts": ["armfeathers"],
+        "textureTemplate": "featherborn:feathers/arm/arm-feathers-{code}", 
+        "variants": [
+          {
+            "code": "base"
           },
-          "variants": [
-            {
-              "code": "none"
-            },
-            {
-              "code": "short"
-            },
-            // {
-            //   "code": "medium"
-            // },
-            {
-              "code": "long"
-            }
-          ]
+          {
+            "code": "rust"
+          },
+          {
+            "code": "gray"
+          },
+          {
+            "code": "yellow"
+          },
+          {
+            "code": "blue"
+          },
+          {
+            "code": "red"
+          },
+          {
+            "code": "black"
+          }
+        ]
+      },
+      {
+        "code": "tailfeathers",
+        "type": "shape",
+        "shapeTemplate": {
+          "base": "featherborn:feathers/tail/{code}"
         },
+        "variants": [
+          {
+            "code": "none"
+          },
+          {
+            "code": "short"
+          },
+          // {
+          //   "code": "medium"
+          // },
+          {
+            "code": "long"
+          }
+        ]
+      },
       {
         "code": "voicetype",
         "type": "voice",
@@ -228,6 +264,9 @@
         "variants": [
           {
             "code": "owl"
+          },
+          {
+            "code": "crest"
           }
         ]
       },
@@ -238,13 +277,25 @@
         "overlayTexture": true,
         "overlayMode": "Normal",
         "targetSkinParts": ["facial-feathers"],
-        "textureTemplate": "featherborn:feathers/head/{code}",
+        "textureTemplate": "featherborn:feathers/head/feather-base-{code}",
         "variants": [
           {
-            "code": "feather-base"
+            "code": "rust"
           },
           {
-            "code": "feather-rust"
+            "code": "gray"
+          },
+          {
+            "code": "yellow"
+          },
+          {
+            "code": "blue"
+          },
+          {
+            "code": "red"
+          },
+          {
+            "code": "black"
           }
         ]
       },
@@ -511,7 +562,7 @@
         "type": "texture",
         "textureTarget": "hair",
         "dyeWith": "hair",
-        "targetSkinParts": ["hairbase", "hairextra", "facial-feathers", "tail-feathers", "facialbrows", "arm-feathers"],
+        "targetSkinParts": ["hairbase", "hairextra", "base", "head"],
         "textureTemplate": "featherborn:hair/{code}",
         "variants": [
           {
@@ -625,7 +676,7 @@
           {
             "code": "harpy-alt"
           },
-                    {
+          {
             "code": "harpy-thick-brow"
           },
           {

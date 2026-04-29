@@ -1,7 +1,7 @@
 {
 	"editor": {
-		"backDropShape": "C:/Users/thedi/AppData/Roaming/VintagestoryData/Mods/avian_v1.0.0/assets/avian/shapes/entity/humanoid/avian-faceless",
-		"collapsedPaths": "",
+		"backDropShape": "C:/Users/thedi/AppData/Roaming/VintagestoryData/Mods/Featherborn/assets/featherborn/shapes/body/base/raptori-faceless",
+		"collapsedPaths": ",Root/beakcore4",
 		"allAngles": false,
 		"entityTextureMode": true
 	},
@@ -10,16 +10,17 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"beakcolor": "avian:entity/humanoid/seraphskinparts/beaks/yellow"
+		"beakcolor": "featherborn:face/beaks/black"
 	},
 	"elements": [
 		{
 			"name": "beakcore",
 			"stepParentName": "Head",
-			"from": [ -2.0, 0.65, 2.0 ],
-			"to": [ 0.0, 1.65, 3.0 ],
+			"from": [ -1.5, 1.0, 2.0 ],
+			"to": [ 0.5, 2.0, 3.0 ],
 			"uv": [ 0.0, 0.0 ],
 			"rotationOrigin": [ 0.0, 1.0, 2.0 ],
+			"rotationZ": 13.0,
 			"faces": {
 				"north": { "texture": "#beakcolor", "uv": [ 0.0, 1.0, 2.0, 2.0 ] },
 				"east": { "texture": "#beakcolor", "uv": [ 2.0, 1.0, 3.0, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
@@ -31,95 +32,78 @@
 			"children": [
 				{
 					"name": "beaktop",
-					"from": [ 0.0, -0.3, 0.0 ],
-					"to": [ 3.0, 0.7, 1.0 ],
+					"from": [ 0.5, 1.0, 0.0 ],
+					"to": [ 2.5, 2.0, 1.0 ],
 					"uv": [ 0.0, 0.0 ],
-					"rotationOrigin": [ -1.0, 1.0, -1.0 ],
-					"rotationZ": 20.5,
+					"rotationOrigin": [ 1.0, 2.0, 0.0 ],
 					"faces": {
-						"north": { "texture": "#beakcolor", "uv": [ 0.0, 1.0, 3.0, 2.0 ] },
-						"east": { "texture": "#beakcolor", "uv": [ 3.0, 1.0, 4.0, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-						"south": { "texture": "#beakcolor", "uv": [ 4.0, 1.0, 7.0, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-						"west": { "texture": "#beakcolor", "uv": [ 7.0, 1.0, 8.0, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-						"up": { "texture": "#beakcolor", "uv": [ 0.0, 0.0, 3.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-						"down": { "texture": "#beakcolor", "uv": [ 3.0, 0.0, 6.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
-					}
-				},
-				{
-					"name": "beaktip",
-					"from": [ -0.3, -0.5, 0.0 ],
-					"to": [ 0.0, 1.0, 1.0 ],
-					"uv": [ 0.0, 0.0 ],
-					"rotationOrigin": [ -0.5, 1.0, 0.5 ],
-					"rotationZ": -5.0,
-					"faces": {
-						"north": { "texture": "#beakcolor", "uv": [ 0.0, 1.0, 1.0, 2.0 ] },
-						"east": { "texture": "#beakcolor", "uv": [ 1.0, 1.0, 2.0, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-						"south": { "texture": "#beakcolor", "uv": [ 2.0, 1.0, 3.0, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-						"west": { "texture": "#beakcolor", "uv": [ 3.0, 1.0, 4.0, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-						"up": { "texture": "#beakcolor", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-						"down": { "texture": "#beakcolor", "uv": [ 1.0, 0.0, 2.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
-					}
-				},
-				{
-					"name": "beakbottom",
-					"from": [ 0.0, 0.0, 0.0 ],
-					"to": [ 3.0, 1.0, 1.0 ],
-					"uv": [ 0.0, 0.0 ],
-					"rotationOrigin": [ -1.0, 0.0, -1.0 ],
-					"rotationZ": -5.0,
-					"faces": {
-						"north": { "texture": "#beakcolor", "uv": [ 0.0, 1.0, 3.0, 2.0 ] },
-						"east": { "texture": "#beakcolor", "uv": [ 3.0, 1.0, 4.0, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-						"south": { "texture": "#beakcolor", "uv": [ 4.0, 1.0, 7.0, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-						"west": { "texture": "#beakcolor", "uv": [ 7.0, 1.0, 8.0, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-						"up": { "texture": "#beakcolor", "uv": [ 0.0, 0.0, 3.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-						"down": { "texture": "#beakcolor", "uv": [ 3.0, 0.0, 6.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+						"north": { "texture": "#beakcolor", "uv": [ 0.0, 1.0, 2.0, 2.0 ] },
+						"east": { "texture": "#beakcolor", "uv": [ 2.0, 1.0, 3.0, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"south": { "texture": "#beakcolor", "uv": [ 3.0, 1.0, 5.0, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"west": { "texture": "#beakcolor", "uv": [ 5.0, 1.0, 6.0, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"up": { "texture": "#beakcolor", "uv": [ 0.0, 0.0, 2.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"down": { "texture": "#beakcolor", "uv": [ 2.0, 0.0, 4.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
 					}
 				},
 				{
 					"name": "beakleft",
-					"from": [ 0.0, 0.0, -1.0 ],
-					"to": [ 3.0, 1.0, 0.0 ],
+					"from": [ 0.3, 0.0, -0.7 ],
+					"to": [ 3.3, 0.5, 0.3 ],
 					"uv": [ 0.0, 0.0 ],
 					"rotationOrigin": [ 2.0, 0.0, 0.0 ],
-					"rotationX": 0.8282,
+					"rotationX": -12.0,
 					"rotationY": 22.4855,
 					"rotationZ": -2.1646,
 					"faces": {
-						"north": { "texture": "#beakcolor", "uv": [ 0.0, 1.0, 3.0, 2.0 ] },
-						"east": { "texture": "#beakcolor", "uv": [ 3.0, 1.0, 4.0, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-						"south": { "texture": "#beakcolor", "uv": [ 4.0, 1.0, 7.0, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-						"west": { "texture": "#beakcolor", "uv": [ 7.0, 1.0, 8.0, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"north": { "texture": "#beakcolor", "uv": [ 0.0, 1.0, 3.0, 1.5 ] },
+						"east": { "texture": "#beakcolor", "uv": [ 3.0, 1.0, 4.0, 1.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"south": { "texture": "#beakcolor", "uv": [ 4.0, 1.0, 7.0, 1.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"west": { "texture": "#beakcolor", "uv": [ 7.0, 1.0, 8.0, 1.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
 						"up": { "texture": "#beakcolor", "uv": [ 0.0, 0.0, 3.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
 						"down": { "texture": "#beakcolor", "uv": [ 3.0, 0.0, 6.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
 					}
 				},
 				{
 					"name": "beakright",
-					"from": [ 0.0, 0.0, 1.0 ],
-					"to": [ 3.0, 1.0, 2.0 ],
+					"from": [ 0.3, 0.0, 0.7 ],
+					"to": [ 3.3, 0.5, 1.7 ],
 					"uv": [ 0.0, 0.0 ],
 					"rotationOrigin": [ 2.0, 0.0, 1.0 ],
-					"rotationX": -0.8282,
-					"rotationY": -22.4855,
+					"rotationX": 12.0,
+					"rotationY": -22.5,
 					"rotationZ": -2.1646,
 					"faces": {
-						"north": { "texture": "#beakcolor", "uv": [ 0.0, 1.0, 3.0, 2.0 ] },
-						"east": { "texture": "#beakcolor", "uv": [ 3.0, 1.0, 4.0, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-						"south": { "texture": "#beakcolor", "uv": [ 4.0, 1.0, 7.0, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-						"west": { "texture": "#beakcolor", "uv": [ 7.0, 1.0, 8.0, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"north": { "texture": "#beakcolor", "uv": [ 0.0, 1.0, 3.0, 1.5 ] },
+						"east": { "texture": "#beakcolor", "uv": [ 3.0, 1.0, 4.0, 1.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"south": { "texture": "#beakcolor", "uv": [ 4.0, 1.0, 7.0, 1.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"west": { "texture": "#beakcolor", "uv": [ 7.0, 1.0, 8.0, 1.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
 						"up": { "texture": "#beakcolor", "uv": [ 0.0, 0.0, 3.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
 						"down": { "texture": "#beakcolor", "uv": [ 3.0, 0.0, 6.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
 					}
 				},
 				{
-					"name": "beaktip2",
-					"from": [ 0.2, -0.5, 0.0 ],
-					"to": [ 0.5, 1.0, 1.0 ],
+					"name": "beaktop2",
+					"from": [ 0.5, 1.1, 0.0 ],
+					"to": [ 1.0, 2.1, 1.0 ],
 					"uv": [ 0.0, 0.0 ],
-					"rotationOrigin": [ -0.5, 1.0, 0.5 ],
-					"rotationZ": -18.0,
+					"rotationOrigin": [ 1.0, 1.0, 0.0 ],
+					"rotationZ": 22.5,
+					"faces": {
+						"north": { "texture": "#beakcolor", "uv": [ 0.0, 1.0, 0.5, 2.0 ] },
+						"east": { "texture": "#beakcolor", "uv": [ 0.5, 1.0, 1.5, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"south": { "texture": "#beakcolor", "uv": [ 1.5, 1.0, 2.0, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"west": { "texture": "#beakcolor", "uv": [ 2.0, 1.0, 3.0, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"up": { "texture": "#beakcolor", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"down": { "texture": "#beakcolor", "uv": [ 0.5, 0.0, 1.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+					}
+				},
+				{
+					"name": "beaktop3",
+					"from": [ 0.2, 0.69, 0.0 ],
+					"to": [ 1.2, 1.69, 1.0 ],
+					"uv": [ 0.0, 0.0 ],
+					"rotationOrigin": [ 0.5, 0.5, 0.0 ],
+					"rotationZ": 45.0,
 					"faces": {
 						"north": { "texture": "#beakcolor", "uv": [ 0.0, 1.0, 1.0, 2.0 ] },
 						"east": { "texture": "#beakcolor", "uv": [ 1.0, 1.0, 2.0, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
@@ -128,10 +112,133 @@
 						"up": { "texture": "#beakcolor", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
 						"down": { "texture": "#beakcolor", "uv": [ 1.0, 0.0, 2.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
 					}
+				},
+				{
+					"name": "beaktop4",
+					"from": [ 1.0, 0.5, -0.25 ],
+					"to": [ 3.0, 1.75, 1.25 ],
+					"uv": [ 0.0, 0.0 ],
+					"rotationOrigin": [ 1.0, 2.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#beakcolor", "uv": [ 0.0, 1.5, 2.0, 2.5 ] },
+						"east": { "texture": "#beakcolor", "uv": [ 2.0, 1.5, 3.5, 2.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"south": { "texture": "#beakcolor", "uv": [ 3.5, 1.5, 5.5, 2.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"west": { "texture": "#beakcolor", "uv": [ 5.5, 1.5, 7.0, 2.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"up": { "texture": "#beakcolor", "uv": [ 0.0, 0.0, 2.0, 1.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"down": { "texture": "#beakcolor", "uv": [ 2.0, 0.0, 4.0, 1.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+					}
+				},
+				{
+					"name": "beaktop5",
+					"from": [ 0.2, 0.69, 0.0 ],
+					"to": [ 0.7, 1.69, 1.0 ],
+					"uv": [ 0.0, 0.0 ],
+					"rotationOrigin": [ 0.5, 0.5, 0.0 ],
+					"rotationZ": 67.5,
+					"faces": {
+						"north": { "texture": "#beakcolor", "uv": [ 0.0, 1.0, 0.5, 2.0 ] },
+						"east": { "texture": "#beakcolor", "uv": [ 0.5, 1.0, 1.5, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"south": { "texture": "#beakcolor", "uv": [ 1.5, 1.0, 2.0, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"west": { "texture": "#beakcolor", "uv": [ 2.0, 1.0, 3.0, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"up": { "texture": "#beakcolor", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"down": { "texture": "#beakcolor", "uv": [ 0.5, 0.0, 1.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+					}
+				},
+				{
+					"name": "beaktop6",
+					"from": [ 0.2, 0.69, 0.0 ],
+					"to": [ 0.7, 1.69, 1.0 ],
+					"uv": [ 0.0, 0.0 ],
+					"rotationOrigin": [ 0.5, 0.5, 0.0 ],
+					"rotationZ": 90.0,
+					"faces": {
+						"north": { "texture": "#beakcolor", "uv": [ 0.0, 1.0, 0.5, 2.0 ] },
+						"east": { "texture": "#beakcolor", "uv": [ 0.5, 1.0, 1.5, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"south": { "texture": "#beakcolor", "uv": [ 1.5, 1.0, 2.0, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"west": { "texture": "#beakcolor", "uv": [ 2.0, 1.0, 3.0, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"up": { "texture": "#beakcolor", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"down": { "texture": "#beakcolor", "uv": [ 0.5, 0.0, 1.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+					}
+				},
+				{
+					"name": "beaktop7",
+					"from": [ 0.2, 0.69, 0.0 ],
+					"to": [ 0.7, 1.69, 1.0 ],
+					"uv": [ 0.0, 0.0 ],
+					"rotationOrigin": [ 0.5, 0.5, 0.0 ],
+					"rotationZ": 112.5,
+					"faces": {
+						"north": { "texture": "#beakcolor", "uv": [ 0.0, 1.0, 0.5, 2.0 ] },
+						"east": { "texture": "#beakcolor", "uv": [ 0.5, 1.0, 1.5, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"south": { "texture": "#beakcolor", "uv": [ 1.5, 1.0, 2.0, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"west": { "texture": "#beakcolor", "uv": [ 2.0, 1.0, 3.0, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"up": { "texture": "#beakcolor", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"down": { "texture": "#beakcolor", "uv": [ 0.5, 0.0, 1.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+					}
+				},
+				{
+					"name": "beaktop8",
+					"from": [ 0.5, 0.69, 0.0 ],
+					"to": [ 0.7, 1.69, 1.0 ],
+					"uv": [ 0.0, 0.0 ],
+					"rotationOrigin": [ 0.5, 0.5, 0.0 ],
+					"rotationZ": 135.0,
+					"faces": {
+						"north": { "texture": "#beakcolor", "uv": [ 0.0, 1.0, 0.5, 2.0 ] },
+						"east": { "texture": "#beakcolor", "uv": [ 0.5, 1.0, 1.5, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"south": { "texture": "#beakcolor", "uv": [ 1.5, 1.0, 2.0, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"west": { "texture": "#beakcolor", "uv": [ 2.0, 1.0, 3.0, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"up": { "texture": "#beakcolor", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"down": { "texture": "#beakcolor", "uv": [ 0.5, 0.0, 1.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+					}
+				},
+				{
+					"name": "beaktop9",
+					"from": [ 0.7, 0.6, 0.0 ],
+					"to": [ 0.9, 1.6, 1.0 ],
+					"uv": [ 0.0, 0.0 ],
+					"rotationOrigin": [ 0.5, 0.5, 0.0 ],
+					"rotationZ": 155.0,
+					"faces": {
+						"north": { "texture": "#beakcolor", "uv": [ 0.0, 1.0, 0.5, 2.0 ] },
+						"east": { "texture": "#beakcolor", "uv": [ 0.5, 1.0, 1.5, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"south": { "texture": "#beakcolor", "uv": [ 1.5, 1.0, 2.0, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"west": { "texture": "#beakcolor", "uv": [ 2.0, 1.0, 3.0, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"up": { "texture": "#beakcolor", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"down": { "texture": "#beakcolor", "uv": [ 0.5, 0.0, 1.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+					}
+				},
+				{
+					"name": "beaktop10",
+					"from": [ -0.4, -0.4, 0.0 ],
+					"to": [ -0.2, 0.0, 1.0 ],
+					"uv": [ 0.0, 0.0 ],
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationZ": 25.0,
+					"faces": {
+						"north": { "texture": "#beakcolor", "uv": [ 0.0, 1.0, 0.5, 1.5 ] },
+						"east": { "texture": "#beakcolor", "uv": [ 0.5, 1.0, 1.5, 1.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"south": { "texture": "#beakcolor", "uv": [ 1.5, 1.0, 2.0, 1.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"west": { "texture": "#beakcolor", "uv": [ 2.0, 1.0, 3.0, 1.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"up": { "texture": "#beakcolor", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"down": { "texture": "#beakcolor", "uv": [ 0.5, 0.0, 1.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+					}
+				},
+				{
+					"name": "beaktop11",
+					"from": [ -0.2, -0.45, 0.0 ],
+					"to": [ 0.0, 0.05, 1.0 ],
+					"uv": [ 0.0, 0.0 ],
+					"rotationOrigin": [ 0.0, -0.4, 0.0 ],
+					"faces": {
+						"north": { "texture": "#beakcolor", "uv": [ 0.0, 1.0, 0.5, 1.5 ] },
+						"east": { "texture": "#beakcolor", "uv": [ 0.5, 1.0, 1.5, 1.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"south": { "texture": "#beakcolor", "uv": [ 1.5, 1.0, 2.0, 1.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"west": { "texture": "#beakcolor", "uv": [ 2.0, 1.0, 3.0, 1.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"up": { "texture": "#beakcolor", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"down": { "texture": "#beakcolor", "uv": [ 0.5, 0.0, 1.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+					}
 				}
 			]
 		}
-	],
-	"animations": [
-	]
-}
+	]}

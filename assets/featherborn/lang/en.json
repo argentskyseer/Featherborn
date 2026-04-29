@@ -15,8 +15,10 @@
   "game:skinpart-voicetype-jay": "Jay",
   "game:skinpart-voicetype-raven": "Raven",
 
+  //head feathers
   "game:skinpart-facial-feathers": "Head Feathers",
   "game:skinpart-facial-feathers-owl": "Owl",
+  "game:skinpart-facial-feathers-crest": "Crest",
   "game:skinpart-facial-feathers-color": "Head Feather Color",
 
   //eyes
@@ -41,6 +43,7 @@
   "game:skinpart-beakcolor": "Beak Color",
   "game:skinpart-tailfeathers-long": "Long",
   "game:skinpart-tailfeathers-short": "Short",
+
 
   //arm feathers
   "game:skinpart-armfeathers": "Arm Feathers",
