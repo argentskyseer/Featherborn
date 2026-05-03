@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"backDropShape": "C:/Users/thedi/AppData/Roaming/VintagestoryData/Mods/Avian/assets/avian/shapes/entity/humanoid/avian-faceless",
+		"backDropShape": "C:/Users/thedi/AppData/Roaming/VintagestoryData/Mods/Featherborn/assets/featherborn/shapes/body/base/raptori-faceless",
 		"collapsedPaths": ",Root/beakcore/beakcore4,Root/leftwing,Root/Cube3,Root/leftwing8,Root/beakcore/beakcore20,Root/rightwing8,Root/rightwing,Root/beakcore/beakcore13",
 		"allAngles": true,
 		"entityTextureMode": true

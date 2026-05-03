@@ -39,6 +39,9 @@
           {
             "code": "gray"
           },
+                    {
+            "code": "light-gray"
+          },
           {
             "code": "rust"
           },
@@ -62,6 +65,10 @@
           },
           {
             "code": "cream",
+            "color": "223208194"
+          },
+          {
+            "code": "secretary",
             "color": "223208194"
           },
           {
@@ -119,14 +126,14 @@
           }
         ]
       },
-            {
+      {
         "code": "arm-feathers-color",
         "type": "texture",
         "textureTarget": "arm-feathers-base",
         "overlayTexture": true,
         "overlayMode": "Normal",
         "targetSkinParts": ["armfeathers"],
-        "textureTemplate": "featherborn:feathers/arm/arm-feathers-{code}", 
+        "textureTemplate": "featherborn:feathers/arm/arm-feathers-{code}",
         "variants": [
           {
             "code": "base"
@@ -267,6 +274,9 @@
           },
           {
             "code": "crest"
+          },
+          {
+            "code": "secretary"
           }
         ]
       },
@@ -657,7 +667,7 @@
           }
         ]
       },
-     {
+      {
         "code": "facialeyes",
         "type": "shape",
         "shapeTemplate": {
@@ -665,35 +675,14 @@
         },
         "variants": [
           {
-            "code": "bird"
-          },
-          {
-            "code": "harpy1"
-          },
-          {
-            "code": "harpy"
-          },
-          {
-            "code": "harpy-alt"
-          },
-                    {
-            "code": "harpy-thick-brow"
-          },
-          {
-            "code": "harpy-alt-thick-brow"
-          },
-          {
-            "code": "cat"
-          },
-          {
-            "code": "angry"
+            "code": "raptori-1"
           }
         ]
       },
       {
         "code": "eyecolor",
         "type": "texture",
-        "textureTarget": "playermodellib-iris",
+        "textureTarget": "iris",
         "targetSkinParts": ["facialeyes"],
         "textureTemplate": "featherborn:face/eyes/{code}",
         "variants": [
@@ -721,7 +710,7 @@
           {
             "code": "songbird"
           },
-                    {
+          {
             "code": "songbird2"
           },
           {
@@ -748,6 +737,9 @@
           },
           {
             "code": "black"
+          },
+          {
+            "code": "base-beak"
           }
         ]
       },

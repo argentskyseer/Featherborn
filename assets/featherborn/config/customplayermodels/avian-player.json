@@ -39,6 +39,9 @@
           {
             "code": "gray"
           },
+                              {
+            "code": "light-gray"
+          },
           {
             "code": "rust"
           },
@@ -55,13 +58,17 @@
         "overlayMode": "Normal",
         "targetSkinParts": ["base", "facial-feathers"],
         "textureTemplate": "featherborn:body/accent/baseskin-accent-{code}",
-        "variants": [
+         "variants": [
           {
             "code": "black",
             "color": "0"
           },
           {
             "code": "cream",
+            "color": "223208194"
+          },
+          {
+            "code": "secretary",
             "color": "223208194"
           },
           {
@@ -267,6 +274,9 @@
           },
           {
             "code": "crest"
+          },
+          {
+            "code": "secretary"
           }
         ]
       },
@@ -657,7 +667,7 @@
           }
         ]
       },
-      {
+     {
         "code": "facialeyes",
         "type": "shape",
         "shapeTemplate": {
@@ -665,19 +675,7 @@
         },
         "variants": [
           {
-            "code": "bird"
-          },
-          {
-            "code": "harpy1"
-          },
-          {
-            "code": "harpy-2"
-          },
-          {
-            "code": "cat"
-          },
-          {
-            "code": "angry"
+            "code": "raptori-1"
           }
         ]
       },
@@ -739,6 +737,9 @@
           },
           {
             "code": "black"
+          },
+                    {
+            "code": "base-beak"
           }
         ]
       },

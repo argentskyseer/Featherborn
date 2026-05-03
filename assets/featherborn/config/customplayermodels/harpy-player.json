@@ -39,6 +39,9 @@
           {
             "code": "gray"
           },
+                              {
+            "code": "light-gray"
+          },
           {
             "code": "rust"
           },
@@ -113,6 +116,9 @@
           },
           {
             "code": "full-arm"
+          },
+                    {
+            "code": "full-arm-b"
           },
           {
             "code": "none"
@@ -267,6 +273,9 @@
           },
           {
             "code": "crest"
+          },
+          {
+            "code": "secretary"
           }
         ]
       },
