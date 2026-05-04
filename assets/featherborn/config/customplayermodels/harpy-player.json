@@ -678,7 +678,7 @@
         },
         "variants": [
           {
-            "code": "bird"
+            "code": "eye-style-1"
           },
           {
             "code": "harpy1"
@@ -697,9 +697,50 @@
           },
           {
             "code": "cat"
+          }
+        ]
+      },
+
+      {
+        "code": "eyecolor2",
+        "type": "texture",
+        "textureTarget": "eye-back-base",
+        "overlayTexture": "true",
+        "overlayMode": "Multiply",
+        "targetSkinParts": ["facialeyes"],
+        "textureTemplate": "featherborn:face/eyes/eye-back-{code}",
+        "variants": [
+          {
+            "code": "white"
           },
           {
-            "code": "angry"
+            "code": "red"
+          },
+          {
+            "code": "golden"
+          }
+        ]
+      },
+      {
+        "code": "eyepupil",
+        "type": "texture",
+        "textureTarget": "eye-back-base",
+        "overlayTexture": "true",
+        "overlayMode": "Normal",
+        "targetSkinParts": ["facialeyes"],
+        "textureTemplate": "featherborn:face/eyes/eye-back-pupil-{code}",
+        "variants": [
+          {
+            "code": "tiny"
+          },
+          {
+            "code": "small"
+          },
+          {
+            "code": "medium"
+          },
+                  {
+            "code": "outlined"
           }
         ]
       },

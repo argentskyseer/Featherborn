@@ -1,0 +1,54 @@
+{
+	"editor": {
+		"backDropShape": "C:/Users/thedi/AppData/Roaming/VintagestoryData/Mods/Featherborn/assets/featherborn/shapes/body/base/harpy-faceless",
+		"collapsedPaths": "Root/eyesroot/L eye/R iris3,Root/eyesroot/R eye/R eyelid,Root/eyesroot/L eye,Root/eyesroot/R eye4,Root/eyesroot/L eye/L eyelid,Root/eyesroot/L eye4,Root/eyesroot/R eye",
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 32,
+	"textureHeight": 76,
+	"textureSizes": {
+		"playermodellib-iris": [8,8],
+		"seraph-for-eyes": [32,76],
+		"eye-base": [12,12],
+		"red": [4,4],
+		"Sprite-0001": [128,128],
+		"eye-back": [120,72],
+		"eye-back-base": [120,72],
+		"eye-back2": [120,72]
+	},
+	"textures": {
+		"eye-back-base": "featherborn:face/eyes/eye-back-base"
+	},
+	"elements": [
+		{
+			"name": "eyesroot",
+			"stepParentName": "Head",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 5.5, 2.0, 5.0 ],
+			"faces": {
+				"north": { "texture": "#eye-back-base", "uv": [ 0.0, 0.0, 5.5, 5.0 ], "enabled": false },
+				"east": { "texture": "#eye-back-base", "uv": [ 0.0, 0.0, 5.0, 5.0 ], "enabled": false },
+				"south": { "texture": "#eye-back-base", "uv": [ 0.0, 0.0, 5.5, 5.0 ], "enabled": false },
+				"west": { "texture": "#eye-back-base", "uv": [ 0.0, 0.0, 5.0, 5.0 ], "enabled": false },
+				"up": { "texture": "#eye-back-base", "uv": [ 0.0, 0.0, 5.5, 5.0 ], "enabled": false },
+				"down": { "texture": "#eye-back-base", "uv": [ 0.0, 0.0, 5.5, 5.0 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "Cube2",
+					"from": [ -0.05, 1.0, 0.0 ],
+					"to": [ 0.0, 4.0, 5.0 ],
+					"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#eye-back-base", "uv": [ 24.0, 24.0, 0.0, 0.0 ], "autoUv": false },
+						"east": { "texture": "#eye-back-base", "uv": [ 120.0, 72.0, 0.0, 0.0 ], "rotation": 180, "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"south": { "texture": "#eye-back-base", "uv": [ 24.0, 24.0, 0.0, 0.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"west": { "texture": "#eye-back-base", "uv": [ 120.0, 72.0, 0.0, 0.0 ], "rotation": 180, "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"up": { "texture": "#eye-back-base", "uv": [ 0.0, 0.0, 0.5, 5.0 ] },
+						"down": { "texture": "#eye-back-base", "uv": [ 0.0, 0.0, 0.5, 5.0 ] }
+					}
+				}
+			]
+		}
+	]}

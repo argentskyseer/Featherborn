@@ -15,10 +15,12 @@
 		"feather-base": [48,48],
 		"playermodellib-iris": [8,8],
 		"seraph-for-eyes": [32,76],
-		"gray": [48,48]
+		"gray": [48,48],
+		"eye-base": [76,76]
 	},
 	"textures": {
 		"baseskin": "featherborn:body/base/baseskin"
+		//"baseskin": "C:/Users/thedi/AppData/Roaming/VintagestoryData/Mods/Featherborn/assets/featherborn/textures/body/base/baseskin"
 	},
 	"elements": [
 		{

@@ -21,6 +21,7 @@
         "type": "texture",
         "textureTarget": "baseskin",
         "overlayTexture": true,
+        "overlayMode": "Multiply",
         "targetSkinParts": ["base"],
         "textureTemplate": "featherborn:body/base/baseskin-{code}",
         "variants": [
@@ -120,23 +121,20 @@
           },
           {
             "code": "full-arm"
-          },
-          {
-            "code": "none"
           }
         ]
       },
       {
         "code": "arm-feathers-color",
         "type": "texture",
-        "textureTarget": "arm-feathers-base",
+        "textureTarget": "arm-feathers-base-b",
         "overlayTexture": true,
-        "overlayMode": "Normal",
+        "overlayMode": "Multiply",
         "targetSkinParts": ["armfeathers"],
         "textureTemplate": "featherborn:feathers/arm/arm-feathers-{code}",
         "variants": [
           {
-            "code": "base"
+            "code": "white"
           },
           {
             "code": "rust"
@@ -155,6 +153,12 @@
           },
           {
             "code": "black"
+          },
+          {
+            "code": "brown"
+          },
+          {
+            "code": "green"
           }
         ]
       },
@@ -602,72 +606,6 @@
         ]
       },
       {
-        "code": "facialbrows",
-        "type": "shape",
-        "shapeTemplate": {
-          "base": "featherborn:face/brows/{code}"
-        },
-        "variants": [
-          {
-            "code": "adequate"
-          },
-          {
-            "code": "angry"
-          },
-          {
-            "code": "caring"
-          },
-          {
-            "code": "determined"
-          },
-          {
-            "code": "exhausted"
-          },
-          {
-            "code": "fierce"
-          },
-          {
-            "code": "grin"
-          },
-          {
-            "code": "indifferent"
-          },
-          {
-            "code": "kind"
-          },
-          {
-            "code": "mellow"
-          },
-          {
-            "code": "neutral"
-          },
-          {
-            "code": "sad"
-          },
-          {
-            "code": "serious"
-          },
-          {
-            "code": "smirk"
-          },
-          {
-            "code": "thoughtful"
-          },
-          {
-            "code": "tired"
-          },
-          {
-            "code": "upset"
-          },
-          {
-            "code": "very-sad"
-          },
-          {
-            "code": "weary"
-          }
-        ]
-      },
-      {
         "code": "facialeyes",
         "type": "shape",
         "shapeTemplate": {
@@ -676,6 +614,43 @@
         "variants": [
           {
             "code": "raptori-1"
+          },
+          {
+            "code":"eye-style-1-alt"
+          }
+        ]
+      },
+           {
+        "code": "eyecolor2",
+        "type": "texture",
+        "textureTarget": "eye-back-base-alt",
+        "overlayTexture": "true",
+        "overlayMode": "Multiply",
+        "targetSkinParts": ["facialeyes"],
+        "textureTemplate": "featherborn:face/eyes/eye-back-alt-{code}",
+        "variants": [
+          {
+            "code": "gray"
+          },
+          {
+            "code": "red"
+          },
+          {
+            "code": "golden"
+          }
+        ]
+      },
+      {
+        "code": "eyepupil",
+        "type": "texture",
+        "textureTarget": "eye-back-base-alt",
+        "overlayTexture": "true",
+        "overlayMode": "Normal",
+        "targetSkinParts": ["facialeyes"],
+        "textureTemplate": "featherborn:face/eyes/eye-back-pupil-alt-{code}",
+        "variants": [
+          {
+            "code": "medium"
           }
         ]
       },
