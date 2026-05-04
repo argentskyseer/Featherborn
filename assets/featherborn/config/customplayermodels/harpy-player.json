@@ -21,6 +21,7 @@
         "type": "texture",
         "textureTarget": "baseskin",
         "overlayTexture": true,
+        "overlayMode": "Multiply",
         "targetSkinParts": ["base"],
         "textureTemplate": "featherborn:body/base/baseskin-{code}",
         "variants": [
@@ -39,14 +40,17 @@
           {
             "code": "gray"
           },
-                              {
-            "code": "light-gray"
-          },
           {
             "code": "rust"
           },
           {
             "code": "black"
+          },
+          {
+            "code": "white"
+          },
+          {
+            "code": "green"
           }
         ]
       },
@@ -116,26 +120,20 @@
           },
           {
             "code": "full-arm"
-          },
-                    {
-            "code": "full-arm-b"
-          },
-          {
-            "code": "none"
           }
         ]
       },
       {
         "code": "arm-feathers-color",
         "type": "texture",
-        "textureTarget": "arm-feathers-base",
+        "textureTarget": "arm-feathers-base-b",
         "overlayTexture": true,
-        "overlayMode": "Normal",
+        "overlayMode": "Multiply",
         "targetSkinParts": ["armfeathers"],
-        "textureTemplate": "featherborn:feathers/arm/arm-feathers-{code}", 
+        "textureTemplate": "featherborn:feathers/arm/arm-feathers-{code}",
         "variants": [
           {
-            "code": "base"
+            "code": "white"
           },
           {
             "code": "rust"
@@ -154,6 +152,12 @@
           },
           {
             "code": "black"
+          },
+          {
+            "code": "brown"
+          },
+          {
+            "code": "green"
           }
         ]
       },
