@@ -172,6 +172,8 @@
 													"to": [ 2.5, 1.5, 2.0 ],
 													"uv": [ 0.0, 0.0 ],
 													"rotationOrigin": [ 1.0, 1.0, 1.0 ],
+													"rotationX": 36.0,
+													"rotationY": -22.0,
 													"faces": {
 														"north": { "texture": "#baseskin", "uv": [ 0.0, 1.0, 1.0, 2.0 ], "enabled": false },
 														"east": { "texture": "#baseskin", "uv": [ 1.0, 1.0, 2.0, 2.0 ], "enabled": false },

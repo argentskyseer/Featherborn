@@ -1,0 +1,1513 @@
+{
+  "editor": {
+    "entityTextureMode": true,
+    "backdrops": [
+      {
+        "shapeFilepath": "C:/Users/thedi/AppData/Roaming/VintagestoryData/Mods/Featherborn/assets/featherborn/shapes/body/base/raptori-faceless",
+        "opacity": 1.0,
+        "enabled": true
+      }
+    ],
+    "attachments": []
+  },
+  "textures": {
+    "beakcolor": "featherborn:face/beaks/base-beak"
+  },
+  "elements": [
+    {
+      "name": "beakcore",
+      "from":[-0.5,1.5,2.0],
+      "to":[1.5,2.5,3.0],
+      "shade": true,
+      "faces": {
+        "north": {
+          "texture": "#beakcolor",
+          "uv":[8.0,12.0,10.0,13.0],
+          "enabled": true
+        },
+        "east": {
+          "texture": "#beakcolor",
+          "uv":[10.0,12.0,11.0,13.0],
+          "windMode": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "windData": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "enabled": true
+        },
+        "south": {
+          "texture": "#beakcolor",
+          "uv":[11.0,12.0,13.0,13.0],
+          "windMode": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "windData": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "enabled": true
+        },
+        "west": {
+          "texture": "#beakcolor",
+          "uv":[13.0,12.0,14.0,13.0],
+          "windMode": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "windData": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "enabled": true
+        },
+        "up": {
+          "texture": "#beakcolor",
+          "uv":[8.0,11.0,10.0,12.0],
+          "windMode": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "windData": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "enabled": true
+        },
+        "down": {
+          "texture": "#beakcolor",
+          "uv":[10.0,11.0,12.0,12.0],
+          "windMode": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "windData": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "enabled": true
+        }
+      },
+      "rotationOrigin":[1.0,1.5,2.0],
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "renderPass": -1,
+      "children": [
+        {
+          "name": "beaktop",
+          "from":[0.5,1.0,0.0],
+          "to":[2.5,2.0,1.0],
+          "shade": true,
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv":[13.0,8.5,15.0,9.5],
+              "enabled": true
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv":[15.0,8.5,16.0,9.5],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv":[16.0,8.5,18.0,9.5],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv":[18.0,8.5,19.0,9.5],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv":[13.0,7.5,15.0,8.5],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv":[15.0,7.5,17.0,8.5],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            }
+          },
+          "rotationOrigin":[1.0,2.0,0.0],
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "renderPass": -1,
+          "renderInEditor": true,
+          "uv":[13.0,7.5]
+        },
+        {
+          "name": "beakleft",
+          "from":[0.3,0.0,-0.7],
+          "to":[3.3,0.5,0.3],
+          "shade": true,
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv":[10.0,15.0,13.0,15.5],
+              "enabled": true
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv":[13.0,15.0,14.0,15.5],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv":[14.0,15.0,17.0,15.5],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv":[17.0,15.0,18.0,15.5],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv":[10.0,14.0,13.0,15.0],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv":[13.0,14.0,16.0,15.0],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            }
+          },
+          "rotationOrigin":[2.0,0.0,0.0],
+          "rotationX": -12.0,
+          "rotationY": 22.4855,
+          "rotationZ": -2.1646,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "renderPass": -1,
+          "renderInEditor": true,
+          "uv":[10.0,14.0]
+        },
+        {
+          "name": "beakright",
+          "from":[0.3,0.0,0.7],
+          "to":[3.3,0.5,1.7],
+          "shade": true,
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv":[10.0,13.5,13.0,14.0],
+              "enabled": true
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv":[13.0,13.5,14.0,14.0],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv":[14.0,13.5,17.0,14.0],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv":[17.0,13.5,18.0,14.0],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv":[10.0,12.5,13.0,13.5],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv":[13.0,12.5,16.0,13.5],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            }
+          },
+          "rotationOrigin":[2.0,0.0,1.0],
+          "rotationX": 12.0,
+          "rotationY": -22.5,
+          "rotationZ": -2.1646,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "renderPass": -1,
+          "renderInEditor": true,
+          "uv":[10.0,12.5]
+        },
+        {
+          "name": "beaktop2",
+          "from":[0.5,1.1,0.025],
+          "to":[1.0,2.1,0.975],
+          "shade": true,
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv":[9.0,11.0,9.5,12.0],
+              "enabled": true
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv":[9.5,11.0,10.0,12.0],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv":[10.0,11.0,10.5,12.0],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv":[10.5,11.0,11.0,12.0],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv":[9.0,10.5,9.5,11.0],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv":[9.5,10.5,10.0,11.0],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            }
+          },
+          "rotationOrigin":[1.0,1.0,0.0],
+          "rotationZ": 22.5,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "renderPass": -1,
+          "renderInEditor": true,
+          "uv":[9.0,10.5]
+        },
+        {
+          "name": "beaktop3",
+          "from":[0.2,0.69,0.05],
+          "to":[1.2,1.69,0.95],
+          "shade": true,
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv":[7.0,11.0,8.0,12.0],
+              "enabled": true
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv":[8.0,11.0,8.5,12.0],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv":[8.5,11.0,9.5,12.0],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv":[9.5,11.0,10.0,12.0],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv":[7.0,10.5,8.0,11.0],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv":[8.0,10.5,9.0,11.0],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            }
+          },
+          "rotationOrigin":[0.5,0.5,0.0],
+          "rotationZ": 45.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "renderPass": -1,
+          "renderInEditor": true,
+          "uv":[7.0,10.5]
+        },
+        {
+          "name": "beaktop4",
+          "from":[1.0,0.5,-0.25],
+          "to":[3.0,1.75,1.25],
+          "shade": true,
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv":[17.0,13.5,19.0,14.5],
+              "enabled": true
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv":[19.0,13.5,20.5,14.5],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv":[20.5,13.5,22.5,14.5],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv":[22.5,13.5,24.0,14.5],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv":[17.0,12.0,19.0,13.5],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv":[19.0,12.0,21.0,13.5],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            }
+          },
+          "rotationOrigin":[1.0,2.0,0.0],
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "renderPass": -1,
+          "renderInEditor": true,
+          "uv":[17.0,12.0]
+        },
+        {
+          "name": "beaktop5",
+          "from":[0.2,0.69,0.075],
+          "to":[0.7,1.69,0.925],
+          "shade": true,
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv":[6.5,11.0,7.0,12.0],
+              "enabled": true
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv":[7.0,11.0,7.5,12.0],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv":[7.5,11.0,8.0,12.0],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv":[8.0,11.0,8.5,12.0],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv":[6.5,10.5,7.0,11.0],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv":[7.0,10.5,7.5,11.0],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            }
+          },
+          "rotationOrigin":[0.5,0.5,0.0],
+          "rotationZ": 67.5,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "renderPass": -1,
+          "renderInEditor": true,
+          "uv":[6.5,10.5]
+        },
+        {
+          "name": "beaktop6",
+          "from":[0.2,0.69,0.1],
+          "to":[0.7,1.69,0.9],
+          "shade": true,
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv":[5.5,11.0,6.0,12.0],
+              "enabled": true
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv":[6.0,11.0,6.5,12.0],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv":[6.5,11.0,7.0,12.0],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv":[7.0,11.0,7.5,12.0],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv":[5.5,10.5,6.0,11.0],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv":[6.0,10.5,6.5,11.0],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            }
+          },
+          "rotationOrigin":[0.5,0.5,0.0],
+          "rotationZ": 90.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "renderPass": -1,
+          "renderInEditor": true,
+          "uv":[5.5,10.5]
+        },
+        {
+          "name": "beaktop7",
+          "from":[0.2,0.69,0.125],
+          "to":[0.7,1.69,0.875],
+          "shade": true,
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv":[5.5,11.0,6.0,12.0],
+              "enabled": true
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv":[6.0,11.0,6.5,12.0],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv":[6.5,11.0,7.0,12.0],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv":[7.0,11.0,7.5,12.0],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv":[5.5,10.5,6.0,11.0],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv":[6.0,10.5,6.5,11.0],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            }
+          },
+          "rotationOrigin":[0.5,0.5,0.0],
+          "rotationZ": 112.5,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "renderPass": -1,
+          "renderInEditor": true,
+          "uv":[5.5,10.5]
+        },
+        {
+          "name": "beaktop8",
+          "from":[0.5,0.69,0.15],
+          "to":[0.7,1.69,0.85],
+          "shade": true,
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv":[4.5,11.5,5.0,12.5],
+              "enabled": true
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv":[5.0,11.5,5.5,12.5],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv":[5.5,11.5,6.0,12.5],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv":[6.0,11.5,6.5,12.5],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv":[4.5,11.0,5.0,11.5],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv":[5.0,11.0,5.5,11.5],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            }
+          },
+          "rotationOrigin":[0.5,0.5,0.0],
+          "rotationZ": 135.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "renderPass": -1,
+          "renderInEditor": true,
+          "uv":[4.5,11.0]
+        },
+        {
+          "name": "beaktop9",
+          "from":[0.7,0.6,0.175],
+          "to":[0.9,1.6,0.825],
+          "shade": true,
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv":[3.5,11.5,4.0,12.5],
+              "enabled": true
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv":[4.0,11.5,4.5,12.5],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv":[4.5,11.5,5.0,12.5],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv":[5.0,11.5,5.5,12.5],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv":[3.5,11.0,4.0,11.5],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv":[4.0,11.0,4.5,11.5],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            }
+          },
+          "rotationOrigin":[0.5,0.5,0.0],
+          "rotationZ": 155.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "renderPass": -1,
+          "renderInEditor": true,
+          "uv":[3.5,11.0]
+        },
+        {
+          "name": "beaktop10",
+          "from":[-0.4,-0.4,0.2],
+          "to":[-0.2,0.0,0.8],
+          "shade": true,
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv":[2.5,11.5,3.0,12.0],
+              "enabled": true
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv":[3.0,11.5,3.5,12.0],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv":[3.5,11.5,4.0,12.0],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv":[4.0,11.5,4.5,12.0],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv":[2.5,11.0,3.0,11.5],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv":[3.0,11.0,3.5,11.5],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            }
+          },
+          "rotationOrigin":[0.0,0.0,0.0],
+          "rotationZ": 25.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "renderPass": -1,
+          "renderInEditor": true,
+          "uv":[2.5,11.0]
+        },
+        {
+          "name": "beaktop11",
+          "from":[-0.2,-0.45,0.225],
+          "to":[0.0,0.05,0.775],
+          "shade": true,
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv":[1.5,11.5,2.0,12.0],
+              "enabled": true
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv":[2.0,11.5,2.5,12.0],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv":[2.5,11.5,3.0,12.0],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv":[3.0,11.5,3.5,12.0],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv":[1.5,11.0,2.0,11.5],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv":[2.0,11.0,2.5,11.5],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "enabled": true
+            }
+          },
+          "rotationOrigin":[0.0,-0.4,0.0],
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "renderPass": -1,
+          "renderInEditor": true,
+          "uv":[1.5,11.0]
+        }
+      ],
+      "stepParentName": "Head",
+      "renderInEditor": true,
+      "uv":[8.0,11.0]
+    }
+  ],
+  "textureWidth": 48,
+  "textureHeight": 48,
+  "textureSizes": {
+    "beakcolor": [
+      24,
+      24
+    ]
+  }
+}

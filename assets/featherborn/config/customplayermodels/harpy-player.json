@@ -1,7 +1,7 @@
 {
   "harpy": {
     "Enabled": true,
-    "Group": "Avians",
+    "Group": "Featherborn",
     "GroupIcon": "featherborn:icons/avian-group",
     "ShapePath": "featherborn:body/base/harpy-faceless",
     "MainTextureCode": "body-feathers",

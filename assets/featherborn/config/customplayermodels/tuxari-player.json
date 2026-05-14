@@ -1,7 +1,7 @@
 {
   "tuxari": {
     "Enabled": true,
-    "Group": "Avians",
+    "Group": "Featherborn",
     "GroupIcon": "featherborn:icons/avian-group",
     "ShapePath": "featherborn:body/base/penguin-faceless",
     "MainTextureCode": "body-feathers",

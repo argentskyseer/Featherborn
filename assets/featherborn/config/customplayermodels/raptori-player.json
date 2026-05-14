@@ -1,7 +1,7 @@
 {
   "raptori": {
     "Enabled": true,
-    "Group": "Avians",
+    "Group": "Featherborn",
     "GroupIcon": "featherborn:icons/avian-group",
     "ShapePath": "featherborn:body/base/raptori-faceless",
     "MainTextureCode": "body-feathers",
@@ -40,7 +40,7 @@
           {
             "code": "gray"
           },
-                    {
+          {
             "code": "light-gray"
           },
           {
@@ -274,7 +274,7 @@
         },
         "variants": [
           {
-            "code": "owl"
+            "code": "owl_b"
           },
           {
             "code": "crest"
@@ -616,11 +616,11 @@
             "code": "raptori-1"
           },
           {
-            "code":"eye-style-1-alt"
+            "code": "eye-style-1-alt"
           }
         ]
       },
-           {
+      {
         "code": "eyecolor2",
         "type": "texture",
         "textureTarget": "eye-back-base-alt",
@@ -692,7 +692,13 @@
             "code": "hawk"
           },
           {
+            "code": "owl"
+          },
+          {
             "code": "corvid"
+          },
+          {
+            "code": "duck"
           }
         ]
       },
