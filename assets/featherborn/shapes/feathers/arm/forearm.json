@@ -8,7 +8,7 @@
 	"textureWidth": 48,
 	"textureHeight": 48,
 	"textureSizes": {
-		"hair": [48,48],
+		"hair": [96,96],
 		"bands": [16,16],
 		"feathers-base": [48,48],
 		"feathers": [48,48],

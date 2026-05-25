@@ -8,12 +8,12 @@
 	"textureWidth": 48,
 	"textureHeight": 48,
 	"textureSizes": {
-		"hair": [48,48],
+		"hair": [96,96],
 		"birch": [16,16]
 	},
 	"textures": {
-		"birch": "block/wood/debarked/birch",
-		"hair": "entity/humanoid/seraphskinparts/hair/lightgray"
+		"birch": "game:block/wood/debarked/birch",
+		"hair-base":"featherborn:hair/hair-base"
 	},
 	"elements": [
 		{
@@ -41,10 +41,10 @@
 							"uv": [ 24.0, 34.5 ],
 							"rotationOrigin": [ 7.7, 1.38, 2.5 ],
 							"faces": {
-								"north": { "texture": "#hair", "uv": [ 24.0, 34.5, 25.5, 39.5 ] },
-								"east": { "texture": "#hair", "uv": [ 25.5, 34.5, 26.5, 39.5 ] },
-								"south": { "texture": "#hair", "uv": [ 26.5, 34.5, 28.0, 39.5 ] },
-								"west": { "texture": "#hair", "uv": [ 25.0, 34.5, 26.0, 39.5 ] }
+								"north": { "texture": "#hair-base", "uv": [ 24.0, 34.5, 25.5, 39.5 ] },
+								"east": { "texture": "#hair-base", "uv": [ 25.5, 34.5, 26.5, 39.5 ] },
+								"south": { "texture": "#hair-base", "uv": [ 26.5, 34.5, 28.0, 39.5 ] },
+								"west": { "texture": "#hair-base", "uv": [ 25.0, 34.5, 26.0, 39.5 ] }
 							},
 							"children": [
 								{
@@ -56,10 +56,10 @@
 									"rotationOrigin": [ 1.5, 5.0, 0.5 ],
 									"rotationZ": 55.0,
 									"faces": {
-										"north": { "texture": "#hair", "uv": [ 24.0, 34.5, 25.5, 37.0 ] },
-										"east": { "texture": "#hair", "uv": [ 25.5, 34.5, 26.5, 37.0 ] },
-										"south": { "texture": "#hair", "uv": [ 26.5, 34.5, 28.0, 37.0 ] },
-										"west": { "texture": "#hair", "uv": [ 25.0, 34.5, 26.0, 37.0 ] }
+										"north": { "texture": "#hair-base", "uv": [ 24.0, 34.5, 25.5, 37.0 ] },
+										"east": { "texture": "#hair-base", "uv": [ 25.5, 34.5, 26.5, 37.0 ] },
+										"south": { "texture": "#hair-base", "uv": [ 26.5, 34.5, 28.0, 37.0 ] },
+										"west": { "texture": "#hair-base", "uv": [ 25.0, 34.5, 26.0, 37.0 ] }
 									}
 								}
 							]
@@ -83,9 +83,9 @@
 							"rotationOrigin": [ 1.0, 5.0, 2.5 ],
 							"rotationZ": 11.0,
 							"faces": {
-								"north": { "texture": "#hair", "uv": [ 24.0, 33.5, 25.0, 40.0 ], "rotation": 90 },
-								"south": { "texture": "#hair", "uv": [ 26.5, 33.5, 27.5, 40.0 ], "rotation": 270 },
-								"up": { "texture": "#hair", "uv": [ 25.0, 33.5, 27.0, 40.0 ], "rotation": 270 }
+								"north": { "texture": "#hair-base", "uv": [ 24.0, 33.5, 25.0, 40.0 ], "rotation": 90 },
+								"south": { "texture": "#hair-base", "uv": [ 26.5, 33.5, 27.5, 40.0 ], "rotation": 270 },
+								"up": { "texture": "#hair-base", "uv": [ 25.0, 33.5, 27.0, 40.0 ], "rotation": 270 }
 							}
 						},
 						{
@@ -96,11 +96,11 @@
 							"rotationOrigin": [ 5.3291, 5.8368, 2.4 ],
 							"rotationZ": 6.0,
 							"faces": {
-								"north": { "texture": "#hair", "uv": [ 23.0, 32.5, 24.5, 36.5 ] },
-								"east": { "texture": "#hair", "uv": [ 24.5, 32.5, 26.0, 36.5 ] },
-								"south": { "texture": "#hair", "uv": [ 26.0, 32.5, 27.5, 36.5 ] },
-								"up": { "texture": "#hair", "uv": [ 23.0, 31.0, 24.5, 32.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-								"down": { "texture": "#hair", "uv": [ 24.5, 31.0, 26.0, 32.5 ] }
+								"north": { "texture": "#hair-base", "uv": [ 23.0, 32.5, 24.5, 36.5 ] },
+								"east": { "texture": "#hair-base", "uv": [ 24.5, 32.5, 26.0, 36.5 ] },
+								"south": { "texture": "#hair-base", "uv": [ 26.0, 32.5, 27.5, 36.5 ] },
+								"up": { "texture": "#hair-base", "uv": [ 23.0, 31.0, 24.5, 32.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"down": { "texture": "#hair-base", "uv": [ 24.5, 31.0, 26.0, 32.5 ] }
 							}
 						},
 						{
@@ -111,10 +111,10 @@
 							"uv": [ 24.0, 34.5 ],
 							"rotationOrigin": [ 7.15, 1.38, 2.5 ],
 							"faces": {
-								"north": { "texture": "#hair", "uv": [ 24.0, 34.5, 25.5, 35.5 ] },
-								"east": { "texture": "#hair", "uv": [ 25.5, 34.5, 26.5, 35.5 ] },
-								"south": { "texture": "#hair", "uv": [ 26.5, 34.5, 28.0, 35.5 ] },
-								"west": { "texture": "#hair", "uv": [ 25.0, 34.5, 26.0, 35.5 ] }
+								"north": { "texture": "#hair-base", "uv": [ 24.0, 34.5, 25.5, 35.5 ] },
+								"east": { "texture": "#hair-base", "uv": [ 25.5, 34.5, 26.5, 35.5 ] },
+								"south": { "texture": "#hair-base", "uv": [ 26.5, 34.5, 28.0, 35.5 ] },
+								"west": { "texture": "#hair-base", "uv": [ 25.0, 34.5, 26.0, 35.5 ] }
 							}
 						}
 					]

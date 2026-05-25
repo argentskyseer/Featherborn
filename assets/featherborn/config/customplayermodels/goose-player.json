@@ -1,11 +1,11 @@
 {
-  "goose": {
+  "cyndari": {
     "Enabled": true,
     "Group": "Featherborn",
     "GroupIcon": "featherborn:icons/avian-group",
-    "ShapePath": "featherborn:body/base/goose-faceless",
+    "ShapePath": "featherborn:body/base/cyndari-faceless",
     "MainTextureCode": "body-feathers",
-    // "Icon": "featherborn:icons/avian",
+    "Icon": "featherborn:icons/cyndari",
     "SizeRange": [0.4, 1.5],
     "CollisionBox": [0.6, 1.85],
     "EyeHeight": 1.7,
@@ -40,7 +40,7 @@
           {
             "code": "gray"
           },
-                    {
+          {
             "code": "light-gray"
           },
           {
@@ -616,11 +616,11 @@
             "code": "raptori-1"
           },
           {
-            "code":"eye-style-1-alt"
+            "code": "eye-style-1-alt"
           }
         ]
       },
-           {
+      {
         "code": "eyecolor2",
         "type": "texture",
         "textureTarget": "eye-back-base-alt",
@@ -694,7 +694,7 @@
           {
             "code": "corvid"
           },
-                    {
+          {
             "code": "duck"
           }
         ]

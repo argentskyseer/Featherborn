@@ -1,9 +1,24 @@
 {
-  "game:playermodel-avians": "Avians",
+  "game:playermodel-featherborn": "Featherborn",
+
+  //harpy
   "featherborn:playermodel-harpy": "Harpy",
+  "featherborn:modeldesc-harpy": "Humanoid with feathered arms and the legs of a bird.",
+
+  //avian (human with bird features)
   "featherborn:playermodel-avian": "Avian",
+  "featherborn:modeldesc-avian": "Elegant, folk who resemble humans with the head and legs of a bird and feathered arms. These wings are often vestigial or ceremonial.",
+
+  //raptori (bird with human features)
   "featherborn:playermodel-raptori": "Raptori",
+  "featherborn:modeldesc-raptori": "A more primal, bird-like race with strong bird features.",
+
+  //cyndari (human with goose/swan features)
+  "featherborn:playermodel-cyndari": "Cyndari",
+  "featherborn:modeldesc-cyndari": "Resembling Avians but with long necks.",
+
   "featherborn:playermodel-tuxari": "Tuxari",
+  "featherborn:playermodel-cyndari": "Cyndari",
   "game:skinpart-feather-color": "Body Color",
   "game:skinpart-accent-color": "Accent Color",
 
@@ -43,7 +58,6 @@
   "game:skinpart-beakcolor": "Beak Color",
   "game:skinpart-tailfeathers-long": "Long",
   "game:skinpart-tailfeathers-short": "Short",
-
 
   //arm feathers
   "game:skinpart-armfeathers": "Arm Feathers",

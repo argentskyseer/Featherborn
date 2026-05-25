@@ -7,10 +7,10 @@
 	"textureWidth": 48,
 	"textureHeight": 48,
 	"textureSizes": {
-		"hair": [48,48]
+		"hair": [96,96]
 	},
 	"textures": {
-		"hair": "entity/humanoid/seraphskinparts/hair/lightgray",
+		"hair-base":"featherborn:hair/hair-base",
 		"birch": "block/wood/debarked/birch"
 	},
 	"elements": [

@@ -7,12 +7,12 @@
 	"textureWidth": 48,
 	"textureHeight": 48,
 	"textureSizes": {
-		"hair": [48,48],
+		"hair": [96,96],
 		"birch": [16,16]
 	},
 	"textures": {
-		"birch": "block/wood/debarked/birch",
-		"hair": "entity/humanoid/seraphskinparts/hair/lightgray"
+		"birch": "game:block/wood/debarked/birch",
+		"hair-base":"featherborn:hair/hair-base"
 	},
 	"elements": [
 		{
@@ -32,11 +32,11 @@
 					"rotationOrigin": [ 4.8, 5.7, 2.5 ],
 					"rotationZ": -20.0,
 					"faces": {
-						"north": { "texture": "#hair", "uv": [ 18.0, 33.5, 21.0, 36.0 ] },
-						"east": { "texture": "#hair", "uv": [ 21.0, 33.5, 23.0, 36.0 ] },
-						"south": { "texture": "#hair", "uv": [ 23.0, 33.5, 26.0, 36.0 ] },
-						"west": { "texture": "#hair", "uv": [ 26.0, 33.5, 28.0, 36.0 ] },
-						"up": { "texture": "#hair", "uv": [ 18.0, 31.5, 21.0, 33.5 ] }
+						"north": { "texture": "#hair-base", "uv": [ 18.0, 33.5, 21.0, 36.0 ] },
+						"east": { "texture": "#hair-base", "uv": [ 21.0, 33.5, 23.0, 36.0 ] },
+						"south": { "texture": "#hair-base", "uv": [ 23.0, 33.5, 26.0, 36.0 ] },
+						"west": { "texture": "#hair-base", "uv": [ 26.0, 33.5, 28.0, 36.0 ] },
+						"up": { "texture": "#hair-base", "uv": [ 18.0, 31.5, 21.0, 33.5 ] }
 					},
 					"children": [
 						{
@@ -61,12 +61,12 @@
 							"uv": [ 16.5, 31.5 ],
 							"rotationOrigin": [ 0.5, 0.5, 0.0 ],
 							"faces": {
-								"north": { "texture": "#hair", "uv": [ 16.5, 34.5, 18.5, 36.0 ] },
-								"east": { "texture": "#hair", "uv": [ 18.5, 34.5, 21.5, 36.0 ] },
-								"south": { "texture": "#hair", "uv": [ 21.5, 34.5, 23.5, 36.0 ] },
-								"west": { "texture": "#hair", "uv": [ 23.5, 34.5, 26.5, 36.0 ] },
-								"up": { "texture": "#hair", "uv": [ 16.5, 31.5, 18.5, 34.5 ] },
-								"down": { "texture": "#hair", "uv": [ 18.5, 31.5, 20.5, 34.5 ] }
+								"north": { "texture": "#hair-base", "uv": [ 16.5, 34.5, 18.5, 36.0 ] },
+								"east": { "texture": "#hair-base", "uv": [ 18.5, 34.5, 21.5, 36.0 ] },
+								"south": { "texture": "#hair-base", "uv": [ 21.5, 34.5, 23.5, 36.0 ] },
+								"west": { "texture": "#hair-base", "uv": [ 23.5, 34.5, 26.5, 36.0 ] },
+								"up": { "texture": "#hair-base", "uv": [ 16.5, 31.5, 18.5, 34.5 ] },
+								"down": { "texture": "#hair-base", "uv": [ 18.5, 31.5, 20.5, 34.5 ] }
 							}
 						}
 					]

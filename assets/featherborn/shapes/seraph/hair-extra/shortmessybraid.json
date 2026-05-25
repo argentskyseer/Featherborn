@@ -6,12 +6,12 @@
 	"textureWidth": 48,
 	"textureHeight": 48,
 	"textureSizes": {
-		"hair": [48,48],
+		"hair": [96,96],
 		"birch": [16,16]
 	},
 	"textures": {
-		"birch": "block/wood/debarked/birch",
-		"hair": "entity/humanoid/seraphskinparts/hair/lightgray"
+		"birch": "game:block/wood/debarked/birch",
+		"hair-base":"featherborn:hair/hair-base"
 	},
 	"elements": [
 		{
@@ -31,10 +31,10 @@
 					"rotationOrigin": [ 5.4, 2.7, 2.4 ],
 					"rotationZ": 14.0,
 					"faces": {
-						"north": { "texture": "#hair", "uv": [ 24.0, 31.0, 25.0, 37.0 ] },
-						"east": { "texture": "#hair", "uv": [ 25.0, 31.0, 26.0, 37.0 ] },
-						"south": { "texture": "#hair", "uv": [ 26.0, 31.0, 27.0, 37.0 ] },
-						"west": { "texture": "#hair", "uv": [ 27.0, 31.0, 28.0, 37.0 ] }
+						"north": { "texture": "#hair-base", "uv": [ 24.0, 31.0, 25.0, 37.0 ] },
+						"east": { "texture": "#hair-base", "uv": [ 25.0, 31.0, 26.0, 37.0 ] },
+						"south": { "texture": "#hair-base", "uv": [ 26.0, 31.0, 27.0, 37.0 ] },
+						"west": { "texture": "#hair-base", "uv": [ 27.0, 31.0, 28.0, 37.0 ] }
 					},
 					"children": [
 						{
@@ -46,10 +46,10 @@
 							"rotationOrigin": [ 0.5, 0.2, 0.5 ],
 							"rotationZ": -14.0,
 							"faces": {
-								"north": { "texture": "#hair", "uv": [ 24.0, 37.0, 25.0, 42.0 ], "autoUv": false },
-								"east": { "texture": "#hair", "uv": [ 26.0, 37.0, 27.0, 42.0 ], "autoUv": false },
-								"south": { "texture": "#hair", "uv": [ 25.0, 37.0, 26.0, 42.0 ], "autoUv": false },
-								"west": { "texture": "#hair", "uv": [ 27.0, 37.0, 28.0, 42.0 ], "autoUv": false }
+								"north": { "texture": "#hair-base", "uv": [ 24.0, 37.0, 25.0, 42.0 ], "autoUv": false },
+								"east": { "texture": "#hair-base", "uv": [ 26.0, 37.0, 27.0, 42.0 ], "autoUv": false },
+								"south": { "texture": "#hair-base", "uv": [ 25.0, 37.0, 26.0, 42.0 ], "autoUv": false },
+								"west": { "texture": "#hair-base", "uv": [ 27.0, 37.0, 28.0, 42.0 ], "autoUv": false }
 							}
 						},
 						{
@@ -60,9 +60,9 @@
 							"rotationOrigin": [ 0.0, 6.0, 0.5 ],
 							"rotationZ": 42.0,
 							"faces": {
-								"north": { "texture": "#hair", "uv": [ 19.5, 11.5, 21.5, 13.5 ] },
-								"east": { "texture": "#hair", "uv": [ 21.5, 11.5, 23.5, 13.5 ] },
-								"south": { "texture": "#hair", "uv": [ 23.5, 11.5, 25.5, 13.5 ] }
+								"north": { "texture": "#hair-base", "uv": [ 19.5, 11.5, 21.5, 13.5 ] },
+								"east": { "texture": "#hair-base", "uv": [ 21.5, 11.5, 23.5, 13.5 ] },
+								"south": { "texture": "#hair-base", "uv": [ 23.5, 11.5, 25.5, 13.5 ] }
 							}
 						}
 					]

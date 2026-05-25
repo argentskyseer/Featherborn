@@ -8,7 +8,7 @@
 	"textureWidth": 48,
 	"textureHeight": 48,
 	"textureSizes": {
-		"hair": [48,48],
+		"hair": [96,96],
 		"bands": [16,16],
 		"feathers-base": [48,48],
 		"feathers": [48,48],
@@ -27,19 +27,19 @@
 		{
 			"name": "lowerWingLB",
 			"stepParentName": "LowerArmL",
-			"from": [ 0.0, -3.0, 2.0 ],
-			"to": [ 9.5, 10.0, 2.0 ],
+			"from": [ 0.0, -6.0, 2.0 ],
+			"to": [ 10.5, 11.0, 2.0 ],
 			"autoUnwrap": false,
 			"uv": [ 0.0, 0.0 ],
-			"rotationOrigin": [ 0.0, -3.0, 2.0 ],
+			"rotationOrigin": [ 0.0, -6.0, 2.0 ],
 			"rotationY": -20.0,
 			"faces": {
 				"north": { "texture": "#arm-feathers-base-b", "uv": [ 79.5, 71.0, 116.5, 91.0 ], "rotation": 90, "autoUv": false, "windMode": [0,1,1,0], "windData": [0,1,0,0], "enabled": false },
-				"east": { "texture": "#arm-feathers-base-b", "uv": [ 19.5, 135.5, 20.0, 148.5 ], "windMode": [0,1,1,0] },
+				"east": { "texture": "#arm-feathers-base-b", "uv": [ 19.5, 135.5, 20.0, 152.5 ], "windMode": [0,1,1,0] },
 				"south": { "texture": "#arm-feathers-base-b", "uv": [ 79.5, 91.0, 116.5, 72.0 ], "rotation": 90, "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,0,1] },
-				"west": { "texture": "#arm-feathers-base-b", "uv": [ 38.0, 130.0, 38.5, 143.0 ], "windMode": [0,0,1,1] },
-				"up": { "texture": "#arm-feathers-base-b", "uv": [ 22.5, 122.5, 32.0, 123.0 ], "windMode": [1,1,1,1] },
-				"down": { "texture": "#arm-feathers-base-b", "uv": [ 13.5, 154.5, 23.0, 155.0 ], "windMode": [0,0,0,0] }
+				"west": { "texture": "#arm-feathers-base-b", "uv": [ 38.0, 130.0, 38.5, 147.0 ], "windMode": [0,0,1,1] },
+				"up": { "texture": "#arm-feathers-base-b", "uv": [ 22.5, 122.5, 33.0, 123.0 ], "windMode": [1,1,1,1] },
+				"down": { "texture": "#arm-feathers-base-b", "uv": [ 13.5, 154.5, 24.0, 155.0 ], "windMode": [0,0,0,0] }
 			},
 			"children": [
 				{
@@ -49,9 +49,7 @@
 					"autoUnwrap": false,
 					"uv": [ 0.0, 0.0 ],
 					"rotationOrigin": [ 0.0, 3.0, 0.0 ],
-					"rotationX": 0.0,
 					"rotationY": -11.0,
-					"rotationZ": 0.0,
 					"faces": {
 						"north": { "texture": "#arm-feathers-base-b", "uv": [ 73.5, 34.0, 103.5, 46.5 ], "rotation": 90, "autoUv": false, "windMode": [0,1,1,0], "windData": [0,1,0,0], "enabled": false },
 						"east": { "texture": "#arm-feathers-base-b", "uv": [ 19.5, 135.5, 20.0, 145.5 ], "windMode": [0,1,1,0] },
@@ -104,19 +102,19 @@
 		{
 			"name": "lowerWingRB",
 			"stepParentName": "LowerArmR",
-			"from": [ 0.0, -3.0, 0.0 ],
-			"to": [ 9.5, 10.0, 0.0 ],
+			"from": [ 0.0, -6.0, 0.0 ],
+			"to": [ 10.5, 11.0, 0.0 ],
 			"autoUnwrap": false,
 			"uv": [ 0.0, 0.0 ],
-			"rotationOrigin": [ 0.0, -3.0, 0.0 ],
+			"rotationOrigin": [ 0.0, -6.0, 0.0 ],
 			"rotationY": 20.0,
 			"faces": {
 				"north": { "texture": "#arm-feathers-base-b", "uv": [ 79.5, 72.0, 116.5, 91.0 ], "rotation": 90, "autoUv": false, "windMode": [0,1,1,0], "windData": [0,1,0,0] },
-				"east": { "texture": "#arm-feathers-base-b", "uv": [ 19.5, 135.5, 20.0, 148.5 ], "windMode": [0,1,1,0] },
+				"east": { "texture": "#arm-feathers-base-b", "uv": [ 19.5, 135.5, 20.0, 152.5 ], "windMode": [0,1,1,0] },
 				"south": { "texture": "#arm-feathers-base-b", "uv": [ 0.0, 0.0, 48.0, 48.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,0,1], "enabled": false },
-				"west": { "texture": "#arm-feathers-base-b", "uv": [ 38.0, 130.0, 38.5, 143.0 ], "windMode": [0,0,1,1] },
-				"up": { "texture": "#arm-feathers-base-b", "uv": [ 22.5, 122.5, 32.0, 123.0 ], "windMode": [1,1,1,1] },
-				"down": { "texture": "#arm-feathers-base-b", "uv": [ 13.5, 154.5, 23.0, 155.0 ], "windMode": [0,0,0,0] }
+				"west": { "texture": "#arm-feathers-base-b", "uv": [ 38.0, 130.0, 38.5, 147.0 ], "windMode": [0,0,1,1] },
+				"up": { "texture": "#arm-feathers-base-b", "uv": [ 22.5, 122.5, 33.0, 123.0 ], "windMode": [1,1,1,1] },
+				"down": { "texture": "#arm-feathers-base-b", "uv": [ 13.5, 154.5, 24.0, 155.0 ], "windMode": [0,0,0,0] }
 			},
 			"children": [
 				{
@@ -126,9 +124,7 @@
 					"autoUnwrap": false,
 					"uv": [ 0.0, 0.0 ],
 					"rotationOrigin": [ 0.0, 3.0, -2.0 ],
-					"rotationX": 0.0,
 					"rotationY": 11.0,
-					"rotationZ": 0.0,
 					"faces": {
 						"north": { "texture": "#arm-feathers-base-b", "uv": [ 73.5, 34.0, 103.5, 46.5 ], "rotation": 90, "autoUv": false, "windMode": [0,1,1,0] },
 						"east": { "texture": "#arm-feathers-base-b", "uv": [ 19.5, 135.5, 20.0, 145.5 ], "windMode": [0,1,1,0] },

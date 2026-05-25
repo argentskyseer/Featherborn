@@ -5,16 +5,19 @@
     "GroupIcon": "featherborn:icons/avian-group",
     "ShapePath": "featherborn:body/base/avian-faceless",
     "MainTextureCode": "body-feathers",
-    "Icon": "featherborn:icons/avian",
+    "Icon": "featherborn:icons/avians",
     "SizeRange": [0.4, 1.5],
-    "CollisionBox": [0.6, 1.7,1],
+    "CollisionBox": [0.6, 1.85],
     "EyeHeight": 1.7,
+     "SneakEyeHeightMultiplier": 0.7,
     "ModelSizeFactor": 1,
     "AvailableClasses": [],
     "GuiModelScale": 1.0,
     "HeadBobbingScale": 0.8,
     "ScaleColliderWithSizeHorizontally": true,
     "ScaleColliderWithSizeVertically": true,
+    "RemoveTags": [ "seraph" ],
+        "AddTags": [ "avian" ],
     "SkinnableParts": [
       {
         "code": "feather-color",
@@ -40,7 +43,7 @@
           {
             "code": "gray"
           },
-                              {
+          {
             "code": "light-gray"
           },
           {
@@ -59,7 +62,7 @@
         "overlayMode": "Normal",
         "targetSkinParts": ["base", "facial-feathers"],
         "textureTemplate": "featherborn:body/accent/baseskin-accent-{code}",
-         "variants": [
+        "variants": [
           {
             "code": "black",
             "color": "0"
@@ -274,7 +277,7 @@
         },
         "variants": [
           {
-            "code": "owl"
+            "code": "owl_b"
           },
           {
             "code": "crest"
@@ -606,72 +609,6 @@
         ]
       },
       {
-        "code": "facialbrows",
-        "type": "shape",
-        "shapeTemplate": {
-          "base": "featherborn:face/brows/{code}"
-        },
-        "variants": [
-          {
-            "code": "adequate"
-          },
-          {
-            "code": "angry"
-          },
-          {
-            "code": "caring"
-          },
-          {
-            "code": "determined"
-          },
-          {
-            "code": "exhausted"
-          },
-          {
-            "code": "fierce"
-          },
-          {
-            "code": "grin"
-          },
-          {
-            "code": "indifferent"
-          },
-          {
-            "code": "kind"
-          },
-          {
-            "code": "mellow"
-          },
-          {
-            "code": "neutral"
-          },
-          {
-            "code": "sad"
-          },
-          {
-            "code": "serious"
-          },
-          {
-            "code": "smirk"
-          },
-          {
-            "code": "thoughtful"
-          },
-          {
-            "code": "tired"
-          },
-          {
-            "code": "upset"
-          },
-          {
-            "code": "very-sad"
-          },
-          {
-            "code": "weary"
-          }
-        ]
-      },
-     {
         "code": "facialeyes",
         "type": "shape",
         "shapeTemplate": {
@@ -680,13 +617,50 @@
         "variants": [
           {
             "code": "raptori-1"
+          },
+          {
+            "code": "eye-style-1-alt"
+          }
+        ]
+      },
+      {
+        "code": "eyecolor2",
+        "type": "texture",
+        "textureTarget": "eye-back-base-alt",
+        "overlayTexture": "true",
+        "overlayMode": "Multiply",
+        "targetSkinParts": ["facialeyes"],
+        "textureTemplate": "featherborn:face/eyes/eye-back-alt-{code}",
+        "variants": [
+          {
+            "code": "gray"
+          },
+          {
+            "code": "red"
+          },
+          {
+            "code": "golden"
+          }
+        ]
+      },
+      {
+        "code": "eyepupil",
+        "type": "texture",
+        "textureTarget": "eye-back-base-alt",
+        "overlayTexture": "true",
+        "overlayMode": "Normal",
+        "targetSkinParts": ["facialeyes"],
+        "textureTemplate": "featherborn:face/eyes/eye-back-pupil-alt-{code}",
+        "variants": [
+          {
+            "code": "medium"
           }
         ]
       },
       {
         "code": "eyecolor",
         "type": "texture",
-        "textureTarget": "playermodellib-iris",
+        "textureTarget": "iris",
         "targetSkinParts": ["facialeyes"],
         "textureTemplate": "featherborn:face/eyes/{code}",
         "variants": [
@@ -714,14 +688,20 @@
           {
             "code": "songbird"
           },
-                    {
+          {
             "code": "songbird2"
           },
           {
             "code": "hawk"
           },
           {
+            "code": "owl"
+          },
+          {
             "code": "corvid"
+          },
+          {
+            "code": "duck"
           }
         ]
       },
@@ -742,7 +722,7 @@
           {
             "code": "black"
           },
-                    {
+          {
             "code": "base-beak"
           }
         ]
