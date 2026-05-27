@@ -16,23 +16,23 @@
     "ScaleColliderWithSizeHorizontally": true,
     "ScaleColliderWithSizeVertically": true,
     "SkinnableParts": [
-      {
-        "code": "featherborn-overlay",
-        "type": "texture",
-        "priority": 1,
-        "textureTarget": "featherborn-main",
-        "textureTemplate": "featherborn:body/base/{code}",
-        "overlayMode": "Multiply",
-        "targetSkinParts": ["base", "feather-color", "featherborn-secondary"],
-        "variants": [{ "code": "featherborn-overlay" }]
-      },
+      // {
+      //   "code": "featherborn-overlay",
+      //   "type": "texture",
+      //   "priority": 1,
+      //   "textureTarget": "featherborn-main",
+      //   "textureTemplate": "featherborn:body/base/{code}",
+      //   "overlayMode": "Multiply",
+      //   "targetSkinParts": ["base", "feather-color", "featherborn-secondary"],
+      //   "variants": [{ "code": "featherborn-overlay" }]
+      // },
 
       {
         "code": "feather-color",
         "type": "texture",
         "textureTarget": "featherborn-main",
         "targetSkinParts": ["base"],
-        "overlayMode": "NormalPreserveAlpha",
+        "overlayMode": "HueSaturationBlend",
         "solidColor": true,
         "size": [152, 152],
         "variants": [
