@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"collapsedPaths": "Root/root/LowerTorso/UpperFootL/LowerFootLb,Root/root/LowerTorso/UpperTorso/Neck,Root/root/LowerTorso/UpperTorso/UpperArmR,Root/root/LowerTorso/UpperTorso/Neck/Head,Root/root/LowerTorso/UpperFootR/LowerFootRb,Root/root/LowerTorso/UpperTorso/UpperArmL",
+		"collapsedPaths": "Root/root/LowerTorso/UpperTorso/Neck/Head/beakcore",
 		"allAngles": true,
 		"entityTextureMode": true
 	},
@@ -8,8 +8,7 @@
 	"textureHeight": 76,
 	"textureSizes": {
 		"featherborn-main": [76,76],
-		"pants": [32,36],
-		"baseskin-accent-base": [76,76]
+		"baseskin": [76,76]
 	},
 	"textures": {
 		"featherborn-main": "featherborn:body/base/featherborn-main"
@@ -66,58 +65,6 @@
 								"down": { "texture": "#featherborn-main", "uv": [ 0.5, 17.5, 6.5, 22.5 ], "rotation": 90 }
 							},
 							"children": [
-								// {
-								// 	"name": "hideme",
-								// 	"from": [ -0.0413, 4.41, 3.1 ],
-								// 	"to": [ -0.0413, 4.41, 3.1 ],
-								// 	"uv": [ 0.0, 0.0 ],
-								// 	"rotationOrigin": [ -0.0413, 4.4118, 3.1 ],
-								// 	"rotationZ": -6.0,
-								// 	"faces": {
-								// 		"north": { "texture": "#null", "uv": [ 0.0, 0.5, 0.5, 1.0 ], "enabled": false },
-								// 		"east": { "texture": "#null", "uv": [ 0.5, 0.5, 1.0, 1.0 ], "enabled": false },
-								// 		"south": { "texture": "#null", "uv": [ 1.0, 0.5, 1.5, 1.0 ], "enabled": false },
-								// 		"west": { "texture": "#null", "uv": [ 1.5, 0.5, 2.0, 1.0 ], "enabled": false },
-								// 		"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
-								// 		"down": { "texture": "#null", "uv": [ 0.5, 0.0, 1.0, 0.5 ], "enabled": false }
-								// 	},
-								// 	"children": [
-								// 		{
-								// 			"name": "Breast",
-								// 			"from": [ 0.0, -2.5, -2.91 ],
-								// 			"to": [ 2.0, 0.0, 3.11 ],
-								// 			"autoUnwrap": false,
-								// 			"uv": [ 23.0, 9.0 ],
-								// 			"rotationOrigin": [ 0.0, 0.0, 0.1 ],
-								// 			"rotationZ": -25.0,
-								// 			"faces": {
-								// 				"north": { "texture": "#featherborn-main", "uv": [ 11.5, 18.0, 13.5, 20.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,0] },
-								// 				"east": { "texture": "#null", "uv": [ 2.0, 6.0, 8.0, 8.5 ], "enabled": false },
-								// 				"south": { "texture": "#featherborn-main", "uv": [ 18.5, 18.0, 20.5, 20.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,0,1,1] },
-								// 				"west": { "texture": "#featherborn-main", "uv": [ 13.0, 18.0, 19.0, 20.5 ] },
-								// 				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 2.0, 6.0 ], "enabled": false },
-								// 				"down": { "texture": "#featherborn-main", "uv": [ 13.0, 20.5, 19.0, 22.5 ], "rotation": 90 }
-								// 			}
-								// 		},
-								// 		{
-								// 			"name": "Breast2",
-								// 			"from": [ 1.4, -3.4, -2.9 ],
-								// 			"to": [ 3.4, -0.9, 3.1 ],
-								// 			"autoUnwrap": false,
-								// 			"uv": [ 23.0, 9.0 ],
-								// 			"rotationOrigin": [ 1.3, -0.4, 0.1 ],
-								// 			"rotationZ": -53.1,
-								// 			"faces": {
-								// 				"north": { "texture": "#featherborn-main", "uv": [ 11.5, 18.0, 13.5, 20.5 ] },
-								// 				"east": { "texture": "#null", "uv": [ 2.0, 6.0, 8.0, 8.5 ], "enabled": false },
-								// 				"south": { "texture": "#featherborn-main", "uv": [ 18.5, 18.0, 20.5, 20.5 ] },
-								// 				"west": { "texture": "#featherborn-main", "uv": [ 13.0, 18.0, 19.0, 20.5 ] },
-								// 				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 2.0, 6.0 ], "enabled": false },
-								// 				"down": { "texture": "#featherborn-main", "uv": [ 13.0, 20.5, 19.0, 22.5 ], "rotation": 90 }
-								// 			}
-								// 		}
-								// 	]
-								// },
 								{
 									"name": "UpperArmR",
 									"from": [ 1.0, -2.1, -1.2 ],
@@ -126,7 +73,7 @@
 									"autoUnwrap": false,
 									"uv": [ 1.0, 29.0 ],
 									"rotationOrigin": [ 2.0, 4.7, 0.8 ],
-									"rotationX": 10.0,
+									"rotationX": 15.0,
 									"rotationZ": -3.0,
 									"faces": {
 										"north": { "texture": "#featherborn-main", "uv": [ 3.0, 31.5, 6.0, 38.5 ] },
@@ -183,7 +130,7 @@
 									"autoUnwrap": false,
 									"uv": [ 21.0, 29.0 ],
 									"rotationOrigin": [ 2.0, 4.7, 5.2 ],
-									"rotationX": -10.0,
+									"rotationX": -15.0,
 									"rotationZ": -3.0,
 									"faces": {
 										"north": { "texture": "#featherborn-main", "uv": [ 21.0, 31.5, 24.0, 38.5 ] },
@@ -263,7 +210,7 @@
 										"south": { "texture": "#featherborn-main", "uv": [ 19.0, 1.0, 22.0, 5.0 ] },
 										"west": { "texture": "#featherborn-main", "uv": [ 16.0, 1.0, 19.0, 5.0 ] },
 										"up": { "texture": "#featherborn-main", "uv": [ 16.0, 1.0, 19.0, 4.0 ], "rotation": 90, "enabled": false },
-										"down": { "texture": "#featherborn-main", "uv": [ 16.0, 5.0, 19.0, 8.0 ], "rotation": 90, "enabled": false }
+										"down": { "texture": "#featherborn-main", "uv": [ 16.0, 8.0, 19.0, 11.0 ], "rotation": 90, "enabled": false }
 									},
 									"children": [
 										{
@@ -271,16 +218,16 @@
 											"from": [ -1.7, 2.1, -1.0 ],
 											"to": [ 3.8, 7.1, 4.0 ],
 											"unwrapMode": 4,
-											"uv": [ 1.0, 0.5 ],
+											"uv": [ 45.0, 3.5 ],
 											"rotationOrigin": [ 1.7, 2.1, 1.5 ],
 											"rotationZ": -7.0,
 											"faces": {
-												"north": { "texture": "#featherborn-main", "uv": [ 1.0, 6.0, 6.5, 11.0 ] },
-												"east": { "texture": "#featherborn-main", "uv": [ 17.0, 6.0, 22.0, 11.0 ] },
-												"south": { "texture": "#featherborn-main", "uv": [ 11.5, 6.0, 17.0, 11.0 ] },
-												"west": { "texture": "#featherborn-main", "uv": [ 6.5, 6.0, 11.5, 11.0 ] },
-												"up": { "texture": "#featherborn-main", "uv": [ 6.5, 0.5, 11.5, 6.0 ], "rotation": 90 },
-												"down": { "texture": "#featherborn-main", "uv": [ 6.5, 11.0, 11.5, 16.5 ], "rotation": 90 }
+												"north": { "texture": "#featherborn-main", "uv": [ 45.0, 9.0, 50.5, 14.0 ] },
+												"east": { "texture": "#featherborn-main", "uv": [ 56.0, 9.0, 61.0, 14.0 ] },
+												"south": { "texture": "#featherborn-main", "uv": [ 50.5, 9.0, 56.0, 14.0 ] },
+												"west": { "texture": "#featherborn-main", "uv": [ 50.5, 9.0, 55.5, 14.0 ], "enabled": false },
+												"up": { "texture": "#featherborn-main", "uv": [ 50.5, 3.5, 55.5, 9.0 ], "rotation": 90 },
+												"down": { "texture": "#featherborn-main", "uv": [ 50.5, 14.0, 55.5, 19.5 ], "rotation": 90 }
 											},
 											"children": [
 												{
@@ -739,6 +686,91 @@
 															]
 														}
 													]
+												},
+												{
+													"name": "Head_R",
+													"from": [ 0.0, 0.0, 1.0 ],
+													"to": [ 5.5, 5.0, 4.0 ],
+													"uv": [ 0.0, 4.5 ],
+													"rotationOrigin": [ 0.0, 0.0, 2.0 ],
+													"faces": {
+														"north": { "texture": "#featherborn-main", "uv": [ 0.0, 7.5, 5.5, 12.5 ] },
+														"east": { "texture": "#featherborn-main", "uv": [ 5.5, 7.5, 8.5, 12.5 ] },
+														"south": { "texture": "#featherborn-main", "uv": [ 8.5, 7.5, 14.0, 12.5 ] },
+														"west": { "texture": "#featherborn-main", "uv": [ 14.0, 7.5, 17.0, 12.5 ] },
+														"up": { "texture": "#featherborn-main", "uv": [ 0.0, 4.5, 5.5, 7.5 ] },
+														"down": { "texture": "#featherborn-main", "uv": [ 5.5, 4.5, 11.0, 7.5 ] }
+													},
+													"children": [
+														{
+															"name": "HeadTopR",
+															"from": [ 0.0, 1.0, -1.0 ],
+															"to": [ 5.5, 5.0, 0.0 ],
+															"uv": [ 31.0, 0.0 ],
+															"rotationOrigin": [ 0.0, 1.0, -1.0 ],
+															"faces": {
+																"north": { "texture": "#featherborn-main", "uv": [ 31.0, 1.0, 36.5, 5.0 ] },
+																"east": { "texture": "#featherborn-main", "uv": [ 36.5, 1.0, 37.5, 5.0 ] },
+																"south": { "texture": "#featherborn-main", "uv": [ 37.5, 1.0, 43.0, 5.0 ] },
+																"west": { "texture": "#featherborn-main", "uv": [ 43.0, 1.0, 44.0, 5.0 ] },
+																"up": { "texture": "#featherborn-main", "uv": [ 31.0, 0.0, 36.5, 1.0 ] },
+																"down": { "texture": "#featherborn-main", "uv": [ 36.5, 0.0, 42.0, 1.0 ] }
+															},
+															"children": [
+																{
+																	"name": "HeadTopR2",
+																	"from": [ 0.02, -1.0, 1.0 ],
+																	"to": [ 5.52, 0.41, 2.0 ],
+																	"uv": [ 31.0, 5.0 ],
+																	"rotationOrigin": [ 0.0, -1.0, 1.0 ],
+																	"rotationX": -45.0,
+																	"rotationZ": 0.0,
+																	"faces": {
+																		"north": { "texture": "#featherborn-main", "uv": [ 31.0, 6.0, 36.5, 7.0 ] },
+																		"east": { "texture": "#featherborn-main", "uv": [ 36.5, 6.0, 37.5, 7.0 ] },
+																		"south": { "texture": "#featherborn-main", "uv": [ 37.5, 6.0, 43.0, 7.0 ] },
+																		"west": { "texture": "#featherborn-main", "uv": [ 43.0, 6.0, 44.0, 7.0 ] },
+																		"up": { "texture": "#featherborn-main", "uv": [ 31.0, 5.0, 36.5, 6.0 ] },
+																		"down": { "texture": "#featherborn-main", "uv": [ 36.5, 5.0, 42.0, 6.0 ] }
+																	}
+																}
+															]
+														},
+														{
+															"name": "HeadTopL",
+															"from": [ 0.0, 1.0, 3.0 ],
+															"to": [ 5.5, 5.0, 4.0 ],
+															"uv": [ 31.0, 7.0 ],
+															"rotationOrigin": [ 0.0, 1.0, 3.0 ],
+															"faces": {
+																"north": { "texture": "#featherborn-main", "uv": [ 31.0, 8.0, 36.5, 12.0 ] },
+																"east": { "texture": "#featherborn-main", "uv": [ 36.5, 8.0, 37.5, 12.0 ] },
+																"south": { "texture": "#featherborn-main", "uv": [ 37.5, 8.0, 43.0, 12.0 ] },
+																"west": { "texture": "#featherborn-main", "uv": [ 43.0, 8.0, 44.0, 12.0 ] },
+																"up": { "texture": "#featherborn-main", "uv": [ 31.0, 7.0, 36.5, 8.0 ] },
+																"down": { "texture": "#featherborn-main", "uv": [ 36.5, 7.0, 42.0, 8.0 ] }
+															},
+															"children": [
+																{
+																	"name": "HeadTopL2",
+																	"from": [ 0.02, -1.0, -1.0 ],
+																	"to": [ 5.52, 0.41, 0.0 ],
+																	"uv": [ 31.0, 12.0 ],
+																	"rotationOrigin": [ 0.0, -1.0, 0.0 ],
+																	"rotationX": 45.0,
+																	"rotationZ": 0.0,
+																	"faces": {
+																		"north": { "texture": "#featherborn-main", "uv": [ 31.0, 13.0, 36.5, 14.0 ] },
+																		"east": { "texture": "#featherborn-main", "uv": [ 36.5, 13.0, 37.5, 14.0 ] },
+																		"south": { "texture": "#featherborn-main", "uv": [ 37.5, 13.0, 43.0, 14.0 ] },
+																		"west": { "texture": "#featherborn-main", "uv": [ 43.0, 13.0, 44.0, 14.0 ] },
+																		"up": { "texture": "#featherborn-main", "uv": [ 31.0, 12.0, 36.5, 13.0 ] },
+																		"down": { "texture": "#featherborn-main", "uv": [ 36.5, 12.0, 42.0, 13.0 ] }
+																	}
+																}
+															]
+														}
+													]
 												}
 											]
 										}
@@ -781,11 +813,11 @@
 							"children": [
 								{
 									"name": "LowerFootLb",
-									"from": [ 1.2, -7.2, 0.4 ],
-									"to": [ 3.7, -0.2, 2.9 ],
+									"from": [ 1.0, -6.0, 0.5 ],
+									"to": [ 3.5, 1.0, 3.0 ],
 									"unwrapMode": 4,
 									"uv": [ 51.0, 60.5 ],
-									"rotationOrigin": [ 1.0, -0.2, 2.5 ],
+									"rotationOrigin": [ 2.25, 0.0, 0.5 ],
 									"rotationX": 2.0,
 									"rotationZ": 44.0,
 									"faces": {
@@ -798,7 +830,7 @@
 									},
 									"children": [
 										{
-											"name": "ankleL",
+											"name": "AnkleL",
 											"from": [ 0.5, 0.0, 0.0 ],
 											"to": [ 1.5, 1.0, 1.0 ],
 											"uv": [ 71.0, 73.5 ],
@@ -815,7 +847,7 @@
 											},
 											"children": [
 												{
-													"name": "ankleLTop",
+													"name": "AnkleLTop",
 													"from": [ -4.0, -0.8, 0.25 ],
 													"to": [ 2.0, 0.2, 2.25 ],
 													"uv": [ 41.5, 56.5 ],
@@ -1073,11 +1105,11 @@
 							"children": [
 								{
 									"name": "LowerFootRb",
-									"from": [ 1.2, -7.2, 0.3 ],
-									"to": [ 3.7, -0.2, 2.8 ],
+									"from": [ 1.0, -6.0, 0.5 ],
+									"to": [ 3.5, 1.0, 3.0 ],
 									"unwrapMode": 4,
 									"uv": [ 51.0, 60.5 ],
-									"rotationOrigin": [ 1.0, -0.2, 2.5 ],
+									"rotationOrigin": [ 2.25, 0.0, 0.5 ],
 									"rotationX": -2.0,
 									"rotationZ": 44.0,
 									"faces": {
@@ -1090,7 +1122,7 @@
 									},
 									"children": [
 										{
-											"name": "ankleR",
+											"name": "AnkleR",
 											"from": [ 0.5, 0.0, 0.0 ],
 											"to": [ 1.5, 1.0, 1.0 ],
 											"uv": [ 71.0, 73.5 ],
@@ -1107,7 +1139,7 @@
 											},
 											"children": [
 												{
-													"name": "ankleRTop",
+													"name": "AnkleRTop",
 													"from": [ -4.0, -0.8, 0.25 ],
 													"to": [ 2.0, 0.2, 2.25 ],
 													"uv": [ 41.5, 56.5 ],
@@ -1405,11 +1437,11 @@
 						"UpperArmR": { "offsetX": -0.5, "offsetY": -0.5, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
 						"LowerArmR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 8.0 },
 						"RToeBack": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -7.0 },
-						"ankleR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 33.0 },
 						"ForefootL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -39.0 },
 						"LowerFootLb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 6.0 },
 						"LowerFootRb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -3.0 },
-						"LToeBack": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -30.0 }
+						"LToeBack": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -30.0 },
+						"AnkleR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 33.0 }
 					}
 				},
 				{
@@ -1418,24 +1450,24 @@
 						"LowerTorso": { "offsetX": 0.0, "offsetY": -1.5, "offsetZ": 0.0 },
 						"UpperFootR": { "offsetX": -1.0, "offsetY": -1.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": -3.0, "rotationZ": -44.0 },
 						"UpperFootL": { "rotationX": -1.2, "rotationY": -1.8, "rotationZ": 6.0 },
-						"ankleR": { "offsetX": 0.4, "offsetY": 0.4, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 42.0 },
 						"LowerFootLb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 19.0 },
 						"ForefootL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -40.0 },
 						"LowerFootRb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 26.0 },
 						"ForefootR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -25.0 },
 						"RToeBack": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -28.0 },
-						"ankleL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 17.0 }
+						"AnkleL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 17.0 },
+						"AnkleR": { "offsetX": 0.4, "offsetY": 0.4, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 42.0 }
 					}
 				},
 				{
 					"frame": 5,
 					"elements": {
 						"LowerFootLb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 17.0 },
-						"ankleR": { "offsetX": 0.6, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.0 },
-						"ankleL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 5.0909 },
+						"AnkleL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 5.0909 },
 						"ForefootL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -25.0 },
 						"LowerFootRb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.0 },
-						"ForefootR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -7.0 }
+						"ForefootR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -7.0 },
+						"AnkleR": { "offsetX": 0.6, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.0 }
 					}
 				},
 				{
@@ -1463,7 +1495,7 @@
 						"LowerFootRb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 19.0 },
 						"ForefootR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -37.0 },
 						"RToeBack": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -40.0 },
-						"ankleL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -17.0 }
+						"AnkleL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -17.0 }
 					}
 				},
 				{
@@ -1480,7 +1512,7 @@
 						"UpperArmL": { "offsetX": -0.5, "offsetY": -0.5, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
 						"LowerArmL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 8.0 },
 						"LToeBack": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -7.0 },
-						"ankleL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 33.0 },
+						"AnkleL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 33.0 },
 						"ForefootR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -39.0 },
 						"LowerFootRb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 6.0 },
 						"LowerFootLb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -3.0 },
@@ -1493,13 +1525,13 @@
 						"LowerTorso": { "offsetX": 0.0, "offsetY": -1.5, "offsetZ": 0.0 },
 						"UpperFootL": { "offsetX": -1.0, "offsetY": -1.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": -3.0, "rotationZ": -44.0 },
 						"UpperFootR": { "rotationX": -1.2, "rotationY": -1.8, "rotationZ": 6.0 },
-						"ankleL": { "offsetX": 0.4, "offsetY": 0.4, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 42.0 },
+						"AnkleL": { "offsetX": 0.4, "offsetY": 0.4, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 42.0 },
 						"LowerFootRb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 19.0 },
 						"ForefootR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -40.0 },
 						"LowerFootLb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 26.0 },
 						"ForefootL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -25.0 },
 						"LToeBack": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -28.0 },
-						"ankleR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 17.0 }
+						"AnkleR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 17.0 }
 					}
 				},
 				{
@@ -1527,7 +1559,7 @@
 						"LowerFootLb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 19.0 },
 						"ForefootL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -37.0 },
 						"LToeBack": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -40.0 },
-						"ankleR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -17.0 }
+						"AnkleR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -17.0 }
 					}
 				}
 			]
@@ -1671,11 +1703,11 @@
 						"UpperFootR": { "offsetX": -1.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": -3.0, "rotationY": 0.0, "rotationZ": -50.0 },
 						"UpperFootL": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
 						"LowerFootLb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 28.0 },
-						"ankleLTop": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
-						"ankleR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 28.0 },
+						"AnkleLTop": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
 						"ForefootL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 28.0 },
 						"RToeBack": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 6.0 },
-						"LowerFootRb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -6.0 }
+						"LowerFootRb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -6.0 },
+						"AnkleR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 28.0 }
 					}
 				},
 				{
@@ -1685,7 +1717,7 @@
 						"UpperFootR": { "offsetX": -1.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -60.0 },
 						"UpperFootL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
 						"LowerFootLb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 42.0 },
-						"ankleL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 36.0 },
+						"AnkleL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 36.0 },
 						"LToeBack": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -30.0 },
 						"LowerFootRb": { "offsetX": 0.0, "offsetY": 0.3, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 17.0 }
 					}
@@ -1700,8 +1732,8 @@
 						"UpperFootR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -30.0 },
 						"UpperFootL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -45.0 },
 						"LowerFootLb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 64.0 },
-						"ankleR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 14.0 },
-						"LowerFootRb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 39.0 }
+						"LowerFootRb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 39.0 },
+						"AnkleR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 14.0 }
 					}
 				},
 				{
@@ -1715,10 +1747,10 @@
 						"LowerArmR": { "offsetX": 0.0, "offsetY": 0.4, "offsetZ": 0.0 },
 						"Head": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -5.0 },
 						"LowerFootLb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 33.0 },
-						"ankleL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -14.0 },
+						"AnkleL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -14.0 },
 						"LToeBack": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
-						"ankleR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -8.0 },
-						"LowerFootRb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 14.0 }
+						"LowerFootRb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 14.0 },
+						"AnkleR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -8.0 }
 					}
 				},
 				{
@@ -1739,8 +1771,8 @@
 						"UpperArmR": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0 },
 						"LowerFootLb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 8.0 },
 						"RToeBack": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -30.0 },
-						"ankleR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 36.0 },
-						"LowerFootRb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 6.0 }
+						"LowerFootRb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 6.0 },
+						"AnkleR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 36.0 }
 					}
 				},
 				{
@@ -1754,7 +1786,7 @@
 						"UpperArmR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -45.0 },
 						"LowerArmR": { "offsetX": -0.3, "offsetY": 0.4, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -67.5 },
 						"Head": { "rotationX": 0.0, "rotationY": -5.0, "rotationZ": 0.0 },
-						"ankleL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 36.0 },
+						"AnkleL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 36.0 },
 						"LToeBack": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 6.0 },
 						"LowerFootLb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -11.0 },
 						"LowerFootRb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 39.0 }
@@ -1766,7 +1798,7 @@
 						"LowerTorso": { "offsetX": 0.0, "offsetY": -3.0, "offsetZ": 0.0 },
 						"UpperFootL": { "offsetX": -0.7, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -60.0 },
 						"LowerFootLb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 33.0 },
-						"ankleL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 3.0 },
+						"AnkleL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 3.0 },
 						"ForefootL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 11.0 },
 						"LToeBack": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 11.0 },
 						"LowerFootRb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 42.0 }
@@ -1779,9 +1811,9 @@
 						"UpperFootL": { "offsetX": -0.5, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -30.0 },
 						"UpperFootR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -45.0 },
 						"UpperArmR": { "offsetX": 0.0, "offsetY": -0.5, "offsetZ": 0.0 },
-						"ankleR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -14.0 },
 						"ForefootL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.0 },
-						"LowerFootRb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 50.0 }
+						"LowerFootRb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 50.0 },
+						"AnkleR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -14.0 }
 					}
 				},
 				{
@@ -1793,7 +1825,7 @@
 						"UpperTorso": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -2.0 },
 						"Head": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -5.0 },
 						"UpperArmL": { "offsetX": 0.0, "offsetY": -0.8, "offsetZ": 0.0 },
-						"ankleLTop": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"AnkleLTop": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
 						"ForefootL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -33.0 },
 						"LowerFootLb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 19.0 }
 					}
@@ -2479,10 +2511,10 @@
 						"UpperFootL": { "offsetX": -2.0, "offsetY": -0.3, "offsetZ": 0.0, "rotationX": 5.0, "rotationY": 5.0, "rotationZ": -56.0 },
 						"UpperFootR": { "offsetX": -3.0, "offsetY": 0.2, "offsetZ": 0.0, "rotationX": -5.0, "rotationY": -5.0, "rotationZ": -74.0 },
 						"LowerFootLb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 61.0 },
-						"ankleR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 3.0 },
 						"RToeBack": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 3.0 },
 						"ForefootL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.0 },
-						"LowerFootRb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 39.0 }
+						"LowerFootRb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 39.0 },
+						"AnkleR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 3.0 }
 					}
 				},
 				{
@@ -2495,7 +2527,7 @@
 						"RToeBack": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 6.0 },
 						"ForefootL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 19.0 },
 						"LToeBack": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -6.0 },
-						"ankleR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -8.0 }
+						"AnkleR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -8.0 }
 					}
 				},
 				{
@@ -2511,7 +2543,7 @@
 						"Head": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -20.0 },
 						"UpperFootL": { "offsetX": -3.0, "offsetY": 0.2, "offsetZ": 0.0, "rotationX": 5.0, "rotationY": 5.0, "rotationZ": -74.0 },
 						"UpperFootR": { "offsetX": -2.0, "offsetY": -0.3, "offsetZ": 0.0, "rotationX": -5.0, "rotationY": -5.0, "rotationZ": -56.0 },
-						"ankleL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 8.0 },
+						"AnkleL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 8.0 },
 						"LowerFootLb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 28.0 },
 						"LToeBack": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 8.0 },
 						"LowerFootRb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 58.0 }
@@ -2524,7 +2556,7 @@
 						"UpperFootL": { "offsetX": -2.0, "offsetY": 1.0, "offsetZ": 0.0 },
 						"UpperFootR": { "offsetX": -3.3, "offsetY": 1.0, "offsetZ": 0.0, "rotationX": -5.0, "rotationY": -5.0, "rotationZ": -75.0 },
 						"Head": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -18.0 },
-						"ankleL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -3.0 }
+						"AnkleL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -3.0 }
 					}
 				}
 			]
@@ -2812,9 +2844,9 @@
 						"Neck": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.5 },
 						"Head": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -60.0 },
 						"LowerFootLb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -8.0 },
-						"ankleL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 11.0 },
-						"ankleR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 33.0 },
-						"LowerFootRb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -17.0 }
+						"AnkleL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 11.0 },
+						"LowerFootRb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -17.0 },
+						"AnkleR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 33.0 }
 					}
 				}
 			]
@@ -5727,9 +5759,9 @@
 						"UpperFootR": { "rotationX": -33.0, "rotationY": -30.0, "rotationZ": -75.0 },
 						"UpperFootL": { "rotationX": 0.0, "rotationY": 53.0, "rotationZ": -39.0 },
 						"LowerFootLb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 42.0 },
-						"ankleR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -8.0 },
-						"ankleL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.0 },
-						"LowerFootRb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 44.0 }
+						"AnkleL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.0 },
+						"LowerFootRb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 44.0 },
+						"AnkleR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -8.0 }
 					}
 				},
 				{

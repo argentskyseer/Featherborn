@@ -39,6 +39,18 @@
           {
             "code": "#ff8A562C",
             "color": "9066028"
+          },
+          {
+            "code": "#ffe6cb19",
+            "color": "15125273"
+          },
+          {
+            "code": "#ff7d0c33",
+            "color": "8195123"
+          },
+          {
+            "code": "#ffd4d2d3",
+            "color": "13947603"
           }
         ]
       },
@@ -65,8 +77,20 @@
         "size": [152, 152],
         "variants": [
           {
-            "code": "#ff8A562C",
+            "code": "#ffdac2af",
             "color": "9066028"
+          },
+          {
+            "code": "#ffede6b9",
+            "color": "15125273"
+          },
+          {
+            "code": "#ffc9b1b9",
+            "color": "8195123"
+          },
+          {
+            "code": "#ffffffff",
+            "color": "13947603"
           }
         ]
       },
@@ -136,6 +160,18 @@
           {
             "code": "#ff8A562C",
             "color": "9066028"
+          },
+          {
+            "code": "#ffe6cb19",
+            "color": "15125273"
+          },
+          {
+            "code": "#ff7d0c33",
+            "color": "8195123"
+          },
+          {
+            "code": "#ffd4d2d3",
+            "color": "13947603"
           }
         ]
       },
@@ -181,6 +217,18 @@
           {
             "code": "#ff8A562C",
             "color": "9066028"
+          },
+          {
+            "code": "#ffe6cb19",
+            "color": "15125273"
+          },
+          {
+            "code": "#ff7d0c33",
+            "color": "8195123"
+          },
+          {
+            "code": "#ffd4d2d3",
+            "color": "13947603"
           }
         ]
       },
@@ -225,6 +273,18 @@
           {
             "code": "#ff8A562C",
             "color": "9066028"
+          },
+          {
+            "code": "#ffe6cb19",
+            "color": "15125273"
+          },
+          {
+            "code": "#ff7d0c33",
+            "color": "8195123"
+          },
+          {
+            "code": "#ffd4d2d3",
+            "color": "13947603"
           }
         ]
       },
@@ -245,14 +305,13 @@
         ]
       },
 
-    
-         {
+      {
         "code": "featherborn-legs",
         "type": "texture",
         "textureTarget": "featherborn-main",
         "targetSkinParts": ["featherborn-legs-color"],
         "overlayMode": "AlphaMaskBlackAndWhite",
-         "textureTemplate": "featherborn:body/accent/baseskin-accent-{code}",
+        "textureTemplate": "featherborn:body/accent/baseskin-accent-{code}",
         "variants": [
           {
             "code": "legs"
@@ -271,10 +330,21 @@
           {
             "code": "#ff8A562C",
             "color": "9066028"
+          },
+          {
+            "code": "#ffe6cb19",
+            "color": "15125273"
+          },
+          {
+            "code": "#ff7d0c33",
+            "color": "8195123"
+          },
+          {
+            "code": "#ffd4d2d3",
+            "color": "13947603"
           }
         ]
-      },  
-   
+      },
 
       {
         "code": "voicetype",
@@ -599,6 +669,18 @@
           {
             "code": "#ff8A562C",
             "color": "9066028"
+          },
+          {
+            "code": "#ffe6cb19",
+            "color": "15125273"
+          },
+          {
+            "code": "#ff7d0c33",
+            "color": "8195123"
+          },
+          {
+            "code": "#ffd4d2d3",
+            "color": "13947603"
           }
         ]
       },
@@ -750,6 +832,18 @@
           {
             "code": "#ff8A562C",
             "color": "9066028"
+          },
+          {
+            "code": "#ff79755f",
+            "color": "15125273"
+          },
+          {
+            "code": "#ff7d0c33",
+            "color": "8195123"
+          },
+          {
+            "code": "#ff747374",
+            "color": "13947603"
           }
         ]
       }

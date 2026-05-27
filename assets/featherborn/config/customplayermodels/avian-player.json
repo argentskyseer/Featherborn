@@ -9,15 +9,15 @@
     "SizeRange": [0.4, 1.5],
     "CollisionBox": [0.6, 1.85],
     "EyeHeight": 1.7,
-     "SneakEyeHeightMultiplier": 0.7,
+    "SneakEyeHeightMultiplier": 0.7,
     "ModelSizeFactor": 1,
     "AvailableClasses": [],
     "GuiModelScale": 1.0,
     "HeadBobbingScale": 0.8,
     "ScaleColliderWithSizeHorizontally": true,
     "ScaleColliderWithSizeVertically": true,
-    "RemoveTags": [ "seraph" ],
-        "AddTags": [ "avian" ],
+    "RemoveTags": ["seraph"],
+    "AddTags": ["avian"],
     "SkinnableParts": [
       {
         "code": "feather-color",
