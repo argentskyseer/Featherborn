@@ -11,7 +11,6 @@
 		"baseskin": [76,76]
 	},
 	"textures": {
-		"featherborn-main": "featherborn:body/base/featherborn-main"
 	},
 	"elements": [
 		{
@@ -55,7 +54,7 @@
 							"autoUnwrap": false,
 							"uv": [ 8.0, 12.5 ],
 							"rotationOrigin": [ 2.0, 5.0, 3.0 ],
-							"rotationZ": 14.0,
+							"rotationZ": 8.0,
 							"faces": {
 								"north": { "texture": "#featherborn-main", "uv": [ 8.0, 17.5, 13.0, 22.5 ] },
 								"east": { "texture": "#featherborn-main", "uv": [ 24.0, 17.5, 30.0, 22.5 ] },
@@ -220,7 +219,7 @@
 											"unwrapMode": 4,
 											"uv": [ 45.0, 3.5 ],
 											"rotationOrigin": [ 1.7, 2.1, 1.5 ],
-											"rotationZ": -11.0,
+											"rotationZ": -8.0,
 											"faces": {
 												"north": { "texture": "#featherborn-main", "uv": [ 45.0, 9.0, 50.5, 14.0 ] },
 												"east": { "texture": "#featherborn-main", "uv": [ 56.0, 9.0, 61.0, 14.0 ] },
@@ -724,7 +723,6 @@
 																	"uv": [ 31.0, 5.0 ],
 																	"rotationOrigin": [ 0.0, -1.0, 1.0 ],
 																	"rotationX": -45.0,
-																	"rotationZ": 0.0,
 																	"faces": {
 																		"north": { "texture": "#featherborn-main", "uv": [ 31.0, 6.0, 36.5, 7.0 ] },
 																		"east": { "texture": "#featherborn-main", "uv": [ 36.5, 6.0, 37.5, 7.0 ] },
@@ -758,7 +756,6 @@
 																	"uv": [ 31.0, 12.0 ],
 																	"rotationOrigin": [ 0.0, -1.0, 0.0 ],
 																	"rotationX": 45.0,
-																	"rotationZ": 0.0,
 																	"faces": {
 																		"north": { "texture": "#featherborn-main", "uv": [ 31.0, 13.0, 36.5, 14.0 ] },
 																		"east": { "texture": "#featherborn-main", "uv": [ 36.5, 13.0, 37.5, 14.0 ] },
