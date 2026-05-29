@@ -9,6 +9,8 @@
     "SizeRange": [0.8, 1.5],
     "CollisionBox": [0.6, 1.85],
     "EyeHeight": 1.7,
+    "RemoveTags": ["seraph"],
+    "AddTags": ["harpy"],
     "ModelSizeFactor": 1,
     "AvailableClasses": [],
     "GuiModelScale": 1.0,
@@ -17,22 +19,11 @@
     "ScaleColliderWithSizeVertically": true,
     "SkinnableParts": [
       {
-        "code": "featherborn-overlay",
-        "type": "texture",
-        "priority": 1,
-        "textureTarget": "featherborn-main",
-        "textureTemplate": "featherborn:body/base/{code}",
-        "overlayMode": "Multiply",
-        "targetSkinParts": ["base", "feather-color", "featherborn-secondary"],
-        "variants": [{ "code": "featherborn-overlay" }]
-      },
-
-      {
         "code": "feather-color",
         "type": "texture",
         "textureTarget": "featherborn-main",
         "targetSkinParts": ["base"],
-        "overlayMode": "NormalPreserveAlpha",
+        "overlayMode": "MultiplyPreserveAlpha",
         "solidColor": true,
         "size": [152, 152],
         "variants": [
@@ -115,17 +106,6 @@
           }
         ]
       },
-
-      {
-        "code": "armfeathers-overlay",
-        "type": "texture",
-        "priority": 1,
-        "textureTarget": "arm-feathers-base-b",
-        "textureTemplate": "featherborn:feathers/arm/arm-feathers-{code}",
-        "overlayMode": "Multiply",
-        "targetSkinParts": ["armfeathers"],
-        "variants": [{ "code": "base-b" }]
-      },
       {
         "code": "armfeathers",
         "type": "shape",
@@ -152,7 +132,7 @@
         "type": "texture",
         "textureTarget": "arm-feathers-base-b",
         "overlayTexture": true,
-        "overlayMode": "NormalPreserveAlpha",
+        "overlayMode": "MultiplyPreserveAlpha",
         "solidColor": true,
         "size": [240, 192],
         "targetSkinParts": ["armfeathers"],
@@ -175,16 +155,16 @@
           }
         ]
       },
-      {
-        "code": "tailfeathers-overlay",
-        "type": "texture",
-        "priority": 1,
-        "textureTarget": "tail-base",
-        "textureTemplate": "featherborn:feathers/tail/{code}",
-        "overlayMode": "Multiply",
-        "targetSkinParts": ["tailfeathers"],
-        "variants": [{ "code": "tail-base" }]
-      },
+      // {
+      //   "code": "tailfeathers-overlay",
+      //   "type": "texture",
+      //   "priority": 1,
+      //   "textureTarget": "tail-base",
+      //   "textureTemplate": "featherborn:feathers/tail/{code}",
+      //   "overlayMode": "Multiply",
+      //   "targetSkinParts": ["tailfeathers"],
+      //   "variants": [{ "code": "tail-base" }]
+      // },
       {
         "code": "tailfeathers",
         "type": "shape",
@@ -209,7 +189,7 @@
         "type": "texture",
         "textureTarget": "tail-base",
         "overlayTexture": true,
-        "overlayMode": "NormalPreserveAlpha",
+        "overlayMode": "MultiplyPreserveAlpha",
         "solidColor": true,
         "size": [128, 128],
         "targetSkinParts": ["tailfeathers"],
@@ -232,16 +212,16 @@
           }
         ]
       },
-      {
-        "code": "headfeathers-overlay",
-        "type": "texture",
-        "priority": 1,
-        "textureTarget": "feather-base",
-        "textureTemplate": "featherborn:feathers/head/{code}",
-        "overlayMode": "Multiply",
-        "targetSkinParts": ["headfeathers"],
-        "variants": [{ "code": "feather-base" }]
-      },
+      // {
+      //   "code": "headfeathers-overlay",
+      //   "type": "texture",
+      //   "priority": 1,
+      //   "textureTarget": "feather-base",
+      //   "textureTemplate": "featherborn:feathers/head/{code}",
+      //   "overlayMode": "Multiply",
+      //   "targetSkinParts": ["headfeathers"],
+      //   "variants": [{ "code": "feather-base" }]
+      // },
       {
         "code": "headfeathers",
         "type": "shape",
@@ -265,7 +245,7 @@
         "type": "texture",
         "textureTarget": "feather-base",
         "overlayTexture": true,
-        "overlayMode": "NormalPreserveAlpha",
+        "overlayMode": "MultiplyPreserveAlpha",
         "solidColor": true,
         "size": [96, 96],
         "targetSkinParts": ["headfeathers"],
@@ -383,25 +363,29 @@
             "code": "tuba",
             "sound": "game:sounds/voice/tuba"
           },
-          {
-            "code": "crow",
-            "sound": "featherborn:sounds/voice/crow"
-          },
-          {
-            "code": "hawk",
-            "sound": "featherborn:sounds/voice/hawk"
-          },
-          {
-            "code": "honk",
-            "sound": "featherborn:sounds/voice/honk"
-          },
-          {
-            "code": "jay",
-            "sound": "featherborn:sounds/voice/jay"
-          },
-          {
-            "code": "raven",
-            "sound": "featherborn:sounds/voice/raven"
+          // {
+          //   "code": "crow",
+          //   "sound": "featherborn:sounds/voice/crow"
+          // },
+          // {
+          //   "code": "hawk",
+          //   "sound": "featherborn:sounds/voice/hawk"
+          // },
+          // {
+          //   "code": "honk",
+          //   "sound": "featherborn:sounds/voice/honk"
+          // },
+          // {
+          //   "code": "jay",
+          //   "sound": "featherborn:sounds/voice/jay"
+          // },
+          // {
+          //   "code": "raven",
+          //   "sound": "featherborn:sounds/voice/raven"
+          // },
+                    {
+            "code": "harpy_1",
+            "sound": "featherborn:sounds/voice/harpy_1"
           }
         ]
       },
