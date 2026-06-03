@@ -12,7 +12,7 @@
     "ModelSizeFactor": 1,
     "AvailableClasses": [],
     "GuiModelScale": 1.0,
-    "HeadBobbingScale": 0.8,
+    "HeadBobbingScale": 0.4,
     "ScaleColliderWithSizeHorizontally": true,
     "ScaleColliderWithSizeVertically": true,
     "SkinnableParts": [

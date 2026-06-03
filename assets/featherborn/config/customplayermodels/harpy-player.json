@@ -14,7 +14,7 @@
     "ModelSizeFactor": 1,
     "AvailableClasses": [],
     "GuiModelScale": 1.0,
-    "HeadBobbingScale": 0.8,
+    "HeadBobbingScale": 0.4,
     "ScaleColliderWithSizeHorizontally": true,
     "ScaleColliderWithSizeVertically": true,
     "SkinnableParts": [
@@ -233,21 +233,39 @@
             "code": "owl"
           },
           {
+            "code": "quail"
+          },
+          {
+            "code": "ears"
+          },
+          {
+            "code": "wings"
+          },
+          {
             "code": "crest"
           },
           {
             "code": "secretary"
+          },
+          {
+            "code": "crown"
+          },
+          {
+            "code": "owl-brows"
+          },
+          {
+            "code": "bunny"
           }
         ]
       },
       {
         "code": "headfeathers-color",
         "type": "texture",
-        "textureTarget": "feather-base",
+        "textureTarget": "feather-main",
         "overlayTexture": true,
         "overlayMode": "MultiplyPreserveAlpha",
         "solidColor": true,
-        "size": [96, 96],
+        "size": [192, 96],
         "targetSkinParts": ["headfeathers"],
         "variants": [
           {
@@ -268,22 +286,22 @@
           }
         ]
       },
-      {
-        "code": "headfeathers-pattern",
-        "type": "texture",
-        "textureTarget": "feather-base",
-        "targetSkinParts": ["headfeathers-color"],
-        "overlayMode": "Multiply",
-        "textureTemplate": "featherborn:feathers/head/feather-{code}",
-        "variants": [
-          {
-            "code": "pattern-1"
-          },
-          {
-            "code": "pattern-2"
-          }
-        ]
-      },
+      // {
+      //   "code": "headfeathers-pattern",
+      //   "type": "texture",
+      //   "textureTarget": "feather-base",
+      //   "targetSkinParts": ["headfeathers-color"],
+      //   "overlayMode": "Multiply",
+      //   "textureTemplate": "featherborn:feathers/head/feather-{code}",
+      //   "variants": [
+      //     {
+      //       "code": "pattern-1"
+      //     },
+      //     {
+      //       "code": "pattern-2"
+      //     }
+      //   ]
+      // },
 
       {
         "code": "featherborn-legs",
@@ -383,7 +401,7 @@
           //   "code": "raven",
           //   "sound": "featherborn:sounds/voice/raven"
           // },
-                    {
+          {
             "code": "harpy_1",
             "sound": "featherborn:sounds/voice/harpy_1"
           }

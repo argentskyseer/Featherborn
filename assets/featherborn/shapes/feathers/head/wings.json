@@ -1,0 +1,262 @@
+{
+  "editor": {
+    "allAngles": true,
+    "entityTextureMode": true,
+    "backdrops": [
+      {
+        "shapeFilepath": "C:/Users/thedi/AppData/Roaming/VintagestoryData/Mods/Featherborn/assets/featherborn/shapes/body/base/harpy-faceless",
+        "opacity": 1.0,
+        "enabled": true
+      }
+    ],
+    "attachments": []
+  },
+  "textures": {
+    "feather-main": "featherborn:feathers/feather-main"
+  },
+  "elements": [
+    {
+      "name": "Cube2",
+      "from":[0.0,0.0,5.0],
+      "to":[7.0,5.0,5.0],
+      "faces": {
+        "north": {
+          "texture": "#feather-main",
+          "uv":[3.5,9.5,10.5,14.5]
+        },
+        "east": {
+          "texture": "#feather-main",
+          "uv":[87.0,102.0,87.5,107.0],
+          "windMode": [
+            -1,
+            -1,
+            -1,
+            -1
+          ]
+        },
+        "south": {
+          "texture": "#feather-main",
+          "uv":[60.0,30.0,94.0,48.0],
+          "windMode": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "autoUv": false,
+          "snapUV": false
+        },
+        "west": {
+          "texture": "#feather-main",
+          "uv":[87.5,102.0,88.0,107.0]
+        },
+        "up": {
+          "texture": "#feather-main",
+          "uv":[80.0,101.5,87.0,102.0]
+        },
+        "down": {
+          "texture": "#feather-main",
+          "uv":[87.0,101.5,94.0,102.0]
+        }
+      },
+      "rotationOrigin":[0.0,4.0,5.0],
+      "rotationY": -22.0,
+      "rotationZ": 33.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "children": [
+        {
+          "name": "Cube3",
+          "from":[0.0,0.0,0.0],
+          "to":[7.0,5.0,0.0],
+          "faces": {
+            "north": {
+              "texture": "#feather-main",
+              "uv":[3.5,9.5,10.5,14.5],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                2,
+                1
+              ]
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv":[87.0,102.0,87.5,107.0],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv":[57.0,4.0,91.0,22.0],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                2,
+                1
+              ],
+              "autoUv": false,
+              "snapUV": false
+            },
+            "west": {
+              "texture": "#feather-main",
+              "uv":[87.5,102.0,88.0,107.0]
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv":[80.0,101.5,87.0,102.0]
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv":[87.0,101.5,94.0,102.0]
+            }
+          },
+          "rotationOrigin":[0.0,5.0,0.0],
+          "rotationX": -11.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "autoUnwrap": false,
+          "uv":[80.0,101.5]
+        }
+      ],
+      "stepParentName": "HeadFeatherOrigin",
+      "autoUnwrap": false,
+      "uv":[80.0,101.5]
+    },
+    {
+      "name": "Cube4",
+      "from":[0.0,0.0,0.0],
+      "to":[7.0,5.0,0.0],
+      "faces": {
+        "north": {
+          "texture": "#feather-main",
+          "uv":[4.0,9.5,11.0,14.5]
+        },
+        "east": {
+          "texture": "#feather-main",
+          "uv":[87.0,102.0,87.5,107.0],
+          "windMode": [
+            -1,
+            -1,
+            -1,
+            -1
+          ]
+        },
+        "south": {
+          "texture": "#feather-main",
+          "uv":[60.0,30.0,94.0,48.0],
+          "windMode": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "autoUv": false,
+          "snapUV": false
+        },
+        "west": {
+          "texture": "#feather-main",
+          "uv":[87.5,102.0,88.0,107.0]
+        },
+        "up": {
+          "texture": "#feather-main",
+          "uv":[80.0,101.5,87.0,102.0]
+        },
+        "down": {
+          "texture": "#feather-main",
+          "uv":[87.0,101.5,94.0,102.0]
+        }
+      },
+      "rotationOrigin":[0.0,4.0,0.0],
+      "rotationY": 22.0,
+      "rotationZ": 33.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "children": [
+        {
+          "name": "Cube5",
+          "from":[0.0,0.0,0.0],
+          "to":[7.0,5.0,0.0],
+          "faces": {
+            "north": {
+              "texture": "#feather-main",
+              "uv":[3.5,9.5,10.5,14.5]
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv":[87.0,102.0,87.5,107.0],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv":[57.0,4.0,91.0,22.0],
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "autoUv": false,
+              "snapUV": false
+            },
+            "west": {
+              "texture": "#feather-main",
+              "uv":[87.5,102.0,88.0,107.0]
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv":[80.0,101.5,87.0,102.0]
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv":[87.0,101.5,94.0,102.0]
+            }
+          },
+          "rotationOrigin":[0.0,5.0,0.0],
+          "rotationX": 11.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "autoUnwrap": false,
+          "uv":[80.0,101.5]
+        }
+      ],
+      "stepParentName": "HeadFeatherOrigin",
+      "autoUnwrap": false,
+      "uv":[80.0,101.5]
+    }
+  ],
+  "animations": [],
+  "textureWidth": 48,
+  "textureHeight": 48,
+  "textureSizes": {
+    "feather-main": [
+      96,
+      48
+    ]
+  }
+}
