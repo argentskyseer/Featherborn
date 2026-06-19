@@ -426,13 +426,16 @@
       {
         "code": "eyes-overlay",
         "type": "texture",
-        "priority": 1,
-        "textureTarget": "eye-back-base",
+        "textureTarget": "eye-back-base-alt",
         "textureTemplate": "featherborn:face/eyes/eye-back-{code}",
-        "overlayMode": "Multiply",
+        "useDropDown": true,
+        "overlayMode": "Replace",
         "targetSkinParts": ["eyes"],
         "variants": [
           {
+            "code": "base-alt-2"
+          },
+                    {
             "code": "base-alt"
           }
         ]
@@ -454,7 +457,7 @@
         "type": "texture",
         "textureTarget": "eye-back-base-alt",
         "overlayTexture": true,
-        "overlayMode": "NormalPreserveAlpha",
+        "overlayMode": "MultiplyPreserveAlpha",
         "solidColor": true,
         "size": [240, 144],
         "targetSkinParts": ["eyes"],
@@ -472,6 +475,8 @@
         "textureTarget": "eye-back-base-alt",
         "overlayTexture": "true",
         "overlayMode": "Normal",
+         "solidColor": true,
+        "size": [240, 144],
         "targetSkinParts": ["eyes"],
         "textureTemplate": "featherborn:face/eyes/eye-back-pupil-{code}",
         "variants": [
@@ -592,6 +597,9 @@
           },
           {
             "code": "corvid"
+          },
+          {
+            "code": "duck"
           }
         ]
       },

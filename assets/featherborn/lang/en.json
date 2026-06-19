@@ -83,5 +83,11 @@
   //colors
   "game:color-rust": "Rust",
   "game:color-feather-base": "White",
-  "game:color-feather-rust": "Rust"
+  "game:color-feather-rust": "Rust",
+
+
+
+  //tabs
+  "playermodellib:skinpart-tab-Body":"Body",
+  "playermodellib:skinpart-tab-Arms":"Arms"
 }

@@ -20,12 +20,16 @@
     "SkinnableParts": [
       {
         "code": "feather-color",
+         "tabCode":"Body",
         "type": "texture",
         "textureTarget": "featherborn-main",
-        "targetSkinParts": ["base"],
+        "targetSkinParts": [
+                    "base",
+                    "armfeathers"
+        ],
         "overlayMode": "MultiplyPreserveAlpha",
         "solidColor": true,
-        "size": [152, 152],
+        "size": [304, 152],
         "variants": [
           {
             "code": "#ff8A562C",
@@ -47,6 +51,7 @@
       },
       {
         "code": "featherborn-secondary",
+        "tabCode":"Body",
         "type": "texture",
         "textureTarget": "featherborn-main",
         "targetSkinParts": ["featherborn-secondary-color"],
@@ -60,12 +65,13 @@
       },
       {
         "code": "featherborn-secondary-color",
+        "tabCode":"Body",
         "type": "texture",
         "textureTarget": "featherborn-main",
-        "targetSkinParts": ["base"],
-        "overlayMode": "NormalPreserveAlpha",
+        "targetSkinParts": ["base","armfeathers"],
+        "overlayMode": "Screen",
         "solidColor": true,
-        "size": [152, 152],
+        "size": [304, 152],
         "variants": [
           {
             "code": "#ffdac2af",
@@ -87,6 +93,7 @@
       },
       {
         "code": "underwear",
+        "tabCode":"Body",
         "type": "texture",
         "textureTarget": "featherborn-main",
         "overlayTexture": true,
@@ -108,6 +115,7 @@
       },
       {
         "code": "armfeathers",
+        "tabCode":"Arms",
         "type": "shape",
         "shapeTemplate": {
           "base": "featherborn:feathers/arm/{code}"
@@ -124,37 +132,41 @@
           },
           {
             "code": "full-arm"
+          },
+                    {
+            "code": "back-wing"
           }
         ]
       },
-      {
-        "code": "arm-feathers-color",
-        "type": "texture",
-        "textureTarget": "arm-feathers-base-b",
-        "overlayTexture": true,
-        "overlayMode": "MultiplyPreserveAlpha",
-        "solidColor": true,
-        "size": [240, 192],
-        "targetSkinParts": ["armfeathers"],
-        "variants": [
-          {
-            "code": "#ff8A562C",
-            "color": "9066028"
-          },
-          {
-            "code": "#ffe6cb19",
-            "color": "15125273"
-          },
-          {
-            "code": "#ff7d0c33",
-            "color": "8195123"
-          },
-          {
-            "code": "#ffd4d2d3",
-            "color": "13947603"
-          }
-        ]
-      },
+      // {
+      //   "code": "arm-feathers-color",
+      //   "tabCode":"Arms",
+      //   "type": "texture",
+      //   "textureTarget": "arm-feathers-base-test",
+      //   "overlayTexture": true,
+      //   "overlayMode": "MultiplyPreserveAlpha",
+      //   "solidColor": true,
+      //   "size": [240, 192],
+      //   "targetSkinParts": ["armfeathers"],
+      //   "variants": [
+      //     {
+      //       "code": "#ff8A562C",
+      //       "color": "9066028"
+      //     },
+      //     {
+      //       "code": "#ffe6cb19",
+      //       "color": "15125273"
+      //     },
+      //     {
+      //       "code": "#ff7d0c33",
+      //       "color": "8195123"
+      //     },
+      //     {
+      //       "code": "#ffd4d2d3",
+      //       "color": "13947603"
+      //     }
+      //   ]
+      // },
       // {
       //   "code": "tailfeathers-overlay",
       //   "type": "texture",
@@ -321,7 +333,7 @@
         "type": "texture",
         "textureTarget": "featherborn-main",
         "targetSkinParts": ["base"],
-        "overlayMode": "NormalPreserveAlpha",
+        "overlayMode": "Screen",
         "solidColor": true,
         "size": [152, 152],
         "variants": [
@@ -689,10 +701,10 @@
       {
         "code": "eyes-overlay",
         "type": "texture",
-        "priority": 1,
         "textureTarget": "eye-back-base",
         "textureTemplate": "featherborn:face/eyes/eye-back-{code}",
-        "overlayMode": "Multiply",
+        "useDropDown": true,
+        "overlayMode": "Normal",
         "targetSkinParts": ["eyes"],
         "variants": [
           {
@@ -700,6 +712,15 @@
           },
           {
             "code": "base-2"
+          },
+                    {
+            "code": "base-3"
+          },
+                              {
+            "code": "base-4"
+          },
+                                        {
+            "code": "base-5"
           }
         ]
       },
@@ -720,7 +741,7 @@
         "type": "texture",
         "textureTarget": "eye-back-base",
         "overlayTexture": true,
-        "overlayMode": "NormalPreserveAlpha",
+        "overlayMode": "MultiplyPreserveAlpha",
         "solidColor": true,
         "size": [240, 144],
         "targetSkinParts": ["eyes"],
@@ -752,6 +773,31 @@
           },
           {
             "code": "outlined"
+          },
+                    {
+            "code": "round-small"
+          },
+          {
+            "code": "round-medium"
+          },
+                    {
+            "code": "round-large"
+          }
+        ]
+      },
+            {
+        "code": "pupil-color",
+        "type": "texture",
+        "textureTarget": "eye-back-base",
+        "overlayTexture": true,
+        "overlayMode": "NormalPreserveAlpha",
+        "solidColor": true,
+        "size": [240, 144],
+        "targetSkinParts": ["eyepupil"],
+        "variants": [
+          {
+            "code": "#ff8A562C",
+            "color": "9066028"
           }
         ]
       },

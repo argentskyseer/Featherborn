@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"collapsedPaths": "Root/root/LowerTorso/UpperFootL,Root/root/LowerTorso/UpperFootR",
+		"collapsedPaths": "Root/root/LowerTorso/UpperFootL,Root/UpperTorsoOrigin,Root/root/LowerTorso/UpperFootR,Root/LowerTorsoOrigin,Root/root/LowerTorso/UpperTorso/UpperArmL",
 		"allAngles": true,
 		"entityTextureMode": true
 	},
@@ -37,7 +37,7 @@
 					"autoUnwrap": false,
 					"uv": [ 8.0, 17.5 ],
 					"rotationOrigin": [ 8.0, 15.0, 8.0 ],
-					"rotationZ": 66.0,
+					"rotationZ": 55.0,
 					"faces": {
 						"north": { "texture": "#featherborn-main", "uv": [ 8.0, 22.0, 13.0, 27.0 ] },
 						"east": { "texture": "#featherborn-main", "uv": [ 24.0, 22.0, 30.0, 27.0 ] },
@@ -198,19 +198,19 @@
 								},
 								{
 									"name": "Neck",
-									"from": [ 0.5, 2.9, 1.6 ],
-									"to": [ 3.5, 7.9, 4.6 ],
+									"from": [ 0.5, 3.9, 1.6 ],
+									"to": [ 3.5, 8.9, 4.6 ],
 									"unwrapMode": 4,
 									"uv": [ 13.0, 1.0 ],
-									"rotationOrigin": [ 2.2, 2.6, 3.1 ],
-									"rotationZ": -21.0,
+									"rotationOrigin": [ 2.2, 3.6, 3.1 ],
+									"rotationZ": -36.0,
 									"faces": {
 										"north": { "texture": "#featherborn-main", "uv": [ 13.0, 1.0, 16.0, 6.0 ] },
 										"east": { "texture": "#featherborn-main", "uv": [ 22.0, 1.0, 25.0, 6.0 ] },
 										"south": { "texture": "#featherborn-main", "uv": [ 19.0, 1.0, 22.0, 6.0 ] },
 										"west": { "texture": "#featherborn-main", "uv": [ 16.0, 1.0, 19.0, 6.0 ] },
 										"up": { "texture": "#featherborn-main", "uv": [ 16.0, 1.0, 19.0, 4.0 ], "rotation": 90, "enabled": false },
-										"down": { "texture": "#featherborn-main", "uv": [ 16.0, 9.0, 19.0, 12.0 ], "rotation": 90, "enabled": false }
+										"down": { "texture": "#featherborn-main", "uv": [ 16.0, 6.0, 19.0, 9.0 ], "rotation": 90, "enabled": false }
 									},
 									"children": [
 										{
@@ -221,7 +221,7 @@
 											"unwrapMode": 4,
 											"uv": [ 48.0, 4.0 ],
 											"rotationOrigin": [ 0.7, 4.1, 1.5 ],
-											"rotationZ": -36.0,
+											"rotationZ": -22.0,
 											"faces": {
 												"north": { "texture": "#featherborn-main", "uv": [ 48.0, 4.0, 53.5, 9.0 ], "enabled": false },
 												"east": { "texture": "#featherborn-main", "uv": [ 48.0, 4.0, 53.0, 9.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1], "enabled": false },
@@ -509,7 +509,6 @@
 													"to": [ 2.0, 5.0, 5.0 ],
 													"uv": [ 0.0, 0.0 ],
 													"rotationOrigin": [ 1.0, 0.0, 0.0 ],
-													"rotationZ": 0.0,
 													"faces": {
 														"north": { "texture": "#null", "uv": [ 0.0, 5.0, 1.0, 10.0 ], "enabled": false },
 														"east": { "texture": "#null", "uv": [ 1.0, 5.0, 6.0, 10.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1], "enabled": false },
@@ -547,7 +546,7 @@
 							"unwrapMode": 4,
 							"uv": [ 16.0, 49.0 ],
 							"rotationOrigin": [ 1.5, 0.5, 4.6 ],
-							"rotationZ": -80.0,
+							"rotationZ": -69.0,
 							"faces": {
 								"north": { "texture": "#featherborn-main", "uv": [ 16.0, 53.0, 20.0, 62.0 ], "windMode": [-1,-1,-1,-1] },
 								"east": { "texture": "#featherborn-main", "uv": [ 27.0, 53.0, 30.0, 62.0 ] },
@@ -885,7 +884,7 @@
 							"unwrapMode": 4,
 							"uv": [ 1.0, 49.0 ],
 							"rotationOrigin": [ 1.5, 0.5, 1.4 ],
-							"rotationZ": -80.0,
+							"rotationZ": -69.0,
 							"faces": {
 								"north": { "texture": "#featherborn-main", "uv": [ 1.0, 53.0, 5.0, 62.0 ], "windMode": [-1,-1,-1,-1] },
 								"east": { "texture": "#featherborn-main", "uv": [ 12.0, 53.0, 15.0, 62.0 ] },
@@ -14435,6 +14434,7 @@
 					}
 				}
 			]
-		}
+		},
+
 	]
 }
