@@ -2,8 +2,9 @@
   "harpy": {
     "Enabled": true,
     "Group": "Featherborn",
-    "GroupIcon": "featherborn:icons/avian-group",
+    "GroupIcon": "featherborn:icons/featherborn-group",
     "ShapePath": "featherborn:body/base/harpy/harpy-core",
+    "BaseShapeCode": "featherborn:body/base/harpy/body-type-1",
     "MainTextureCode": "body-feathers",
     "Icon": "featherborn:icons/harpi",
     "SizeRange": [0.8, 1.5],
@@ -537,6 +538,12 @@
           },
           {
             "code": "base-5"
+          },
+                    {
+            "code": "base-6"
+          },
+                              {
+            "code": "base-7"
           }
         ]
       },

@@ -1,64 +1,50 @@
 {
 	"editor": {
-		"backDropShape": "C:/Users/thedi/AppData/Roaming/VintagestoryData/Mods/Featherborn/assets/featherborn/shapes/body/base/raptori-faceless",
-		"collapsedPaths": ",Root/beakcore/beakcore4,Root/leftwing,Root/Cube3,Root/leftwing8,Root/beakcore/beakcore20,Root/rightwing8,Root/rightwing,Root/beakcore/beakcore13",
+		"backDropShape": "harpy/body-type-1",
 		"allAngles": true,
 		"entityTextureMode": true
 	},
 	"textureWidth": 48,
 	"textureHeight": 48,
 	"textureSizes": {
-		"hair": [96,96],
-		"bands": [16,16],
-		"feathers-base": [48,48],
-		"feathers": [48,48],
-		"feathers-base-top": [48,48],
-		"feathers-bottom-primary": [60,48],
-		"feathers-bottom-secondary": [60,48],
-		"feathers-base-top-secondary": [60,48],
-		"arm-feathers-base": [120,96],
-		"arm-feathers-base -b": [120,96],
-		"arm-feathers-base-b": [120,96]
+		"featherborn-main": [152,76]
 	},
 	"textures": {
-		"arm-feathers-base-b": "featherborn:feathers/arm/arm-feathers-base-b"
+		"featherborn-main": "featherborn:body/base/featherborn-main"
 	},
 	"elements": [
 		{
 			"name": "lowerWingLB",
 			"stepParentName": "LowerArmL",
-			"from": [ 0.0, -3.0, 2.0 ],
-			"to": [ 5.5, 10.0, 2.0 ],
+			"from": [ 0.0, -4.0, 1.0 ],
+			"to": [ 6.5, 10.0, 1.01 ],
 			"autoUnwrap": false,
 			"uv": [ 0.0, 0.0 ],
-			"rotationOrigin": [ 0.0, -3.0, 2.0 ],
-			"rotationY": -20.0,
+			"rotationOrigin": [ 0.0, -4.0, 1.0 ],
 			"faces": {
-				"north": { "texture": "#arm-feathers-base-b", "uv": [ 79.5, 71.0, 116.5, 91.0 ], "rotation": 90, "autoUv": false, "windMode": [0,1,1,0], "windData": [0,1,0,0], "enabled": false },
-				"east": { "texture": "#arm-feathers-base-b", "uv": [ 19.5, 135.5, 20.0, 148.5 ], "windMode": [0,1,1,0] },
-				"south": { "texture": "#arm-feathers-base-b", "uv": [ 79.5, 91.0, 116.5, 72.0 ], "rotation": 90, "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,0,1] },
-				"west": { "texture": "#arm-feathers-base-b", "uv": [ 38.0, 130.0, 38.5, 143.0 ], "windMode": [0,0,1,1] },
-				"up": { "texture": "#arm-feathers-base-b", "uv": [ 22.5, 122.5, 28.0, 123.0 ], "windMode": [1,1,1,1] },
-				"down": { "texture": "#arm-feathers-base-b", "uv": [ 13.5, 154.5, 19.0, 155.0 ], "windMode": [0,0,0,0] }
+				"north": { "texture": "#featherborn-main", "uv": [ 79.5, 10.0, 115.5, 29.0 ], "rotation": 90, "autoUv": false },
+				"east": { "texture": "#featherborn-main", "uv": [ 0.0, 0.0, 0.5, 14.0 ], "enabled": false },
+				"south": { "texture": "#featherborn-main", "uv": [ 116.0, 29.0, 152.0, 10.0 ], "rotation": 90, "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
+				"west": { "texture": "#featherborn-main", "uv": [ 38.0, 130.0, 38.5, 144.0 ] },
+				"up": { "texture": "#featherborn-main", "uv": [ 0.0, 0.0, 6.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#featherborn-main", "uv": [ 0.0, 0.0, 6.5, 0.5 ], "enabled": false }
 			},
 			"children": [
 				{
 					"name": "lowerWingLT",
 					"from": [ 0.0, 3.0, 0.0 ],
-					"to": [ 3.5, 13.0, 0.0 ],
+					"to": [ 4.5, 13.0, 0.0 ],
 					"autoUnwrap": false,
 					"uv": [ 0.0, 0.0 ],
 					"rotationOrigin": [ 0.0, 3.0, 0.0 ],
-					"rotationX": 0.0,
 					"rotationY": -11.0,
-					"rotationZ": 0.0,
 					"faces": {
-						"north": { "texture": "#arm-feathers-base-b", "uv": [ 73.5, 34.0, 103.5, 46.5 ], "rotation": 90, "autoUv": false, "windMode": [0,1,1,0], "windData": [0,1,0,0], "enabled": false },
-						"east": { "texture": "#arm-feathers-base-b", "uv": [ 19.5, 135.5, 20.0, 145.5 ], "windMode": [0,1,1,0] },
-						"south": { "texture": "#arm-feathers-base-b", "uv": [ 73.5, 46.5, 103.5, 32.0 ], "rotation": 90, "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,0,1] },
-						"west": { "texture": "#arm-feathers-base-b", "uv": [ 38.0, 130.0, 38.5, 140.0 ], "windMode": [0,0,1,1] },
-						"up": { "texture": "#arm-feathers-base-b", "uv": [ 22.5, 122.5, 26.0, 123.0 ], "windMode": [1,1,1,1] },
-						"down": { "texture": "#arm-feathers-base-b", "uv": [ 13.5, 154.5, 17.0, 155.0 ], "windMode": [0,0,0,0] }
+						"north": { "texture": "#featherborn-main", "uv": [ 0.0, 0.0, 4.5, 10.0 ], "enabled": false },
+						"east": { "texture": "#featherborn-main", "uv": [ 0.0, 0.0, 0.5, 10.0 ], "enabled": false },
+						"south": { "texture": "#featherborn-main", "uv": [ 120.0, 8.0, 150.0, 2.0 ], "rotation": 90, "autoUv": false },
+						"west": { "texture": "#featherborn-main", "uv": [ 38.0, 130.0, 38.5, 140.0 ] },
+						"up": { "texture": "#featherborn-main", "uv": [ 0.0, 0.0, 4.5, 0.5 ], "enabled": false },
+						"down": { "texture": "#featherborn-main", "uv": [ 0.0, 0.0, 4.5, 0.5 ], "enabled": false }
 					}
 				}
 			]
@@ -66,40 +52,40 @@
 		{
 			"name": "lowerWingRB",
 			"stepParentName": "LowerArmR",
-			"from": [ 0.0, -3.0, 0.0 ],
-			"to": [ 5.5, 10.0, 0.0 ],
+			"from": [ 0.0, -4.0, 1.0 ],
+			"to": [ 6.5, 10.0, 1.01 ],
 			"autoUnwrap": false,
 			"uv": [ 0.0, 0.0 ],
-			"rotationOrigin": [ 0.0, -3.0, 0.0 ],
-			"rotationY": 20.0,
+			"rotationOrigin": [ 0.0, -4.0, 1.0 ],
 			"faces": {
-				"north": { "texture": "#arm-feathers-base-b", "uv": [ 79.5, 72.0, 116.5, 91.0 ], "rotation": 90, "autoUv": false, "windMode": [0,1,1,0], "windData": [0,1,0,0] },
-				"east": { "texture": "#arm-feathers-base-b", "uv": [ 19.5, 135.5, 20.0, 148.5 ], "windMode": [0,1,1,0] },
-				"south": { "texture": "#arm-feathers-base-b", "uv": [ 0.0, 0.0, 48.0, 48.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,0,1], "enabled": false },
-				"west": { "texture": "#arm-feathers-base-b", "uv": [ 38.0, 130.0, 38.5, 143.0 ], "windMode": [0,0,1,1] },
-				"up": { "texture": "#arm-feathers-base-b", "uv": [ 22.5, 122.5, 28.0, 123.0 ], "windMode": [1,1,1,1] },
-				"down": { "texture": "#arm-feathers-base-b", "uv": [ 13.5, 154.5, 19.0, 155.0 ], "windMode": [0,0,0,0] }
+				"north": { "texture": "#featherborn-main", "uv": [ 116.0, 10.0, 152.0, 29.0 ], "rotation": 90, "autoUv": false },
+				"east": { "texture": "#featherborn-main", "uv": [ 0.0, 0.0, 0.5, 14.0 ], "enabled": false },
+				"south": { "texture": "#featherborn-main", "uv": [ 79.5, 29.0, 115.5, 10.0 ], "rotation": 90, "autoUv": false },
+				"west": { "texture": "#featherborn-main", "uv": [ 38.0, 130.0, 38.5, 144.0 ] },
+				"up": { "texture": "#featherborn-main", "uv": [ 0.0, 0.0, 6.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#featherborn-main", "uv": [ 0.0, 0.0, 6.5, 0.5 ], "enabled": false }
 			},
 			"children": [
 				{
 					"name": "lowerWingRT",
 					"from": [ 0.0, 3.0, 0.0 ],
-					"to": [ 3.5, 13.0, 0.0 ],
+					"to": [ 4.5, 13.0, 0.0 ],
 					"autoUnwrap": false,
 					"uv": [ 0.0, 0.0 ],
 					"rotationOrigin": [ 0.0, 3.0, -2.0 ],
-					"rotationX": 0.0,
 					"rotationY": 11.0,
-					"rotationZ": 0.0,
 					"faces": {
-						"north": { "texture": "#arm-feathers-base-b", "uv": [ 73.5, 34.0, 103.5, 46.5 ], "rotation": 90, "autoUv": false, "windMode": [0,1,1,0] },
-						"east": { "texture": "#arm-feathers-base-b", "uv": [ 19.5, 135.5, 20.0, 145.5 ], "windMode": [0,1,1,0] },
-						"south": { "texture": "#arm-feathers-base-b", "uv": [ 0.0, 0.0, 48.0, 48.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
-						"west": { "texture": "#arm-feathers-base-b", "uv": [ 38.0, 130.0, 38.5, 140.0 ], "windMode": [0,0,1,1] },
-						"up": { "texture": "#arm-feathers-base-b", "uv": [ 22.5, 122.5, 26.0, 123.0 ], "windMode": [1,1,1,1] },
-						"down": { "texture": "#arm-feathers-base-b", "uv": [ 13.5, 154.5, 17.0, 155.0 ], "windMode": [0,0,0,0] }
+						"north": { "texture": "#featherborn-main", "uv": [ 120.0, 2.0, 150.0, 8.0 ], "rotation": 90, "autoUv": false },
+						"east": { "texture": "#featherborn-main", "uv": [ 0.0, 0.0, 0.5, 10.0 ], "enabled": false },
+						"south": { "texture": "#featherborn-main", "uv": [ 0.0, 0.0, 4.5, 10.0 ], "enabled": false },
+						"west": { "texture": "#featherborn-main", "uv": [ 38.0, 130.0, 38.5, 140.0 ] },
+						"up": { "texture": "#featherborn-main", "uv": [ 0.0, 0.0, 4.5, 0.5 ], "enabled": false },
+						"down": { "texture": "#featherborn-main", "uv": [ 0.0, 0.0, 4.5, 0.5 ], "enabled": false }
 					}
 				}
 			]
 		}
-	]}
+	],
+	"animations": [
+	]
+}

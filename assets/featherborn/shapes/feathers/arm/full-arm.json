@@ -1,307 +1,178 @@
 {
-  "editor": {
-    "allAngles": true,
-    "entityTextureMode": true,
-    "backdrops": [
-      {
-        "shapeFilepath": "C:/Users/thedi/AppData/Roaming/VintagestoryData/Mods/Featherborn/assets/featherborn/shapes/body/base/harpy-faceless",
-        "opacity": 1.0,
-        "enabled": true
-      }
-    ],
-    "attachments": []
-  },
-  "textures": {
+	"editor": {
+		"backDropShape": "harpy/body-type-1",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 48,
+	"textureHeight": 48,
+	"textureSizes": {
+		"featherborn-main": [152,76]
+	},
+	"textures": {
     "featherborn-main": "featherborn:body/base/featherborn-main"
-  },
-  "elements": [
-    {
-      "name": "lowerWingLB",
-      "from":[0.0,-6.0,1.0],
-      "to":[10.5,11.0,1.01],
-      "faces": {
-        "north": {
-          "texture": "#featherborn-main",
-          "uv":[79.5,10.0,115.5,29.0],
-          "rotation": 90.0,
-          "autoUv": false,
-          "snapUV": false,
-          "rotationIndex": 1
-        },
-        "south": {
-          "texture": "#featherborn-main",
-          "uv":[116.0,29.0,152.0,10.0],
-          "windMode": [
-            -1,
-            -1,
-            -1,
-            -1
-          ],
-          "windData": [
-            0,
-            0,
-            1,
-            1
-          ],
-          "rotation": 90.0,
-          "autoUv": false,
-          "snapUV": false,
-          "rotationIndex": 1
-        },
-        "west": {
-          "texture": "#featherborn-main",
-          "uv":[38.0,130.0,38.5,147.0]
-        }
-      },
-      "rotationOrigin":[0.0,-6.0,1.0],
-      "scaleX": 1.0,
-      "scaleY": 1.0,
-      "scaleZ": 1.0,
-      "children": [
-        {
-          "name": "lowerWingLT",
-          "from":[0.0,3.0,0.0],
-          "to":[5.5,13.0,0.0],
-          "faces": {
-            "south": {
-              "texture": "#featherborn-main",
-              "uv":[120.0,8.0,150.0,2.0],
-              "rotation": 90.0,
-              "autoUv": false,
-              "snapUV": false,
-              "rotationIndex": 1
-            },
-            "west": {
-              "texture": "#featherborn-main",
-              "uv":[38.0,130.0,38.5,140.0]
-            }
-          },
-          "rotationOrigin":[0.0,3.0,0.0],
-          "rotationY": -11.0,
-          "scaleX": 1.0,
-          "scaleY": 1.0,
-          "scaleZ": 1.0,
-          "autoUnwrap": false,
-          "uv":[0.0,0.0]
-        }
-      ],
-      "stepParentName": "LowerArmL",
-      "autoUnwrap": false,
-      "uv":[0.0,0.0]
-    },
-    {
-      "name": "upperWingLB",
-      "from":[1.0,-3.0,1.0],
-      "to":[8.5,6.5,1.01],
-      "faces": {
-        "north": {
-          "texture": "#featherborn-main",
-          "uv":[92.0,32.5,119.0,51.5],
-          "rotation": 90.0,
-          "autoUv": false,
-          "snapUV": false,
-          "rotationIndex": 1
-        },
-        "south": {
-          "texture": "#featherborn-main",
-          "uv":[123.5,51.5,150.5,32.5],
-          "rotation": 90.0,
-          "autoUv": false,
-          "snapUV": false,
-          "rotationIndex": 1
-        },
-        "west": {
-          "texture": "#featherborn-main",
-          "uv":[38.0,130.0,38.5,139.5]
-        }
-      },
-      "rotationOrigin":[1.0,-3.0,1.0],
-      "scaleX": 1.0,
-      "scaleY": 1.0,
-      "scaleZ": 1.0,
-      "children": [
-        {
-          "name": "upperWingLT",
-          "from":[1.0,0.0,0.0],
-          "to":[3.5,9.5,0.0],
-          "faces": {
-            "south": {
-              "texture": "#featherborn-main",
-              "uv":[120.0,8.0,150.0,2.0],
-              "rotation": 90.0,
-              "autoUv": false,
-              "snapUV": false,
-              "rotationIndex": 1
-            },
-            "west": {
-              "texture": "#featherborn-main",
-              "uv":[38.0,130.0,38.5,139.5]
-            }
-          },
-          "rotationOrigin":[1.0,6.0,0.0],
-          "rotationY": -6.0,
-          "scaleX": 1.0,
-          "scaleY": 1.0,
-          "scaleZ": 1.0,
-          "autoUnwrap": false,
-          "uv":[0.0,0.0]
-        }
-      ],
-      "stepParentName": "UpperArmL",
-      "autoUnwrap": false,
-      "uv":[0.0,0.0]
-    },
-    {
-      "name": "lowerWingRB",
-      "from":[0.0,-6.0,1.0],
-      "to":[10.5,11.0,1.01],
-      "faces": {
-        "north": {
-          "texture": "#featherborn-main",
-          "uv":[116.0,10.0,152.0,29.0],
-          "rotation": 90.0,
-          "autoUv": false,
-          "snapUV": false,
-          "rotationIndex": 1
-        },
-        "south": {
-          "texture": "#featherborn-main",
-          "uv":[79.5,29.0,115.5,10.0],
-          "rotation": 90.0,
-          "autoUv": false,
-          "snapUV": false,
-          "rotationIndex": 1
-        },
-        "west": {
-          "texture": "#featherborn-main",
-          "uv":[38.0,130.0,38.5,147.0]
-        }
-      },
-      "rotationOrigin":[0.0,-6.0,1.0],
-      "scaleX": 1.0,
-      "scaleY": 1.0,
-      "scaleZ": 1.0,
-      "children": [
-        {
-          "name": "lowerWingRT",
-          "from":[0.0,3.0,0.0],
-          "to":[6.5,13.0,0.0],
-          "faces": {
-            "north": {
-              "texture": "#featherborn-main",
-              "uv":[120.0,2.0,150.0,8.0],
-              "rotation": 90.0,
-              "autoUv": false,
-              "snapUV": false,
-              "rotationIndex": 1
-            },
-            "west": {
-              "texture": "#featherborn-main",
-              "uv":[38.0,130.0,38.5,140.0]
-            }
-          },
-          "rotationOrigin":[0.0,3.0,-2.0],
-          "rotationY": 11.0,
-          "scaleX": 1.0,
-          "scaleY": 1.0,
-          "scaleZ": 1.0,
-          "autoUnwrap": false,
-          "uv":[0.0,0.0]
-        }
-      ],
-      "stepParentName": "LowerArmR",
-      "autoUnwrap": false,
-      "uv":[0.0,0.0]
-    },
-    {
-      "name": "upperWingRB",
-      "from":[1.0,-3.0,1.0],
-      "to":[8.5,6.5,1.01],
-      "faces": {
-        "north": {
-          "texture": "#featherborn-main",
-          "uv":[123.5,32.5,150.5,51.5],
-          "rotation": 90.0,
-          "autoUv": false,
-          "snapUV": false,
-          "rotationIndex": 1
-        },
-        "south": {
-          "texture": "#featherborn-main",
-          "uv":[92.0,51.5,119.0,32.5],
-          "rotation": 90.0,
-          "autoUv": false,
-          "snapUV": false,
-          "rotationIndex": 1
-        },
-        "west": {
-          "texture": "#featherborn-main",
-          "uv":[38.0,130.0,38.5,139.5]
-        }
-      },
-      "rotationOrigin":[1.0,-3.0,1.0],
-      "scaleX": 1.0,
-      "scaleY": 1.0,
-      "scaleZ": 1.0,
-      "children": [
-        {
-          "name": "upperWingRT",
-          "from":[1.0,0.0,0.0],
-          "to":[3.5,9.5,0.0],
-          "faces": {
-            "north": {
-              "texture": "#featherborn-main",
-              "uv":[120.0,2.0,150.0,8.0],
-              "rotation": 90.0,
-              "autoUv": false,
-              "snapUV": false,
-              "rotationIndex": 1
-            },
-            "west": {
-              "texture": "#featherborn-main",
-              "uv":[38.0,130.0,38.5,139.5]
-            }
-          },
-          "rotationOrigin":[1.0,6.0,0.0],
-          "rotationY": 6.0,
-          "scaleX": 1.0,
-          "scaleY": 1.0,
-          "scaleZ": 1.0,
-          "autoUnwrap": false,
-          "uv":[0.0,0.0]
-        }
-      ],
-      "stepParentName": "UpperArmR",
-      "autoUnwrap": false,
-      "uv":[0.0,0.0]
-    }
-  ],
-  "animations": [
-    {
-      "quantityframes": 50,
-      "name": "Idle1",
-      "code": "idle1",
-      "keyframes": [
-        {
-          "frame": 0,
-          "elements": {
-            "upperWingLT": {
-              "rotationX": 0.0,
-              "rotationY": 0.0,
-              "rotationZ": 0.0
-            }
-          }
-        }
-      ],
-      "onActivityStopped": "Rewind"
-    }
-  ],
-  "textureWidth": 48,
-  "textureHeight": 48,
-  "textureSizes": {
-    "featherborn-main": [
-      152,
-      76
-    ]
-  }
+	},
+	"elements": [
+		{
+			"name": "lowerWingLB",
+			"stepParentName": "LowerArmL",
+			"from": [ 0.0, -6.0, 1.0 ],
+			"to": [ 10.5, 11.0, 1.01 ],
+			"autoUnwrap": false,
+			"uv": [ 0.0, 0.0 ],
+			"rotationOrigin": [ 0.0, -6.0, 1.0 ],
+			"faces": {
+				"north": { "texture": "#featherborn-main", "uv": [ 79.5, 10.0, 115.5, 29.0 ], "rotation": 90, "autoUv": false },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 17.0 ], "enabled": false },
+				"south": { "texture": "#featherborn-main", "uv": [ 116.0, 29.0, 152.0, 10.0 ], "rotation": 90, "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
+				"west": { "texture": "#featherborn-main", "uv": [ 38.0, 130.0, 38.5, 147.0 ] },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 10.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 10.5, 0.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "lowerWingLT",
+					"from": [ 0.0, 3.0, 0.0 ],
+					"to": [ 5.5, 13.0, 0.0 ],
+					"autoUnwrap": false,
+					"uv": [ 0.0, 0.0 ],
+					"rotationOrigin": [ 0.0, 3.0, 0.0 ],
+					"rotationY": -11.0,
+					"faces": {
+						"north": { "texture": "#null", "uv": [ 0.0, 0.0, 5.5, 10.0 ], "enabled": false },
+						"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 10.0 ], "enabled": false },
+						"south": { "texture": "#featherborn-main", "uv": [ 120.0, 8.0, 150.0, 2.0 ], "rotation": 90, "autoUv": false },
+						"west": { "texture": "#featherborn-main", "uv": [ 38.0, 130.0, 38.5, 140.0 ] },
+						"up": { "texture": "#null", "uv": [ 0.0, 0.0, 5.5, 0.5 ], "enabled": false },
+						"down": { "texture": "#null", "uv": [ 0.0, 0.0, 5.5, 0.5 ], "enabled": false }
+					}
+				}
+			]
+		},
+		{
+			"name": "upperWingLB",
+			"stepParentName": "UpperArmL",
+			"from": [ 1.0, -3.0, 1.0 ],
+			"to": [ 8.5, 6.5, 1.01 ],
+			"autoUnwrap": false,
+			"uv": [ 0.0, 0.0 ],
+			"rotationOrigin": [ 1.0, -3.0, 1.0 ],
+			"faces": {
+				"north": { "texture": "#featherborn-main", "uv": [ 92.0, 32.5, 119.0, 51.5 ], "rotation": 90, "autoUv": false },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 9.5 ], "enabled": false },
+				"south": { "texture": "#featherborn-main", "uv": [ 123.5, 51.5, 150.5, 32.5 ], "rotation": 90, "autoUv": false },
+				"west": { "texture": "#featherborn-main", "uv": [ 38.0, 130.0, 38.5, 139.5 ] },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 7.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 7.5, 0.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "upperWingLT",
+					"from": [ 1.0, 0.0, 0.0 ],
+					"to": [ 3.5, 9.5, 0.0 ],
+					"autoUnwrap": false,
+					"uv": [ 0.0, 0.0 ],
+					"rotationOrigin": [ 1.0, 6.0, 0.0 ],
+					"rotationY": -6.0,
+					"faces": {
+						"north": { "texture": "#null", "uv": [ 0.0, 0.0, 2.5, 9.5 ], "enabled": false },
+						"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 9.5 ], "enabled": false },
+						"south": { "texture": "#featherborn-main", "uv": [ 120.0, 8.0, 150.0, 2.0 ], "rotation": 90, "autoUv": false },
+						"west": { "texture": "#featherborn-main", "uv": [ 38.0, 130.0, 38.5, 139.5 ] },
+						"up": { "texture": "#null", "uv": [ 0.0, 0.0, 2.5, 0.5 ], "enabled": false },
+						"down": { "texture": "#null", "uv": [ 0.0, 0.0, 2.5, 0.5 ], "enabled": false }
+					}
+				}
+			]
+		},
+		{
+			"name": "lowerWingRB",
+			"stepParentName": "LowerArmR",
+			"from": [ 0.0, -6.0, 1.0 ],
+			"to": [ 10.5, 11.0, 1.01 ],
+			"autoUnwrap": false,
+			"uv": [ 0.0, 0.0 ],
+			"rotationOrigin": [ 0.0, -6.0, 1.0 ],
+			"faces": {
+				"north": { "texture": "#featherborn-main", "uv": [ 116.0, 10.0, 152.0, 29.0 ], "rotation": 90, "autoUv": false },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 17.0 ], "enabled": false },
+				"south": { "texture": "#featherborn-main", "uv": [ 79.5, 29.0, 115.5, 10.0 ], "rotation": 90, "autoUv": false },
+				"west": { "texture": "#featherborn-main", "uv": [ 38.0, 130.0, 38.5, 147.0 ] },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 10.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 10.5, 0.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "lowerWingRT",
+					"from": [ 0.0, 3.0, 0.0 ],
+					"to": [ 6.5, 13.0, 0.0 ],
+					"autoUnwrap": false,
+					"uv": [ 0.0, 0.0 ],
+					"rotationOrigin": [ 0.0, 3.0, -2.0 ],
+					"rotationY": 11.0,
+					"faces": {
+						"north": { "texture": "#featherborn-main", "uv": [ 120.0, 2.0, 150.0, 8.0 ], "rotation": 90, "autoUv": false },
+						"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 10.0 ], "enabled": false },
+						"south": { "texture": "#null", "uv": [ 0.0, 0.0, 6.5, 10.0 ], "enabled": false },
+						"west": { "texture": "#featherborn-main", "uv": [ 38.0, 130.0, 38.5, 140.0 ] },
+						"up": { "texture": "#null", "uv": [ 0.0, 0.0, 6.5, 0.5 ], "enabled": false },
+						"down": { "texture": "#null", "uv": [ 0.0, 0.0, 6.5, 0.5 ], "enabled": false }
+					}
+				}
+			]
+		},
+		{
+			"name": "upperWingRB",
+			"stepParentName": "UpperArmR",
+			"from": [ 1.0, -3.0, 1.0 ],
+			"to": [ 8.5, 6.5, 1.01 ],
+			"autoUnwrap": false,
+			"uv": [ 0.0, 0.0 ],
+			"rotationOrigin": [ 1.0, -3.0, 1.0 ],
+			"faces": {
+				"north": { "texture": "#featherborn-main", "uv": [ 123.5, 32.5, 150.5, 51.5 ], "rotation": 90, "autoUv": false },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 9.5 ], "enabled": false },
+				"south": { "texture": "#featherborn-main", "uv": [ 92.0, 51.5, 119.0, 32.5 ], "rotation": 90, "autoUv": false },
+				"west": { "texture": "#featherborn-main", "uv": [ 38.0, 130.0, 38.5, 139.5 ] },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 7.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 7.5, 0.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "upperWingRT",
+					"from": [ 1.0, 0.0, 0.0 ],
+					"to": [ 3.5, 9.5, 0.0 ],
+					"autoUnwrap": false,
+					"uv": [ 0.0, 0.0 ],
+					"rotationOrigin": [ 1.0, 6.0, 0.0 ],
+					"rotationY": 6.0,
+					"faces": {
+						"north": { "texture": "#featherborn-main", "uv": [ 120.0, 2.0, 150.0, 8.0 ], "rotation": 90, "autoUv": false },
+						"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 9.5 ], "enabled": false },
+						"south": { "texture": "#null", "uv": [ 0.0, 0.0, 2.5, 9.5 ], "enabled": false },
+						"west": { "texture": "#featherborn-main", "uv": [ 38.0, 130.0, 38.5, 139.5 ] },
+						"up": { "texture": "#null", "uv": [ 0.0, 0.0, 2.5, 0.5 ], "enabled": false },
+						"down": { "texture": "#null", "uv": [ 0.0, 0.0, 2.5, 0.5 ], "enabled": false }
+					}
+				}
+			]
+		}
+	],
+	"animations": [
+		{
+			"name": "Idle1",
+			"code": "idle1",
+			"quantityframes": 50,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"upperWingLT": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		}
+	]
 }

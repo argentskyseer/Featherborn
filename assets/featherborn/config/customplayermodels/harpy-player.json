@@ -2,7 +2,7 @@
   "harpy_old": {
     "Enabled": false,
     "Group": "Featherborn",
-    "GroupIcon": "featherborn:icons/avian-group",
+    "GroupIcon": "featherborn:icons/featherborn-group",
     "ShapePath": "featherborn:body/base/harpy-faceless",
     "MainTextureCode": "body-feathers",
     "Icon": "featherborn:icons/harpi",

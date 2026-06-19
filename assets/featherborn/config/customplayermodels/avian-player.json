@@ -2,7 +2,7 @@
   "avian": {
     "Enabled": true,
     "Group": "Featherborn",
-    "GroupIcon": "featherborn:icons/avian-group",
+    "GroupIcon": "featherborn:icons/featherborn-group",
     "ShapePath": "featherborn:body/base/avian-faceless",
     "MainTextureCode": "body-feathers",
     "Icon": "featherborn:icons/avians",
