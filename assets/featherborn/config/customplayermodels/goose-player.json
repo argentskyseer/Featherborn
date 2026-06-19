@@ -16,15 +16,19 @@
     "ScaleColliderWithSizeHorizontally": true,
     "ScaleColliderWithSizeVertically": true,
     "CreateCuboidsForAttachmentPoints": false,
-       "SkinnableParts": [
+    "SkinnableParts": [
+      //TAB Body
+      //feather-color
       {
         "code": "feather-color",
+        "tabCode": "Body",
         "type": "texture",
+        "colbreak": true,
         "textureTarget": "featherborn-main",
-        "targetSkinParts": ["base"],
+        "targetSkinParts": ["base", "body-type", "armfeathers"],
         "overlayMode": "MultiplyPreserveAlpha",
         "solidColor": true,
-        "size": [152, 152],
+        "size": [304, 152],
         "variants": [
           {
             "code": "#ff8A562C",
@@ -41,11 +45,21 @@
           {
             "code": "#ffd4d2d3",
             "color": "13947603"
-          }
+          },                               
+{
+            "code": "#FF1043AC",
+            "color": "1065900"
+          },
+{
+"code":"#FF0E0E0E",
+"color":"921102"
+}
         ]
       },
+      //secondary-pattern
       {
         "code": "featherborn-secondary",
+        "tabCode": "Body",
         "type": "texture",
         "textureTarget": "featherborn-main",
         "targetSkinParts": ["featherborn-secondary-color"],
@@ -57,14 +71,16 @@
           }
         ]
       },
+      //secondary-color
       {
         "code": "featherborn-secondary-color",
+        "tabCode": "Body",
         "type": "texture",
         "textureTarget": "featherborn-main",
-        "targetSkinParts": ["base"],
-        "overlayMode": "NormalPreserveAlpha",
+        "targetSkinParts": ["base", "body-type", "armfeathers"],
+        "overlayMode": "Screen",
         "solidColor": true,
-        "size": [152, 152],
+        "size": [304, 152],
         "variants": [
           {
             "code": "#ffdac2af",
@@ -84,8 +100,10 @@
           }
         ]
       },
+      //underwear
       {
         "code": "underwear",
+        "tabCode": "Body",
         "type": "texture",
         "textureTarget": "featherborn-main",
         "overlayTexture": true,
@@ -105,124 +123,11 @@
           }
         ]
       },
-      {
-        "code": "armfeathers",
-        "type": "shape",
-        "shapeTemplate": {
-          "base": "featherborn:feathers/arm/{code}"
-        },
-        "variants": [
-          {
-            "code": "short-forearm"
-          },
-          {
-            "code": "forearm"
-          },
-          {
-            "code": "short-full-arm"
-          },
-          {
-            "code": "full-arm"
-          }
-        ]
-      },
-      {
-        "code": "arm-feathers-color",
-        "type": "texture",
-        "textureTarget": "arm-feathers-base-b",
-        "overlayTexture": true,
-        "overlayMode": "MultiplyPreserveAlpha",
-        "solidColor": true,
-        "size": [240, 192],
-        "targetSkinParts": ["armfeathers"],
-        "variants": [
-          {
-            "code": "#ff8A562C",
-            "color": "9066028"
-          },
-          {
-            "code": "#ffe6cb19",
-            "color": "15125273"
-          },
-          {
-            "code": "#ff7d0c33",
-            "color": "8195123"
-          },
-          {
-            "code": "#ffd4d2d3",
-            "color": "13947603"
-          }
-        ]
-      },
-      // {
-      //   "code": "tailfeathers-overlay",
-      //   "type": "texture",
-      //   "priority": 1,
-      //   "textureTarget": "tail-base",
-      //   "textureTemplate": "featherborn:feathers/tail/{code}",
-      //   "overlayMode": "Multiply",
-      //   "targetSkinParts": ["tailfeathers"],
-      //   "variants": [{ "code": "tail-base" }]
-      // },
-      {
-        "code": "tailfeathers",
-        "type": "shape",
-        "shapeTemplate": {
-          "base": "featherborn:feathers/tail/{code}"
-        },
-        "variants": [
-          {
-            "code": "none"
-          },
-          {
-            "code": "short"
-          },
-          {
-            "code": "long"
-          }
-        ]
-      },
-
-      {
-        "code": "tailfeathers-color",
-        "type": "texture",
-        "textureTarget": "tail-base",
-        "overlayTexture": true,
-        "overlayMode": "MultiplyPreserveAlpha",
-        "solidColor": true,
-        "size": [128, 128],
-        "targetSkinParts": ["tailfeathers"],
-        "variants": [
-          {
-            "code": "#ff8A562C",
-            "color": "9066028"
-          },
-          {
-            "code": "#ffe6cb19",
-            "color": "15125273"
-          },
-          {
-            "code": "#ff7d0c33",
-            "color": "8195123"
-          },
-          {
-            "code": "#ffd4d2d3",
-            "color": "13947603"
-          }
-        ]
-      },
-      // {
-      //   "code": "headfeathers-overlay",
-      //   "type": "texture",
-      //   "priority": 1,
-      //   "textureTarget": "feather-base",
-      //   "textureTemplate": "featherborn:feathers/head/{code}",
-      //   "overlayMode": "Multiply",
-      //   "targetSkinParts": ["headfeathers"],
-      //   "variants": [{ "code": "feather-base" }]
-      // },
+      //TAB Head
+      //head feathers
       {
         "code": "headfeathers",
+        "tabCode": "Head",
         "type": "shape",
         "shapeTemplate": {
           "base": "featherborn:feathers/head/{code}"
@@ -254,11 +159,16 @@
           },
           {
             "code": "bunny"
+          },
+                    {
+            "code": "sweep"
           }
         ]
       },
+      //head feathers color
       {
         "code": "headfeathers-color",
+        "tabCode": "Head",
         "type": "texture",
         "textureTarget": "feather-main",
         "overlayTexture": true,
@@ -282,9 +192,18 @@
           {
             "code": "#ffd4d2d3",
             "color": "13947603"
-          }
+          },                               
+{
+            "code": "#FF1043AC",
+            "color": "1065900"
+          },
+{
+"code":"#FF0E0E0E",
+"color":"921102"
+}
         ]
       },
+      //head feathers pattern
       // {
       //   "code": "headfeathers-pattern",
       //   "type": "texture",
@@ -301,9 +220,471 @@
       //     }
       //   ]
       // },
-
+      //hair
+      {
+        "code": "hair",
+        "tabCode": "Head",
+        "type": "shape",
+        "shapeTemplate": {
+          "base": "featherborn:seraph/hair/{code}"
+        },
+        "variants": [
+          {
+            "code": "afro"
+          },
+          {
+            "code": "bald"
+          },
+          {
+            "code": "bowlcut"
+          },
+          {
+            "code": "boxbraids"
+          },
+          {
+            "code": "combed"
+          },
+          {
+            "code": "dreadlocks"
+          },
+          {
+            "code": "dreadlocksdense"
+          },
+          {
+            "code": "iroquois"
+          },
+          {
+            "code": "layered"
+          },
+          {
+            "code": "longflowing"
+          },
+          {
+            "code": "longcurls"
+          },
+          {
+            "code": "longwithstrands"
+          },
+          {
+            "code": "mediumcurls"
+          },
+          {
+            "code": "mediumlength-bangs"
+          },
+          {
+            "code": "messy"
+          },
+          {
+            "code": "messy2"
+          },
+          {
+            "code": "classic"
+          },
+          {
+            "code": "rows"
+          },
+          {
+            "code": "rowsdense"
+          },
+          {
+            "code": "short"
+          },
+          {
+            "code": "shortcurls"
+          },
+          {
+            "code": "short-parted"
+          },
+          {
+            "code": "shortspiky"
+          }
+        ]
+      },
+      //hair extra
+      {
+        "code": "hairextra",
+        "tabCode": "Head",
+        "type": "shape",
+        "shapeTemplate": {
+          "base": "featherborn:seraph/hair-extra/{code}"
+        },
+        "variants": [
+          {
+            "code": "none"
+          },
+          {
+            "code": "backbun"
+          },
+          {
+            "code": "backbuncurls"
+          },
+          {
+            "code": "bunboxbraid"
+          },
+          {
+            "code": "braidedup"
+          },
+          {
+            "code": "classicponytail"
+          },
+          {
+            "code": "cobrasidebraids"
+          },
+          {
+            "code": "elaboratestickbun"
+          },
+          {
+            "code": "headsidebraid"
+          },
+          {
+            "code": "largestickbun"
+          },
+          {
+            "code": "knots"
+          },
+          {
+            "code": "neatbraid"
+          },
+          {
+            "code": "ponytail"
+          },
+          {
+            "code": "ponytailcurly"
+          },
+          {
+            "code": "ponytailcrest"
+          },
+          {
+            "code": "rolledbraidwithbun"
+          },
+          {
+            "code": "shortmessybraid"
+          },
+          {
+            "code": "segmentedtopknot"
+          },
+          {
+            "code": "sidebraids"
+          },
+          {
+            "code": "sidebuns"
+          },
+          {
+            "code": "sidebunscurly"
+          },
+          {
+            "code": "sidepuffs"
+          },
+          {
+            "code": "siderolls"
+          },
+          {
+            "code": "skepbun"
+          },
+          {
+            "code": "snood"
+          },
+          {
+            "code": "toproll"
+          },
+          {
+            "code": "backroll"
+          },
+          {
+            "code": "backrollbun"
+          },
+          {
+            "code": "thickroll"
+          },
+          {
+            "code": "fishtailbraid"
+          },
+          {
+            "code": "steppesidetails"
+          },
+          {
+            "code": "steppebraidloop"
+          },
+          {
+            "code": "steppebraids"
+          },
+          {
+            "code": "thicklongfrenchbraid"
+          },
+          {
+            "code": "tiedback"
+          },
+          {
+            "code": "tieddreads"
+          },
+          {
+            "code": "tiedtopknot"
+          },
+          {
+            "code": "topbun"
+          },
+          {
+            "code": "topbuncurly"
+          },
+          {
+            "code": "topbunvoluminous"
+          },
+          {
+            "code": "topknot"
+          },
+          {
+            "code": "unkempt"
+          },
+          {
+            "code": "vikingtopbraid"
+          }
+        ]
+      },
+      //hair overlay
+      {
+        "code": "hair-overlay",
+        "hideFromGui": "true",
+        "type": "texture",
+        "priority": 1,
+        "textureTarget": "hair-base",
+        "overlayMode": "Multiply",
+        "targetSkinParts": ["haircolor"],
+        "textureTemplate": "featherborn:hair/{code}",
+        "variants": [
+          {
+            "code": "hair-overlay"
+          }
+        ]
+      },
+      //hair color
+      {
+        "code": "haircolor",
+        "tabCode": "Head",
+        "type": "texture",
+        "colbreak": true,
+        "textureTarget": "hair-base",
+        "targetSkinParts": ["hair", "hairextra"],
+        "overlayMode": "NormalPreserveAlpha",
+        "solidColor": true,
+        "size": [96, 96],
+        "variants": [
+          {
+            "code": "#ff8A562C",
+            "color": "9066028"
+          },
+          {
+            "code": "#ffe6cb19",
+            "color": "15125273"
+          },
+          {
+            "code": "#ff7d0c33",
+            "color": "8195123"
+          },
+          {
+            "code": "#ffd4d2d3",
+            "color": "13947603"
+          },                               
+{
+            "code": "#FF1043AC",
+            "color": "1065900"
+          },
+{
+"code":"#FF0E0E0E",
+"color":"921102"
+}
+        ]
+      },
+      //eye shape
+      {
+        "code": "eyes-overlay",
+        "tabCode": "Head",
+        "type": "texture",
+        "textureTarget": "eye-back-base",
+        "textureTemplate": "featherborn:face/eyes/eye-back-avian-{code}",
+        "useDropDown": true,
+        "overlayMode": "Replace",
+        "targetSkinParts": ["eyes"],
+        "variants": [
+          {
+            "code": "1"
+          },
+                    {
+            "code": "2"
+          }
+        ]
+      },
+      //eye base
+      {
+        "code": "eyes",
+        "tabCode": "Head",
+        "type": "shape",
+        "shapeTemplate": {
+          "base": "featherborn:face/eyes/{code}"
+        },
+        "variants": [
+          {
+            "code": "eye-style-1-alt"
+          }
+        ]
+      },
+      //eyes color
+      {
+        "code": "eyes-color",
+        "tabCode": "Head",
+        "type": "texture",
+        "textureTarget": "eye-back-base",
+        "overlayTexture": true,
+        "overlayMode": "MultiplyPreserveAlpha",
+        "solidColor": true,
+        "size": [240, 144],
+        "targetSkinParts": ["eyes"],
+        "variants": [
+          {
+            "code": "#ff8A562C",
+            "color": "9066028"
+          }
+        ]
+      },
+      //pupil type
+      {
+        "code": "eyepupil",
+        "tabCode": "Head",
+        "type": "texture",
+        "priority": 1,
+        "textureTarget": "eye-back-base",
+        "overlayTexture": "true",
+        "overlayMode": "Normal",
+        "targetSkinParts": ["eyes"],
+        "textureTemplate": "featherborn:face/eyes/eye-back-pupil-{code}",
+        "variants": [
+          {
+            "code": "tiny"
+          },
+          {
+            "code": "small"
+          },
+          {
+            "code": "medium"
+          },
+          {
+            "code": "outlined"
+          },
+          {
+            "code": "round-small"
+          },
+          {
+            "code": "round-medium"
+          },
+          {
+            "code": "round-large"
+          }
+        ]
+      },
+      //pupil color
+      {
+        "code": "pupil-color",
+        "tabCode": "Head",
+        "type": "texture",
+        "textureTarget": "eye-back-base",
+        "overlayTexture": true,
+        "overlayMode": "NormalPreserveAlpha",
+        "solidColor": true,
+        "size": [240, 144],
+        "targetSkinParts": ["eyepupil"],
+        "variants": [
+          {
+            "code": "#ff8A562C",
+            "color": "9066028"
+          }
+        ]
+      },
+      {
+        "code": "facialbeak",
+        "tabCode": "Head",
+        "type": "shape",
+        "shapeTemplate": {
+          "base": "featherborn:face/beaks/{code}"
+        },
+        "variants": [
+          {
+            "code": "songbird"
+          },
+          {
+            "code": "songbird2"
+          },
+          {
+            "code": "hawk"
+          },
+          {
+            "code": "corvid"
+          },
+                    {
+            "code": "duck"
+          },
+                              {
+            "code": "owl"
+          },
+                                       {
+            "code": "heron"
+          }
+        ]
+      },
+      {
+        "code": "beakcolor",
+        "tabCode": "Head",
+        "type": "texture",
+        "textureTarget": "beakcolor",
+        "overlayTexture": false,
+        "targetSkinParts": ["facialbeak", "beakcore"],
+        "textureTemplate": "featherborn:face/beaks/{code}",
+        "variants": [
+          {
+            "code": "gray"
+          },
+          {
+            "code": "yellow"
+          },
+          {
+            "code": "black"
+          },
+          {
+            "code": "base-beak"
+          }
+        ]
+      },
+      //TAB Limbs
+      //arm feathers
+      {
+        "code": "armfeathers",
+        "tabCode": "Limbs",
+        "colbreak": true,
+        "type": "shape",
+        "shapeTemplate": {
+          "base": "featherborn:feathers/arm/{code}"
+        },
+        "variants": [
+          {
+            "code": "short-forearm"
+          },
+          {
+            "code": "forearm"
+          },
+          {
+            "code": "short-full-arm"
+          },
+          {
+            "code": "full-arm"
+          },
+          {
+            "code": "back-wing"
+          }
+        ]
+      },
+      //legs
       {
         "code": "featherborn-legs",
+        "tabCode": "Limbs",
+        "hideFromGui": true,
         "type": "texture",
         "textureTarget": "featherborn-main",
         "targetSkinParts": ["featherborn-legs-color"],
@@ -315,12 +696,14 @@
           }
         ]
       },
+      //legs color
       {
         "code": "featherborn-legs-color",
+        "tabCode": "Limbs",
         "type": "texture",
         "textureTarget": "featherborn-main",
-        "targetSkinParts": ["base"],
-        "overlayMode": "NormalPreserveAlpha",
+        "targetSkinParts": ["base", "body-type"],
+        "overlayMode": "Screen",
         "solidColor": true,
         "size": [152, 152],
         "variants": [
@@ -339,12 +722,105 @@
           {
             "code": "#ffd4d2d3",
             "color": "13947603"
+          },                               
+{
+            "code": "#FF1043AC",
+            "color": "1065900"
+          },
+{
+"code":"#FF0E0E0E",
+"color":"921102"
+}
+        ]
+      },
+      //TAB Tail
+
+      //tail feathers
+      {
+        "code": "tailfeathers",
+        "hideFromGui":true,
+        "tabCode": "Tail",
+        "type": "shape",
+        "shapeTemplate": {
+          "base": "featherborn:feathers/tail/{code}"
+        },
+        "variants": [
+          {
+            "code": "long"
+          }
+        ]
+      },
+            {
+        "code": "tailfeathers-overlay",
+        "tabCode": "Tail",
+        "type": "texture",
+        "textureTarget": "tail-type",
+        "textureTemplate": "featherborn:feathers/tail/tail-type-{code}",
+        "useDropDown": true,
+        "overlayMode": "Normal",
+        "targetSkinParts": ["tailfeathers"],
+        "variants": [
+          {
+            "code": "1"
+          },
+          {
+            "code": "2"
+          },
+          {
+            "code": "3"
+          },
+          {
+            "code": "4"
+          },
+            {
+            "code": "5"
           }
         ]
       },
 
+      //tail feathers color
+      {
+        "code": "tailfeathers-color",
+        "tabCode": "Tail",
+        "type": "texture",
+        "textureTarget": "tail-type",
+        "overlayTexture": true,
+        "overlayMode": "MultiplyPreserveAlpha",
+        "solidColor": true,
+        "size": [128, 128],
+        "targetSkinParts": ["tailfeathers"],
+        "variants": [
+          {
+            "code": "#ff8A562C",
+            "color": "9066028"
+          },
+          {
+            "code": "#ffe6cb19",
+            "color": "15125273"
+          },
+          {
+            "code": "#ff7d0c33",
+            "color": "8195123"
+          },
+          {
+            "code": "#ffd4d2d3",
+            "color": "13947603"
+          },                               
+{
+            "code": "#FF1043AC",
+            "color": "1065900"
+          },
+{
+"code":"#FF0E0E0E",
+"color":"921102"
+}
+        ]
+      },
+      //TAB Voice
+      //voice
       {
         "code": "voicetype",
+        "tabCode":"Voice",
         "type": "voice",
         "useDropDown": true,
         "variants": [
@@ -402,10 +878,11 @@
           }
         ]
       },
+      //voice pitch
       {
         "code": "voicepitch",
+        "tabCode": "Voice",
         "type": "voice",
-        "colbreak": true,
         "useDropDown": true,
         "variants": [
           {
@@ -421,210 +898,7 @@
             "code": "high"
           }
         ]
-      },
-
-      {
-        "code": "eyes-overlay",
-        "type": "texture",
-        "textureTarget": "eye-back-base-alt",
-        "textureTemplate": "featherborn:face/eyes/eye-back-{code}",
-        "useDropDown": true,
-        "overlayMode": "Replace",
-        "targetSkinParts": ["eyes"],
-        "variants": [
-          {
-            "code": "base-alt-2"
-          },
-                    {
-            "code": "base-alt"
-          }
-        ]
-      },
-      {
-        "code": "eyes",
-        "type": "shape",
-        "shapeTemplate": {
-          "base": "featherborn:face/eyes/{code}"
-        },
-        "variants": [
-          {
-            "code": "eye-style-1-alt"
-          }
-        ]
-      },
-      {
-        "code": "eyes-color",
-        "type": "texture",
-        "textureTarget": "eye-back-base-alt",
-        "overlayTexture": true,
-        "overlayMode": "MultiplyPreserveAlpha",
-        "solidColor": true,
-        "size": [240, 144],
-        "targetSkinParts": ["eyes"],
-        "variants": [
-          {
-            "code": "#ff8A562C",
-            "color": "9066028"
-          }
-        ]
-      },
-      {
-        "code": "eyepupil",
-        "type": "texture",
-        "priority": 1,
-        "textureTarget": "eye-back-base-alt",
-        "overlayTexture": "true",
-        "overlayMode": "Normal",
-         "solidColor": true,
-        "size": [240, 144],
-        "targetSkinParts": ["eyes"],
-        "textureTemplate": "featherborn:face/eyes/eye-back-pupil-{code}",
-        "variants": [
-          {
-            "code": "alt-medium"
-          }
-        ]
-      },
-      // {
-      //   "code": "lips",
-      //   "type": "shape",
-      //   "shapeTemplate": {
-      //     "base": "featherborn:face/lips/{code}"
-      //   },
-      //   "variants": [
-      //     {
-      //       "code": "adequate"
-      //     },
-      //     {
-      //       "code": "angry"
-      //     },
-      //     {
-      //       "code": "caring"
-      //     },
-      //     {
-      //       "code": "determined"
-      //     },
-      //     {
-      //       "code": "exhausted"
-      //     },
-      //     {
-      //       "code": "fierce"
-      //     },
-      //     {
-      //       "code": "grin"
-      //     },
-      //     {
-      //       "code": "indifferent"
-      //     },
-      //     {
-      //       "code": "kind"
-      //     },
-      //     {
-      //       "code": "mellow"
-      //     },
-      //     {
-      //       "code": "neutral"
-      //     },
-      //     {
-      //       "code": "sad"
-      //     },
-      //     {
-      //       "code": "serious"
-      //     },
-      //     {
-      //       "code": "smirk"
-      //     },
-      //     {
-      //       "code": "thoughtful"
-      //     },
-      //     {
-      //       "code": "tired"
-      //     },
-      //     {
-      //       "code": "upset"
-      //     },
-      //     {
-      //       "code": "very-sad"
-      //     },
-      //     {
-      //       "code": "weary"
-      //     }
-      //   ]
-      // },
-      // {
-      //   "code": "lips-color",
-      //   "type": "texture",
-      //   "textureTarget": "beakcolor",
-      //   "overlayTexture": true,
-      //   "overlayMode": "NormalPreserveAlpha",
-      //   "solidColor": true,
-      //   "size": [48, 48],
-      //   "targetSkinParts": ["lips"],
-      //   "variants": [
-      //     {
-      //       "code": "#ff8A562C",
-      //       "color": "9066028"
-      //     },
-      //     {
-      //       "code": "#ff79755f",
-      //       "color": "15125273"
-      //     },
-      //     {
-      //       "code": "#ff7d0c33",
-      //       "color": "8195123"
-      //     },
-      //     {
-      //       "code": "#ff747374",
-      //       "color": "13947603"
-      //     }
-      //   ]
-      // },
-           {
-        "code": "facialbeak",
-        "type": "shape",
-        "shapeTemplate": {
-          "base": "featherborn:face/beaks/{code}"
-        },
-        "variants": [
-          {
-            "code": "songbird"
-          },
-                    {
-            "code": "songbird2"
-          },
-          {
-            "code": "hawk"
-          },
-          {
-            "code": "corvid"
-          },
-          {
-            "code": "duck"
-          }
-        ]
-      },
-      {
-        "code": "beakcolor",
-        "type": "texture",
-        "textureTarget": "beakcolor",
-        "overlayTexture": false,
-        "targetSkinParts": ["facialbeak", "beakcore"],
-        "textureTemplate": "featherborn:face/beaks/{code}",
-        "variants": [
-          {
-            "code": "gray"
-          },
-          {
-            "code": "yellow"
-          },
-          {
-            "code": "black"
-          },
-                    {
-            "code": "base-beak"
-          }
-        ]
-      },
+      }
     ]
   }
 }

@@ -1,6 +1,6 @@
 {
-  "harpy": {
-    "Enabled": true,
+  "harpy_old": {
+    "Enabled": false,
     "Group": "Featherborn",
     "GroupIcon": "featherborn:icons/avian-group",
     "ShapePath": "featherborn:body/base/harpy-faceless",
@@ -46,7 +46,15 @@
           {
             "code": "#ffd4d2d3",
             "color": "13947603"
-          }
+          },                               
+{
+            "code": "#FF1043AC",
+            "color": "1065900"
+          },
+{
+"code":"#FF0E0E0E",
+"color":"921102"
+}
         ]
       },
       {
@@ -221,7 +229,15 @@
           {
             "code": "#ffd4d2d3",
             "color": "13947603"
-          }
+          },                               
+{
+            "code": "#FF1043AC",
+            "color": "1065900"
+          },
+{
+"code":"#FF0E0E0E",
+"color":"921102"
+}
         ]
       },
       // {
@@ -295,7 +311,15 @@
           {
             "code": "#ffd4d2d3",
             "color": "13947603"
-          }
+          },                               
+{
+            "code": "#FF1043AC",
+            "color": "1065900"
+          },
+{
+"code":"#FF0E0E0E",
+"color":"921102"
+}
         ]
       },
       // {
@@ -352,7 +376,15 @@
           {
             "code": "#ffd4d2d3",
             "color": "13947603"
-          }
+          },                               
+{
+            "code": "#FF1043AC",
+            "color": "1065900"
+          },
+{
+"code":"#FF0E0E0E",
+"color":"921102"
+}
         ]
       },
 
@@ -695,7 +727,15 @@
           {
             "code": "#ffd4d2d3",
             "color": "13947603"
-          }
+          },                               
+{
+            "code": "#FF1043AC",
+            "color": "1065900"
+          },
+{
+"code":"#FF0E0E0E",
+"color":"921102"
+}
         ]
       },
       {
@@ -726,6 +766,7 @@
       },
       {
         "code": "eyes",
+         "hideFromGui": true,
         "type": "shape",
         "shapeTemplate": {
           "base": "featherborn:face/eyes/{code}"
@@ -759,6 +800,7 @@
         "textureTarget": "eye-back-base",
         "overlayTexture": "true",
         "overlayMode": "Normal",
+        "useDropDown":"true",
         "targetSkinParts": ["eyes"],
         "textureTemplate": "featherborn:face/eyes/eye-back-pupil-{code}",
         "variants": [
@@ -788,6 +830,7 @@
             {
         "code": "pupil-color",
         "type": "texture",
+        "colbreak": true,
         "textureTarget": "eye-back-base",
         "overlayTexture": true,
         "overlayMode": "NormalPreserveAlpha",

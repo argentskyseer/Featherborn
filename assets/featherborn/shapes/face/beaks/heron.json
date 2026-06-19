@@ -18,10 +18,10 @@
 		{
 			"name": "beak",
 			"stepParentName": "Head",
-			"from": [ -2.75, 2.5, 2.25 ],
-			"to": [ 3.25, 3.0, 2.75 ],
+			"from": [ -4.75, 2.5, 2.25 ],
+			"to": [ 1.25, 3.0, 2.75 ],
 			"uv": [ 2.5, 0.0 ],
-			"rotationOrigin": [ 1.0, 1.0, 2.0 ],
+			"rotationOrigin": [ -1.0, 1.0, 2.0 ],
 			"rotationZ": 19.0,
 			"faces": {
 				"north": { "texture": "#beakcolor", "uv": [ 2.5, 0.5, 8.5, 1.0 ] },

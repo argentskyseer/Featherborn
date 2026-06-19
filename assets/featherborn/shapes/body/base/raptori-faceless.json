@@ -7,7 +7,7 @@
 	"textureWidth": 76,
 	"textureHeight": 76,
 	"textureSizes": {
-		"featherborn-main": [76,76],
+		"featherborn-main": [152,76],
 		"tail-base": [64,64]
 	},
 	"textures": {
@@ -510,12 +510,12 @@
 													"uv": [ 0.0, 0.0 ],
 													"rotationOrigin": [ 1.0, 0.0, 0.0 ],
 													"faces": {
-														"north": { "texture": "#null", "uv": [ 0.0, 5.0, 1.0, 10.0 ], "enabled": false },
-														"east": { "texture": "#null", "uv": [ 1.0, 5.0, 6.0, 10.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1], "enabled": false },
-														"south": { "texture": "#null", "uv": [ 5.0, 5.0, 6.0, 10.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1], "enabled": false },
-														"west": { "texture": "#null", "uv": [ 1.0, 5.0, 6.0, 10.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1], "enabled": false },
-														"up": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 5.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1], "enabled": false },
-														"down": { "texture": "#null", "uv": [ 1.0, 0.0, 2.0, 5.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1], "enabled": false }
+														"north": { "texture": "#featherborn-main", "uv": [ 0.0, 5.0, 1.0, 10.0 ], "enabled": false },
+														"east": { "texture": "#featherborn-main", "uv": [ 1.0, 5.0, 6.0, 10.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1], "enabled": false },
+														"south": { "texture": "#featherborn-main", "uv": [ 5.0, 5.0, 6.0, 10.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1], "enabled": false },
+														"west": { "texture": "#featherborn-main", "uv": [ 1.0, 5.0, 6.0, 10.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1], "enabled": false },
+														"up": { "texture": "#featherborn-main", "uv": [ 0.0, 0.0, 1.0, 5.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1], "enabled": false },
+														"down": { "texture": "#featherborn-main", "uv": [ 1.0, 0.0, 2.0, 5.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1], "enabled": false }
 													}
 												}
 											]
@@ -14434,7 +14434,6 @@
 					}
 				}
 			]
-		},
-
+		}
 	]
 }

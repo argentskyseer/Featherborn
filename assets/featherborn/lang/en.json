@@ -69,6 +69,7 @@
 
   //tail feathers
   "game:skinpart-tailfeathers": "Tail Feathers",
+   "game:skinpart-tailfeathers-color": "Tail Feathers Color",
   "game:skinpart-tailfeathers-long": "Long",
   "game:skinpart-tailfeathers-short": "Short",
 
@@ -86,8 +87,32 @@
   "game:color-feather-rust": "Rust",
 
 
+"game:skinpart-eyes-overlay":"Eye Shape",
+"game:skinpart-eyes-color":"Eye Color",
+"game:skinpart-eyepupil":"Pupil Shape",
+"game:skinpart-pupil-color":"Pupil Color",
+"game:skinpart-lips":"Lips",
+"game:skinpart-lips-color":"Lips Color",
+
+"game:skinpart-body-type":"Body Type",
+"game:skinpart-body-type-1":"Body Type 1",
+"game:skinpart-body-type-2":"Body Type 2",
+
+"playermodellib:skinpart-headfeathers":"Head Feathers",
+"playermodellib:skinpart-headfeathers-color":"Head Feathers Color",
+"playermodellib:skinpart-hair":"Hair",
+
+
+"game:skinpart-featherborn-secondary":"Secondary Pattern",
+"game:skinpart-featherborn-secondary-color":"Secondary Color",
+
+"game:skinpart-featherborn-legs-color":"Leg Color",
+
 
   //tabs
   "playermodellib:skinpart-tab-Body":"Body",
-  "playermodellib:skinpart-tab-Arms":"Arms"
+    "playermodellib:skinpart-tab-Head":"Head",
+  "playermodellib:skinpart-tab-Limbs":"Limbs",
+  "playermodellib:skinpart-tab-Tail":"Tail",
+  "playermodellib:skinpart-tab-Voice":"Voice"
 }

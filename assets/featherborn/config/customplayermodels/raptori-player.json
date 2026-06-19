@@ -1,6 +1,6 @@
 {
   "raptori": {
-    "Enabled": true,
+    "Enabled": false,
     "Group": "Featherborn",
     "GroupIcon": "featherborn:icons/avian-group",
     "ShapePath": "featherborn:body/base/raptori-faceless",
@@ -40,7 +40,15 @@
           {
             "code": "#ffd4d2d3",
             "color": "13947603"
-          }
+          },                               
+{
+            "code": "#FF1043AC",
+            "color": "1065900"
+          },
+{
+"code":"#FF0E0E0E",
+"color":"921102"
+}
         ]
       },
       {
@@ -150,7 +158,15 @@
           {
             "code": "#ffd4d2d3",
             "color": "13947603"
-          }
+          },                               
+{
+            "code": "#FF1043AC",
+            "color": "1065900"
+          },
+{
+"code":"#FF0E0E0E",
+"color":"921102"
+}
         ]
       },
       // {
@@ -207,7 +223,15 @@
           {
             "code": "#ffd4d2d3",
             "color": "13947603"
-          }
+          },                               
+{
+            "code": "#FF1043AC",
+            "color": "1065900"
+          },
+{
+"code":"#FF0E0E0E",
+"color":"921102"
+}
         ]
       },
       // {
@@ -282,7 +306,15 @@
           {
             "code": "#ffd4d2d3",
             "color": "13947603"
-          }
+          },                               
+{
+            "code": "#FF1043AC",
+            "color": "1065900"
+          },
+{
+"code":"#FF0E0E0E",
+"color":"921102"
+}
         ]
       },
       // {
@@ -339,7 +371,15 @@
           {
             "code": "#ffd4d2d3",
             "color": "13947603"
-          }
+          },                               
+{
+            "code": "#FF1043AC",
+            "color": "1065900"
+          },
+{
+"code":"#FF0E0E0E",
+"color":"921102"
+}
         ]
       },
 
