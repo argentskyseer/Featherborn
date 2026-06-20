@@ -3,7 +3,7 @@
     "Enabled": true,
     "Group": "Featherborn",
     "GroupIcon": "featherborn:icons/featherborn-group",
-    "ShapePath": "featherborn:body/base/harpy/harpy-core",
+    "ShapePath": "featherborn:body/base/harpy/body-type-1",
     "BaseShapeCode": "featherborn:body/base/harpy/body-type-1",
     "MainTextureCode": "body-feathers",
     "Icon": "featherborn:icons/harpi",
@@ -21,22 +21,22 @@
     "SkinnableParts": [
       //TAB Body
       //body type
-      {
-        "code": "body-type",
-        "tabCode": "Body",
-        "type": "shape",
-        "shapeTemplate": {
-          "base": "featherborn:body/base/harpy/body-type-{code}"
-        },
-        "variants": [
-          {
-            "code": "1"
-          },
-          {
-            "code": "2"
-          }
-        ]
-      },
+      // {
+      //   "code": "body-type",
+      //   "tabCode": "Body",
+      //   "type": "shape",
+      //   "shapeTemplate": {
+      //     "base": "featherborn:body/base/harpy/body-type-{code}"
+      //   },
+      //   "variants": [
+      //     {
+      //       "code": "1"
+      //     },
+      //     {
+      //       "code": "2"
+      //     }
+      //   ]
+      // },
       //feather-color
       {
         "code": "feather-color",
@@ -44,7 +44,7 @@
         "type": "texture",
         "colbreak": true,
         "textureTarget": "featherborn-main",
-        "targetSkinParts": ["base", "body-type", "armfeathers"],
+        "targetSkinParts": ["base", "armfeathers"],
         "overlayMode": "MultiplyPreserveAlpha",
         "solidColor": true,
         "size": [304, 152],
@@ -96,7 +96,7 @@
         "tabCode": "Body",
         "type": "texture",
         "textureTarget": "featherborn-main",
-        "targetSkinParts": ["base", "body-type", "armfeathers"],
+        "targetSkinParts": ["base", "armfeathers"],
         "overlayMode": "Screen",
         "solidColor": true,
         "size": [304, 152],
@@ -780,7 +780,7 @@
         "tabCode": "Limbs",
         "type": "texture",
         "textureTarget": "featherborn-main",
-        "targetSkinParts": ["base", "body-type"],
+        "targetSkinParts": ["base"],
         "overlayMode": "Screen",
         "solidColor": true,
         "size": [152, 152],

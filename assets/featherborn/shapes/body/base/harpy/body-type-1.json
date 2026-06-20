@@ -117,7 +117,7 @@
 														"up": { "texture": "#featherborn-main", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false },
 														"down": { "texture": "#featherborn-main", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false }
 													},
-																										"attachmentpoints": [
+													"attachmentpoints": [
 														{
 															"code": "RightHand",
 															"posX": "0.0","posY": "0.0","posZ": "0.0",
@@ -617,7 +617,7 @@
 									}
 								}
 							],
-								"attachmentpoints": [
+							"attachmentpoints": [
 								{
 									"code": "Back",
 									"posX": "5.0","posY": "3.0","posZ": "3.0",

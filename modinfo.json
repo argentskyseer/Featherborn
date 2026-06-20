@@ -4,7 +4,7 @@
   "name": "Featherborn",
   "authors": ["argentskyseer"],
   "description": "Add bird type player models, avian and harpy.",
-  "version": "0.12.3",
+  "version": "0.12.4",
   "dependencies": {
     "playermodellib": "1.21.5"
   },
