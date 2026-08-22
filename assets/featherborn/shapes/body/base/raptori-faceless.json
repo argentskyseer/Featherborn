@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"collapsedPaths": "Root/root/LowerTorso/UpperFootL,Root/UpperTorsoOrigin,Root/root/LowerTorso/UpperFootR,Root/LowerTorsoOrigin,Root/root/LowerTorso/UpperTorso/UpperArmL",
+		"collapsedPaths": "Root/root/LowerTorso/UpperFootL,Root/UpperTorsoOrigin,Root/root/LowerTorso/UpperTorso/Neck,Root/root/LowerTorso/UpperTorso/UpperArmR,Root/root/LowerTorso/UpperFootR/LowerFootRb/AnkleR/AnkleRTop/ForefootR/RToeRight,Root/root/LowerTorso/UpperFootR/LowerFootRb/AnkleR/AnkleRTop/ForefootR/RToeM,Root/root/LowerTorso/UpperFootR/LowerFootRb/AnkleR/AnkleRTop,Root/LowerTorsoOrigin,Root/root/LowerTorso/UpperTorso/UpperArmL,Root/root/LowerTorso/UpperFootR/LowerFootRb/AnkleR/AnkleRTop/ForefootR/RToeLeft",
 		"allAngles": true,
 		"entityTextureMode": true
 	},
@@ -11,15 +11,14 @@
 		"tail-base": [64,64]
 	},
 	"textures": {
-		"featherborn-main": "featherborn:body/base/featherborn-main"
 	},
 	"elements": [
 		{
 			"name": "root",
-			"from": [ 0.0, 0.4, 0.0 ],
-			"to": [ 0.0, 0.4, 0.0 ],
+			"from": [ 0.0, -2.4, 0.0 ],
+			"to": [ 0.0, -2.4, 0.0 ],
 			"uv": [ 0.0, 0.0 ],
-			"rotationOrigin": [ 8.0, 0.4, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
 			"faces": {
 				"north": { "texture": "#featherborn-main", "uv": [ 0.0, 0.5, 0.5, 1.0 ], "enabled": false },
 				"east": { "texture": "#featherborn-main", "uv": [ 0.5, 0.5, 1.0, 1.0 ], "enabled": false },
@@ -74,6 +73,7 @@
 									"uv": [ 1.0, 29.0 ],
 									"rotationOrigin": [ 2.0, 4.7, 0.8 ],
 									"rotationX": 9.0,
+									"rotationY": -11.0,
 									"rotationZ": -3.0,
 									"faces": {
 										"north": { "texture": "#featherborn-main", "uv": [ 3.0, 31.5, 6.0, 38.5 ] },
@@ -131,6 +131,7 @@
 									"uv": [ 21.0, 29.0 ],
 									"rotationOrigin": [ 2.0, 4.7, 5.2 ],
 									"rotationX": -9.0,
+									"rotationY": 11.0,
 									"rotationZ": 3.0,
 									"faces": {
 										"north": { "texture": "#featherborn-main", "uv": [ 21.0, 31.5, 24.0, 38.5 ] },
@@ -546,7 +547,8 @@
 							"unwrapMode": 4,
 							"uv": [ 16.0, 49.0 ],
 							"rotationOrigin": [ 1.5, 0.5, 4.6 ],
-							"rotationZ": -69.0,
+							"rotationY": 11.0,
+							"rotationZ": -114.0,
 							"faces": {
 								"north": { "texture": "#featherborn-main", "uv": [ 16.0, 53.0, 20.0, 62.0 ], "windMode": [-1,-1,-1,-1] },
 								"east": { "texture": "#featherborn-main", "uv": [ 27.0, 53.0, 30.0, 62.0 ] },
@@ -563,7 +565,7 @@
 									"unwrapMode": 4,
 									"uv": [ 51.0, 60.5 ],
 									"rotationOrigin": [ 2.25, 0.0, 0.5 ],
-									"rotationZ": 44.0,
+									"rotationZ": 100.0,
 									"faces": {
 										"north": { "texture": "#featherborn-main", "uv": [ 51.0, 63.0, 53.5, 70.0 ], "windMode": [-1,-1,-1,-1] },
 										"east": { "texture": "#featherborn-main", "uv": [ 58.5, 63.0, 61.0, 70.0 ] },
@@ -580,7 +582,6 @@
 											"uv": [ 71.0, 73.5 ],
 											"rotationOrigin": [ 1.0, 0.0, 0.0 ],
 											"rotationX": 1.0,
-											"rotationZ": 10.0,
 											"faces": {
 												"north": { "texture": "#featherborn-main", "uv": [ 71.0, 74.5, 72.0, 75.5 ] },
 												"east": { "texture": "#featherborn-main", "uv": [ 72.0, 74.5, 73.0, 75.5 ] },
@@ -628,7 +629,7 @@
 																	"to": [ 0.0, 1.0, 0.0 ],
 																	"uv": [ 41.5, 64.5 ],
 																	"rotationOrigin": [ 0.0, 1.0, 0.0 ],
-																	"rotationY": -6.0,
+																	"rotationY": -25.0,
 																	"faces": {
 																		"north": { "texture": "#featherborn-main", "uv": [ 41.5, 65.5, 43.5, 66.5 ] },
 																		"east": { "texture": "#featherborn-main", "uv": [ 43.5, 65.5, 44.5, 66.5 ] },
@@ -677,7 +678,7 @@
 																	"to": [ 0.0, 1.0, 2.0 ],
 																	"uv": [ 41.5, 64.5 ],
 																	"rotationOrigin": [ 0.0, 1.0, 1.0 ],
-																	"rotationY": 6.0,
+																	"rotationY": 25.0,
 																	"faces": {
 																		"north": { "texture": "#featherborn-main", "uv": [ 41.5, 65.5, 43.5, 66.5 ] },
 																		"east": { "texture": "#featherborn-main", "uv": [ 43.5, 65.5, 44.5, 66.5 ] },
@@ -884,7 +885,8 @@
 							"unwrapMode": 4,
 							"uv": [ 1.0, 49.0 ],
 							"rotationOrigin": [ 1.5, 0.5, 1.4 ],
-							"rotationZ": -69.0,
+							"rotationY": -11.0,
+							"rotationZ": -114.0,
 							"faces": {
 								"north": { "texture": "#featherborn-main", "uv": [ 1.0, 53.0, 5.0, 62.0 ], "windMode": [-1,-1,-1,-1] },
 								"east": { "texture": "#featherborn-main", "uv": [ 12.0, 53.0, 15.0, 62.0 ] },
@@ -901,7 +903,7 @@
 									"unwrapMode": 4,
 									"uv": [ 51.0, 60.5 ],
 									"rotationOrigin": [ 2.25, 0.0, 0.5 ],
-									"rotationZ": 44.0,
+									"rotationZ": 100.0,
 									"faces": {
 										"north": { "texture": "#featherborn-main", "uv": [ 51.0, 63.0, 53.5, 70.0 ], "windMode": [-1,-1,-1,-1] },
 										"east": { "texture": "#featherborn-main", "uv": [ 58.5, 63.0, 61.0, 70.0 ] },
@@ -918,7 +920,6 @@
 											"uv": [ 71.0, 73.5 ],
 											"rotationOrigin": [ 1.0, 0.0, 0.0 ],
 											"rotationX": -1.0,
-											"rotationZ": 10.0,
 											"faces": {
 												"north": { "texture": "#featherborn-main", "uv": [ 71.0, 74.5, 72.0, 75.5 ] },
 												"east": { "texture": "#featherborn-main", "uv": [ 72.0, 74.5, 73.0, 75.5 ] },
@@ -966,7 +967,7 @@
 																	"to": [ 0.0, 1.0, 0.0 ],
 																	"uv": [ 41.5, 64.5 ],
 																	"rotationOrigin": [ 0.0, 1.0, 0.0 ],
-																	"rotationY": -6.0,
+																	"rotationY": -25.0,
 																	"faces": {
 																		"north": { "texture": "#featherborn-main", "uv": [ 41.5, 65.5, 43.5, 66.5 ] },
 																		"east": { "texture": "#featherborn-main", "uv": [ 43.5, 65.5, 44.5, 66.5 ] },
@@ -1015,7 +1016,7 @@
 																	"to": [ 0.0, 1.0, 2.0 ],
 																	"uv": [ 41.5, 64.5 ],
 																	"rotationOrigin": [ 0.0, 1.0, 1.0 ],
-																	"rotationY": 6.0,
+																	"rotationY": 25.0,
 																	"faces": {
 																		"north": { "texture": "#featherborn-main", "uv": [ 41.5, 65.5, 43.5, 66.5 ] },
 																		"east": { "texture": "#featherborn-main", "uv": [ 43.5, 65.5, 44.5, 66.5 ] },

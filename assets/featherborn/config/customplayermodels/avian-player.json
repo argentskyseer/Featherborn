@@ -8,7 +8,7 @@
     "Icon": "featherborn:icons/avians",
     "SizeRange": [0.4, 1.5],
     "CollisionBox": [0.6, 1.85],
-    "EyeHeight": 1.7,
+    "EyeHeight": 1.55,
     "SneakEyeHeightMultiplier": 0.7,
     "ModelSizeFactor": 1,
     "AvailableClasses": [],
