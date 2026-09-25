@@ -1,0 +1,162 @@
+{
+  "editor": {
+    "allAngles": true,
+    "backdrops": [
+      {
+        "shapeFilepath": "body\\base\\harpy\\body-type-1b",
+        "opacity": 1.0,
+        "enabled": true
+      }
+    ],
+    "attachments": []
+  },
+  "textureWidth": 32,
+  "textureHeight": 76,
+  "textureSizes": {
+    "eye-back-base-7": [
+      120,
+      72
+    ],
+    "featherborn-main": [
+      152,
+      76
+    ]
+  },
+  "textures": {
+    "eye-back-base-7": "face\\eyes\\eye-back-base-7",
+    "featherborn-main": "featherborn:body/base/featherborn-main"
+  },
+  "elements": [
+    {
+      "name": "eyesroot",
+      "from":[0.0,1.0,0.0],
+      "to":[5.5,3.0,5.0],
+      "faces": {},
+      "rotationOrigin":[0.0,1.0,0.0],
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "children": [
+        {
+          "name": "Cube2",
+          "from":[-0.05,0.0,0.0],
+          "to":[0.0,3.0,5.0],
+          "faces": {
+            "north": {
+              "texture": "#eye-back-base-7",
+              "uv":[24.0,24.0,0.0,0.0],
+              "autoUv": false,
+              "snapUV": false
+            },
+            "east": {
+              "texture": "#eye-back-base-7",
+              "uv":[120.0,72.0,0.0,0.0],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "rotation": 180.0,
+              "autoUv": false,
+              "snapUV": false,
+              "rotationIndex": 2
+            },
+            "south": {
+              "texture": "#eye-back-base-7",
+              "uv":[24.0,24.0,0.0,0.0],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "autoUv": false,
+              "snapUV": false
+            },
+            "west": {
+              "texture": "#eye-back-base-7",
+              "uv":[120.0,72.0,0.0,0.0],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "rotation": 180.0,
+              "autoUv": false,
+              "snapUV": false,
+              "rotationIndex": 2
+            },
+            "up": {
+              "texture": "#eye-back-base-7",
+              "uv":[0.0,0.0,0.5,5.0]
+            },
+            "down": {
+              "texture": "#eye-back-base-7",
+              "uv":[0.0,0.0,0.5,5.0]
+            }
+          },
+          "rotationOrigin":[0.0,0.0,0.0],
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "children": [],
+          "uv":[0.0,0.0]
+        }
+      ],
+      "stepParentName": "Head",
+      "uv":[0.0,0.0]
+    }
+  ],
+  "animations": [
+    {
+      "quantityframes": 25,
+      "name": "Blink",
+      "code": "blink",
+      "keyframes": [
+        {
+          "frame": 0,
+          "elements": {
+            "Cube2": {
+              "offsetX": 2.0,
+              "offsetY": 0.0,
+              "offsetZ": 0.0
+            },
+            "eyesroot": {
+              "offsetX": 0.0,
+              "offsetY": 0.0,
+              "offsetZ": 0.0
+            }
+          }
+        },
+        {
+          "frame": 12,
+          "elements": {
+            "Cube2": {
+              "offsetX": 3.0,
+              "offsetY": 0.0,
+              "offsetZ": 0.0
+            },
+            "eyesroot": {
+              "offsetX": 4.0,
+              "offsetY": 7.0,
+              "offsetZ": 6.0
+            }
+          }
+        },
+        {
+          "frame": 24,
+          "elements": {
+            "Cube2": {
+              "offsetX": 2.0,
+              "offsetY": 0.0,
+              "offsetZ": 0.0
+            }
+          }
+        }
+      ],
+      "onActivityStopped": "EaseOut"
+    }
+  ]
+}

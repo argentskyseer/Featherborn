@@ -3,7 +3,7 @@
     "Enabled": true,
     "Group": "Featherborn",
     "GroupIcon": "featherborn:icons/featherborn-group",
-    "ShapePath": "featherborn:body/base/avian-faceless",
+    "ShapePath": "featherborn:body/base/avian",
     "MainTextureCode": "body-feathers",
     "Icon": "featherborn:icons/avians",
     "SizeRange": [0.4, 1.5],
@@ -11,6 +11,7 @@
     "EyeHeight": 1.55,
     "SneakEyeHeightMultiplier": 0.7,
     "ModelSizeFactor": 1,
+    "ExtraTraits": ["featherborn-hollowbones", "featherborn-lightframe"],
     "AvailableClasses": [],
     "GuiModelScale": 1.0,
     "HeadBobbingScale": 0.4,
@@ -704,8 +705,8 @@
         "tabCode": "Limbs",
         "type": "texture",
         "textureTarget": "featherborn-main",
-        "targetSkinParts": ["base", "body-type"],
-        "overlayMode": "Screen",
+        "targetSkinParts": ["base", "body-type", "feet"],
+        "overlayMode": "NormalPreserveAlpha",
         "solidColor": true,
         "size": [152, 152],
         "variants": [
@@ -733,6 +734,28 @@
 "code":"#FF0E0E0E",
 "color":"921102"
 }
+        ]
+      },
+            {
+        "code": "feet",
+        "tabCode": "Limbs",
+        "type": "shape",
+        "shapeTemplate": {
+          "base": "featherborn:legs/feet/{code}"
+        },
+        "variants": [
+          {
+            "code": "eagle"
+          },
+          {
+            "code": "sparrow"
+          },
+          {
+            "code": "owl"
+          },
+                    {
+            "code": "goose"
+          }
         ]
       },
       //TAB Tail

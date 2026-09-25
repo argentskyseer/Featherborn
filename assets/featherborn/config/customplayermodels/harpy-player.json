@@ -3,8 +3,7 @@
     "Enabled": true,
     "Group": "Featherborn",
     "GroupIcon": "featherborn:icons/featherborn-group",
-    "ShapePath": "featherborn:body/base/harpy/body-type-1",
-    "BaseShapeCode": "featherborn:body/base/harpy/body-type-1",
+    "ShapePath": "featherborn:body/base/harpy",
     "MainTextureCode": "body-feathers",
     "Icon": "featherborn:icons/harpi",
     "SizeRange": [0.8, 1.5],
@@ -13,6 +12,7 @@
     "RemoveTags": ["seraph"],
     "AddTags": ["harpy"],
     "ModelSizeFactor": 1,
+    "ExtraTraits": ["featherborn-hollowbones", "featherborn-lightframe"],
     "AvailableClasses": [],
     "GuiModelScale": 1.0,
     "HeadBobbingScale": 0.4,
@@ -47,15 +47,15 @@
           {
             "code": "#ffd4d2d3",
             "color": "13947603"
-          },                               
-{
+          },
+          {
             "code": "#FF1043AC",
             "color": "1065900"
           },
-{
-"code":"#FF0E0E0E",
-"color":"921102"
-}
+          {
+            "code": "#FF0E0E0E",
+            "color": "921102"
+          }
         ]
       },
       //secondary-pattern
@@ -162,7 +162,7 @@
           {
             "code": "bunny"
           },
-                    {
+          {
             "code": "sweep"
           }
         ]
@@ -194,15 +194,15 @@
           {
             "code": "#ffd4d2d3",
             "color": "13947603"
-          },                               
-{
+          },
+          {
             "code": "#FF1043AC",
             "color": "1065900"
           },
-{
-"code":"#FF0E0E0E",
-"color":"921102"
-}
+          {
+            "code": "#FF0E0E0E",
+            "color": "921102"
+          }
         ]
       },
       //head feathers pattern
@@ -485,15 +485,15 @@
           {
             "code": "#ffd4d2d3",
             "color": "13947603"
-          },                               
-{
+          },
+          {
             "code": "#FF1043AC",
             "color": "1065900"
           },
-{
-"code":"#FF0E0E0E",
-"color":"921102"
-}
+          {
+            "code": "#FF0E0E0E",
+            "color": "921102"
+          }
         ]
       },
       //eye shape
@@ -522,10 +522,10 @@
           {
             "code": "base-5"
           },
-                    {
+          {
             "code": "base-6"
           },
-                              {
+          {
             "code": "base-7"
           }
         ]
@@ -736,9 +736,9 @@
           {
             "code": "full-arm"
           },
-          //                     {
-          //   "code": "full-arm-feathers"
-          // },
+          {
+            "code": "full-arm-feathers"
+          },
           {
             "code": "back-wing"
           }
@@ -766,8 +766,8 @@
         "tabCode": "Limbs",
         "type": "texture",
         "textureTarget": "featherborn-main",
-        "targetSkinParts": ["base"],
-        "overlayMode": "Screen",
+        "targetSkinParts": ["base", "feet"],
+        "overlayMode": "NormalPreserveAlpha",
         "solidColor": true,
         "size": [152, 152],
         "variants": [
@@ -786,15 +786,37 @@
           {
             "code": "#ffd4d2d3",
             "color": "13947603"
-          },                               
-{
+          },
+          {
             "code": "#FF1043AC",
             "color": "1065900"
           },
-{
-"code":"#FF0E0E0E",
-"color":"921102"
-}
+          {
+            "code": "#FF0E0E0E",
+            "color": "921102"
+          }
+        ]
+      },
+      {
+        "code": "feet",
+        "tabCode": "Limbs",
+        "type": "shape",
+        "shapeTemplate": {
+          "base": "featherborn:legs/feet/{code}"
+        },
+        "variants": [
+          {
+            "code": "eagle"
+          },
+          {
+            "code": "sparrow"
+          },
+          {
+            "code": "owl"
+          },
+                    {
+            "code": "goose"
+          }
         ]
       },
       //TAB Tail
@@ -802,7 +824,7 @@
       //tail feathers
       {
         "code": "tailfeathers",
-        "hideFromGui":true,
+        "hideFromGui": true,
         "tabCode": "Tail",
         "type": "shape",
         "shapeTemplate": {
@@ -814,7 +836,7 @@
           }
         ]
       },
-            {
+      {
         "code": "tailfeathers-overlay",
         "tabCode": "Tail",
         "type": "texture",
@@ -836,7 +858,7 @@
           {
             "code": "4"
           },
-            {
+          {
             "code": "5"
           }
         ]
@@ -869,15 +891,15 @@
           {
             "code": "#ffd4d2d3",
             "color": "13947603"
-          },                               
-{
+          },
+          {
             "code": "#FF1043AC",
             "color": "1065900"
           },
-{
-"code":"#FF0E0E0E",
-"color":"921102"
-}
+          {
+            "code": "#FF0E0E0E",
+            "color": "921102"
+          }
         ]
       },
       //TAB Voice

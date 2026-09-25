@@ -1,0 +1,638 @@
+{
+  "editor": {
+    "editorVersion": "VSMC2v0.5.0",
+    "allAngles": true,
+    "entityTextureMode": true,
+    "backdrops": [
+      {
+        "shapeFilepath": "body/base/harpy",
+        "opacity": 1.0,
+        "enabled": true
+      }
+    ],
+    "attachments": []
+  },
+  "textureWidth": 76,
+  "textureHeight": 76,
+  "textureSizes": {
+    "featherborn-main": [
+      152,
+      76
+    ]
+  },
+  "textures": {
+    "featherborn-main": "featherborn:body/base/featherborn-main"
+  },
+  "elements": [
+    {
+      "name": "forefootL",
+      "from":[0.0,0.0,2.0],
+      "to":[0.0,0.0,2.0],
+      "faces": {
+        "north":{"texture": "#featherborn-main", "uv": [56.0, 66.0, 56.5, 66.5]},
+        "east":{"texture": "#featherborn-main", "uv": [56.5, 66.0, 57.0, 66.5]},
+        "south":{"texture": "#featherborn-main", "uv": [57.0, 66.0, 57.5, 66.5]},
+        "west":{"texture": "#featherborn-main", "uv": [57.5, 66.0, 58.0, 66.5]},
+        "up":{"texture": "#featherborn-main", "uv": [56.0, 65.5, 56.5, 66.0]},
+        "down":{"texture": "#featherborn-main", "uv": [56.5, 65.5, 57.0, 66.0]}
+      },
+      "rotationOrigin":[0.0,0.0,2.0],
+      "stepParentName": "FootLFront",
+      "uv":[56.0,65.5],
+      "children": [
+        {
+          "name": "toeL1",
+          "from":[0.0,9.9524228858172137E-09,-1.0],
+          "to":[1.0,3.0000000099524229,0.0],
+          "faces": {
+            "north":{"texture": "#featherborn-main", "uv": [54.5, 65.5, 55.5, 68.5]},
+            "east":{"texture": "#featherborn-main", "uv": [55.5, 65.5, 56.5, 68.5]},
+            "south":{"texture": "#featherborn-main", "uv": [56.5, 65.5, 57.5, 68.5]},
+            "west":{"texture": "#featherborn-main", "uv": [57.5, 65.5, 58.5, 68.5]},
+            "up":{"texture": "#featherborn-main", "uv": [54.5, 64.5, 55.5, 65.5]},
+            "down":{"texture": "#featherborn-main", "uv": [55.5, 64.5, 56.5, 65.5]}
+          },
+          "rotationOrigin":[0.0,0.0,-0.5],
+          "rotationX": -20.0,
+          "stepParentName": "",
+          "uv":[54.5,64.5],
+          "children": [
+            {
+              "name": "talonL1",
+              "from":[0.0,3.0,0.15000000596046448],
+              "to":[0.699999988079071,3.300000011920929,0.84999999403953552],
+              "faces": {
+                "north":{"texture": "#featherborn-main", "uv": [43.5, 73.0, 44.0, 73.5]},
+                "east":{"texture": "#featherborn-main", "uv": [44.0, 73.0, 44.5, 73.5]},
+                "south":{"texture": "#featherborn-main", "uv": [44.5, 73.0, 45.0, 73.5]},
+                "west":{"texture": "#featherborn-main", "uv": [45.0, 73.0, 45.5, 73.5]},
+                "up":{"texture": "#featherborn-main", "uv": [43.5, 72.5, 44.0, 73.0]},
+                "down":{"texture": "#featherborn-main", "uv": [44.0, 72.5, 44.5, 73.0]}
+              },
+              "rotationOrigin":[0.0,3.0,0.15000000596046448],
+              "rotationZ": -22.5,
+              "uv":[43.5,72.5]
+            },
+            {
+              "name": "talonL2",
+              "from":[0.20000000298023224,3.0,0.25],
+              "to":[0.70000000298023224,3.5,0.75],
+              "faces": {
+                "north":{"texture": "#featherborn-main", "uv": [43.0, 73.0, 43.5, 73.5]},
+                "east":{"texture": "#featherborn-main", "uv": [43.5, 73.0, 44.0, 73.5]},
+                "south":{"texture": "#featherborn-main", "uv": [44.0, 73.0, 44.5, 73.5]},
+                "west":{"texture": "#featherborn-main", "uv": [44.5, 73.0, 45.0, 73.5]},
+                "up":{"texture": "#featherborn-main", "uv": [43.0, 72.5, 43.5, 73.0]},
+                "down":{"texture": "#featherborn-main", "uv": [43.5, 72.5, 44.0, 73.0]}
+              },
+              "rotationOrigin":[0.20000000298023224,3.0,0.25],
+              "uv":[43.0,72.5]
+            },
+            {
+              "name": "talonL3",
+              "from":[0.40000000596046448,3.2999999523162842,0.34999999403953552],
+              "to":[0.70000001788139343,3.7999999523162842,0.65000000596046448],
+              "faces": {
+                "north":{"texture": "#featherborn-main", "uv": [43.0, 73.0, 43.5, 73.5]},
+                "east":{"texture": "#featherborn-main", "uv": [43.5, 73.0, 44.0, 73.5]},
+                "south":{"texture": "#featherborn-main", "uv": [44.0, 73.0, 44.5, 73.5]},
+                "west":{"texture": "#featherborn-main", "uv": [44.5, 73.0, 45.0, 73.5]},
+                "up":{"texture": "#featherborn-main", "uv": [43.0, 72.5, 43.5, 73.0]},
+                "down":{"texture": "#featherborn-main", "uv": [43.5, 72.5, 44.0, 73.0]}
+              },
+              "rotationOrigin":[0.40000000596046448,3.2999999523162842,0.34999999403953552],
+              "rotationZ": 45.0,
+              "uv":[43.0,72.5]
+            }
+          ]
+        },
+        {
+          "name": "toeL3",
+          "from":[0.0,9.9524228858172137E-09,0.0],
+          "to":[1.0,3.0000000099524229,1.0],
+          "faces": {
+            "north":{"texture": "#featherborn-main", "uv": [54.5, 65.5, 55.5, 68.5]},
+            "east":{"texture": "#featherborn-main", "uv": [55.5, 65.5, 56.5, 68.5]},
+            "south":{"texture": "#featherborn-main", "uv": [56.5, 65.5, 57.5, 68.5]},
+            "west":{"texture": "#featherborn-main", "uv": [57.5, 65.5, 58.5, 68.5]},
+            "up":{"texture": "#featherborn-main", "uv": [54.5, 64.5, 55.5, 65.5]},
+            "down":{"texture": "#featherborn-main", "uv": [55.5, 64.5, 56.5, 65.5]}
+          },
+          "rotationOrigin":[0.0,0.0,0.5],
+          "rotationX": 20.0,
+          "stepParentName": "",
+          "uv":[54.5,64.5],
+          "children": [
+            {
+              "name": "talonL7",
+              "from":[0.0,3.0,0.15000000596046448],
+              "to":[0.699999988079071,3.300000011920929,0.84999999403953552],
+              "faces": {
+                "north":{"texture": "#featherborn-main", "uv": [43.5, 73.0, 44.0, 73.5]},
+                "east":{"texture": "#featherborn-main", "uv": [44.0, 73.0, 44.5, 73.5]},
+                "south":{"texture": "#featherborn-main", "uv": [44.5, 73.0, 45.0, 73.5]},
+                "west":{"texture": "#featherborn-main", "uv": [45.0, 73.0, 45.5, 73.5]},
+                "up":{"texture": "#featherborn-main", "uv": [43.5, 72.5, 44.0, 73.0]},
+                "down":{"texture": "#featherborn-main", "uv": [44.0, 72.5, 44.5, 73.0]}
+              },
+              "rotationOrigin":[0.0,3.0,0.15000000596046448],
+              "rotationZ": -22.5,
+              "uv":[43.5,72.5]
+            },
+            {
+              "name": "talonL8",
+              "from":[0.20000000298023224,3.0,0.25],
+              "to":[0.70000000298023224,3.5,0.75],
+              "faces": {
+                "north":{"texture": "#featherborn-main", "uv": [43.0, 73.0, 43.5, 73.5]},
+                "east":{"texture": "#featherborn-main", "uv": [43.5, 73.0, 44.0, 73.5]},
+                "south":{"texture": "#featherborn-main", "uv": [44.0, 73.0, 44.5, 73.5]},
+                "west":{"texture": "#featherborn-main", "uv": [44.5, 73.0, 45.0, 73.5]},
+                "up":{"texture": "#featherborn-main", "uv": [43.0, 72.5, 43.5, 73.0]},
+                "down":{"texture": "#featherborn-main", "uv": [43.5, 72.5, 44.0, 73.0]}
+              },
+              "rotationOrigin":[0.20000000298023224,3.0,0.25],
+              "uv":[43.0,72.5]
+            },
+            {
+              "name": "talonL9",
+              "from":[0.40000000596046448,3.2999999523162842,0.34999999403953552],
+              "to":[0.70000001788139343,3.7999999523162842,0.65000000596046448],
+              "faces": {
+                "north":{"texture": "#featherborn-main", "uv": [43.0, 73.0, 43.5, 73.5]},
+                "east":{"texture": "#featherborn-main", "uv": [43.5, 73.0, 44.0, 73.5]},
+                "south":{"texture": "#featherborn-main", "uv": [44.0, 73.0, 44.5, 73.5]},
+                "west":{"texture": "#featherborn-main", "uv": [44.5, 73.0, 45.0, 73.5]},
+                "up":{"texture": "#featherborn-main", "uv": [43.0, 72.5, 43.5, 73.0]},
+                "down":{"texture": "#featherborn-main", "uv": [43.5, 72.5, 44.0, 73.0]}
+              },
+              "rotationOrigin":[0.40000000596046448,3.2999999523162842,0.34999999403953552],
+              "rotationZ": 45.0,
+              "uv":[43.0,72.5]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "rearfootL",
+      "from":[-1.3274355126213777E-07,1.47308969644655E-06,2.0000014305114746],
+      "to":[-1.3274355126213777E-07,1.47308969644655E-06,2.0000014305114746],
+      "faces": {
+        "north":{"texture": "#featherborn-main", "uv": [56.0, 66.0, 56.5, 66.5]},
+        "east":{"texture": "#featherborn-main", "uv": [56.5, 66.0, 57.0, 66.5]},
+        "south":{"texture": "#featherborn-main", "uv": [57.0, 66.0, 57.5, 66.5]},
+        "west":{"texture": "#featherborn-main", "uv": [57.5, 66.0, 58.0, 66.5]},
+        "up":{"texture": "#featherborn-main", "uv": [56.0, 65.5, 56.5, 66.0]},
+        "down":{"texture": "#featherborn-main", "uv": [56.5, 65.5, 57.0, 66.0]}
+      },
+      "rotationOrigin":[-1.5114635232293949E-07,1.4769062772757025E-06,2.0000014305114746],
+      "rotationX": 180.0,
+      "rotationY": -4.9219335096495342E-07,
+      "rotationZ": -2.0323782337072771E-06,
+      "stepParentName": "FootLFront",
+      "uv":[56.0,65.5],
+      "children": [
+        {
+          "name": "toeL2",
+          "from":[0.0,9.9524228858172137E-09,-1.0],
+          "to":[1.0,3.0000000099524229,0.0],
+          "faces": {
+            "north":{"texture": "#featherborn-main", "uv": [54.5, 65.5, 55.5, 68.5]},
+            "east":{"texture": "#featherborn-main", "uv": [55.5, 65.5, 56.5, 68.5]},
+            "south":{"texture": "#featherborn-main", "uv": [56.5, 65.5, 57.5, 68.5]},
+            "west":{"texture": "#featherborn-main", "uv": [57.5, 65.5, 58.5, 68.5]},
+            "up":{"texture": "#featherborn-main", "uv": [54.5, 64.5, 55.5, 65.5]},
+            "down":{"texture": "#featherborn-main", "uv": [55.5, 64.5, 56.5, 65.5]}
+          },
+          "rotationOrigin":[0.0,0.0,-0.5],
+          "rotationX": -10.0,
+          "stepParentName": "",
+          "uv":[54.5,64.5],
+          "children": [
+            {
+              "name": "talonL4",
+              "from":[0.0,3.0,0.15000000596046448],
+              "to":[0.699999988079071,3.300000011920929,0.84999999403953552],
+              "faces": {
+                "north":{"texture": "#featherborn-main", "uv": [43.5, 73.0, 44.0, 73.5]},
+                "east":{"texture": "#featherborn-main", "uv": [44.0, 73.0, 44.5, 73.5]},
+                "south":{"texture": "#featherborn-main", "uv": [44.5, 73.0, 45.0, 73.5]},
+                "west":{"texture": "#featherborn-main", "uv": [45.0, 73.0, 45.5, 73.5]},
+                "up":{"texture": "#featherborn-main", "uv": [43.5, 72.5, 44.0, 73.0]},
+                "down":{"texture": "#featherborn-main", "uv": [44.0, 72.5, 44.5, 73.0]}
+              },
+              "rotationOrigin":[0.0,3.0,0.15000000596046448],
+              "rotationZ": -22.5,
+              "uv":[43.5,72.5]
+            },
+            {
+              "name": "talonL5",
+              "from":[0.20000000298023224,3.0,0.25],
+              "to":[0.70000000298023224,3.5,0.75],
+              "faces": {
+                "north":{"texture": "#featherborn-main", "uv": [43.0, 73.0, 43.5, 73.5]},
+                "east":{"texture": "#featherborn-main", "uv": [43.5, 73.0, 44.0, 73.5]},
+                "south":{"texture": "#featherborn-main", "uv": [44.0, 73.0, 44.5, 73.5]},
+                "west":{"texture": "#featherborn-main", "uv": [44.5, 73.0, 45.0, 73.5]},
+                "up":{"texture": "#featherborn-main", "uv": [43.0, 72.5, 43.5, 73.0]},
+                "down":{"texture": "#featherborn-main", "uv": [43.5, 72.5, 44.0, 73.0]}
+              },
+              "rotationOrigin":[0.20000000298023224,3.0,0.25],
+              "uv":[43.0,72.5]
+            },
+            {
+              "name": "talonL6",
+              "from":[0.40000000596046448,3.2999999523162842,0.34999999403953552],
+              "to":[0.70000001788139343,3.7999999523162842,0.65000000596046448],
+              "faces": {
+                "north":{"texture": "#featherborn-main", "uv": [43.0, 73.0, 43.5, 73.5]},
+                "east":{"texture": "#featherborn-main", "uv": [43.5, 73.0, 44.0, 73.5]},
+                "south":{"texture": "#featherborn-main", "uv": [44.0, 73.0, 44.5, 73.5]},
+                "west":{"texture": "#featherborn-main", "uv": [44.5, 73.0, 45.0, 73.5]},
+                "up":{"texture": "#featherborn-main", "uv": [43.0, 72.5, 43.5, 73.0]},
+                "down":{"texture": "#featherborn-main", "uv": [43.5, 72.5, 44.0, 73.0]}
+              },
+              "rotationOrigin":[0.40000000596046448,3.2999999523162842,0.34999999403953552],
+              "rotationZ": 45.0,
+              "uv":[43.0,72.5]
+            }
+          ]
+        },
+        {
+          "name": "toeL4",
+          "from":[0.0,9.9524228858172137E-09,0.0],
+          "to":[1.0,3.0000000099524229,1.0],
+          "faces": {
+            "north":{"texture": "#featherborn-main", "uv": [54.5, 65.5, 55.5, 68.5]},
+            "east":{"texture": "#featherborn-main", "uv": [55.5, 65.5, 56.5, 68.5]},
+            "south":{"texture": "#featherborn-main", "uv": [56.5, 65.5, 57.5, 68.5]},
+            "west":{"texture": "#featherborn-main", "uv": [57.5, 65.5, 58.5, 68.5]},
+            "up":{"texture": "#featherborn-main", "uv": [54.5, 64.5, 55.5, 65.5]},
+            "down":{"texture": "#featherborn-main", "uv": [55.5, 64.5, 56.5, 65.5]}
+          },
+          "rotationOrigin":[0.0,0.0,0.5],
+          "rotationX": 10.0,
+          "stepParentName": "",
+          "uv":[54.5,64.5],
+          "children": [
+            {
+              "name": "talonL10",
+              "from":[0.0,3.0,0.15000000596046448],
+              "to":[0.699999988079071,3.300000011920929,0.84999999403953552],
+              "faces": {
+                "north":{"texture": "#featherborn-main", "uv": [43.5, 73.0, 44.0, 73.5]},
+                "east":{"texture": "#featherborn-main", "uv": [44.0, 73.0, 44.5, 73.5]},
+                "south":{"texture": "#featherborn-main", "uv": [44.5, 73.0, 45.0, 73.5]},
+                "west":{"texture": "#featherborn-main", "uv": [45.0, 73.0, 45.5, 73.5]},
+                "up":{"texture": "#featherborn-main", "uv": [43.5, 72.5, 44.0, 73.0]},
+                "down":{"texture": "#featherborn-main", "uv": [44.0, 72.5, 44.5, 73.0]}
+              },
+              "rotationOrigin":[0.0,3.0,0.15000000596046448],
+              "rotationZ": -22.5,
+              "uv":[43.5,72.5]
+            },
+            {
+              "name": "talonL11",
+              "from":[0.20000000298023224,3.0,0.25],
+              "to":[0.70000000298023224,3.5,0.75],
+              "faces": {
+                "north":{"texture": "#featherborn-main", "uv": [43.0, 73.0, 43.5, 73.5]},
+                "east":{"texture": "#featherborn-main", "uv": [43.5, 73.0, 44.0, 73.5]},
+                "south":{"texture": "#featherborn-main", "uv": [44.0, 73.0, 44.5, 73.5]},
+                "west":{"texture": "#featherborn-main", "uv": [44.5, 73.0, 45.0, 73.5]},
+                "up":{"texture": "#featherborn-main", "uv": [43.0, 72.5, 43.5, 73.0]},
+                "down":{"texture": "#featherborn-main", "uv": [43.5, 72.5, 44.0, 73.0]}
+              },
+              "rotationOrigin":[0.20000000298023224,3.0,0.25],
+              "uv":[43.0,72.5]
+            },
+            {
+              "name": "talonL12",
+              "from":[0.40000000596046448,3.2999999523162842,0.34999999403953552],
+              "to":[0.70000001788139343,3.7999999523162842,0.65000000596046448],
+              "faces": {
+                "north":{"texture": "#featherborn-main", "uv": [43.0, 73.0, 43.5, 73.5]},
+                "east":{"texture": "#featherborn-main", "uv": [43.5, 73.0, 44.0, 73.5]},
+                "south":{"texture": "#featherborn-main", "uv": [44.0, 73.0, 44.5, 73.5]},
+                "west":{"texture": "#featherborn-main", "uv": [44.5, 73.0, 45.0, 73.5]},
+                "up":{"texture": "#featherborn-main", "uv": [43.0, 72.5, 43.5, 73.0]},
+                "down":{"texture": "#featherborn-main", "uv": [43.5, 72.5, 44.0, 73.0]}
+              },
+              "rotationOrigin":[0.40000000596046448,3.2999999523162842,0.34999999403953552],
+              "rotationZ": 45.0,
+              "uv":[43.0,72.5]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "forefootR",
+      "from":[-2.3168438474385766E-06,-9.1683847358581261E-07,2.0000002384185791],
+      "to":[-2.3168438474385766E-06,-9.1683847358581261E-07,2.0000002384185791],
+      "faces": {
+        "north":{"texture": "#featherborn-main", "uv": [55.5, 65.5, 56.0, 66.0]},
+        "east":{"texture": "#featherborn-main", "uv": [56.0, 65.5, 56.5, 66.0]},
+        "south":{"texture": "#featherborn-main", "uv": [56.5, 65.5, 57.0, 66.0]},
+        "west":{"texture": "#featherborn-main", "uv": [57.0, 65.5, 57.5, 66.0]},
+        "up":{"texture": "#featherborn-main", "uv": [55.5, 65.0, 56.0, 65.5]},
+        "down":{"texture": "#featherborn-main", "uv": [56.0, 65.0, 56.5, 65.5]}
+      },
+      "rotationOrigin":[-2.2984413590165786E-06,-9.206551681018027E-07,2.0000002384185791],
+      "rotationX": 4.1589021293475525E-07,
+      "rotationY": 4.9219335096495342E-07,
+      "rotationZ": -2.0323782337072771E-06,
+      "stepParentName": "FootRFront",
+      "uv":[55.5,65.0],
+      "children": [
+        {
+          "name": "toeR1",
+          "from":[0.0,9.9524228858172137E-09,-1.0],
+          "to":[1.0,3.0000000099524229,0.0],
+          "faces": {
+            "north":{"texture": "#featherborn-main", "uv": [54.5, 66.0, 55.5, 69.0]},
+            "east":{"texture": "#featherborn-main", "uv": [55.5, 66.0, 56.5, 69.0]},
+            "south":{"texture": "#featherborn-main", "uv": [56.5, 66.0, 57.5, 69.0]},
+            "west":{"texture": "#featherborn-main", "uv": [57.5, 66.0, 58.5, 69.0]},
+            "up":{"texture": "#featherborn-main", "uv": [54.5, 65.0, 55.5, 66.0]},
+            "down":{"texture": "#featherborn-main", "uv": [55.5, 65.0, 56.5, 66.0]}
+          },
+          "rotationOrigin":[0.0,0.0,-0.5],
+          "rotationX": -20.0,
+          "stepParentName": "",
+          "uv":[54.5,65.0],
+          "children": [
+            {
+              "name": "talonR1",
+              "from":[0.0,3.0,0.15000000596046448],
+              "to":[0.699999988079071,3.300000011920929,0.84999999403953552],
+              "faces": {
+                "north":{"texture": "#featherborn-main", "uv": [43.0, 73.0, 43.5, 73.5]},
+                "east":{"texture": "#featherborn-main", "uv": [43.5, 73.0, 44.0, 73.5]},
+                "south":{"texture": "#featherborn-main", "uv": [44.0, 73.0, 44.5, 73.5]},
+                "west":{"texture": "#featherborn-main", "uv": [44.5, 73.0, 45.0, 73.5]},
+                "up":{"texture": "#featherborn-main", "uv": [43.0, 72.5, 43.5, 73.0]},
+                "down":{"texture": "#featherborn-main", "uv": [43.5, 72.5, 44.0, 73.0]}
+              },
+              "rotationOrigin":[1.6391277313232422E-07,3.0000003576278687,0.15000000596046448],
+              "rotationZ": -22.5,
+              "uv":[43.0,72.5]
+            },
+            {
+              "name": "talonR2",
+              "from":[0.20000000298023224,3.0,0.25],
+              "to":[0.70000000298023224,3.5,0.75],
+              "faces": {
+                "north":{"texture": "#featherborn-main", "uv": [43.0, 73.0, 43.5, 73.5]},
+                "east":{"texture": "#featherborn-main", "uv": [43.5, 73.0, 44.0, 73.5]},
+                "south":{"texture": "#featherborn-main", "uv": [44.0, 73.0, 44.5, 73.5]},
+                "west":{"texture": "#featherborn-main", "uv": [44.5, 73.0, 45.0, 73.5]},
+                "up":{"texture": "#featherborn-main", "uv": [43.0, 72.5, 43.5, 73.0]},
+                "down":{"texture": "#featherborn-main", "uv": [43.5, 72.5, 44.0, 73.0]}
+              },
+              "rotationOrigin":[0.20000095665454865,3.0000001192092896,0.25],
+              "uv":[43.0,72.5]
+            },
+            {
+              "name": "talonR3",
+              "from":[0.40000000596046448,3.2999999523162842,0.34999999403953552],
+              "to":[0.70000001788139343,3.7999999523162842,0.65000000596046448],
+              "faces": {
+                "north":{"texture": "#featherborn-main", "uv": [43.5, 73.0, 44.0, 73.5]},
+                "east":{"texture": "#featherborn-main", "uv": [44.0, 73.0, 44.5, 73.5]},
+                "south":{"texture": "#featherborn-main", "uv": [44.5, 73.0, 45.0, 73.5]},
+                "west":{"texture": "#featherborn-main", "uv": [45.0, 73.0, 45.5, 73.5]},
+                "up":{"texture": "#featherborn-main", "uv": [43.5, 72.5, 44.0, 73.0]},
+                "down":{"texture": "#featherborn-main", "uv": [44.0, 72.5, 44.5, 73.0]}
+              },
+              "rotationOrigin":[0.40000011771917343,3.3000000715255737,0.35000094771385193],
+              "rotationZ": 45.0,
+              "uv":[43.5,72.5]
+            }
+          ]
+        },
+        {
+          "name": "toeR3",
+          "from":[0.0,9.9524228858172137E-09,0.0],
+          "to":[1.0,3.0000000099524229,1.0],
+          "faces": {
+            "north":{"texture": "#featherborn-main", "uv": [54.5, 66.0, 55.5, 69.0]},
+            "east":{"texture": "#featherborn-main", "uv": [55.5, 66.0, 56.5, 69.0]},
+            "south":{"texture": "#featherborn-main", "uv": [56.5, 66.0, 57.5, 69.0]},
+            "west":{"texture": "#featherborn-main", "uv": [57.5, 66.0, 58.5, 69.0]},
+            "up":{"texture": "#featherborn-main", "uv": [54.5, 65.0, 55.5, 66.0]},
+            "down":{"texture": "#featherborn-main", "uv": [55.5, 65.0, 56.5, 66.0]}
+          },
+          "rotationOrigin":[0.0,0.0,0.5],
+          "rotationX": 20.0,
+          "stepParentName": "",
+          "uv":[54.5,65.0],
+          "children": [
+            {
+              "name": "talonR7",
+              "from":[0.0,3.0,0.15000000596046448],
+              "to":[0.699999988079071,3.300000011920929,0.84999999403953552],
+              "faces": {
+                "north":{"texture": "#featherborn-main", "uv": [43.0, 73.0, 43.5, 73.5]},
+                "east":{"texture": "#featherborn-main", "uv": [43.5, 73.0, 44.0, 73.5]},
+                "south":{"texture": "#featherborn-main", "uv": [44.0, 73.0, 44.5, 73.5]},
+                "west":{"texture": "#featherborn-main", "uv": [44.5, 73.0, 45.0, 73.5]},
+                "up":{"texture": "#featherborn-main", "uv": [43.0, 72.5, 43.5, 73.0]},
+                "down":{"texture": "#featherborn-main", "uv": [43.5, 72.5, 44.0, 73.0]}
+              },
+              "rotationOrigin":[1.6391277313232422E-07,3.0000003576278687,0.15000000596046448],
+              "rotationZ": -22.5,
+              "uv":[43.0,72.5]
+            },
+            {
+              "name": "talonR8",
+              "from":[0.20000000298023224,3.0,0.25],
+              "to":[0.70000000298023224,3.5,0.75],
+              "faces": {
+                "north":{"texture": "#featherborn-main", "uv": [43.0, 73.0, 43.5, 73.5]},
+                "east":{"texture": "#featherborn-main", "uv": [43.5, 73.0, 44.0, 73.5]},
+                "south":{"texture": "#featherborn-main", "uv": [44.0, 73.0, 44.5, 73.5]},
+                "west":{"texture": "#featherborn-main", "uv": [44.5, 73.0, 45.0, 73.5]},
+                "up":{"texture": "#featherborn-main", "uv": [43.0, 72.5, 43.5, 73.0]},
+                "down":{"texture": "#featherborn-main", "uv": [43.5, 72.5, 44.0, 73.0]}
+              },
+              "rotationOrigin":[0.20000095665454865,3.0000001192092896,0.25],
+              "uv":[43.0,72.5]
+            },
+            {
+              "name": "talonR9",
+              "from":[0.40000000596046448,3.2999999523162842,0.34999999403953552],
+              "to":[0.70000001788139343,3.7999999523162842,0.65000000596046448],
+              "faces": {
+                "north":{"texture": "#featherborn-main", "uv": [43.5, 73.0, 44.0, 73.5]},
+                "east":{"texture": "#featherborn-main", "uv": [44.0, 73.0, 44.5, 73.5]},
+                "south":{"texture": "#featherborn-main", "uv": [44.5, 73.0, 45.0, 73.5]},
+                "west":{"texture": "#featherborn-main", "uv": [45.0, 73.0, 45.5, 73.5]},
+                "up":{"texture": "#featherborn-main", "uv": [43.5, 72.5, 44.0, 73.0]},
+                "down":{"texture": "#featherborn-main", "uv": [44.0, 72.5, 44.5, 73.0]}
+              },
+              "rotationOrigin":[0.40000011771917343,3.3000000715255737,0.35000094771385193],
+              "rotationZ": 45.0,
+              "uv":[43.5,72.5]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "rearfootR",
+      "from":[-2.3168438474385766E-06,-9.1683847358581261E-07,2.0000002384185791],
+      "to":[-2.3168438474385766E-06,-9.1683847358581261E-07,2.0000002384185791],
+      "faces": {
+        "north":{"texture": "#featherborn-main", "uv": [55.5, 65.5, 56.0, 66.0]},
+        "east":{"texture": "#featherborn-main", "uv": [56.0, 65.5, 56.5, 66.0]},
+        "south":{"texture": "#featherborn-main", "uv": [56.5, 65.5, 57.0, 66.0]},
+        "west":{"texture": "#featherborn-main", "uv": [57.0, 65.5, 57.5, 66.0]},
+        "up":{"texture": "#featherborn-main", "uv": [55.5, 65.0, 56.0, 65.5]},
+        "down":{"texture": "#featherborn-main", "uv": [56.0, 65.0, 56.5, 65.5]}
+      },
+      "rotationOrigin":[-2.2984413590165786E-06,-9.206551681018027E-07,2.0000002384185791],
+      "rotationX": 180.0,
+      "rotationY": 4.9219335096495342E-07,
+      "rotationZ": -2.0323782337072771E-06,
+      "stepParentName": "FootRFront",
+      "uv":[55.5,65.0],
+      "children": [
+        {
+          "name": "toeR2",
+          "from":[0.0,9.9524228858172137E-09,-1.0],
+          "to":[1.0,3.0000000099524229,0.0],
+          "faces": {
+            "north":{"texture": "#featherborn-main", "uv": [54.5, 66.0, 55.5, 69.0]},
+            "east":{"texture": "#featherborn-main", "uv": [55.5, 66.0, 56.5, 69.0]},
+            "south":{"texture": "#featherborn-main", "uv": [56.5, 66.0, 57.5, 69.0]},
+            "west":{"texture": "#featherborn-main", "uv": [57.5, 66.0, 58.5, 69.0]},
+            "up":{"texture": "#featherborn-main", "uv": [54.5, 65.0, 55.5, 66.0]},
+            "down":{"texture": "#featherborn-main", "uv": [55.5, 65.0, 56.5, 66.0]}
+          },
+          "rotationOrigin":[0.0,0.0,-0.5],
+          "rotationX": -10.0,
+          "stepParentName": "",
+          "uv":[54.5,65.0],
+          "children": [
+            {
+              "name": "talonR4",
+              "from":[0.0,3.0,0.15000000596046448],
+              "to":[0.699999988079071,3.300000011920929,0.84999999403953552],
+              "faces": {
+                "north":{"texture": "#featherborn-main", "uv": [43.0, 73.0, 43.5, 73.5]},
+                "east":{"texture": "#featherborn-main", "uv": [43.5, 73.0, 44.0, 73.5]},
+                "south":{"texture": "#featherborn-main", "uv": [44.0, 73.0, 44.5, 73.5]},
+                "west":{"texture": "#featherborn-main", "uv": [44.5, 73.0, 45.0, 73.5]},
+                "up":{"texture": "#featherborn-main", "uv": [43.0, 72.5, 43.5, 73.0]},
+                "down":{"texture": "#featherborn-main", "uv": [43.5, 72.5, 44.0, 73.0]}
+              },
+              "rotationOrigin":[1.6391277313232422E-07,3.0000003576278687,0.15000000596046448],
+              "rotationZ": -22.5,
+              "uv":[43.0,72.5]
+            },
+            {
+              "name": "talonR5",
+              "from":[0.20000000298023224,3.0,0.25],
+              "to":[0.70000000298023224,3.5,0.75],
+              "faces": {
+                "north":{"texture": "#featherborn-main", "uv": [43.0, 73.0, 43.5, 73.5]},
+                "east":{"texture": "#featherborn-main", "uv": [43.5, 73.0, 44.0, 73.5]},
+                "south":{"texture": "#featherborn-main", "uv": [44.0, 73.0, 44.5, 73.5]},
+                "west":{"texture": "#featherborn-main", "uv": [44.5, 73.0, 45.0, 73.5]},
+                "up":{"texture": "#featherborn-main", "uv": [43.0, 72.5, 43.5, 73.0]},
+                "down":{"texture": "#featherborn-main", "uv": [43.5, 72.5, 44.0, 73.0]}
+              },
+              "rotationOrigin":[0.20000095665454865,3.0000001192092896,0.25],
+              "uv":[43.0,72.5]
+            },
+            {
+              "name": "talonR6",
+              "from":[0.40000000596046448,3.2999999523162842,0.34999999403953552],
+              "to":[0.70000001788139343,3.7999999523162842,0.65000000596046448],
+              "faces": {
+                "north":{"texture": "#featherborn-main", "uv": [43.5, 73.0, 44.0, 73.5]},
+                "east":{"texture": "#featherborn-main", "uv": [44.0, 73.0, 44.5, 73.5]},
+                "south":{"texture": "#featherborn-main", "uv": [44.5, 73.0, 45.0, 73.5]},
+                "west":{"texture": "#featherborn-main", "uv": [45.0, 73.0, 45.5, 73.5]},
+                "up":{"texture": "#featherborn-main", "uv": [43.5, 72.5, 44.0, 73.0]},
+                "down":{"texture": "#featherborn-main", "uv": [44.0, 72.5, 44.5, 73.0]}
+              },
+              "rotationOrigin":[0.40000011771917343,3.3000000715255737,0.35000094771385193],
+              "rotationZ": 45.0,
+              "uv":[43.5,72.5]
+            }
+          ]
+        },
+        {
+          "name": "toeR4",
+          "from":[0.0,9.9524228858172137E-09,0.0],
+          "to":[1.0,3.0000000099524229,1.0],
+          "faces": {
+            "north":{"texture": "#featherborn-main", "uv": [54.5, 66.0, 55.5, 69.0]},
+            "east":{"texture": "#featherborn-main", "uv": [55.5, 66.0, 56.5, 69.0]},
+            "south":{"texture": "#featherborn-main", "uv": [56.5, 66.0, 57.5, 69.0]},
+            "west":{"texture": "#featherborn-main", "uv": [57.5, 66.0, 58.5, 69.0]},
+            "up":{"texture": "#featherborn-main", "uv": [54.5, 65.0, 55.5, 66.0]},
+            "down":{"texture": "#featherborn-main", "uv": [55.5, 65.0, 56.5, 66.0]}
+          },
+          "rotationOrigin":[0.0,0.0,0.5],
+          "rotationX": 10.0,
+          "stepParentName": "",
+          "uv":[54.5,65.0],
+          "children": [
+            {
+              "name": "talonR10",
+              "from":[0.0,3.0,0.15000000596046448],
+              "to":[0.699999988079071,3.300000011920929,0.84999999403953552],
+              "faces": {
+                "north":{"texture": "#featherborn-main", "uv": [43.0, 73.0, 43.5, 73.5]},
+                "east":{"texture": "#featherborn-main", "uv": [43.5, 73.0, 44.0, 73.5]},
+                "south":{"texture": "#featherborn-main", "uv": [44.0, 73.0, 44.5, 73.5]},
+                "west":{"texture": "#featherborn-main", "uv": [44.5, 73.0, 45.0, 73.5]},
+                "up":{"texture": "#featherborn-main", "uv": [43.0, 72.5, 43.5, 73.0]},
+                "down":{"texture": "#featherborn-main", "uv": [43.5, 72.5, 44.0, 73.0]}
+              },
+              "rotationOrigin":[1.6391277313232422E-07,3.0000003576278687,0.15000000596046448],
+              "rotationZ": -22.5,
+              "uv":[43.0,72.5]
+            },
+            {
+              "name": "talonR11",
+              "from":[0.20000000298023224,3.0,0.25],
+              "to":[0.70000000298023224,3.5,0.75],
+              "faces": {
+                "north":{"texture": "#featherborn-main", "uv": [43.0, 73.0, 43.5, 73.5]},
+                "east":{"texture": "#featherborn-main", "uv": [43.5, 73.0, 44.0, 73.5]},
+                "south":{"texture": "#featherborn-main", "uv": [44.0, 73.0, 44.5, 73.5]},
+                "west":{"texture": "#featherborn-main", "uv": [44.5, 73.0, 45.0, 73.5]},
+                "up":{"texture": "#featherborn-main", "uv": [43.0, 72.5, 43.5, 73.0]},
+                "down":{"texture": "#featherborn-main", "uv": [43.5, 72.5, 44.0, 73.0]}
+              },
+              "rotationOrigin":[0.20000095665454865,3.0000001192092896,0.25],
+              "uv":[43.0,72.5]
+            },
+            {
+              "name": "talonR12",
+              "from":[0.40000000596046448,3.2999999523162842,0.34999999403953552],
+              "to":[0.70000001788139343,3.7999999523162842,0.65000000596046448],
+              "faces": {
+                "north":{"texture": "#featherborn-main", "uv": [43.5, 73.0, 44.0, 73.5]},
+                "east":{"texture": "#featherborn-main", "uv": [44.0, 73.0, 44.5, 73.5]},
+                "south":{"texture": "#featherborn-main", "uv": [44.5, 73.0, 45.0, 73.5]},
+                "west":{"texture": "#featherborn-main", "uv": [45.0, 73.0, 45.5, 73.5]},
+                "up":{"texture": "#featherborn-main", "uv": [43.5, 72.5, 44.0, 73.0]},
+                "down":{"texture": "#featherborn-main", "uv": [44.0, 72.5, 44.5, 73.0]}
+              },
+              "rotationOrigin":[0.40000011771917343,3.3000000715255737,0.35000094771385193],
+              "rotationZ": 45.0,
+              "uv":[43.5,72.5]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": []
+}
