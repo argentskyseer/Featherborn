@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "settings": {
+    "boolean": {
+      "HOLLOWBONES_ON": {
+        "name": "trait-hollowbones",
+        "ingui": "featherborn:setting-trait-hollowbones",
+        "weight": 1.0,
+        "default": true
+      },
+      "LIGHTFRAME_ON": {
+        "name": "trait-lightframe",
+        "ingui": "featherborn:setting-trait-lightframe",
+        "weight": 1.1,
+        "default": true
+      }
+    }
+  },
+  "patches": {
+    "float": {
+      "featherborn:config/traits.json": {
+        "code=featherborn-hollowbones/attributes/canGlide": "(HOLLOWBONES_ON) ? value : 0",
+        "code=featherborn-hollowbones/attributes/gravityDamageFactor": "(HOLLOWBONES_ON) ? value : 0",
+        "code=featherborn-lightframe/attributes/maxhealthExtraPoints": "(LIGHTFRAME_ON) ? value : 0"
+      }
+    }
+  }
+}

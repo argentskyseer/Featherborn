@@ -3,7 +3,7 @@
     "Enabled": true,
     "Group": "Featherborn",
     "GroupIcon": "featherborn:icons/featherborn-group",
-    "ShapePath": "featherborn:body/base/cyndari-faceless",
+    "ShapePath": "featherborn:body/base/cyndari",
     "MainTextureCode": "body-feathers",
     "Icon": "featherborn:icons/cyndari",
     "SizeRange": [0.4, 1.5],
@@ -702,8 +702,8 @@
         "tabCode": "Limbs",
         "type": "texture",
         "textureTarget": "featherborn-main",
-        "targetSkinParts": ["base", "body-type"],
-        "overlayMode": "Screen",
+        "targetSkinParts": ["base", "body-type", "feet"],
+        "overlayMode": "NormalPreserveAlpha",
         "solidColor": true,
         "size": [152, 152],
         "variants": [
@@ -731,6 +731,28 @@
 "code":"#FF0E0E0E",
 "color":"921102"
 }
+        ]
+      },
+            {
+        "code": "feet",
+        "tabCode": "Limbs",
+        "type": "shape",
+        "shapeTemplate": {
+          "base": "featherborn:legs/feet/{code}"
+        },
+        "variants": [
+          {
+            "code": "eagle"
+          },
+          {
+            "code": "sparrow"
+          },
+          {
+            "code": "owl"
+          },
+                    {
+            "code": "goose"
+          }
         ]
       },
       //TAB Tail

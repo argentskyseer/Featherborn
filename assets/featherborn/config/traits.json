@@ -1,0 +1,12 @@
+[
+  {
+    "code": "featherborn-hollowbones",
+    "type": "positive",
+    "attributes": { "canGlide": 1, "gravityDamageFactor": -0.3 }
+  },
+  {
+    "code": "featherborn-lightframe",
+    "type": "negative",
+    "attributes": { "maxhealthExtraPoints": -2 }
+  }
+]
