@@ -10,6 +10,7 @@
     "CollisionBox": [0.6, 1.85],
     "EyeHeight": 2,
     "ModelSizeFactor": 1,
+    "ExtraTraits": ["featherborn-hollowbones", "featherborn-lightframe"],
     "AvailableClasses": [],
     "GuiModelScale": 1.0,
     "HeadBobbingScale": 0.4,

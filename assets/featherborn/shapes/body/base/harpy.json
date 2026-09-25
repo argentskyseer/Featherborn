@@ -294,40 +294,6 @@
                               "uv":[22.5,9.5]
                             },
                             {
-                              "name": "Nose5",
-                              "from":[1.0,0.0,0.0],
-                              "to":[3.0,1.0,0.4],
-                              "faces": {
-                                "north":{"texture": "#featherborn-main", "uv": [24.0, 44.0, 26.0, 45.0], "autoUv": false, "snapUV": false},
-                                "east":{"texture": "#featherborn-main", "uv": [26.0, 44.0, 26.5, 45.0], "windData": [1, 1, 1, 1]},
-                                "south":{"texture": "#featherborn-main", "uv": [26.5, 44.0, 28.5, 45.0], "windData": [1, 1, 1, 1], "autoUv": false, "snapUV": false},
-                                "west":{"texture": "#featherborn-main", "uv": [28.5, 44.0, 29.0, 45.0], "windData": [1, 1, 1, 1]},
-                                "up":{"texture": "#featherborn-main", "uv": [24.0, 43.5, 26.0, 44.0], "windData": [1, 1, 1, 1], "autoUv": false, "snapUV": false},
-                                "down":{"texture": "#featherborn-main", "uv": [26.0, 43.5, 28.0, 44.0], "windData": [1, 1, 1, 1], "autoUv": false, "snapUV": false}
-                              },
-                              "rotationOrigin":[1.0,1.0,0.2],
-                              "rotationY": 33.0,
-                              "renderInEditor": false,
-                              "uv":[24.0,43.5]
-                            },
-                            {
-                              "name": "Nose6",
-                              "from":[1.0,0.0,0.0],
-                              "to":[3.0,1.0,0.4],
-                              "faces": {
-                                "north":{"texture": "#featherborn-main", "uv": [21.5, 69.0, 24.5, 70.0], "autoUv": false, "snapUV": false},
-                                "east":{"texture": "#featherborn-main", "uv": [24.5, 69.0, 25.0, 70.0], "windData": [1, 1, 1, 1]},
-                                "south":{"texture": "#featherborn-main", "uv": [25.0, 69.0, 28.0, 70.0], "windData": [1, 1, 1, 1], "autoUv": false, "snapUV": false},
-                                "west":{"texture": "#featherborn-main", "uv": [28.0, 69.0, 28.5, 70.0], "windData": [1, 1, 1, 1]},
-                                "up":{"texture": "#featherborn-main", "uv": [21.5, 68.5, 24.5, 69.0], "windData": [1, 1, 1, 1], "autoUv": false, "snapUV": false},
-                                "down":{"texture": "#featherborn-main", "uv": [24.5, 68.5, 27.5, 69.0], "windData": [1, 1, 1, 1], "autoUv": false, "snapUV": false}
-                              },
-                              "rotationOrigin":[1.0,1.0,0.2],
-                              "rotationY": -33.0,
-                              "renderInEditor": false,
-                              "uv":[21.5,68.5]
-                            },
-                            {
                               "name": "ForeheadL",
                               "from":[1.3500000238418579,0.0,0.550000011920929],
                               "to":[3.8500000238418579,1.0,1.9500000119209289],
