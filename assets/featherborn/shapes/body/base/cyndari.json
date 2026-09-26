@@ -2377,6 +2377,56 @@
       ]
     },
     {
+      "name": "Flap",
+      "code": "ww_flap",
+      "quantityframes": 40,
+      "onActivityStopped": "EaseOut",
+      "keyframes": [
+        {
+          "frame": 0,
+          "elements": {
+            "LowerTorso":{"offsetX": 0.0, "offsetY": 3.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 93.0},
+            "UpperFootR":{"offsetX": -1.5, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -67.5},
+            "UpperFootL":{"rotationX": -2.7689, "rotationY": -5.6829, "rotationZ": -83.2429},
+            "LowerFootLb":{"rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5},
+            "AnkleL":{"rotationX": 0.0, "rotationY": 0.0, "rotationZ": -15.0},
+            "AnkleR":{"rotationX": 0.0, "rotationY": 0.0, "rotationZ": -15.0},
+            "FootL":{"rotationX": 0.0, "rotationY": 0.0, "rotationZ": -20.0},
+            "FootR":{"rotationX": 0.0, "rotationY": 0.0, "rotationZ": -20.0},
+            "UpperTorso":{"rotationX": 0.0, "rotationY": 0.0, "rotationZ": -10.0},
+            "UpperArmR":{"offsetX": 0.0, "offsetY": 1.0, "offsetZ": 0.0, "rotationX": 67.5, "rotationY": 0.0, "rotationZ": 0.0},
+            "LowerArmR":{"rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.5},
+            "UpperArmL":{"offsetX": 0.0, "offsetY": 1.0, "offsetZ": 0.0, "rotationX": -67.5, "rotationY": 0.0, "rotationZ": 0.0},
+            "LowerArmL":{"rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.5},
+            "Head":{"rotationX": 0.0, "rotationY": 0.0, "rotationZ": -52.5}
+          }
+        },
+        {
+          "frame": 10,
+          "elements": {
+            "UpperArmR":{"offsetX": 0.0, "offsetY": 1.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -90.0},
+            "UpperArmL":{"offsetX": 0.0, "offsetY": 1.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -90.0}
+          }
+        },
+        {
+          "frame": 20,
+          "elements": {
+            "UpperArmR":{"offsetX": 0.0, "offsetY": 1.0, "offsetZ": 0.0, "rotationX": 112.5, "rotationY": -135.0, "rotationZ": 0.0},
+            "LowerArmR":{"rotationX": -4.0, "rotationY": 0.0, "rotationZ": -14.0},
+            "UpperArmL":{"offsetX": 0.0, "offsetY": 1.0, "offsetZ": 0.0, "rotationX": -112.5, "rotationY": 135.0, "rotationZ": 0.0},
+            "LowerArmL":{"rotationX": 4.0, "rotationY": 0.0, "rotationZ": -14.0}
+          }
+        },
+        {
+          "frame": 30,
+          "elements": {
+            "UpperArmR":{"offsetX": 0.0, "offsetY": 1.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -90.0},
+            "UpperArmL":{"offsetX": 0.0, "offsetY": 1.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -90.0}
+          }
+        }
+      ]
+    },
+    {
       "name": "Glide",
       "code": "glide",
       "quantityframes": 40,
