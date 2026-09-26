@@ -11,6 +11,7 @@
 		"tail-base": [64,64]
 	},
 	"textures": {
+		"featherborn-main": "featherborn:body/base/featherborn-main"
 	},
 	"elements": [
 		{
@@ -1411,7 +1412,9 @@
 					"elements": {
 						"LowerFootLb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 44.0 },
 						"ForefootL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -45.0 },
-						"LToeBack": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -50.0 }
+						"LToeBack": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -50.0 },
+						"AnkleL": { "offsetX": 0.6, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.0 },
+						"AnkleR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 5.0909 }
 					}
 				},
 				{
