@@ -3,7 +3,13 @@
     "editorVersion": "VSMC2v0.5.0",
     "allAngles": true,
     "entityTextureMode": true,
-    "backdrops": [],
+    "backdrops": [
+      {
+        "shapeFilepath": "body/base/harpy",
+        "opacity": 1.0,
+        "enabled": true
+      }
+    ],
     "attachments": []
   },
   "textureWidth": 48,
@@ -20,17 +26,17 @@
   "elements": [
     {
       "name": "lowerWingLB",
-      "from":[0.0,-6.0,1.0],
+      "from":[0.0,-9.0,1.0],
       "to":[10.5,11.0,1.01],
       "faces": {
         "north":{"texture": "#featherborn-main", "uv": [79.5, 10.0, 115.5, 29.0], "rotation": 90.0, "autoUv": false, "snapUV": false},
         "east":{"texture": "#", "uv": [0.0, 0.0, 1.0, 1.0], "enabled": false, "autoUv": false, "snapUV": false},
         "south":{"texture": "#featherborn-main", "uv": [116.0, 29.0, 152.0, 10.0], "windMode": [-1, -1, -1, -1], "windData": [0, 0, 1, 1], "rotation": 90.0, "autoUv": false, "snapUV": false},
-        "west":{"texture": "#featherborn-main", "uv": [38.0, 130.0, 38.5, 147.0], "enabled": false},
+        "west":{"texture": "#featherborn-main", "uv": [38.0, 130.0, 38.5, 150.0], "enabled": false},
         "up":{"texture": "#", "uv": [0.0, 0.0, 1.0, 1.0], "enabled": false, "autoUv": false, "snapUV": false},
         "down":{"texture": "#", "uv": [0.0, 0.0, 1.0, 1.0], "enabled": false, "autoUv": false, "snapUV": false}
       },
-      "rotationOrigin":[0.0,-6.0,1.0],
+      "rotationOrigin":[0.0,-9.0,1.0],
       "stepParentName": "LowerArmL",
       "autoUnwrap": false,
       "uv":[0.0,0.0],
@@ -56,17 +62,17 @@
     },
     {
       "name": "upperWingLB",
-      "from":[1.0,-3.0,1.0],
-      "to":[8.5,6.5,1.01],
+      "from":[1.0,-4.0,1.0],
+      "to":[9.5,6.5,1.01],
       "faces": {
         "north":{"texture": "#featherborn-main", "uv": [92.0, 32.5, 119.0, 51.5], "rotation": 90.0, "autoUv": false, "snapUV": false},
         "east":{"texture": "#", "uv": [0.0, 0.0, 1.0, 1.0], "enabled": false, "autoUv": false, "snapUV": false},
         "south":{"texture": "#featherborn-main", "uv": [123.5, 51.5, 150.5, 32.5], "rotation": 90.0, "autoUv": false, "snapUV": false},
-        "west":{"texture": "#featherborn-main", "uv": [38.0, 130.0, 38.5, 139.5], "enabled": false},
+        "west":{"texture": "#featherborn-main", "uv": [38.0, 130.0, 38.5, 140.5], "enabled": false},
         "up":{"texture": "#", "uv": [0.0, 0.0, 1.0, 1.0], "enabled": false, "autoUv": false, "snapUV": false},
         "down":{"texture": "#", "uv": [0.0, 0.0, 1.0, 1.0], "enabled": false, "autoUv": false, "snapUV": false}
       },
-      "rotationOrigin":[1.0,-3.0,1.0],
+      "rotationOrigin":[1.0,-4.0,1.0],
       "stepParentName": "UpperArmL",
       "autoUnwrap": false,
       "uv":[0.0,0.0],
@@ -92,17 +98,17 @@
     },
     {
       "name": "lowerWingRB",
-      "from":[0.0,-6.0,1.0],
+      "from":[0.0,-9.0,1.0],
       "to":[10.5,11.0,1.01],
       "faces": {
         "north":{"texture": "#featherborn-main", "uv": [116.0, 10.0, 152.0, 29.0], "rotation": 90.0, "autoUv": false, "snapUV": false},
         "east":{"texture": "#", "uv": [0.0, 0.0, 1.0, 1.0], "enabled": false, "autoUv": false, "snapUV": false},
         "south":{"texture": "#featherborn-main", "uv": [79.5, 29.0, 115.5, 10.0], "rotation": 90.0, "autoUv": false, "snapUV": false},
-        "west":{"texture": "#featherborn-main", "uv": [38.0, 130.0, 38.5, 147.0], "enabled": false},
+        "west":{"texture": "#featherborn-main", "uv": [38.0, 130.0, 38.5, 150.0], "enabled": false},
         "up":{"texture": "#", "uv": [0.0, 0.0, 1.0, 1.0], "enabled": false, "autoUv": false, "snapUV": false},
         "down":{"texture": "#", "uv": [0.0, 0.0, 1.0, 1.0], "enabled": false, "autoUv": false, "snapUV": false}
       },
-      "rotationOrigin":[0.0,-6.0,1.0],
+      "rotationOrigin":[0.0,-9.0,1.0],
       "stepParentName": "LowerArmR",
       "autoUnwrap": false,
       "uv":[0.0,0.0],
@@ -110,7 +116,7 @@
         {
           "name": "lowerWingRT",
           "from":[0.0,3.0,0.0],
-          "to":[6.5,13.0,0.0],
+          "to":[5.5,13.0,0.0],
           "faces": {
             "north":{"texture": "#featherborn-main", "uv": [120.0, 2.0, 150.0, 8.0], "rotation": 90.0, "autoUv": false, "snapUV": false},
             "east":{"texture": "#", "uv": [0.0, 0.0, 1.0, 1.0], "enabled": false, "autoUv": false, "snapUV": false},
@@ -128,17 +134,17 @@
     },
     {
       "name": "upperWingRB",
-      "from":[1.0,-3.0,1.0],
-      "to":[8.5,6.5,1.01],
+      "from":[1.0,-4.0,1.0],
+      "to":[9.5,6.5,1.01],
       "faces": {
         "north":{"texture": "#featherborn-main", "uv": [123.5, 32.5, 150.5, 51.5], "rotation": 90.0, "autoUv": false, "snapUV": false},
         "east":{"texture": "#", "uv": [0.0, 0.0, 1.0, 1.0], "enabled": false, "autoUv": false, "snapUV": false},
         "south":{"texture": "#featherborn-main", "uv": [92.0, 51.5, 119.0, 32.5], "rotation": 90.0, "autoUv": false, "snapUV": false},
-        "west":{"texture": "#featherborn-main", "uv": [38.0, 130.0, 38.5, 139.5], "enabled": false},
+        "west":{"texture": "#featherborn-main", "uv": [38.0, 130.0, 38.5, 140.5], "enabled": false},
         "up":{"texture": "#", "uv": [0.0, 0.0, 1.0, 1.0], "enabled": false, "autoUv": false, "snapUV": false},
         "down":{"texture": "#", "uv": [0.0, 0.0, 1.0, 1.0], "enabled": false, "autoUv": false, "snapUV": false}
       },
-      "rotationOrigin":[1.0,-3.0,1.0],
+      "rotationOrigin":[1.0,-4.0,1.0],
       "stepParentName": "UpperArmR",
       "autoUnwrap": false,
       "uv":[0.0,0.0],
