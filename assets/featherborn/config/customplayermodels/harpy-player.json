@@ -24,8 +24,10 @@
       {
         "code": "feather-color",
         "tabCode": "Body",
+        "guiSubcategory": "Body",
         "type": "texture",
         "colbreak": true,
+        "guiDescription": "Adjust the main color of your players body.",
         "textureTarget": "featherborn-main",
         "targetSkinParts": ["base", "armfeathers"],
         "overlayMode": "MultiplyPreserveAlpha",
@@ -62,6 +64,7 @@
       {
         "code": "featherborn-secondary",
         "tabCode": "Body",
+        "guiSubcategory": "Body",
         "type": "texture",
         "textureTarget": "featherborn-main",
         "targetSkinParts": ["featherborn-secondary-color"],
@@ -76,6 +79,7 @@
       //secondary-color
       {
         "code": "featherborn-secondary-color",
+        "guiSubcategory": "Body",
         "tabCode": "Body",
         "type": "texture",
         "textureTarget": "featherborn-main",
@@ -106,6 +110,7 @@
       {
         "code": "underwear",
         "tabCode": "Body",
+        "guiSubcategory": "Underwear",
         "type": "texture",
         "textureTarget": "featherborn-main",
         "overlayTexture": true,
@@ -738,6 +743,9 @@
           },
           {
             "code": "full-arm-xl"
+          },
+                    {
+            "code": "back-wings2-b-closed"
           }
         ]
       },

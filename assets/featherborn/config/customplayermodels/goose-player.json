@@ -79,7 +79,7 @@
         "type": "texture",
         "textureTarget": "featherborn-main",
         "targetSkinParts": ["base", "body-type", "armfeathers"],
-        "overlayMode": "Screen",
+        "overlayMode": "NormalPreserveAlpha",
         "solidColor": true,
         "size": [304, 152],
         "variants": [
@@ -635,21 +635,18 @@
         "tabCode": "Head",
         "type": "texture",
         "textureTarget": "beakcolor",
-        "overlayTexture": false,
+        "overlayTexture": true,
         "targetSkinParts": ["facialbeak", "beakcore"],
-        "textureTemplate": "featherborn:face/beaks/{code}",
+        "size": [48, 48],
+        "solidColor": true,
         "variants": [
-          {
-            "code": "gray"
+                    {
+            "code": "#ff8A562C",
+            "color": "9066028"
           },
           {
-            "code": "yellow"
-          },
-          {
-            "code": "black"
-          },
-          {
-            "code": "base-beak"
+            "code": "#ffe6cb19",
+            "color": "15125273"
           }
         ]
       },
