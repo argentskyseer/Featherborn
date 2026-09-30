@@ -2104,6 +2104,15 @@
 			"onAnimationEnd": "Repeat",
 			"keyframes": [
 				{
+					"frame": 0,
+					"elements": {
+						"UpperArmR": {"rotationX": 0, "rotationY": 0, "rotationZ": -5},
+						"UpperArmL": {"rotationX": 0, "rotationY": 0, "rotationZ": -5},
+						"LowerArmR": {"rotationX": 0, "rotationY": 0, "rotationZ": -22.5},
+						"LowerArmL": {"rotationX": 0, "rotationY": 0, "rotationZ": -22.5}
+					}
+				},
+				{
 					"frame": 1,
 					"elements": {
 						"feather4R": {"rotationX": 0, "rotationY": 0, "rotationZ": -17.5},
@@ -2227,6 +2236,13 @@
 					}
 				},
 				{
+					"frame": 10,
+					"elements": {
+						"UpperArmR": {"rotationX": 0, "rotationY": 0, "rotationZ": -5},
+						"UpperArmL": {"rotationX": 0, "rotationY": 0, "rotationZ": -5}
+					}
+				},
+				{
 					"frame": 19,
 					"elements": {
 						"feather2": {"rotationX": -2.2182, "rotationY": 1.1534, "rotationZ": -2.4611}
@@ -2235,6 +2251,8 @@
 				{
 					"frame": 20,
 					"elements": {
+						"UpperArmR": {"rotationX": 0, "rotationY": 0, "rotationZ": -5},
+						"UpperArmL": {"rotationX": 0, "rotationY": 0, "rotationZ": -5},
 						"upperWingL": {"rotationX": 92.4974, "rotationY": -22.4456, "rotationZ": 161.0332},
 						"lowerWingL": {"rotationX": 0, "rotationY": 0, "rotationZ": -135},
 						"wingFingerL": {"rotationX": 0, "rotationY": 0, "rotationZ": 135},
@@ -2248,10 +2266,24 @@
 					}
 				},
 				{
+					"frame": 21,
+					"elements": {
+						"LowerArmR": {"rotationX": 0, "rotationY": 0, "rotationZ": -22.5},
+						"LowerArmL": {"rotationX": 0, "rotationY": 0, "rotationZ": -22.5}
+					}
+				},
+				{
 					"frame": 26,
 					"elements": {
 						"upperWingL": {"rotationX": 0, "rotationY": -130, "rotationZ": 67.5},
 						"upperWingR": {"rotationX": 0, "rotationY": 130, "rotationZ": 67.5}
+					}
+				},
+				{
+					"frame": 30,
+					"elements": {
+						"UpperArmR": {"rotationX": 0, "rotationY": 0, "rotationZ": -5},
+						"UpperArmL": {"rotationX": 0, "rotationY": 0, "rotationZ": -5}
 					}
 				},
 				{
@@ -2261,6 +2293,15 @@
 						"lowerWingL": {"rotationX": 29.2902, "rotationY": -48.9435, "rotationZ": -120.9467},
 						"upperWingR": {"rotationX": 0, "rotationY": 79.5455, "rotationZ": 67.5},
 						"lowerWingR": {"rotationX": -29.2902, "rotationY": 48.9435, "rotationZ": -120.9467}
+					}
+				},
+				{
+					"frame": 39,
+					"elements": {
+						"UpperArmR": {"rotationX": 0, "rotationY": 0, "rotationZ": -5},
+						"UpperArmL": {"rotationX": 0, "rotationY": 0, "rotationZ": -5},
+						"LowerArmR": {"rotationX": 0, "rotationY": 0, "rotationZ": -22.5},
+						"LowerArmL": {"rotationX": 0, "rotationY": 0, "rotationZ": -22.5}
 					}
 				}
 			]
