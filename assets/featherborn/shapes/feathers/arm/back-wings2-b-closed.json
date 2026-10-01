@@ -103,13 +103,13 @@
           "name": "lowerWingL",
           "from": [
             5.5,
-            0.0,
-            0.0
+            -4.371138828673793e-08,
+            0.5
           ],
           "to": [
             13.5,
-            1.0,
-            1.5
+            0.9999999562886117,
+            2.0
           ],
           "faces": {
             "north": {
@@ -169,10 +169,11 @@
           },
           "rotationOrigin": [
             5.5,
-            0.0,
-            0.75
+            -4.371138828673793e-08,
+            1.25
           ],
-          "rotationZ": 157.5,
+          "rotationX": 180.0,
+          "rotationZ": -170.0,
           "uv": [
             4.0,
             14.0
@@ -426,7 +427,7 @@
                     -0.48296,
                     0.5
                   ],
-                  "rotationZ": -15.0,
+                  "rotationZ": -18.0,
                   "uv": [
                     0.0,
                     0.0
@@ -5435,13 +5436,13 @@
           "name": "lowerWingR",
           "from": [
             5.5,
-            0.0,
-            -0.5
+            -4.371138828673793e-08,
+            -1.0
           ],
           "to": [
             13.5,
-            1.0,
-            1.0
+            0.9999999562886117,
+            0.5
           ],
           "faces": {
             "north": {
@@ -5501,10 +5502,11 @@
           },
           "rotationOrigin": [
             5.5,
-            0.0,
-            0.25
+            -4.371138828673793e-08,
+            -0.25
           ],
-          "rotationZ": 157.5,
+          "rotationX": -180.0,
+          "rotationZ": -170.0,
           "uv": [
             0.0,
             0.0
@@ -5758,7 +5760,7 @@
                     -0.48296,
                     0.8
                   ],
-                  "rotationZ": -15.0,
+                  "rotationZ": -18.0,
                   "uv": [
                     0.0,
                     0.0
@@ -10706,13 +10708,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": -4.794,
-              "rotationZ": -128.813
+              "rotationY": -175.206,
+              "rotationZ": 18.687,
+              "offsetX": -0.03666,
+              "offsetY": 0.02006,
+              "offsetZ": -0.49825
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": 4.794,
-              "rotationZ": -128.813
+              "rotationY": 175.206,
+              "rotationZ": 18.687,
+              "offsetX": -0.03666,
+              "offsetY": 0.02006,
+              "offsetZ": 0.49825
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -11341,13 +11349,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": -2.128,
-              "rotationZ": -132.295
+              "rotationY": -177.872,
+              "rotationZ": 15.205,
+              "offsetX": -0.0168,
+              "offsetY": 0.00791,
+              "offsetZ": -0.49966
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": 2.128,
-              "rotationZ": -132.295
+              "rotationY": 177.872,
+              "rotationZ": 15.205,
+              "offsetX": -0.0168,
+              "offsetY": 0.00791,
+              "offsetZ": 0.49966
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -11926,13 +11940,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": 0.711,
-              "rotationZ": -134.115
+              "rotationY": -180.711,
+              "rotationZ": 13.385,
+              "offsetX": 0.00569,
+              "offsetY": -0.00246,
+              "offsetZ": -0.49996
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": -0.711,
-              "rotationZ": -134.115
+              "rotationY": 180.711,
+              "rotationZ": 13.385,
+              "offsetX": 0.00569,
+              "offsetY": -0.00246,
+              "offsetZ": 0.49996
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -12511,13 +12531,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": 3.493,
-              "rotationZ": -134.818
+              "rotationY": -183.493,
+              "rotationZ": 12.682,
+              "offsetX": 0.02811,
+              "offsetY": -0.01175,
+              "offsetZ": -0.49907
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": -3.493,
-              "rotationZ": -134.818
+              "rotationY": 183.493,
+              "rotationZ": 12.682,
+              "offsetX": 0.02811,
+              "offsetY": -0.01175,
+              "offsetZ": 0.49907
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -13096,13 +13122,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": 5.991,
-              "rotationZ": -134.985
+              "rotationY": -185.991,
+              "rotationZ": 12.515,
+              "offsetX": 0.04821,
+              "offsetY": -0.01998,
+              "offsetZ": -0.49727
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": -5.991,
-              "rotationZ": -134.985
+              "rotationY": 185.991,
+              "rotationZ": 12.515,
+              "offsetX": 0.04821,
+              "offsetY": -0.01998,
+              "offsetZ": 0.49727
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -13681,13 +13713,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": 8.004,
-              "rotationZ": -135.0
+              "rotationY": -188.004,
+              "rotationZ": 12.5,
+              "offsetX": 0.06432,
+              "offsetY": -0.02664,
+              "offsetZ": -0.49513
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": -8.004,
-              "rotationZ": -135.0
+              "rotationY": 188.004,
+              "rotationZ": 12.5,
+              "offsetX": 0.06432,
+              "offsetY": -0.02664,
+              "offsetZ": 0.49513
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -14276,13 +14314,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": 9.369,
-              "rotationZ": -135.0
+              "rotationY": -189.369,
+              "rotationZ": 12.5,
+              "offsetX": 0.0752,
+              "offsetY": -0.03115,
+              "offsetZ": -0.49333
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": -9.369,
-              "rotationZ": -135.0
+              "rotationY": 189.369,
+              "rotationZ": 12.5,
+              "offsetX": 0.0752,
+              "offsetY": -0.03115,
+              "offsetZ": 0.49333
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -14861,13 +14905,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": 9.974,
-              "rotationZ": -134.985
+              "rotationY": -189.974,
+              "rotationZ": 12.515,
+              "offsetX": 0.08,
+              "offsetY": -0.03316,
+              "offsetZ": -0.49244
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": -9.974,
-              "rotationZ": -134.985
+              "rotationY": 189.974,
+              "rotationZ": 12.515,
+              "offsetX": 0.08,
+              "offsetY": -0.03316,
+              "offsetZ": 0.49244
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -15446,13 +15496,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": 9.772,
-              "rotationZ": -134.818
+              "rotationY": -189.772,
+              "rotationZ": 12.682,
+              "offsetX": 0.0783,
+              "offsetY": -0.03272,
+              "offsetZ": -0.49275
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": -9.772,
-              "rotationZ": -134.818
+              "rotationY": 189.772,
+              "rotationZ": 12.682,
+              "offsetX": 0.0783,
+              "offsetY": -0.03272,
+              "offsetZ": 0.49275
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -16031,13 +16087,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": 8.778,
-              "rotationZ": -134.115
+              "rotationY": -188.778,
+              "rotationZ": 13.385,
+              "offsetX": 0.07004,
+              "offsetY": -0.03029,
+              "offsetZ": -0.49414
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": -8.778,
-              "rotationZ": -134.115
+              "rotationY": 188.778,
+              "rotationZ": 13.385,
+              "offsetX": 0.07004,
+              "offsetY": -0.03029,
+              "offsetZ": 0.49414
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -16616,13 +16678,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": 7.072,
-              "rotationZ": -132.295
+              "rotationY": -187.072,
+              "rotationZ": 15.205,
+              "offsetX": 0.0557,
+              "offsetY": -0.02622,
+              "offsetZ": -0.4962
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": -7.072,
-              "rotationZ": -132.295
+              "rotationY": 187.072,
+              "rotationZ": 15.205,
+              "offsetX": 0.0557,
+              "offsetY": -0.02622,
+              "offsetZ": 0.4962
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -17211,13 +17279,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": 5.994,
-              "rotationZ": -130.785
+              "rotationY": -185.994,
+              "rotationZ": 16.715,
+              "offsetX": 0.04664,
+              "offsetY": -0.02347,
+              "offsetZ": -0.49727
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": -5.994,
-              "rotationZ": -130.785
+              "rotationY": 185.994,
+              "rotationZ": 16.715,
+              "offsetX": 0.04664,
+              "offsetY": -0.02347,
+              "offsetZ": 0.49727
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -17806,13 +17880,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": 4.794,
-              "rotationZ": -128.813
+              "rotationY": -184.794,
+              "rotationZ": 18.687,
+              "offsetX": 0.03666,
+              "offsetY": -0.02006,
+              "offsetZ": -0.49825
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": -4.794,
-              "rotationZ": -128.813
+              "rotationY": 184.794,
+              "rotationZ": 18.687,
+              "offsetX": 0.03666,
+              "offsetY": -0.02006,
+              "offsetZ": 0.49825
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -18391,13 +18471,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": 1.504,
-              "rotationZ": -122.091
+              "rotationY": -181.504,
+              "rotationZ": 25.409,
+              "offsetX": 0.0107,
+              "offsetY": -0.0076,
+              "offsetZ": -0.49983
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": -1.504,
-              "rotationZ": -122.091
+              "rotationY": 181.504,
+              "rotationZ": 25.409,
+              "offsetX": 0.0107,
+              "offsetY": -0.0076,
+              "offsetZ": 0.49983
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -18976,13 +19062,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": -1.968,
-              "rotationZ": -113.598
+              "rotationY": -178.032,
+              "rotationZ": 33.902,
+              "offsetX": -0.01237,
+              "offsetY": 0.01191,
+              "offsetZ": -0.49971
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": 1.968,
-              "rotationZ": -113.598
+              "rotationY": 178.032,
+              "rotationZ": 33.902,
+              "offsetX": -0.01237,
+              "offsetY": 0.01191,
+              "offsetZ": 0.49971
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -19561,13 +19653,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": -5.203,
-              "rotationZ": -105.57
+              "rotationY": -174.797,
+              "rotationZ": 41.93,
+              "offsetX": -0.02796,
+              "offsetY": 0.0357,
+              "offsetZ": -0.49794
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": 5.203,
-              "rotationZ": -105.57
+              "rotationY": 174.797,
+              "rotationZ": 41.93,
+              "offsetX": -0.02796,
+              "offsetY": 0.0357,
+              "offsetZ": 0.49794
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -20146,13 +20244,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": -7.81,
-              "rotationZ": -100.661
+              "rotationY": -172.19,
+              "rotationZ": 46.839,
+              "offsetX": -0.03717,
+              "offsetY": 0.05688,
+              "offsetZ": -0.49536
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": 7.81,
-              "rotationZ": -100.661
+              "rotationY": 172.19,
+              "rotationZ": 46.839,
+              "offsetX": -0.03717,
+              "offsetY": 0.05688,
+              "offsetZ": 0.49536
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -20741,13 +20845,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": -9.475,
-              "rotationZ": -100.661
+              "rotationY": -170.525,
+              "rotationZ": 46.839,
+              "offsetX": -0.04502,
+              "offsetY": 0.0689,
+              "offsetZ": -0.49318
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": 9.475,
-              "rotationZ": -100.661
+              "rotationY": 170.525,
+              "rotationZ": 46.839,
+              "offsetX": -0.04502,
+              "offsetY": 0.0689,
+              "offsetZ": 0.49318
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -21326,13 +21436,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": -9.997,
-              "rotationZ": -105.57
+              "rotationY": -170.003,
+              "rotationZ": 41.93,
+              "offsetX": -0.05352,
+              "offsetY": 0.06833,
+              "offsetZ": -0.49241
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": 9.997,
-              "rotationZ": -105.57
+              "rotationY": 170.003,
+              "rotationZ": 41.93,
+              "offsetX": -0.05352,
+              "offsetY": 0.06833,
+              "offsetZ": 0.49241
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -21911,13 +22027,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": -9.314,
-              "rotationZ": -113.598
+              "rotationY": -170.686,
+              "rotationZ": 33.902,
+              "offsetX": -0.05831,
+              "offsetY": 0.05611,
+              "offsetZ": -0.49341
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": 9.314,
-              "rotationZ": -113.598
+              "rotationY": 170.686,
+              "rotationZ": 33.902,
+              "offsetX": -0.05831,
+              "offsetY": 0.05611,
+              "offsetZ": 0.49341
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -22496,13 +22618,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": -7.507,
-              "rotationZ": -122.091
+              "rotationY": -172.493,
+              "rotationZ": 25.409,
+              "offsetX": -0.05324,
+              "offsetY": 0.03785,
+              "offsetZ": -0.49571
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": 7.507,
-              "rotationZ": -122.091
+              "rotationY": 172.493,
+              "rotationZ": 25.409,
+              "offsetX": -0.05324,
+              "offsetY": 0.03785,
+              "offsetZ": 0.49571
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -23081,13 +23209,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": -6.245,
-              "rotationZ": -125.767
+              "rotationY": -173.755,
+              "rotationZ": 21.733,
+              "offsetX": -0.04626,
+              "offsetY": 0.02861,
+              "offsetZ": -0.49703
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": 6.245,
-              "rotationZ": -125.767
+              "rotationY": 173.755,
+              "rotationZ": 21.733,
+              "offsetX": -0.04626,
+              "offsetY": 0.02861,
+              "offsetZ": 0.49703
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -23695,13 +23829,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": -4.7943,
-              "rotationZ": -128.8128
+              "rotationY": -175.2057,
+              "rotationZ": 18.6872,
+              "offsetX": -0.03666,
+              "offsetY": 0.02006,
+              "offsetZ": -0.49825
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": 4.7943,
-              "rotationZ": -128.8128
+              "rotationY": 175.2057,
+              "rotationZ": 18.6872,
+              "offsetX": -0.03666,
+              "offsetY": 0.02006,
+              "offsetZ": 0.49825
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -24330,13 +24470,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": -2.1276,
-              "rotationZ": -132.2947
+              "rotationY": -177.8724,
+              "rotationZ": 15.2053,
+              "offsetX": -0.0168,
+              "offsetY": 0.00791,
+              "offsetZ": -0.49966
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": 2.1276,
-              "rotationZ": -132.2947
+              "rotationY": 177.8724,
+              "rotationZ": 15.2053,
+              "offsetX": -0.0168,
+              "offsetY": 0.00791,
+              "offsetZ": 0.49966
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -24915,13 +25061,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": 0.7114,
-              "rotationZ": -134.1151
+              "rotationY": -180.7114,
+              "rotationZ": 13.3849,
+              "offsetX": 0.0057,
+              "offsetY": -0.00246,
+              "offsetZ": -0.49996
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": -0.7114,
-              "rotationZ": -134.1151
+              "rotationY": 180.7114,
+              "rotationZ": 13.3849,
+              "offsetX": 0.0057,
+              "offsetY": -0.00246,
+              "offsetZ": 0.49996
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -25500,13 +25652,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": 3.4928,
-              "rotationZ": -134.8176
+              "rotationY": -183.4928,
+              "rotationZ": 12.6824,
+              "offsetX": 0.02811,
+              "offsetY": -0.01175,
+              "offsetZ": -0.49907
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": -3.4928,
-              "rotationZ": -134.8176
+              "rotationY": 183.4928,
+              "rotationZ": 12.6824,
+              "offsetX": 0.02811,
+              "offsetY": -0.01175,
+              "offsetZ": 0.49907
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -26085,13 +26243,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": 5.9912,
-              "rotationZ": -134.9848
+              "rotationY": -185.9912,
+              "rotationZ": 12.5152,
+              "offsetX": 0.04821,
+              "offsetY": -0.01998,
+              "offsetZ": -0.49727
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": -5.9912,
-              "rotationZ": -134.9848
+              "rotationY": 185.9912,
+              "rotationZ": 12.5152,
+              "offsetX": 0.04821,
+              "offsetY": -0.01998,
+              "offsetZ": 0.49727
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -26670,13 +26834,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": 8.0042,
-              "rotationZ": -134.9999
+              "rotationY": -188.0042,
+              "rotationZ": 12.5001,
+              "offsetX": 0.06432,
+              "offsetY": -0.02664,
+              "offsetZ": -0.49513
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": -8.0042,
-              "rotationZ": -134.9999
+              "rotationY": 188.0042,
+              "rotationZ": 12.5001,
+              "offsetX": 0.06432,
+              "offsetY": -0.02664,
+              "offsetZ": 0.49513
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -27265,13 +27435,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": 9.3688,
-              "rotationZ": -134.9999
+              "rotationY": -189.3688,
+              "rotationZ": 12.5001,
+              "offsetX": 0.0752,
+              "offsetY": -0.03115,
+              "offsetZ": -0.49333
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": -9.3688,
-              "rotationZ": -134.9999
+              "rotationY": 189.3688,
+              "rotationZ": 12.5001,
+              "offsetX": 0.0752,
+              "offsetY": -0.03115,
+              "offsetZ": 0.49333
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -27850,13 +28026,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": 9.9744,
-              "rotationZ": -134.9848
+              "rotationY": -189.9744,
+              "rotationZ": 12.5152,
+              "offsetX": 0.08,
+              "offsetY": -0.03316,
+              "offsetZ": -0.49244
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": -9.9744,
-              "rotationZ": -134.9848
+              "rotationY": 189.9744,
+              "rotationZ": 12.5152,
+              "offsetX": 0.08,
+              "offsetY": -0.03316,
+              "offsetZ": 0.49244
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -28435,13 +28617,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": 9.7719,
-              "rotationZ": -134.8176
+              "rotationY": -189.7719,
+              "rotationZ": 12.6824,
+              "offsetX": 0.0783,
+              "offsetY": -0.03273,
+              "offsetZ": -0.49275
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": -9.7719,
-              "rotationZ": -134.8176
+              "rotationY": 189.7719,
+              "rotationZ": 12.6824,
+              "offsetX": 0.0783,
+              "offsetY": -0.03273,
+              "offsetZ": 0.49275
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -29020,13 +29208,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": 8.7778,
-              "rotationZ": -134.1151
+              "rotationY": -188.7778,
+              "rotationZ": 13.3849,
+              "offsetX": 0.07003,
+              "offsetY": -0.03028,
+              "offsetZ": -0.49414
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": -8.7778,
-              "rotationZ": -134.1151
+              "rotationY": 188.7778,
+              "rotationZ": 13.3849,
+              "offsetX": 0.07003,
+              "offsetY": -0.03028,
+              "offsetZ": 0.49414
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -29605,13 +29799,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": 7.0725,
-              "rotationZ": -132.2947
+              "rotationY": -187.0725,
+              "rotationZ": 15.2053,
+              "offsetX": 0.0557,
+              "offsetY": -0.02622,
+              "offsetZ": -0.4962
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": -7.0725,
-              "rotationZ": -132.2947
+              "rotationY": 187.0725,
+              "rotationZ": 15.2053,
+              "offsetX": 0.0557,
+              "offsetY": -0.02622,
+              "offsetZ": 0.4962
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -30210,13 +30410,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": 4.7943,
-              "rotationZ": -128.8128
+              "rotationY": -184.7943,
+              "rotationZ": 18.6872,
+              "offsetX": 0.03666,
+              "offsetY": -0.02006,
+              "offsetZ": -0.49825
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": -4.7943,
-              "rotationZ": -128.8128
+              "rotationY": 184.7943,
+              "rotationZ": 18.6872,
+              "offsetX": 0.03666,
+              "offsetY": -0.02006,
+              "offsetZ": 0.49825
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -30795,13 +31001,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": 1.5036,
-              "rotationZ": -122.0911
+              "rotationY": -181.5036,
+              "rotationZ": 25.4089,
+              "offsetX": 0.01069,
+              "offsetY": -0.0076,
+              "offsetZ": -0.49983
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": -1.5036,
-              "rotationZ": -122.0911
+              "rotationY": 181.5036,
+              "rotationZ": 25.4089,
+              "offsetX": 0.01069,
+              "offsetY": -0.0076,
+              "offsetZ": 0.49983
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -31380,13 +31592,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": -1.9684,
-              "rotationZ": -113.5984
+              "rotationY": -178.0316,
+              "rotationZ": 33.9016,
+              "offsetX": -0.01237,
+              "offsetY": 0.01191,
+              "offsetZ": -0.4997
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": 1.9684,
-              "rotationZ": -113.5984
+              "rotationY": 178.0316,
+              "rotationZ": 33.9016,
+              "offsetX": -0.01237,
+              "offsetY": 0.01191,
+              "offsetZ": 0.4997
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -31965,13 +32183,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": -5.203,
-              "rotationZ": -105.5702
+              "rotationY": -174.797,
+              "rotationZ": 41.9298,
+              "offsetX": -0.02796,
+              "offsetY": 0.0357,
+              "offsetZ": -0.49794
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": 5.203,
-              "rotationZ": -105.5702
+              "rotationY": 174.797,
+              "rotationZ": 41.9298,
+              "offsetX": -0.02796,
+              "offsetY": 0.0357,
+              "offsetZ": 0.49794
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -32550,13 +32774,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": -7.81,
-              "rotationZ": -100.6609
+              "rotationY": -172.19,
+              "rotationZ": 46.8391,
+              "offsetX": -0.03716,
+              "offsetY": 0.05688,
+              "offsetZ": -0.49536
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": 7.81,
-              "rotationZ": -100.6609
+              "rotationY": 172.19,
+              "rotationZ": 46.8391,
+              "offsetX": -0.03716,
+              "offsetY": 0.05688,
+              "offsetZ": 0.49536
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -33145,13 +33375,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": -9.475,
-              "rotationZ": -100.6609
+              "rotationY": -170.525,
+              "rotationZ": 46.8391,
+              "offsetX": -0.04502,
+              "offsetY": 0.0689,
+              "offsetZ": -0.49318
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": 9.475,
-              "rotationZ": -100.6609
+              "rotationY": 170.525,
+              "rotationZ": 46.8391,
+              "offsetX": -0.04502,
+              "offsetY": 0.0689,
+              "offsetZ": 0.49318
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -33730,13 +33966,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": -9.9972,
-              "rotationZ": -105.5702
+              "rotationY": -170.0028,
+              "rotationZ": 41.9298,
+              "offsetX": -0.05352,
+              "offsetY": 0.06833,
+              "offsetZ": -0.49241
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": 9.9972,
-              "rotationZ": -105.5702
+              "rotationY": 170.0028,
+              "rotationZ": 41.9298,
+              "offsetX": -0.05352,
+              "offsetY": 0.06833,
+              "offsetZ": 0.49241
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -34315,13 +34557,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": -9.3136,
-              "rotationZ": -113.5984
+              "rotationY": -170.6864,
+              "rotationZ": 33.9016,
+              "offsetX": -0.0583,
+              "offsetY": 0.05611,
+              "offsetZ": -0.49341
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": 9.3136,
-              "rotationZ": -113.5984
+              "rotationY": 170.6864,
+              "rotationZ": 33.9016,
+              "offsetX": -0.0583,
+              "offsetY": 0.05611,
+              "offsetZ": 0.49341
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -34900,13 +35148,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": -7.5066,
-              "rotationZ": -122.0911
+              "rotationY": -172.4934,
+              "rotationZ": 25.4089,
+              "offsetX": -0.05324,
+              "offsetY": 0.03785,
+              "offsetZ": -0.49571
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": 7.5066,
-              "rotationZ": -122.0911
+              "rotationY": 172.4934,
+              "rotationZ": 25.4089,
+              "offsetX": -0.05324,
+              "offsetY": 0.03785,
+              "offsetZ": 0.49571
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -35485,13 +35739,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": -4.7943,
-              "rotationZ": -128.8128
+              "rotationY": -175.2057,
+              "rotationZ": 18.6872,
+              "offsetX": -0.03666,
+              "offsetY": 0.02006,
+              "offsetZ": -0.49825
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": 4.7943,
-              "rotationZ": -128.8128
+              "rotationY": 175.2057,
+              "rotationZ": 18.6872,
+              "offsetX": -0.03666,
+              "offsetY": 0.02006,
+              "offsetZ": 0.49825
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -36109,13 +36369,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": -0.9589,
-              "rotationZ": -135.0
+              "rotationY": -179.0411,
+              "rotationZ": 12.5,
+              "offsetX": -0.00773,
+              "offsetY": 0.0032,
+              "offsetZ": -0.49993
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": 0.9589,
-              "rotationZ": -135.0
+              "rotationY": 179.0411,
+              "rotationZ": 12.5,
+              "offsetX": -0.00773,
+              "offsetY": 0.0032,
+              "offsetZ": 0.49993
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -36744,13 +37010,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": -0.3695,
-              "rotationZ": -135.0
+              "rotationY": -179.6305,
+              "rotationZ": 12.5,
+              "offsetX": -0.00298,
+              "offsetY": 0.00123,
+              "offsetZ": -0.49999
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": 0.3695,
-              "rotationZ": -135.0
+              "rotationY": 179.6305,
+              "rotationZ": 12.5,
+              "offsetX": -0.00298,
+              "offsetY": 0.00123,
+              "offsetZ": 0.49999
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -37329,13 +37601,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": 0.2559,
-              "rotationZ": -135.0
+              "rotationY": -180.2559,
+              "rotationZ": 12.5,
+              "offsetX": 0.00206,
+              "offsetY": -0.00085,
+              "offsetZ": -0.5
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": -0.2559,
-              "rotationZ": -135.0
+              "rotationY": 180.2559,
+              "rotationZ": 12.5,
+              "offsetX": 0.00206,
+              "offsetY": -0.00085,
+              "offsetZ": 0.5
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -37914,13 +38192,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": 0.8564,
-              "rotationZ": -135.0
+              "rotationY": -180.8564,
+              "rotationZ": 12.5,
+              "offsetX": 0.0069,
+              "offsetY": -0.00286,
+              "offsetZ": -0.49994
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": -0.8564,
-              "rotationZ": -135.0
+              "rotationY": 180.8564,
+              "rotationZ": 12.5,
+              "offsetX": 0.0069,
+              "offsetY": -0.00286,
+              "offsetZ": 0.49994
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -38499,13 +38783,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": 1.373,
-              "rotationZ": -135.0
+              "rotationY": -181.373,
+              "rotationZ": 12.5,
+              "offsetX": 0.01107,
+              "offsetY": -0.00458,
+              "offsetZ": -0.49986
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": -1.373,
-              "rotationZ": -135.0
+              "rotationY": 181.373,
+              "rotationZ": 12.5,
+              "offsetX": 0.01107,
+              "offsetY": -0.00458,
+              "offsetZ": 0.49986
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -39084,13 +39374,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": 1.7552,
-              "rotationZ": -135.0
+              "rotationY": -181.7552,
+              "rotationZ": 12.5,
+              "offsetX": 0.01415,
+              "offsetY": -0.00586,
+              "offsetZ": -0.49977
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": -1.7552,
-              "rotationZ": -135.0
+              "rotationY": 181.7552,
+              "rotationZ": 12.5,
+              "offsetX": 0.01415,
+              "offsetY": -0.00586,
+              "offsetZ": 0.49977
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -39669,13 +39965,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": 1.9656,
-              "rotationZ": -135.0
+              "rotationY": -181.9656,
+              "rotationZ": 12.5,
+              "offsetX": 0.01584,
+              "offsetY": -0.00656,
+              "offsetZ": -0.49971
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": -1.9656,
-              "rotationZ": -135.0
+              "rotationY": 181.9656,
+              "rotationZ": 12.5,
+              "offsetX": 0.01584,
+              "offsetY": -0.00656,
+              "offsetZ": 0.49971
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -40254,13 +40556,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": 1.9836,
-              "rotationZ": -135.0
+              "rotationY": -181.9836,
+              "rotationZ": 12.5,
+              "offsetX": 0.01599,
+              "offsetY": -0.00662,
+              "offsetZ": -0.4997
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": -1.9836,
-              "rotationZ": -135.0
+              "rotationY": 181.9836,
+              "rotationZ": 12.5,
+              "offsetX": 0.01599,
+              "offsetY": -0.00662,
+              "offsetZ": 0.4997
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -40844,13 +41152,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": 1.8074,
-              "rotationZ": -135.0
+              "rotationY": -181.8074,
+              "rotationZ": 12.5,
+              "offsetX": 0.01457,
+              "offsetY": -0.00603,
+              "offsetZ": -0.49975
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": -1.8074,
-              "rotationZ": -135.0
+              "rotationY": 181.8074,
+              "rotationZ": 12.5,
+              "offsetX": 0.01457,
+              "offsetY": -0.00603,
+              "offsetZ": 0.49975
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -41429,13 +41743,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": 1.4543,
-              "rotationZ": -135.0
+              "rotationY": -181.4543,
+              "rotationZ": 12.5,
+              "offsetX": 0.01172,
+              "offsetY": -0.00486,
+              "offsetZ": -0.49984
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": -1.4543,
-              "rotationZ": -135.0
+              "rotationY": 181.4543,
+              "rotationZ": 12.5,
+              "offsetX": 0.01172,
+              "offsetY": -0.00486,
+              "offsetZ": 0.49984
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -42014,13 +42334,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": 0.9589,
-              "rotationZ": -135.0
+              "rotationY": -180.9589,
+              "rotationZ": 12.5,
+              "offsetX": 0.00773,
+              "offsetY": -0.0032,
+              "offsetZ": -0.49993
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": -0.9589,
-              "rotationZ": -135.0
+              "rotationY": 180.9589,
+              "rotationZ": 12.5,
+              "offsetX": 0.00773,
+              "offsetY": -0.0032,
+              "offsetZ": 0.49993
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -42599,13 +42925,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": 0.6725,
-              "rotationZ": -135.0
+              "rotationY": -180.6725,
+              "rotationZ": 12.5,
+              "offsetX": 0.00542,
+              "offsetY": -0.00225,
+              "offsetZ": -0.49997
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": -0.6725,
-              "rotationZ": -135.0
+              "rotationY": 180.6725,
+              "rotationZ": 12.5,
+              "offsetX": 0.00542,
+              "offsetY": -0.00225,
+              "offsetZ": 0.49997
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -43194,13 +43526,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": 0.3695,
-              "rotationZ": -135.0
+              "rotationY": -180.3695,
+              "rotationZ": 12.5,
+              "offsetX": 0.00298,
+              "offsetY": -0.00123,
+              "offsetZ": -0.49999
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": -0.3695,
-              "rotationZ": -135.0
+              "rotationY": 180.3695,
+              "rotationZ": 12.5,
+              "offsetX": 0.00298,
+              "offsetY": -0.00123,
+              "offsetZ": 0.49999
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -43779,13 +44117,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": -0.2559,
-              "rotationZ": -135.0
+              "rotationY": -179.7441,
+              "rotationZ": 12.5,
+              "offsetX": -0.00206,
+              "offsetY": 0.00085,
+              "offsetZ": -0.5
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": 0.2559,
-              "rotationZ": -135.0
+              "rotationY": 179.7441,
+              "rotationZ": 12.5,
+              "offsetX": -0.00206,
+              "offsetY": 0.00085,
+              "offsetZ": 0.5
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -44364,13 +44708,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": -0.8564,
-              "rotationZ": -135.0
+              "rotationY": -179.1436,
+              "rotationZ": 12.5,
+              "offsetX": -0.0069,
+              "offsetY": 0.00286,
+              "offsetZ": -0.49994
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": 0.8564,
-              "rotationZ": -135.0
+              "rotationY": 179.1436,
+              "rotationZ": 12.5,
+              "offsetX": -0.0069,
+              "offsetY": 0.00286,
+              "offsetZ": 0.49994
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -44949,13 +45299,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": -1.373,
-              "rotationZ": -135.0
+              "rotationY": -178.627,
+              "rotationZ": 12.5,
+              "offsetX": -0.01107,
+              "offsetY": 0.00458,
+              "offsetZ": -0.49986
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": 1.373,
-              "rotationZ": -135.0
+              "rotationY": 178.627,
+              "rotationZ": 12.5,
+              "offsetX": -0.01107,
+              "offsetY": 0.00458,
+              "offsetZ": 0.49986
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -45534,13 +45890,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": -1.7552,
-              "rotationZ": -135.0
+              "rotationY": -178.2448,
+              "rotationZ": 12.5,
+              "offsetX": -0.01415,
+              "offsetY": 0.00586,
+              "offsetZ": -0.49977
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": 1.7552,
-              "rotationZ": -135.0
+              "rotationY": 178.2448,
+              "rotationZ": 12.5,
+              "offsetX": -0.01415,
+              "offsetY": 0.00586,
+              "offsetZ": 0.49977
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -46119,13 +46481,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": -1.9656,
-              "rotationZ": -135.0
+              "rotationY": -178.0344,
+              "rotationZ": 12.5,
+              "offsetX": -0.01584,
+              "offsetY": 0.00656,
+              "offsetZ": -0.49971
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": 1.9656,
-              "rotationZ": -135.0
+              "rotationY": 178.0344,
+              "rotationZ": 12.5,
+              "offsetX": -0.01584,
+              "offsetY": 0.00656,
+              "offsetZ": 0.49971
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -46704,13 +47072,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": -1.9836,
-              "rotationZ": -135.0
+              "rotationY": -178.0164,
+              "rotationZ": 12.5,
+              "offsetX": -0.01599,
+              "offsetY": 0.00662,
+              "offsetZ": -0.4997
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": 1.9836,
-              "rotationZ": -135.0
+              "rotationY": 178.0164,
+              "rotationZ": 12.5,
+              "offsetX": -0.01599,
+              "offsetY": 0.00662,
+              "offsetZ": 0.4997
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -47289,13 +47663,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": -1.8074,
-              "rotationZ": -135.0
+              "rotationY": -178.1926,
+              "rotationZ": 12.5,
+              "offsetX": -0.01457,
+              "offsetY": 0.00603,
+              "offsetZ": -0.49975
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": 1.8074,
-              "rotationZ": -135.0
+              "rotationY": 178.1926,
+              "rotationZ": 12.5,
+              "offsetX": -0.01457,
+              "offsetY": 0.00603,
+              "offsetZ": 0.49975
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -47874,13 +48254,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": -1.4543,
-              "rotationZ": -135.0
+              "rotationY": -178.5457,
+              "rotationZ": 12.5,
+              "offsetX": -0.01172,
+              "offsetY": 0.00486,
+              "offsetZ": -0.49984
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": 1.4543,
-              "rotationZ": -135.0
+              "rotationY": 178.5457,
+              "rotationZ": 12.5,
+              "offsetX": -0.01172,
+              "offsetY": 0.00486,
+              "offsetZ": 0.49984
             },
             "wingFingerL": {
               "rotationX": 0.0,
@@ -48459,13 +48845,19 @@
             },
             "lowerWingL": {
               "rotationX": 0.0,
-              "rotationY": -1.2216,
-              "rotationZ": -135.0
+              "rotationY": -178.7784,
+              "rotationZ": 12.5,
+              "offsetX": -0.00985,
+              "offsetY": 0.00408,
+              "offsetZ": -0.49989
             },
             "lowerWingR": {
               "rotationX": 0.0,
-              "rotationY": 1.2216,
-              "rotationZ": -135.0
+              "rotationY": 178.7784,
+              "rotationZ": 12.5,
+              "offsetX": -0.00985,
+              "offsetY": 0.00408,
+              "offsetZ": 0.49989
             },
             "wingFingerL": {
               "rotationX": 0.0,
