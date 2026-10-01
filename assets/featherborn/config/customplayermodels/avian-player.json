@@ -11,7 +11,7 @@
     "EyeHeight": 1.76,
     "SneakEyeHeightMultiplier": 0.7,
     "ModelSizeFactor": 1,
-    "ExtraTraits": ["featherborn-hollowbones", "featherborn-lightframe", "featherborn-flight"],
+    "ExtraTraits": ["featherborn-hollowbones", "featherborn-lightframe", "featherborn-flight", "featherborn-aviangrace", "featherborn-perchhunter", "featherborn-plumage", "featherborn-winghands", "featherborn-highmetabolism"],
     "AvailableClasses": [],
     "GuiModelScale": 1.0,
     "HeadBobbingScale": 0.4,
