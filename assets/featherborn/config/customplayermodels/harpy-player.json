@@ -29,7 +29,7 @@
         "colbreak": true,
         "guiDescription": "Adjust the main color of your players body.",
         "textureTarget": "featherborn-main",
-        "targetSkinParts": ["base", "armfeathers"],
+        "targetSkinParts": ["base", "armfeathers", "tailfeathers"],
         "overlayMode": "MultiplyPreserveAlpha",
         "solidColor": true,
         "size": [304, 152],
@@ -83,7 +83,7 @@
         "tabCode": "Body",
         "type": "texture",
         "textureTarget": "featherborn-main",
-        "targetSkinParts": ["base", "armfeathers"],
+        "targetSkinParts": ["base", "armfeathers", "tailfeathers"],
         "overlayMode": "Screen",
         "solidColor": true,
         "size": [304, 152],
@@ -744,7 +744,7 @@
           {
             "code": "full-arm-xl"
           },
-                    {
+          {
             "code": "back-wings2-b-closed"
           }
         ]
@@ -819,7 +819,7 @@
           {
             "code": "owl"
           },
-                    {
+          {
             "code": "goose"
           }
         ]
@@ -829,7 +829,6 @@
       //tail feathers
       {
         "code": "tailfeathers",
-        "hideFromGui": true,
         "tabCode": "Tail",
         "type": "shape",
         "shapeTemplate": {
@@ -838,6 +837,9 @@
         "variants": [
           {
             "code": "long"
+          },
+          {
+            "code": "real-tail-1"
           }
         ]
       },

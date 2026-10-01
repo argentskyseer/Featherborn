@@ -2470,6 +2470,12 @@
             "UpperArmR":{"offsetX": 0.0, "offsetY": 1.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -90.0},
             "UpperArmL":{"offsetX": 0.0, "offsetY": 1.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -90.0}
           }
+        },
+        {
+          "frame": 39,
+          "elements": {
+            "LowerTorso":{"offsetX": 0.0, "offsetY": 3.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 93.0}
+          }
         }
       ]
     },

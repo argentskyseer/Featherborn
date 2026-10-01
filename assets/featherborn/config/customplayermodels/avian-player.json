@@ -28,7 +28,7 @@
         "type": "texture",
         "colbreak": true,
         "textureTarget": "featherborn-main",
-        "targetSkinParts": ["base", "body-type", "armfeathers"],
+        "targetSkinParts": ["base", "body-type", "armfeathers", "tailfeathers"],
         "overlayMode": "MultiplyPreserveAlpha",
         "solidColor": true,
         "size": [304, 152],
@@ -80,7 +80,7 @@
         "tabCode": "Body",
         "type": "texture",
         "textureTarget": "featherborn-main",
-        "targetSkinParts": ["base", "body-type", "armfeathers"],
+        "targetSkinParts": ["base", "body-type", "armfeathers", "tailfeathers"],
         "overlayMode": "Normal",
         "solidColor": true,
         "size": [304, 152],
@@ -680,6 +680,9 @@
           },
           {
             "code": "full-arm-xl"
+          },
+          {
+            "code": "back-wings2-b-closed"
           }
         ]
       },
@@ -763,7 +766,6 @@
       //tail feathers
       {
         "code": "tailfeathers",
-        "hideFromGui":true,
         "tabCode": "Tail",
         "type": "shape",
         "shapeTemplate": {
@@ -772,6 +774,9 @@
         "variants": [
           {
             "code": "long"
+          },
+          {
+            "code": "real-tail-1"
           }
         ]
       },
