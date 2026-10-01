@@ -8,5 +8,18 @@
     "code": "featherborn-lightframe",
     "type": "negative",
     "attributes": { "maxhealthExtraPoints": -2 }
+  },
+    {
+    "code": "featherborn-flight",
+    "type": "mixed",
+    "attributes": {
+      "ww_can_fly": 1,
+      "ww_stall_speed": -2,
+      "ww_start_speed": 0,
+      "ww_flap_forward_acceleration": 1,
+      "ww_flap_vertical_acceleration": 5,
+      "ww_climb_coefficient": 0.18,
+      "ww_top_speed": 100
+    }
   }
 ]

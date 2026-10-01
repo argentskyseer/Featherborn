@@ -1,0 +1,631 @@
+{
+  "editor": {
+    "editorVersion": "VSMC2v0.5.0",
+    "backdrops": [
+      {
+        "shapeFilepath": "body/base/harpy",
+        "opacity": 1.0,
+        "enabled": true
+      }
+    ],
+    "attachments": []
+  },
+  "textureWidth": 16,
+  "textureHeight": 16,
+  "textureSizes": {
+    "featherborn-main": [
+      152,
+      76
+    ]
+  },
+  "textures": {
+    "featherborn-main": "body/base/featherborn-main"
+  },
+  "elements": [
+    {
+      "name": "tailFeather",
+      "from": [
+        1.999999761581421,
+        2.0,
+        0.0
+      ],
+      "to": [
+        17.99999976158142,
+        2.2000000029802322,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#featherborn-main",
+          "uv": [
+            96,
+            52,
+            96.5,
+            68.0
+          ],
+          "windMode": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "windData": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "rotation": 90.0
+        },
+        "east": {
+          "texture": "#featherborn-main",
+          "uv": [
+            96,
+            52,
+            97.5,
+            52.5
+          ]
+        },
+        "south": {
+          "texture": "#featherborn-main",
+          "uv": [
+            96,
+            52,
+            96.5,
+            68.0
+          ],
+          "rotation": 90.0
+        },
+        "west": {
+          "texture": "#featherborn-main",
+          "uv": [
+            96,
+            52,
+            97.5,
+            52.5
+          ]
+        },
+        "up": {
+          "texture": "#featherborn-main",
+          "uv": [
+            98.5,
+            52,
+            101.5,
+            68
+          ],
+          "windMode": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "windData": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "rotation": 270.0
+        },
+        "down": {
+          "texture": "#featherborn-main",
+          "uv": [
+            106.5,
+            52,
+            109.5,
+            68
+          ],
+          "windMode": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "windData": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "rotation": 90.0
+        }
+      },
+      "rotationOrigin": [
+        1.999999761581421,
+        2.0,
+        0.75
+      ],
+      "rotationZ": -90.0,
+      "stepParentName": "tail",
+      "uv": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "tailFeather1",
+      "from": [
+        1.7999999523162842,
+        2.0,
+        0.0
+      ],
+      "to": [
+        17.799999952316284,
+        2.2000000029802322,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#featherborn-main",
+          "uv": [
+            96,
+            52,
+            96.5,
+            68.0
+          ],
+          "windMode": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "windData": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "rotation": 90.0
+        },
+        "east": {
+          "texture": "#featherborn-main",
+          "uv": [
+            96,
+            52,
+            97.5,
+            52.5
+          ]
+        },
+        "south": {
+          "texture": "#featherborn-main",
+          "uv": [
+            96,
+            52,
+            96.5,
+            68.0
+          ],
+          "rotation": 90.0
+        },
+        "west": {
+          "texture": "#featherborn-main",
+          "uv": [
+            96,
+            52,
+            97.5,
+            52.5
+          ]
+        },
+        "up": {
+          "texture": "#featherborn-main",
+          "uv": [
+            98.5,
+            52,
+            101.5,
+            68
+          ],
+          "windMode": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "windData": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "rotation": 270.0
+        },
+        "down": {
+          "texture": "#featherborn-main",
+          "uv": [
+            106.5,
+            52,
+            109.5,
+            68
+          ],
+          "windMode": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "windData": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "rotation": 90.0
+        }
+      },
+      "rotationOrigin": [
+        1.7999999523162842,
+        2.0,
+        0.75
+      ],
+      "rotationX": -7.0,
+      "rotationZ": -90.0,
+      "stepParentName": "tail",
+      "uv": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "tailFeather2",
+      "from": [
+        1.7999999523162842,
+        2.0,
+        0.0
+      ],
+      "to": [
+        17.799999952316284,
+        2.2000000029802322,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#featherborn-main",
+          "uv": [
+            96,
+            52,
+            96.5,
+            68.0
+          ],
+          "windMode": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "windData": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "rotation": 90.0
+        },
+        "east": {
+          "texture": "#featherborn-main",
+          "uv": [
+            96,
+            52,
+            97.5,
+            52.5
+          ]
+        },
+        "south": {
+          "texture": "#featherborn-main",
+          "uv": [
+            96,
+            52,
+            96.5,
+            68.0
+          ],
+          "rotation": 90.0
+        },
+        "west": {
+          "texture": "#featherborn-main",
+          "uv": [
+            96,
+            52,
+            97.5,
+            52.5
+          ]
+        },
+        "up": {
+          "texture": "#featherborn-main",
+          "uv": [
+            98.5,
+            52,
+            101.5,
+            68
+          ],
+          "windMode": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "windData": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "rotation": 270.0
+        },
+        "down": {
+          "texture": "#featherborn-main",
+          "uv": [
+            106.5,
+            52,
+            109.5,
+            68
+          ],
+          "windMode": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "windData": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "rotation": 90.0
+        }
+      },
+      "rotationOrigin": [
+        1.7999999523162842,
+        2.0,
+        0.75
+      ],
+      "rotationX": 7.0,
+      "rotationZ": -90.0,
+      "stepParentName": "tail",
+      "uv": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "tailFeather3",
+      "from": [
+        1.600000023841858,
+        2.0,
+        0.0
+      ],
+      "to": [
+        17.600000023841858,
+        2.2000000029802322,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#featherborn-main",
+          "uv": [
+            96,
+            52,
+            96.5,
+            68.0
+          ],
+          "windMode": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "windData": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "rotation": 90.0
+        },
+        "east": {
+          "texture": "#featherborn-main",
+          "uv": [
+            96,
+            52,
+            97.5,
+            52.5
+          ]
+        },
+        "south": {
+          "texture": "#featherborn-main",
+          "uv": [
+            96,
+            52,
+            96.5,
+            68.0
+          ],
+          "rotation": 90.0
+        },
+        "west": {
+          "texture": "#featherborn-main",
+          "uv": [
+            96,
+            52,
+            97.5,
+            52.5
+          ]
+        },
+        "up": {
+          "texture": "#featherborn-main",
+          "uv": [
+            98.5,
+            52,
+            101.5,
+            68
+          ],
+          "windMode": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "windData": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "rotation": 270.0
+        },
+        "down": {
+          "texture": "#featherborn-main",
+          "uv": [
+            106.5,
+            52,
+            109.5,
+            68
+          ],
+          "windMode": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "windData": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "rotation": 90.0
+        }
+      },
+      "rotationOrigin": [
+        1.600000023841858,
+        2.0,
+        0.75
+      ],
+      "rotationX": -14.0,
+      "rotationZ": -90.0,
+      "stepParentName": "tail",
+      "uv": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "tailFeather4",
+      "from": [
+        1.600000023841858,
+        2.0,
+        0.0
+      ],
+      "to": [
+        17.600000023841858,
+        2.2000000029802322,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#featherborn-main",
+          "uv": [
+            96,
+            52,
+            96.5,
+            68.0
+          ],
+          "windMode": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "windData": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "rotation": 90.0
+        },
+        "east": {
+          "texture": "#featherborn-main",
+          "uv": [
+            96,
+            52,
+            97.5,
+            52.5
+          ]
+        },
+        "south": {
+          "texture": "#featherborn-main",
+          "uv": [
+            96,
+            52,
+            96.5,
+            68.0
+          ],
+          "rotation": 90.0
+        },
+        "west": {
+          "texture": "#featherborn-main",
+          "uv": [
+            96,
+            52,
+            97.5,
+            52.5
+          ]
+        },
+        "up": {
+          "texture": "#featherborn-main",
+          "uv": [
+            98.5,
+            52,
+            101.5,
+            68
+          ],
+          "windMode": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "windData": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "rotation": 270.0
+        },
+        "down": {
+          "texture": "#featherborn-main",
+          "uv": [
+            106.5,
+            52,
+            109.5,
+            68
+          ],
+          "windMode": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "windData": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "rotation": 90.0
+        }
+      },
+      "rotationOrigin": [
+        1.600000023841858,
+        2.0,
+        0.75
+      ],
+      "rotationX": 14.0,
+      "rotationZ": -90.0,
+      "stepParentName": "tail",
+      "uv": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "animations": []
+}
