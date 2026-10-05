@@ -31,7 +31,14 @@
     "code": "featherborn-aviangrace",
     "type": "positive",
     "attributes": {
-      "walkspeed": 0.1
+      "walkspeed": 0.2
+    }
+  },
+  {
+    "code": "featherborn-frugivore",
+    "type": "positive",
+    "attributes": {
+      "fruitNutritionFactor": 0.2
     }
   },
   {
@@ -126,7 +133,7 @@
     "code": "featherborn-ravenous",
     "type": "negative",
     "attributes": {
-      "hungerrate": 0.25
+      "hungerrate": 0.15
     }
   },
   {

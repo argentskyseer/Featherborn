@@ -112,6 +112,7 @@
   "animations": [
     {
       "quantityframes": 25,
+      "onAnimationEnd": "Repeat",
       "name": "Blink",
       "code": "blink",
       "keyframes": [

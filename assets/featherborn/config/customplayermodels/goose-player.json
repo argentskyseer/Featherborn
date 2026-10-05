@@ -10,7 +10,7 @@
     "CollisionBox": [0.6, 1.85],
     "EyeHeight": 1.94,
     "ModelSizeFactor": 1,
-    "ExtraTraits": ["featherborn-hollowbones", "featherborn-flight", "featherborn-plumage", "featherborn-winghands", "featherborn-highmetabolism", "featherborn-waterfowl", "featherborn-grazer", "featherborn-territorial", "featherborn-honker", "featherborn-waddle"],
+    "ExtraTraits": ["featherborn-hollowbones", "featherborn-flight", "featherborn-aviangrace", "featherborn-plumage", "featherborn-winghands", "featherborn-highmetabolism", "featherborn-waterfowl", "featherborn-grazer", "featherborn-territorial", "featherborn-honker", "featherborn-waddle"],
     "AvailableClasses": [],
     "GuiModelScale": 1.0,
     "HeadBobbingScale": 0.4,

@@ -20,6 +20,12 @@
         "weight": 1.2,
         "default": true
       },
+      "FRUGIVORE_ON": {
+        "name": "trait-frugivore",
+        "ingui": "featherborn:setting-trait-frugivore",
+        "weight": 1.25,
+        "default": true
+      },
       "PERCHHUNTER_ON": {
         "name": "trait-perchhunter",
         "ingui": "featherborn:setting-trait-perchhunter",
@@ -119,6 +125,7 @@
         "code=featherborn-hollowbones/attributes/gravityDamageFactor": "(HOLLOWBONES_ON) ? value : 0",
         "code=featherborn-lightframe/attributes/maxhealthExtraPoints": "(LIGHTFRAME_ON) ? value : 0",
         "code=featherborn-aviangrace/attributes/walkspeed": "(AVIANGRACE_ON) ? value : 0",
+        "code=featherborn-frugivore/attributes/fruitNutritionFactor": "(FRUGIVORE_ON) ? value : 0",
         "code=featherborn-perchhunter/attributes/rangedWeaponsAcc": "(PERCHHUNTER_ON) ? value : 0",
         "code=featherborn-plumage/attributes/warmthBonus": "(PLUMAGE_ON) ? value : 0",
         "code=featherborn-winghands/attributes/miningSpeedMul": "(WINGHANDS_ON) ? value : 0",
