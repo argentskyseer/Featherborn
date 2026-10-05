@@ -3880,6 +3880,7 @@
   "animations": [
     {
       "quantityframes": 25,
+      "onAnimationEnd": "Repeat",
       "name": "Walk2",
       "code": "walk",
       "keyframes": [
@@ -4454,6 +4455,7 @@
     },
     {
       "quantityframes": 25,
+      "onAnimationEnd": "Repeat",
       "name": "Walk-fp",
       "code": "walk-fp",
       "keyframes": [
@@ -4718,6 +4720,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "Crawl",
       "code": "crawl",
       "keyframes": [
@@ -4835,6 +4838,7 @@
     },
     {
       "quantityframes": 24,
+      "onAnimationEnd": "Repeat",
       "name": "Sprint",
       "code": "sprint",
       "keyframes": [
@@ -5442,6 +5446,7 @@
     },
     {
       "quantityframes": 24,
+      "onAnimationEnd": "Repeat",
       "name": "Sprint-fp",
       "code": "sprint-fp",
       "keyframes": [
@@ -6196,6 +6201,7 @@
     },
     {
       "quantityframes": 40,
+      "onAnimationEnd": "Repeat",
       "name": "Glide",
       "code": "glide",
       "keyframes": [
@@ -6356,6 +6362,7 @@
     },
     {
       "quantityframes": 40,
+      "onAnimationEnd": "Repeat",
       "name": "Glide-fp",
       "code": "glide-fp",
       "keyframes": [
@@ -6516,6 +6523,7 @@
     },
     {
       "quantityframes": 40,
+      "onAnimationEnd": "Repeat",
       "name": "Creativefly",
       "code": "creativefly",
       "keyframes": [
@@ -6662,6 +6670,7 @@
     },
     {
       "quantityframes": 40,
+      "onAnimationEnd": "Repeat",
       "name": "Creativefly-fp",
       "code": "creativefly-fp",
       "keyframes": [
@@ -7463,6 +7472,7 @@
     },
     {
       "quantityframes": 40,
+      "onAnimationEnd": "Repeat",
       "name": "SneakWalk",
       "code": "sneakwalk",
       "keyframes": [
@@ -7810,6 +7820,7 @@
     },
     {
       "quantityframes": 40,
+      "onAnimationEnd": "Repeat",
       "name": "SneakWalk-fp",
       "code": "sneakwalk-fp",
       "keyframes": [
@@ -8058,6 +8069,7 @@
     },
     {
       "quantityframes": 35,
+      "onAnimationEnd": "Repeat",
       "name": "SneakIdle",
       "code": "sneakidle",
       "keyframes": [
@@ -8252,6 +8264,7 @@
     },
     {
       "quantityframes": 35,
+      "onAnimationEnd": "Repeat",
       "name": "SneakIdle-fp",
       "code": "sneakidle-fp",
       "keyframes": [
@@ -8409,6 +8422,7 @@
     },
     {
       "quantityframes": 35,
+      "onAnimationEnd": "Repeat",
       "name": "Block",
       "code": "block",
       "keyframes": [
@@ -8485,6 +8499,7 @@
     },
     {
       "quantityframes": 55,
+      "onAnimationEnd": "Repeat",
       "name": "Swim",
       "code": "swim",
       "keyframes": [
@@ -8890,6 +8905,7 @@
     },
     {
       "quantityframes": 55,
+      "onAnimationEnd": "Repeat",
       "name": "Swim-fp",
       "code": "swim-fp",
       "keyframes": [
@@ -9271,6 +9287,7 @@
     },
     {
       "quantityframes": 55,
+      "onAnimationEnd": "Repeat",
       "name": "SwimIdle",
       "code": "swimidle",
       "keyframes": [
@@ -9693,6 +9710,7 @@
     },
     {
       "quantityframes": 50,
+      "onAnimationEnd": "Repeat",
       "name": "Idle1",
       "code": "idle1",
       "keyframes": [
@@ -9749,6 +9767,7 @@
     },
     {
       "quantityframes": 50,
+      "onAnimationEnd": "Repeat",
       "name": "Idle1-fp",
       "code": "idle1-fp",
       "keyframes": [
@@ -10131,6 +10150,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "Idle2",
       "code": "idle2",
       "keyframes": [
@@ -10293,6 +10313,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "Idle3",
       "code": "idle3",
       "keyframes": [
@@ -11072,6 +11093,7 @@
     },
     {
       "quantityframes": 25,
+      "onAnimationEnd": "Repeat",
       "name": "SwordHit",
       "code": "swordhit",
       "keyframes": [
@@ -13151,6 +13173,7 @@
     },
     {
       "quantityframes": 60,
+      "onAnimationEnd": "Repeat",
       "name": "SitIdle",
       "code": "sitidle",
       "keyframes": [
@@ -13259,6 +13282,7 @@
     },
     {
       "quantityframes": 60,
+      "onAnimationEnd": "Repeat",
       "name": "SitBoatIdle",
       "code": "sitboatidle",
       "keyframes": [
@@ -13372,6 +13396,7 @@
     },
     {
       "quantityframes": 60,
+      "onAnimationEnd": "Repeat",
       "name": "SitIdle2",
       "code": "sitidle2",
       "keyframes": [
@@ -13494,6 +13519,7 @@
     },
     {
       "quantityframes": 50,
+      "onAnimationEnd": "Repeat",
       "name": "Lie",
       "code": "lie",
       "keyframes": [
@@ -14375,6 +14401,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "Smithing",
       "code": "smithing",
       "keyframes": [
@@ -14723,6 +14750,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "Smithing-fp",
       "code": "smithing-fp",
       "keyframes": [
@@ -17184,6 +17212,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "BreakHand",
       "code": "breakhand",
       "keyframes": [
@@ -17408,6 +17437,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "BreakHand-fp",
       "code": "breakhand-fp",
       "keyframes": [
@@ -18170,6 +18200,7 @@
     },
     {
       "quantityframes": 20,
+      "onAnimationEnd": "Repeat",
       "name": "PlaceBlock",
       "code": "placeblock",
       "keyframes": [
@@ -18348,6 +18379,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "InteractStatic",
       "code": "interactstatic",
       "keyframes": [
@@ -18526,6 +18558,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "InteractStatic-fp",
       "code": "interactstatic-fp",
       "keyframes": [
@@ -18698,6 +18731,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "InteractStaticLong",
       "code": "interactstaticlong",
       "keyframes": [
@@ -18881,6 +18915,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "InteractStaticLong-fp",
       "code": "interactstaticlong-fp",
       "keyframes": [
@@ -19058,6 +19093,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "LadderUp",
       "code": "ladderup",
       "keyframes": [
@@ -19325,6 +19361,7 @@
     },
     {
       "quantityframes": 20,
+      "onAnimationEnd": "Repeat",
       "name": "LadderIdle",
       "code": "ladderidle",
       "keyframes": [
@@ -19519,6 +19556,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "LadderDown",
       "code": "ladderdown",
       "keyframes": [
@@ -19790,6 +19828,7 @@
     },
     {
       "quantityframes": 60,
+      "onAnimationEnd": "Repeat",
       "name": "SitFloorIdle",
       "code": "sitflooridle",
       "keyframes": [
@@ -20118,6 +20157,7 @@
     },
     {
       "quantityframes": 52,
+      "onAnimationEnd": "Repeat",
       "name": "WalkRight",
       "code": "walkright",
       "keyframes": [
@@ -20531,6 +20571,7 @@
     },
     {
       "quantityframes": 52,
+      "onAnimationEnd": "Repeat",
       "name": "WalkLeft",
       "code": "walkleft",
       "keyframes": [
@@ -20941,6 +20982,7 @@
     },
     {
       "quantityframes": 25,
+      "onAnimationEnd": "Repeat",
       "name": "WalkBack",
       "code": "walkback",
       "keyframes": [
@@ -21332,6 +21374,7 @@
     },
     {
       "quantityframes": 50,
+      "onAnimationEnd": "Repeat",
       "name": "LowHealth",
       "code": "lowhealth",
       "keyframes": [
@@ -21526,6 +21569,7 @@
     },
     {
       "quantityframes": 34,
+      "onAnimationEnd": "Repeat",
       "name": "AxeChop",
       "code": "axechop",
       "keyframes": [
@@ -21736,6 +21780,7 @@
     },
     {
       "quantityframes": 34,
+      "onAnimationEnd": "Repeat",
       "name": "AxeChop-fp",
       "code": "axechop-fp",
       "keyframes": [
@@ -22590,6 +22635,7 @@
     },
     {
       "quantityframes": 12,
+      "onAnimationEnd": "Repeat",
       "name": "KnockbackHit",
       "code": "knockbackhit",
       "keyframes": [
@@ -22970,6 +23016,7 @@
     },
     {
       "quantityframes": 20,
+      "onAnimationEnd": "Repeat",
       "name": "KnockbackMidair",
       "code": "knockbackmidair",
       "keyframes": [
@@ -23164,6 +23211,7 @@
     },
     {
       "quantityframes": 90,
+      "onAnimationEnd": "Repeat",
       "name": "KnockbackLand",
       "code": "knockbackland",
       "keyframes": [
@@ -23870,6 +23918,7 @@
     },
     {
       "quantityframes": 20,
+      "onAnimationEnd": "Repeat",
       "name": "SwordHit2",
       "code": "swordhit2",
       "keyframes": [
@@ -24157,6 +24206,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "HurtPose",
       "code": "hurtpose",
       "keyframes": [
@@ -24258,6 +24308,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "Holding large animal",
       "code": "holdunderarm",
       "keyframes": [
@@ -24287,6 +24338,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "Holding large animal-fp",
       "code": "holdunderarm-fp",
       "keyframes": [
@@ -24316,6 +24368,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "Holding with both hands",
       "code": "holdbothhands",
       "keyframes": [
@@ -24369,6 +24422,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "Holding TONGS with both hands",
       "code": "holdbothhands-tongs1",
       "keyframes": [
@@ -24422,6 +24476,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "Holding with both hands-fp",
       "code": "holdbothhands-fp",
       "keyframes": [
@@ -24483,6 +24538,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "Holding TONGS with both hands-fp",
       "code": "holdbothhands-tongs1-fp",
       "keyframes": [
@@ -24544,6 +24600,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "Holding with both hands (large object)",
       "code": "holdbothhandslarge",
       "keyframes": [
@@ -24589,6 +24646,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "Holding with both hands (large object)-fp",
       "code": "holdbothhandslarge-fp",
       "keyframes": [
@@ -24634,6 +24692,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "ShovelDig",
       "code": "shoveldig",
       "keyframes": [
@@ -25029,6 +25088,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "ShovelDig-fp",
       "code": "shoveldig-fp",
       "keyframes": [
@@ -26366,6 +26426,7 @@
     },
     {
       "quantityframes": 26,
+      "onAnimationEnd": "Repeat",
       "name": "Scythe",
       "code": "scythe",
       "keyframes": [
@@ -26570,6 +26631,7 @@
     },
     {
       "quantityframes": 26,
+      "onAnimationEnd": "Repeat",
       "name": "Scythe-fp",
       "code": "scythe-fp",
       "keyframes": [
@@ -26774,6 +26836,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "Scythe-IFP",
       "code": "scythe-ifp",
       "keyframes": [
@@ -27061,6 +27124,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "scytheIdle",
       "code": "scytheidle",
       "keyframes": [
@@ -27095,6 +27159,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "scytheIdle-fp",
       "code": "scytheidle-fp",
       "keyframes": [
@@ -27225,6 +27290,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "Shears",
       "code": "shears",
       "keyframes": [
@@ -27517,6 +27583,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "Shears-fp",
       "code": "shears-fp",
       "keyframes": [
@@ -27809,6 +27876,7 @@
     },
     {
       "quantityframes": 12,
+      "onAnimationEnd": "Repeat",
       "name": "Knap",
       "code": "knap",
       "keyframes": [
@@ -27860,6 +27928,7 @@
     },
     {
       "quantityframes": 12,
+      "onAnimationEnd": "Repeat",
       "name": "Knap-IFP",
       "code": "knap-ifp",
       "keyframes": [
@@ -27896,6 +27965,7 @@
     },
     {
       "quantityframes": 12,
+      "onAnimationEnd": "Repeat",
       "name": "Knap-FP",
       "code": "knap-fp",
       "keyframes": [
@@ -27950,6 +28020,7 @@
     },
     {
       "quantityframes": 15,
+      "onAnimationEnd": "Repeat",
       "name": "Knap Sitting",
       "code": "knapsitting",
       "keyframes": [
@@ -28096,6 +28167,7 @@
     },
     {
       "quantityframes": 20,
+      "onAnimationEnd": "Repeat",
       "name": "NewJump",
       "code": "newjump",
       "keyframes": [
@@ -28682,6 +28754,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "Holding lantern left hand",
       "code": "holdinglanternlefthand",
       "keyframes": [
@@ -28708,6 +28781,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "Holding lantern left hand-fp",
       "code": "holdinglanternlefthand-fp",
       "keyframes": [
@@ -28734,6 +28808,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "Holding lantern right hand",
       "code": "holdinglanternrighthand",
       "keyframes": [
@@ -28760,6 +28835,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "Holding lantern right hand-fp",
       "code": "holdinglanternrighthand-fp",
       "keyframes": [
@@ -28786,6 +28862,7 @@
     },
     {
       "quantityframes": 27,
+      "onAnimationEnd": "Repeat",
       "name": "Panning",
       "code": "panning",
       "keyframes": [
@@ -29062,6 +29139,7 @@
     },
     {
       "quantityframes": 27,
+      "onAnimationEnd": "Repeat",
       "name": "Panning-fp",
       "code": "panning-fp",
       "keyframes": [
@@ -29320,6 +29398,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "TwoHandPlaceBlock",
       "code": "twohandplaceblock",
       "keyframes": [
@@ -29536,6 +29615,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "TwoHandPlaceBlock-fp",
       "code": "twohandplaceblock-fp",
       "keyframes": [
@@ -33648,6 +33728,7 @@
     },
     {
       "quantityframes": 50,
+      "onAnimationEnd": "Repeat",
       "name": "Water",
       "code": "water",
       "keyframes": [
@@ -33763,6 +33844,7 @@
     },
     {
       "quantityframes": 50,
+      "onAnimationEnd": "Repeat",
       "name": "Water-fp",
       "code": "water-fp",
       "keyframes": [
@@ -33828,6 +33910,7 @@
     },
     {
       "quantityframes": 40,
+      "onAnimationEnd": "Repeat",
       "name": "Hoe",
       "code": "hoe",
       "keyframes": [
@@ -34202,6 +34285,7 @@
     },
     {
       "quantityframes": 40,
+      "onAnimationEnd": "Repeat",
       "name": "Hoe-fp",
       "code": "hoe-fp",
       "keyframes": [
@@ -34588,6 +34672,7 @@
     },
     {
       "quantityframes": 40,
+      "onAnimationEnd": "Repeat",
       "name": "Hoe-IFP",
       "code": "hoe-ifp",
       "keyframes": [
@@ -38483,6 +38568,7 @@
     },
     {
       "quantityframes": 21,
+      "onAnimationEnd": "Repeat",
       "name": "SlingAimBalearic",
       "code": "slingaimbalearic",
       "keyframes": [
@@ -38710,6 +38796,7 @@
     },
     {
       "quantityframes": 21,
+      "onAnimationEnd": "Repeat",
       "name": "SlingAimBalearic-fp",
       "code": "slingaimbalearic-fp",
       "keyframes": [
@@ -39543,6 +39630,7 @@
     },
     {
       "quantityframes": 20,
+      "onAnimationEnd": "Repeat",
       "name": "WoundedIdle",
       "code": "woundedidle",
       "keyframes": [
@@ -39778,6 +39866,7 @@
     },
     {
       "quantityframes": 20,
+      "onAnimationEnd": "Repeat",
       "name": "HammerAndChisel",
       "code": "hammerandchisel",
       "keyframes": [
@@ -39951,6 +40040,7 @@
     },
     {
       "quantityframes": 20,
+      "onAnimationEnd": "Repeat",
       "name": "HammerAndChisel-IFP",
       "code": "hammerandchisel-ifp",
       "keyframes": [
@@ -40144,6 +40234,7 @@
     },
     {
       "quantityframes": 40,
+      "onAnimationEnd": "Repeat",
       "name": "Coldidle",
       "code": "coldidle",
       "keyframes": [
@@ -40495,6 +40586,7 @@
     },
     {
       "quantityframes": 40,
+      "onAnimationEnd": "Repeat",
       "name": "Coldidle-fp",
       "code": "coldidle-fp",
       "keyframes": [
@@ -40846,6 +40938,7 @@
     },
     {
       "quantityframes": 40,
+      "onAnimationEnd": "Repeat",
       "name": "ColdidleHeld",
       "code": "coldidleheld",
       "keyframes": [
@@ -41192,6 +41285,7 @@
     },
     {
       "quantityframes": 40,
+      "onAnimationEnd": "Repeat",
       "name": "ColdidleHeld-fp",
       "code": "coldidleheld-fp",
       "keyframes": [
@@ -41538,6 +41632,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "Pour",
       "code": "pour",
       "keyframes": [
@@ -41644,6 +41739,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "Pour-fp",
       "code": "pour-fp",
       "keyframes": [
@@ -41710,6 +41806,7 @@
     },
     {
       "quantityframes": 40,
+      "onAnimationEnd": "Repeat",
       "name": "PetLarge",
       "code": "petlarge",
       "keyframes": [
@@ -41842,6 +41939,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "PetSmall",
       "code": "petsmall",
       "keyframes": [
@@ -41946,6 +42044,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "PetSeraph",
       "code": "petseraph",
       "keyframes": [
@@ -42050,6 +42149,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "ProtectEyes",
       "code": "protecteyes",
       "keyframes": [
@@ -42083,6 +42183,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "ProtectEyes-fp",
       "code": "protecteyes-fp",
       "keyframes": [
@@ -42119,6 +42220,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "crudeOarIdle",
       "code": "crudeoaridle",
       "keyframes": [
@@ -42153,6 +42255,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "crudeOarIdle-fp",
       "code": "crudeoaridle-fp",
       "keyframes": [
@@ -42295,6 +42398,7 @@
     },
     {
       "quantityframes": 34,
+      "onAnimationEnd": "Repeat",
       "name": "crudeOarHit",
       "code": "crudeoarhit",
       "keyframes": [
@@ -42505,6 +42609,7 @@
     },
     {
       "quantityframes": 34,
+      "onAnimationEnd": "Repeat",
       "name": "crudeOarHit-fp",
       "code": "crudeoarhit-fp",
       "keyframes": [
@@ -42715,6 +42820,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "crudeOarReady",
       "code": "crudeoarready",
       "keyframes": [
@@ -42793,6 +42899,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "crudeOarReady-fp",
       "code": "crudeoarready-fp",
       "keyframes": [
@@ -42871,6 +42978,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "crudeOarForward",
       "code": "crudeoarforward",
       "keyframes": [
@@ -43048,6 +43156,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "crudeOarForward-fp",
       "code": "crudeoarforward-fp",
       "keyframes": [
@@ -43225,6 +43334,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "crudeOarBackward",
       "code": "crudeoarbackward",
       "keyframes": [
@@ -43370,6 +43480,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "crudeOarBackward-fp",
       "code": "crudeoarbackward-fp",
       "keyframes": [
@@ -44807,6 +44918,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "Raiseshield-left",
       "code": "raiseshield-left",
       "keyframes": [
@@ -44836,6 +44948,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "Raiseshield-left-fp",
       "code": "raiseshield-left-fp",
       "keyframes": [
@@ -44862,6 +44975,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "Raiseshield-right",
       "code": "raiseshield-right",
       "keyframes": [
@@ -44888,6 +45002,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "Raiseshield-right-fp",
       "code": "raiseshield-right-fp",
       "keyframes": [
@@ -44965,6 +45080,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "SpearIdle",
       "code": "spearidle",
       "keyframes": [
@@ -45002,6 +45118,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "SpearIdle-fp",
       "code": "spearidle-fp",
       "keyframes": [
@@ -45141,6 +45258,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "KnifeCut-fp",
       "code": "knifecut-fp",
       "keyframes": [
@@ -45229,6 +45347,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "Saw",
       "code": "saw",
       "keyframes": [
@@ -45314,6 +45433,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "Saw-fp",
       "code": "saw-fp",
       "keyframes": [
@@ -45504,6 +45624,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "ShovelIdle",
       "code": "shovelidle",
       "keyframes": [
@@ -45535,6 +45656,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "ShovelIdle-fp",
       "code": "shovelidle-fp",
       "keyframes": [
@@ -46511,6 +46633,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "StartFire",
       "code": "startfire",
       "keyframes": [
@@ -46644,6 +46767,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "StartFire-fp",
       "code": "startfire-fp",
       "keyframes": [
@@ -46885,6 +47009,7 @@
     },
     {
       "quantityframes": 13,
+      "onAnimationEnd": "Repeat",
       "name": "ChiselHit",
       "code": "chiselhit",
       "keyframes": [
@@ -46958,6 +47083,7 @@
     },
     {
       "quantityframes": 13,
+      "onAnimationEnd": "Repeat",
       "name": "ChiselHit-fp",
       "code": "chiselhit-fp",
       "keyframes": [
@@ -47018,6 +47144,7 @@
     },
     {
       "quantityframes": 20,
+      "onAnimationEnd": "Repeat",
       "name": "ChiselReady",
       "code": "chiselready",
       "keyframes": [
@@ -47175,6 +47302,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "squeezehoneycomb",
       "code": "squeezehoneycomb",
       "keyframes": [
@@ -47251,6 +47379,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "squeezehoneycomb-fp",
       "code": "squeezehoneycomb-fp",
       "keyframes": [
@@ -47765,6 +47894,7 @@
     },
     {
       "quantityframes": 60,
+      "onAnimationEnd": "Repeat",
       "name": "Bugnet",
       "code": "bugnet",
       "keyframes": [
@@ -47896,6 +48026,7 @@
     },
     {
       "quantityframes": 60,
+      "onAnimationEnd": "Repeat",
       "name": "Bugnet-fp",
       "code": "bugnet-fp",
       "keyframes": [
@@ -47992,6 +48123,7 @@
     },
     {
       "quantityframes": 50,
+      "onAnimationEnd": "Repeat",
       "name": "Rideelk-Idle",
       "code": "rideelk-idle",
       "keyframes": [
@@ -48082,6 +48214,7 @@
     },
     {
       "quantityframes": 80,
+      "onAnimationEnd": "Repeat",
       "name": "RideElk-Walk",
       "code": "rideelk-walk",
       "keyframes": [
@@ -48704,6 +48837,7 @@
     },
     {
       "quantityframes": 25,
+      "onAnimationEnd": "Repeat",
       "name": "RideElk-Run",
       "code": "rideelk-run",
       "keyframes": [
@@ -49011,6 +49145,7 @@
     },
     {
       "quantityframes": 25,
+      "onAnimationEnd": "Repeat",
       "name": "RideElk-Run-Passenger",
       "code": "rideelk-run-passenger",
       "keyframes": [
@@ -49308,6 +49443,7 @@
     },
     {
       "quantityframes": 50,
+      "onAnimationEnd": "Repeat",
       "name": "Rideelk-Idle-fp",
       "code": "rideelk-idle-fp",
       "keyframes": [
@@ -49402,6 +49538,7 @@
     },
     {
       "quantityframes": 80,
+      "onAnimationEnd": "Repeat",
       "name": "RideElk-Walk-fp",
       "code": "rideelk-walk-fp",
       "keyframes": [
@@ -50026,6 +50163,7 @@
     },
     {
       "quantityframes": 25,
+      "onAnimationEnd": "Repeat",
       "name": "RideElk-Run-fp",
       "code": "rideelk-run-fp",
       "keyframes": [
@@ -50340,6 +50478,7 @@
     },
     {
       "quantityframes": 25,
+      "onAnimationEnd": "Repeat",
       "name": "RideElk-Run-Passenger-fp",
       "code": "rideelk-run-passenger-fp",
       "keyframes": [
@@ -50915,6 +51054,7 @@
     },
     {
       "quantityframes": 1,
+      "onAnimationEnd": "Repeat",
       "name": "FluteReady",
       "code": "fluteready",
       "keyframes": [
@@ -50952,6 +51092,7 @@
     },
     {
       "quantityframes": 1,
+      "onAnimationEnd": "Repeat",
       "name": "FluteReady-fp",
       "code": "fluteready-fp",
       "keyframes": [
@@ -50989,6 +51130,7 @@
     },
     {
       "quantityframes": 30,
+      "onAnimationEnd": "Repeat",
       "name": "RideElk-HoldWeapon",
       "code": "rideelk-holdweapon",
       "keyframes": [

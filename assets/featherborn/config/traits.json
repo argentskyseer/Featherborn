@@ -2,14 +2,19 @@
   {
     "code": "featherborn-hollowbones",
     "type": "positive",
-    "attributes": { "canGlide": 1, "gravityDamageFactor": -0.3 }
+    "attributes": {
+      "canGlide": 1,
+      "gravityDamageFactor": -0.3
+    }
   },
   {
     "code": "featherborn-lightframe",
     "type": "negative",
-    "attributes": { "maxhealthExtraPoints": -2 }
+    "attributes": {
+      "maxhealthExtraPoints": -2
+    }
   },
-    {
+  {
     "code": "featherborn-flight",
     "type": "mixed",
     "attributes": {
@@ -20,6 +25,122 @@
       "ww_flap_vertical_acceleration": 5,
       "ww_climb_coefficient": 0.18,
       "ww_top_speed": 100
+    }
+  },
+  {
+    "code": "featherborn-aviangrace",
+    "type": "positive",
+    "attributes": {
+      "walkspeed": 0.2
+    }
+  },
+  {
+    "code": "featherborn-frugivore",
+    "type": "positive",
+    "attributes": {
+      "fruitNutritionFactor": 0.2
+    }
+  },
+  {
+    "code": "featherborn-perchhunter",
+    "type": "positive",
+    "attributes": {
+      "rangedWeaponsAcc": 0.15
+    }
+  },
+  {
+    "code": "featherborn-plumage",
+    "type": "positive",
+    "attributes": {
+      "warmthBonus": 3
+    }
+  },
+  {
+    "code": "featherborn-winghands",
+    "type": "negative",
+    "attributes": {
+      "miningSpeedMul": -0.15
+    }
+  },
+  {
+    "code": "featherborn-highmetabolism",
+    "type": "negative",
+    "attributes": {
+      "hungerrate": 0.15
+    }
+  },
+  {
+    "code": "featherborn-waterfowl",
+    "type": "positive",
+    "attributes": {
+      "swimSpeed": 0.3,
+      "buoyancyFactor": 0.25
+    }
+  },
+  {
+    "code": "featherborn-grazer",
+    "type": "positive",
+    "attributes": {
+      "grainNutritionFactor": 0.2,
+      "vegetableNutritionFactor": 0.2
+    }
+  },
+  {
+    "code": "featherborn-territorial",
+    "type": "positive",
+    "attributes": {
+      "meleeWeaponsDamage": 0.1
+    }
+  },
+  {
+    "code": "featherborn-honker",
+    "type": "negative",
+    "attributes": {
+      "animalSeekingRange": 0.25
+    }
+  },
+  {
+    "code": "featherborn-waddle",
+    "type": "negative",
+    "attributes": {
+      "sneakSpeed": -0.15,
+      "backwardSpeed": -0.1
+    }
+  },
+  {
+    "code": "featherborn-aureliasembrace",
+    "type": "positive",
+    "attributes": {
+      "gravityDamageFactor": -0.3
+    }
+  },
+  {
+    "code": "featherborn-talons",
+    "type": "positive",
+    "attributes": {
+      "animalHarvestingTime": -0.25
+    }
+  },
+  {
+    "code": "featherborn-carrioneater",
+    "type": "positive",
+    "attributes": {
+      "proteinNutritionFactor": 0.2,
+      "poisonDamageFactor": -0.3
+    }
+  },
+  {
+    "code": "featherborn-ravenous",
+    "type": "negative",
+    "attributes": {
+      "hungerrate": 0.15
+    }
+  },
+  {
+    "code": "featherborn-burdened",
+    "type": "negative",
+    "attributes": {
+      "armorWalkSpeedAffectedness": 0.3
     }
   }
 ]

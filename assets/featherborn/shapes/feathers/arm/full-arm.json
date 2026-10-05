@@ -168,6 +168,7 @@
       "name": "Idle1",
       "code": "idle1",
       "quantityframes": 50,
+      "onAnimationEnd": "Repeat",
       "onActivityStopped": "Rewind",
       "keyframes": [
         {

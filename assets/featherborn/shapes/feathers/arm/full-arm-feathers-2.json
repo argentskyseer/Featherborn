@@ -2275,6 +2275,7 @@
   "animations": [
     {
       "quantityframes": 25,
+      "onAnimationEnd": "Repeat",
       "name": "Walk2",
       "code": "walk",
       "keyframes": [

@@ -13,6 +13,108 @@
         "ingui": "featherborn:setting-trait-lightframe",
         "weight": 1.1,
         "default": true
+      },
+      "AVIANGRACE_ON": {
+        "name": "trait-aviangrace",
+        "ingui": "featherborn:setting-trait-aviangrace",
+        "weight": 1.2,
+        "default": true
+      },
+      "FRUGIVORE_ON": {
+        "name": "trait-frugivore",
+        "ingui": "featherborn:setting-trait-frugivore",
+        "weight": 1.25,
+        "default": true
+      },
+      "PERCHHUNTER_ON": {
+        "name": "trait-perchhunter",
+        "ingui": "featherborn:setting-trait-perchhunter",
+        "weight": 1.3,
+        "default": true
+      },
+      "PLUMAGE_ON": {
+        "name": "trait-plumage",
+        "ingui": "featherborn:setting-trait-plumage",
+        "weight": 1.4,
+        "default": true
+      },
+      "WINGHANDS_ON": {
+        "name": "trait-winghands",
+        "ingui": "featherborn:setting-trait-winghands",
+        "weight": 1.5,
+        "default": true
+      },
+      "HIGHMETABOLISM_ON": {
+        "name": "trait-highmetabolism",
+        "ingui": "featherborn:setting-trait-highmetabolism",
+        "weight": 1.6,
+        "default": true
+      },
+      "FLIGHT_ON": {
+        "name": "trait-flight",
+        "ingui": "featherborn:setting-trait-flight",
+        "weight": 1.7,
+        "default": true
+      },
+      "WATERFOWL_ON": {
+        "name": "trait-waterfowl",
+        "ingui": "featherborn:setting-trait-waterfowl",
+        "weight": 1.8,
+        "default": true
+      },
+      "GRAZER_ON": {
+        "name": "trait-grazer",
+        "ingui": "featherborn:setting-trait-grazer",
+        "weight": 1.9,
+        "default": true
+      },
+      "TERRITORIAL_ON": {
+        "name": "trait-territorial",
+        "ingui": "featherborn:setting-trait-territorial",
+        "weight": 2.0,
+        "default": true
+      },
+      "HONKER_ON": {
+        "name": "trait-honker",
+        "ingui": "featherborn:setting-trait-honker",
+        "weight": 2.2,
+        "default": true
+      },
+      "WADDLE_ON": {
+        "name": "trait-waddle",
+        "ingui": "featherborn:setting-trait-waddle",
+        "weight": 2.3,
+        "default": true
+      },
+      "AURELIASEMBRACE_ON": {
+        "name": "trait-aureliasembrace",
+        "ingui": "featherborn:setting-trait-aureliasembrace",
+        "weight": 2.4,
+        "default": true
+      },
+      "TALONS_ON": {
+        "name": "trait-talons",
+        "ingui": "featherborn:setting-trait-talons",
+        "weight": 2.5,
+        "default": true
+      },
+      "CARRIONEATER_ON": {
+        "name": "trait-carrioneater",
+        "ingui": "featherborn:setting-trait-carrioneater",
+        "weight": 2.6,
+        "default": true
+      },
+      "RAVENOUS_ON": {
+        "name": "trait-ravenous",
+        "ingui": "featherborn:setting-trait-ravenous",
+        "weight": 2.8,
+        "default": true
+      },
+      "BURDENED_ON": {
+        "name": "trait-burdened",
+        "ingui": "featherborn:setting-trait-burdened",
+        "weight": 2.9,
+        "default": true
       }
     }
   },
@@ -21,7 +123,34 @@
       "featherborn:config/traits.json": {
         "code=featherborn-hollowbones/attributes/canGlide": "(HOLLOWBONES_ON) ? value : 0",
         "code=featherborn-hollowbones/attributes/gravityDamageFactor": "(HOLLOWBONES_ON) ? value : 0",
-        "code=featherborn-lightframe/attributes/maxhealthExtraPoints": "(LIGHTFRAME_ON) ? value : 0"
+        "code=featherborn-lightframe/attributes/maxhealthExtraPoints": "(LIGHTFRAME_ON) ? value : 0",
+        "code=featherborn-aviangrace/attributes/walkspeed": "(AVIANGRACE_ON) ? value : 0",
+        "code=featherborn-frugivore/attributes/fruitNutritionFactor": "(FRUGIVORE_ON) ? value : 0",
+        "code=featherborn-perchhunter/attributes/rangedWeaponsAcc": "(PERCHHUNTER_ON) ? value : 0",
+        "code=featherborn-plumage/attributes/warmthBonus": "(PLUMAGE_ON) ? value : 0",
+        "code=featherborn-winghands/attributes/miningSpeedMul": "(WINGHANDS_ON) ? value : 0",
+        "code=featherborn-highmetabolism/attributes/hungerrate": "(HIGHMETABOLISM_ON) ? value : 0",
+        "code=featherborn-flight/attributes/ww_can_fly": "(FLIGHT_ON) ? value : 0",
+        "code=featherborn-flight/attributes/ww_stall_speed": "(FLIGHT_ON) ? value : 0",
+        "code=featherborn-flight/attributes/ww_start_speed": "(FLIGHT_ON) ? value : 0",
+        "code=featherborn-flight/attributes/ww_flap_forward_acceleration": "(FLIGHT_ON) ? value : 0",
+        "code=featherborn-flight/attributes/ww_flap_vertical_acceleration": "(FLIGHT_ON) ? value : 0",
+        "code=featherborn-flight/attributes/ww_climb_coefficient": "(FLIGHT_ON) ? value : 0",
+        "code=featherborn-flight/attributes/ww_top_speed": "(FLIGHT_ON) ? value : 0",
+        "code=featherborn-waterfowl/attributes/swimSpeed": "(WATERFOWL_ON) ? value : 0",
+        "code=featherborn-waterfowl/attributes/buoyancyFactor": "(WATERFOWL_ON) ? value : 0",
+        "code=featherborn-grazer/attributes/grainNutritionFactor": "(GRAZER_ON) ? value : 0",
+        "code=featherborn-grazer/attributes/vegetableNutritionFactor": "(GRAZER_ON) ? value : 0",
+        "code=featherborn-territorial/attributes/meleeWeaponsDamage": "(TERRITORIAL_ON) ? value : 0",
+        "code=featherborn-honker/attributes/animalSeekingRange": "(HONKER_ON) ? value : 0",
+        "code=featherborn-waddle/attributes/sneakSpeed": "(WADDLE_ON) ? value : 0",
+        "code=featherborn-waddle/attributes/backwardSpeed": "(WADDLE_ON) ? value : 0",
+        "code=featherborn-aureliasembrace/attributes/gravityDamageFactor": "(AURELIASEMBRACE_ON) ? value : 0",
+        "code=featherborn-talons/attributes/animalHarvestingTime": "(TALONS_ON) ? value : 0",
+        "code=featherborn-carrioneater/attributes/proteinNutritionFactor": "(CARRIONEATER_ON) ? value : 0",
+        "code=featherborn-carrioneater/attributes/poisonDamageFactor": "(CARRIONEATER_ON) ? value : 0",
+        "code=featherborn-ravenous/attributes/hungerrate": "(RAVENOUS_ON) ? value : 0",
+        "code=featherborn-burdened/attributes/armorWalkSpeedAffectedness": "(BURDENED_ON) ? value : 0"
       }
     }
   }
