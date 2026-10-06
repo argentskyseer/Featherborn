@@ -122,10 +122,49 @@
   "game:skinpart-tailfeathers-overlay-4": "Pattern 4",
   "game:skinpart-tailfeathers-overlay-5": "Pattern 5",
 
-  //feather pattern
-  "game:skinpart-facial-feathers-pattern": "Head Feather Pattern",
-  "game:skinpart-facial-feathers-pattern-feather-pattern-1": "Barred",
-  "game:skinpart-facial-feathers-pattern-feather-pattern-2": "Fade",
+  //head pattern
+  "game:skinpart-head-pattern": "Head Pattern",
+  "game:skinpart-head-pattern-none": "None",
+  "game:skinpart-head-pattern-barred": "Barred",
+  "game:skinpart-head-pattern-color": "Head Pattern Color",
+  "game:skinpart-head-pattern-color-#ff3B2414": "Dark Brown",
+  "game:skinpart-head-pattern-color-#ff1A1A1A": "Black",
+  "game:skinpart-head-pattern-color-#ff6E6E6E": "Gray",
+  "game:skinpart-head-pattern-color-#ff8C3A1A": "Rust",
+  "game:skinpart-head-pattern-color-#ffEDE6D6": "White",
+
+  //back wing pattern
+  "game:skinpart-backwings-pattern": "Back Wing Pattern",
+  "game:skinpart-backwings-pattern-none": "None",
+  "game:skinpart-backwings-pattern-barred": "Barred",
+  "game:skinpart-backwings-pattern-color": "Back Wing Pattern Color",
+  "game:skinpart-backwings-pattern-color-#ff3B2414": "Dark Brown",
+  "game:skinpart-backwings-pattern-color-#ff1A1A1A": "Black",
+  "game:skinpart-backwings-pattern-color-#ff6E6E6E": "Gray",
+  "game:skinpart-backwings-pattern-color-#ff8C3A1A": "Rust",
+  "game:skinpart-backwings-pattern-color-#ffEDE6D6": "White",
+
+  //arm feather pattern
+  "game:skinpart-armfeathers-pattern": "Arm Feather Pattern",
+  "game:skinpart-armfeathers-pattern-none": "None",
+  "game:skinpart-armfeathers-pattern-barred": "Barred",
+  "game:skinpart-armfeathers-pattern-color": "Arm Feather Pattern Color",
+  "game:skinpart-armfeathers-pattern-color-#ff3B2414": "Dark Brown",
+  "game:skinpart-armfeathers-pattern-color-#ff1A1A1A": "Black",
+  "game:skinpart-armfeathers-pattern-color-#ff6E6E6E": "Gray",
+  "game:skinpart-armfeathers-pattern-color-#ff8C3A1A": "Rust",
+  "game:skinpart-armfeathers-pattern-color-#ffEDE6D6": "White",
+
+  //head feather pattern
+  "game:skinpart-headfeathers-pattern": "Head Feather Pattern",
+  "game:skinpart-headfeathers-pattern-none": "None",
+  "game:skinpart-headfeathers-pattern-barred": "Barred",
+  "game:skinpart-headfeathers-pattern-color": "Head Feather Pattern Color",
+  "game:skinpart-headfeathers-pattern-color-#ff3B2414": "Dark Brown",
+  "game:skinpart-headfeathers-pattern-color-#ff1A1A1A": "Black",
+  "game:skinpart-headfeathers-pattern-color-#ff6E6E6E": "Gray",
+  "game:skinpart-headfeathers-pattern-color-#ff8C3A1A": "Rust",
+  "game:skinpart-headfeathers-pattern-color-#ffEDE6D6": "White",
 
   //legs
   "game:skinpart-legs": "Leg Color",

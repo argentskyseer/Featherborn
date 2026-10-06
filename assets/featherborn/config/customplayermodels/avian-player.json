@@ -103,6 +103,162 @@
           }
         ]
       },
+      //head-pattern (mask)
+      {
+        "code": "head-pattern",
+        "tabCode": "Head",
+        "type": "texture",
+        "useDropDown": true,
+        "textureTarget": "featherborn-main",
+        "targetSkinParts": ["head-pattern-color"],
+        "overlayMode": "AlphaMaskBlackAndWhite",
+        "textureTemplate": "featherborn:body/pattern/head-pattern-{code}",
+        "variants": [
+          {
+            "code": "none"
+          },
+          {
+            "code": "barred"
+          }
+        ]
+      },
+      //head-pattern color
+      {
+        "code": "head-pattern-color",
+        "tabCode": "Head",
+        "type": "texture",
+        "textureTarget": "featherborn-main",
+        "targetSkinParts": ["base", "body-type", "armfeathers", "tailfeathers"],
+        "overlayMode": "MultiplyPreserveAlpha",
+        "solidColor": true,
+        "size": [304, 152],
+        "variants": [
+          {
+            "code": "#ff3B2414",
+            "color": "3875860"
+          },
+          {
+            "code": "#ff1A1A1A",
+            "color": "1710618"
+          },
+          {
+            "code": "#ff6E6E6E",
+            "color": "7237230"
+          },
+          {
+            "code": "#ff8C3A1A",
+            "color": "9189914"
+          },
+          {
+            "code": "#ffEDE6D6",
+            "color": "15591126"
+          }
+        ]
+      },
+      //backwings-pattern (mask)
+      {
+        "code": "backwings-pattern",
+        "tabCode": "Limbs",
+        "type": "texture",
+        "useDropDown": true,
+        "textureTarget": "featherborn-main",
+        "targetSkinParts": ["backwings-pattern-color"],
+        "overlayMode": "AlphaMaskBlackAndWhite",
+        "textureTemplate": "featherborn:body/pattern/backwings-pattern-{code}",
+        "variants": [
+          {
+            "code": "none"
+          },
+          {
+            "code": "barred"
+          }
+        ]
+      },
+      //backwings-pattern color
+      {
+        "code": "backwings-pattern-color",
+        "tabCode": "Limbs",
+        "type": "texture",
+        "textureTarget": "featherborn-main",
+        "targetSkinParts": ["base", "body-type", "armfeathers", "tailfeathers"],
+        "overlayMode": "MultiplyPreserveAlpha",
+        "solidColor": true,
+        "size": [304, 152],
+        "variants": [
+          {
+            "code": "#ff3B2414",
+            "color": "3875860"
+          },
+          {
+            "code": "#ff1A1A1A",
+            "color": "1710618"
+          },
+          {
+            "code": "#ff6E6E6E",
+            "color": "7237230"
+          },
+          {
+            "code": "#ff8C3A1A",
+            "color": "9189914"
+          },
+          {
+            "code": "#ffEDE6D6",
+            "color": "15591126"
+          }
+        ]
+      },
+      //armfeathers-pattern (mask)
+      {
+        "code": "armfeathers-pattern",
+        "tabCode": "Limbs",
+        "type": "texture",
+        "useDropDown": true,
+        "textureTarget": "featherborn-main",
+        "targetSkinParts": ["armfeathers-pattern-color"],
+        "overlayMode": "AlphaMaskBlackAndWhite",
+        "textureTemplate": "featherborn:body/pattern/armfeathers-pattern-{code}",
+        "variants": [
+          {
+            "code": "none"
+          },
+          {
+            "code": "barred"
+          }
+        ]
+      },
+      //armfeathers-pattern color
+      {
+        "code": "armfeathers-pattern-color",
+        "tabCode": "Limbs",
+        "type": "texture",
+        "textureTarget": "featherborn-main",
+        "targetSkinParts": ["base", "body-type", "armfeathers", "tailfeathers"],
+        "overlayMode": "MultiplyPreserveAlpha",
+        "solidColor": true,
+        "size": [304, 152],
+        "variants": [
+          {
+            "code": "#ff3B2414",
+            "color": "3875860"
+          },
+          {
+            "code": "#ff1A1A1A",
+            "color": "1710618"
+          },
+          {
+            "code": "#ff6E6E6E",
+            "color": "7237230"
+          },
+          {
+            "code": "#ff8C3A1A",
+            "color": "9189914"
+          },
+          {
+            "code": "#ffEDE6D6",
+            "color": "15591126"
+          }
+        ]
+      },
       //underwear
       {
         "code": "underwear",
@@ -206,23 +362,58 @@
 }
         ]
       },
-      //head feathers pattern
-      // {
-      //   "code": "headfeathers-pattern",
-      //   "type": "texture",
-      //   "textureTarget": "feather-base",
-      //   "targetSkinParts": ["headfeathers-color"],
-      //   "overlayMode": "Multiply",
-      //   "textureTemplate": "featherborn:feathers/head/feather-{code}",
-      //   "variants": [
-      //     {
-      //       "code": "pattern-1"
-      //     },
-      //     {
-      //       "code": "pattern-2"
-      //     }
-      //   ]
-      // },
+      //headfeathers-pattern (mask)
+      {
+        "code": "headfeathers-pattern",
+        "tabCode": "Head",
+        "type": "texture",
+        "useDropDown": true,
+        "textureTarget": "feather-main",
+        "targetSkinParts": ["headfeathers-pattern-color"],
+        "overlayMode": "AlphaMaskBlackAndWhite",
+        "textureTemplate": "featherborn:feathers/pattern/feather-pattern-{code}",
+        "variants": [
+          {
+            "code": "none"
+          },
+          {
+            "code": "barred"
+          }
+        ]
+      },
+      //headfeathers-pattern color
+      {
+        "code": "headfeathers-pattern-color",
+        "tabCode": "Head",
+        "type": "texture",
+        "textureTarget": "feather-main",
+        "targetSkinParts": ["headfeathers"],
+        "overlayMode": "MultiplyPreserveAlpha",
+        "solidColor": true,
+        "size": [192, 96],
+        "variants": [
+          {
+            "code": "#ff3B2414",
+            "color": "3875860"
+          },
+          {
+            "code": "#ff1A1A1A",
+            "color": "1710618"
+          },
+          {
+            "code": "#ff6E6E6E",
+            "color": "7237230"
+          },
+          {
+            "code": "#ff8C3A1A",
+            "color": "9189914"
+          },
+          {
+            "code": "#ffEDE6D6",
+            "color": "15591126"
+          }
+        ]
+      },
       //hair
       {
         "code": "hair",
