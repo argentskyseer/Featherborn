@@ -22,7 +22,7 @@
       "ww_stall_speed": -2,
       "ww_start_speed": 0,
       "ww_flap_forward_acceleration": 1,
-      "ww_flap_vertical_acceleration": 5,
+      "ww_flap_vertical_acceleration": 1,
       "ww_climb_coefficient": 0.18,
       "ww_top_speed": 100
     }

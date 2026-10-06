@@ -17903,6 +17903,17 @@
           }
         }
       ]
+    },
+    {
+      "name": "Blink",
+      "code": "featherborn-blink",
+      "quantityframes": 240,
+      "onActivityStopped": "EaseOut",
+      "onAnimationEnd": "Repeat",
+      "keyframes": [
+        { "frame": 0, "elements": {} },
+        { "frame": 239, "elements": {} }
+      ]
     }
   ]
 }

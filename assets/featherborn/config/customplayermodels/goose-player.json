@@ -117,6 +117,9 @@
           },
           {
             "code": "barred"
+          },
+          {
+            "code": "spotted"
           }
         ]
       },
@@ -127,111 +130,7 @@
         "type": "texture",
         "textureTarget": "featherborn-main",
         "targetSkinParts": ["base", "body-type", "armfeathers", "tailfeathers"],
-        "overlayMode": "MultiplyPreserveAlpha",
-        "solidColor": true,
-        "size": [304, 152],
-        "variants": [
-          {
-            "code": "#ff3B2414",
-            "color": "3875860"
-          },
-          {
-            "code": "#ff1A1A1A",
-            "color": "1710618"
-          },
-          {
-            "code": "#ff6E6E6E",
-            "color": "7237230"
-          },
-          {
-            "code": "#ff8C3A1A",
-            "color": "9189914"
-          },
-          {
-            "code": "#ffEDE6D6",
-            "color": "15591126"
-          }
-        ]
-      },
-      //backwings-pattern (mask)
-      {
-        "code": "backwings-pattern",
-        "tabCode": "Limbs",
-        "type": "texture",
-        "useDropDown": true,
-        "textureTarget": "featherborn-main",
-        "targetSkinParts": ["backwings-pattern-color"],
-        "overlayMode": "AlphaMaskBlackAndWhite",
-        "textureTemplate": "featherborn:body/pattern/backwings-pattern-{code}",
-        "variants": [
-          {
-            "code": "none"
-          },
-          {
-            "code": "barred"
-          }
-        ]
-      },
-      //backwings-pattern color
-      {
-        "code": "backwings-pattern-color",
-        "tabCode": "Limbs",
-        "type": "texture",
-        "textureTarget": "featherborn-main",
-        "targetSkinParts": ["base", "body-type", "armfeathers", "tailfeathers"],
-        "overlayMode": "MultiplyPreserveAlpha",
-        "solidColor": true,
-        "size": [304, 152],
-        "variants": [
-          {
-            "code": "#ff3B2414",
-            "color": "3875860"
-          },
-          {
-            "code": "#ff1A1A1A",
-            "color": "1710618"
-          },
-          {
-            "code": "#ff6E6E6E",
-            "color": "7237230"
-          },
-          {
-            "code": "#ff8C3A1A",
-            "color": "9189914"
-          },
-          {
-            "code": "#ffEDE6D6",
-            "color": "15591126"
-          }
-        ]
-      },
-      //armfeathers-pattern (mask)
-      {
-        "code": "armfeathers-pattern",
-        "tabCode": "Limbs",
-        "type": "texture",
-        "useDropDown": true,
-        "textureTarget": "featherborn-main",
-        "targetSkinParts": ["armfeathers-pattern-color"],
-        "overlayMode": "AlphaMaskBlackAndWhite",
-        "textureTemplate": "featherborn:body/pattern/armfeathers-pattern-{code}",
-        "variants": [
-          {
-            "code": "none"
-          },
-          {
-            "code": "barred"
-          }
-        ]
-      },
-      //armfeathers-pattern color
-      {
-        "code": "armfeathers-pattern-color",
-        "tabCode": "Limbs",
-        "type": "texture",
-        "textureTarget": "featherborn-main",
-        "targetSkinParts": ["base", "body-type", "armfeathers", "tailfeathers"],
-        "overlayMode": "MultiplyPreserveAlpha",
+        "overlayMode": "NormalPreserveAlpha",
         "solidColor": true,
         "size": [304, 152],
         "variants": [
@@ -376,6 +275,9 @@
           },
           {
             "code": "barred"
+          },
+          {
+            "code": "spotted"
           }
         ]
       },
@@ -386,7 +288,7 @@
         "type": "texture",
         "textureTarget": "feather-main",
         "targetSkinParts": ["headfeathers"],
-        "overlayMode": "MultiplyPreserveAlpha",
+        "overlayMode": "NormalPreserveAlpha",
         "solidColor": true,
         "size": [192, 96],
         "variants": [
@@ -869,6 +771,119 @@
           },
           {
             "code": "back-wings2-b-closed"
+          },
+          {
+            "code": "back-wings2-b-closed-lite"
+          }
+        ]
+      },
+      //backwings-pattern (mask)
+      {
+        "code": "backwings-pattern",
+        "tabCode": "Limbs",
+        "type": "texture",
+        "useDropDown": true,
+        "textureTarget": "featherborn-main",
+        "targetSkinParts": ["backwings-pattern-color"],
+        "overlayMode": "AlphaMaskBlackAndWhite",
+        "textureTemplate": "featherborn:body/pattern/backwings-pattern-{code}",
+        "variants": [
+          {
+            "code": "none"
+          },
+          {
+            "code": "barred"
+          },
+          {
+            "code": "spotted"
+          }
+        ]
+      },
+      //backwings-pattern color
+      {
+        "code": "backwings-pattern-color",
+        "tabCode": "Limbs",
+        "type": "texture",
+        "textureTarget": "featherborn-main",
+        "targetSkinParts": ["base", "body-type", "armfeathers", "tailfeathers"],
+        "overlayMode": "NormalPreserveAlpha",
+        "solidColor": true,
+        "size": [304, 152],
+        "variants": [
+          {
+            "code": "#ff3B2414",
+            "color": "3875860"
+          },
+          {
+            "code": "#ff1A1A1A",
+            "color": "1710618"
+          },
+          {
+            "code": "#ff6E6E6E",
+            "color": "7237230"
+          },
+          {
+            "code": "#ff8C3A1A",
+            "color": "9189914"
+          },
+          {
+            "code": "#ffEDE6D6",
+            "color": "15591126"
+          }
+        ]
+      },
+      //armfeathers-pattern (mask)
+      {
+        "code": "armfeathers-pattern",
+        "tabCode": "Limbs",
+        "type": "texture",
+        "useDropDown": true,
+        "textureTarget": "featherborn-main",
+        "targetSkinParts": ["armfeathers-pattern-color"],
+        "overlayMode": "AlphaMaskBlackAndWhite",
+        "textureTemplate": "featherborn:body/pattern/armfeathers-pattern-{code}",
+        "variants": [
+          {
+            "code": "none"
+          },
+          {
+            "code": "barred"
+          },
+          {
+            "code": "spotted"
+          }
+        ]
+      },
+      //armfeathers-pattern color
+      {
+        "code": "armfeathers-pattern-color",
+        "tabCode": "Limbs",
+        "type": "texture",
+        "textureTarget": "featherborn-main",
+        "targetSkinParts": ["base", "body-type", "armfeathers", "tailfeathers"],
+        "overlayMode": "NormalPreserveAlpha",
+        "solidColor": true,
+        "size": [304, 152],
+        "variants": [
+          {
+            "code": "#ff3B2414",
+            "color": "3875860"
+          },
+          {
+            "code": "#ff1A1A1A",
+            "color": "1710618"
+          },
+          {
+            "code": "#ff6E6E6E",
+            "color": "7237230"
+          },
+          {
+            "code": "#ff8C3A1A",
+            "color": "9189914"
+          },
+          {
+            "code": "#ffEDE6D6",
+            "color": "15591126"
           }
         ]
       },

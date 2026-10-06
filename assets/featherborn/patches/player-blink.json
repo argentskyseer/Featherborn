@@ -1,0 +1,29 @@
+[
+  {
+    "file": "game:entities/humanoid/player.json",
+    "op": "add",
+    "path": "/client/animations/-",
+    "value": {
+      "code": "featherborn-blink",
+      "animation": "featherborn-blink",
+      "clientSide": true,
+      "blendMode": "Add",
+      "triggeredBy": {
+        "onControls": [
+          "Idle",
+          "Move",
+          "SprintMode",
+          "SneakMode",
+          "Swim",
+          "Jump",
+          "Climb",
+          "FloorSitting",
+          "Break",
+          "Place",
+          "Glide",
+          "Mounted"
+        ]
+      }
+    }
+  }
+]
