@@ -123,6 +123,21 @@
   "game:skinpart-tailfeathers-overlay-4": "Pattern 4",
   "game:skinpart-tailfeathers-overlay-5": "Pattern 5",
 
+  //brows
+  "game:skinpart-brows-overlay": "Brow Style",
+  "game:skinpart-brows-overlay-none": "None",
+  "game:skinpart-brows-overlay-arched": "Arched",
+  "game:skinpart-brows-overlay-arched-thick": "Arched (Thick)",
+  "game:skinpart-brows": "Brows",
+  "game:skinpart-brows-brow-style-1": "Standard",
+  "game:skinpart-brows-color": "Brow Color",
+  "game:skinpart-brows-color-#ff0E0E0E": "Black",
+  "game:skinpart-brows-color-#ff3B2414": "Dark Brown",
+  "game:skinpart-brows-color-#ff8A562C": "Brown",
+  "game:skinpart-brows-color-#ff7d0c33": "Red",
+  "game:skinpart-brows-color-#ffd4d2d3": "Light Gray",
+  "game:skinpart-brows-color-#ffEDE6D6": "White",
+
   //head pattern
   "game:skinpart-head-pattern": "Head Pattern",
   "game:skinpart-head-pattern-none": "None",

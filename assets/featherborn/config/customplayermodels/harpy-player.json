@@ -12,7 +12,18 @@
     "RemoveTags": ["seraph"],
     "AddTags": ["harpy"],
     "ModelSizeFactor": 1,
-    "ExtraTraits": ["featherborn-hollowbones", "featherborn-lightframe", "featherborn-flight", "featherborn-aviangrace", "featherborn-aureliasembrace", "featherborn-plumage", "featherborn-talons", "featherborn-carrioneater", "featherborn-ravenous", "featherborn-burdened"],
+    "ExtraTraits": [
+      "featherborn-hollowbones",
+      "featherborn-lightframe",
+      "featherborn-flight",
+      "featherborn-aviangrace",
+      "featherborn-aureliasembrace",
+      "featherborn-plumage",
+      "featherborn-talons",
+      "featherborn-carrioneater",
+      "featherborn-ravenous",
+      "featherborn-burdened"
+    ],
     "AvailableClasses": [],
     "GuiModelScale": 1.0,
     "HeadBobbingScale": 0.4,
@@ -625,6 +636,15 @@
           },
           {
             "code": "base-7"
+          },
+          {
+            "code": "base-8"
+          },
+          {
+            "code": "base-9"
+          },
+          {
+            "code": "base-10"
           }
         ]
       },
@@ -710,6 +730,83 @@
           {
             "code": "#ff8A562C",
             "color": "9066028"
+          }
+        ]
+      },
+      //brow style
+      {
+        "code": "brows-overlay",
+        "tabCode": "Head",
+        "type": "texture",
+        "textureTarget": "brow-base",
+        "textureTemplate": "featherborn:face/brows/brow-{code}",
+        "useDropDown": true,
+        "overlayMode": "Normal",
+        "targetSkinParts": ["brows"],
+        "variants": [
+          {
+            "code": "none"
+          },
+                    {
+            "code": "feathered"
+          },
+          {
+            "code": "arched"
+          },
+          {
+            "code": "arched-thick"
+          }
+        ]
+      },
+      //brow base
+      {
+        "code": "brows",
+        "tabCode": "Head",
+        "type": "shape",
+        "shapeTemplate": {
+          "base": "featherborn:face/brows/{code}"
+        },
+        "variants": [
+          {
+            "code": "brow-style-1"
+          }
+        ]
+      },
+      //brow color
+      {
+        "code": "brows-color",
+        "tabCode": "Head",
+        "type": "texture",
+        "textureTarget": "brow-base",
+        "overlayTexture": true,
+        "overlayMode": "NormalPreserveAlpha",
+        "solidColor": true,
+        "size": [240, 144],
+        "targetSkinParts": ["brows"],
+        "variants": [
+          {
+            "code": "#ff0E0E0E",
+            "color": "921102"
+          },
+          {
+            "code": "#ff3B2414",
+            "color": "3875860"
+          },
+          {
+            "code": "#ff8A562C",
+            "color": "9066028"
+          },
+          {
+            "code": "#ff7d0c33",
+            "color": "8195123"
+          },
+          {
+            "code": "#ffd4d2d3",
+            "color": "13947603"
+          },
+          {
+            "code": "#ffEDE6D6",
+            "color": "15591126"
           }
         ]
       },

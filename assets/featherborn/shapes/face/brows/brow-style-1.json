@@ -1,0 +1,54 @@
+{
+  "editor": {
+    "editorVersion": "VSMC2v0.5.0",
+    "allAngles": true,
+    "backdrops": [],
+    "attachments": []
+  },
+  "textureWidth": 32,
+  "textureHeight": 76,
+  "textureSizes": {
+    "brow-base": [
+      120,
+      72
+    ]
+  },
+  "textures": {
+    "brow-base": "featherborn:face/brows/brow-base"
+  },
+  "elements": [
+    {
+      "name": "browsroot",
+      "from":[0.0,0.0,0.0],
+      "to":[5.5,2.0,5.0],
+      "faces": {
+        "north":{"texture": "#", "uv": [0.0, 0.0, 1.0, 1.0], "enabled": false, "autoUv": false, "snapUV": false},
+        "east":{"texture": "#", "uv": [0.0, 0.0, 1.0, 1.0], "enabled": false, "autoUv": false, "snapUV": false},
+        "south":{"texture": "#", "uv": [0.0, 0.0, 1.0, 1.0], "enabled": false, "autoUv": false, "snapUV": false},
+        "west":{"texture": "#", "uv": [0.0, 0.0, 1.0, 1.0], "enabled": false, "autoUv": false, "snapUV": false},
+        "up":{"texture": "#", "uv": [0.0, 0.0, 1.0, 1.0], "enabled": false, "autoUv": false, "snapUV": false},
+        "down":{"texture": "#", "uv": [0.0, 0.0, 1.0, 1.0], "enabled": false, "autoUv": false, "snapUV": false}
+      },
+      "rotationOrigin":[0.0,0.0,0.0],
+      "stepParentName": "Head",
+      "uv":[0.0,0.0],
+      "children": [
+        {
+          "name": "browPlane",
+          "from":[-0.1,1.0,0.0],
+          "to":[-0.05,4.0,5.0],
+          "faces": {
+            "north":{"texture": "#brow-base", "uv": [24.0, 24.0, 0.0, 0.0], "enabled": false, "autoUv": false, "snapUV": false},
+            "east":{"texture": "#brow-base", "uv": [120.0, 72.0, 0.0, 0.0], "rotation": 180.0, "autoUv": false, "snapUV": false},
+            "south":{"texture": "#brow-base", "uv": [24.0, 24.0, 0.0, 0.0], "enabled": false, "autoUv": false, "snapUV": false},
+            "west":{"texture": "#brow-base", "uv": [120.0, 72.0, 0.0, 0.0], "rotation": 180.0, "autoUv": false, "snapUV": false},
+            "up":{"texture": "#brow-base", "uv": [0.0, 0.0, 0.5, 5.0], "enabled": false},
+            "down":{"texture": "#brow-base", "uv": [0.0, 0.0, 0.5, 5.0], "enabled": false}
+          },
+          "rotationOrigin":[0.0,1.0,0.0],
+          "uv":[0.0,0.0]
+        }
+      ]
+    }
+  ]
+}
