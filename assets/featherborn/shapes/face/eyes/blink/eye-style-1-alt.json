@@ -1,0 +1,648 @@
+{
+  "editor": {
+    "backDropShape": "C:/Users/thedi/AppData/Roaming/VintagestoryData/Mods/Featherborn/assets/featherborn/shapes/body/base/raptori-faceless",
+    "allAngles": true,
+    "entityTextureMode": false
+  },
+  "textureWidth": 32,
+  "textureHeight": 76,
+  "textureSizes": {
+    "playermodellib-iris": [
+      8,
+      8
+    ],
+    "seraph-for-eyes": [
+      32,
+      76
+    ],
+    "eye-base": [
+      12,
+      12
+    ],
+    "red": [
+      4,
+      4
+    ],
+    "Sprite-0001": [
+      128,
+      128
+    ],
+    "eye-back": [
+      120,
+      72
+    ],
+    "eye-back-base": [
+      120,
+      72
+    ],
+    "eye-back2": [
+      120,
+      72
+    ],
+    "eye-back-base-alt": [
+      120,
+      72
+    ]
+  },
+  "textures": {
+    "eye-back-base": "featherborn:face/eyes/eye-back-base"
+  },
+  "elements": [
+    {
+      "name": "eyesrootAlt",
+      "stepParentName": "Head",
+      "from": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "to": [
+        5.5,
+        2.0,
+        5.0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#eye-back-base",
+          "uv": [
+            0.0,
+            0.0,
+            5.5,
+            5.0
+          ],
+          "enabled": false
+        },
+        "east": {
+          "texture": "#eye-back-base",
+          "uv": [
+            0.0,
+            0.0,
+            5.0,
+            5.0
+          ],
+          "enabled": false
+        },
+        "south": {
+          "texture": "#eye-back-base",
+          "uv": [
+            0.0,
+            0.0,
+            5.5,
+            5.0
+          ],
+          "enabled": false
+        },
+        "west": {
+          "texture": "#eye-back-base",
+          "uv": [
+            0.0,
+            0.0,
+            5.0,
+            5.0
+          ],
+          "enabled": false
+        },
+        "up": {
+          "texture": "#eye-back-base",
+          "uv": [
+            0.0,
+            0.0,
+            5.5,
+            5.0
+          ],
+          "enabled": false
+        },
+        "down": {
+          "texture": "#eye-back-base",
+          "uv": [
+            0.0,
+            0.0,
+            5.5,
+            5.0
+          ],
+          "enabled": false
+        }
+      },
+      "children": [
+        {
+          "name": "eyePlaneAltL",
+          "from": [
+            0.95,
+            1.6,
+            0.0
+          ],
+          "to": [
+            1.0,
+            4.4,
+            1.8
+          ],
+          "rotationOrigin": [
+            0.95,
+            2.6,
+            0.0
+          ],
+          "rotationY": -47.0,
+          "faces": {
+            "north": {
+              "texture": "#eye-back-base",
+              "uv": [
+                24.0,
+                24.0,
+                0.0,
+                0.0
+              ],
+              "autoUv": false
+            },
+            "east": {
+              "texture": "#eye-back-base",
+              "uv": [
+                63.0,
+                72.0,
+                3.0,
+                2.0
+              ],
+              "rotation": 180,
+              "glow": 100,
+              "autoUv": false,
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            "south": {
+              "texture": "#eye-back-base",
+              "uv": [
+                24.0,
+                24.0,
+                0.0,
+                0.0
+              ],
+              "autoUv": false,
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            "west": {
+              "texture": "#eye-back-base",
+              "uv": [
+                63.0,
+                72.0,
+                3.0,
+                2.0
+              ],
+              "rotation": 180,
+              "glow": 100,
+              "autoUv": false,
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            "up": {
+              "texture": "#eye-back-base",
+              "uv": [
+                0.0,
+                0.0,
+                0.5,
+                1.5
+              ]
+            },
+            "down": {
+              "texture": "#eye-back-base",
+              "uv": [
+                0.0,
+                0.0,
+                0.5,
+                1.5
+              ]
+            }
+          }
+        },
+        {
+          "name": "eyePlaneAltR",
+          "from": [
+            0.95,
+            1.6,
+            3.2
+          ],
+          "to": [
+            1.0,
+            4.4,
+            5.0
+          ],
+          "rotationOrigin": [
+            0.95,
+            2.6,
+            5.0
+          ],
+          "rotationY": 47.0,
+          "faces": {
+            "north": {
+              "texture": "#eye-back-base",
+              "uv": [
+                24.0,
+                24.0,
+                0.0,
+                0.0
+              ],
+              "autoUv": false
+            },
+            "east": {
+              "texture": "#eye-back-base",
+              "uv": [
+                117.0,
+                72.0,
+                57.0,
+                2.0
+              ],
+              "rotation": 180,
+              "glow": 100,
+              "autoUv": false,
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            "south": {
+              "texture": "#eye-back-base",
+              "uv": [
+                24.0,
+                24.0,
+                0.0,
+                0.0
+              ],
+              "autoUv": false,
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            "west": {
+              "texture": "#eye-back-base",
+              "uv": [
+                117.0,
+                72.0,
+                57.0,
+                2.0
+              ],
+              "rotation": 180,
+              "glow": 100,
+              "autoUv": false,
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "windData": [
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            "up": {
+              "texture": "#eye-back-base",
+              "uv": [
+                0.0,
+                0.0,
+                0.5,
+                1.5
+              ]
+            },
+            "down": {
+              "texture": "#eye-back-base",
+              "uv": [
+                0.0,
+                0.0,
+                0.5,
+                1.5
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "name": "Blink",
+      "code": "featherborn-blink",
+      "quantityframes": 240,
+      "onActivityStopped": "EaseOut",
+      "keyframes": [
+        {
+          "frame": 0,
+          "elements": {
+            "eyePlaneAltL": {
+              "stretchX": 1.0,
+              "stretchY": 1.0,
+              "stretchZ": 1.0
+            },
+            "eyePlaneAltR": {
+              "stretchX": 1.0,
+              "stretchY": 1.0,
+              "stretchZ": 1.0
+            }
+          }
+        },
+        {
+          "frame": 70,
+          "elements": {
+            "eyePlaneAltL": {
+              "stretchX": 1.0,
+              "stretchY": 1.0,
+              "stretchZ": 1.0
+            },
+            "eyePlaneAltR": {
+              "stretchX": 1.0,
+              "stretchY": 1.0,
+              "stretchZ": 1.0
+            }
+          }
+        },
+        {
+          "frame": 72,
+          "elements": {
+            "eyePlaneAltL": {
+              "stretchX": 1.0,
+              "stretchY": 0.1,
+              "stretchZ": 1.0
+            },
+            "eyePlaneAltR": {
+              "stretchX": 1.0,
+              "stretchY": 0.1,
+              "stretchZ": 1.0
+            }
+          }
+        },
+        {
+          "frame": 73,
+          "elements": {
+            "eyePlaneAltL": {
+              "stretchX": 1.0,
+              "stretchY": 0.1,
+              "stretchZ": 1.0
+            },
+            "eyePlaneAltR": {
+              "stretchX": 1.0,
+              "stretchY": 0.1,
+              "stretchZ": 1.0
+            }
+          }
+        },
+        {
+          "frame": 76,
+          "elements": {
+            "eyePlaneAltL": {
+              "stretchX": 1.0,
+              "stretchY": 1.0,
+              "stretchZ": 1.0
+            },
+            "eyePlaneAltR": {
+              "stretchX": 1.0,
+              "stretchY": 1.0,
+              "stretchZ": 1.0
+            }
+          }
+        },
+        {
+          "frame": 150,
+          "elements": {
+            "eyePlaneAltL": {
+              "stretchX": 1.0,
+              "stretchY": 1.0,
+              "stretchZ": 1.0
+            },
+            "eyePlaneAltR": {
+              "stretchX": 1.0,
+              "stretchY": 1.0,
+              "stretchZ": 1.0
+            }
+          }
+        },
+        {
+          "frame": 152,
+          "elements": {
+            "eyePlaneAltL": {
+              "stretchX": 1.0,
+              "stretchY": 0.1,
+              "stretchZ": 1.0
+            },
+            "eyePlaneAltR": {
+              "stretchX": 1.0,
+              "stretchY": 0.1,
+              "stretchZ": 1.0
+            }
+          }
+        },
+        {
+          "frame": 153,
+          "elements": {
+            "eyePlaneAltL": {
+              "stretchX": 1.0,
+              "stretchY": 0.1,
+              "stretchZ": 1.0
+            },
+            "eyePlaneAltR": {
+              "stretchX": 1.0,
+              "stretchY": 0.1,
+              "stretchZ": 1.0
+            }
+          }
+        },
+        {
+          "frame": 156,
+          "elements": {
+            "eyePlaneAltL": {
+              "stretchX": 1.0,
+              "stretchY": 1.0,
+              "stretchZ": 1.0
+            },
+            "eyePlaneAltR": {
+              "stretchX": 1.0,
+              "stretchY": 1.0,
+              "stretchZ": 1.0
+            }
+          }
+        },
+        {
+          "frame": 160,
+          "elements": {
+            "eyePlaneAltL": {
+              "stretchX": 1.0,
+              "stretchY": 1.0,
+              "stretchZ": 1.0
+            },
+            "eyePlaneAltR": {
+              "stretchX": 1.0,
+              "stretchY": 1.0,
+              "stretchZ": 1.0
+            }
+          }
+        },
+        {
+          "frame": 162,
+          "elements": {
+            "eyePlaneAltL": {
+              "stretchX": 1.0,
+              "stretchY": 0.1,
+              "stretchZ": 1.0
+            },
+            "eyePlaneAltR": {
+              "stretchX": 1.0,
+              "stretchY": 0.1,
+              "stretchZ": 1.0
+            }
+          }
+        },
+        {
+          "frame": 163,
+          "elements": {
+            "eyePlaneAltL": {
+              "stretchX": 1.0,
+              "stretchY": 0.1,
+              "stretchZ": 1.0
+            },
+            "eyePlaneAltR": {
+              "stretchX": 1.0,
+              "stretchY": 0.1,
+              "stretchZ": 1.0
+            }
+          }
+        },
+        {
+          "frame": 166,
+          "elements": {
+            "eyePlaneAltL": {
+              "stretchX": 1.0,
+              "stretchY": 1.0,
+              "stretchZ": 1.0
+            },
+            "eyePlaneAltR": {
+              "stretchX": 1.0,
+              "stretchY": 1.0,
+              "stretchZ": 1.0
+            }
+          }
+        },
+        {
+          "frame": 215,
+          "elements": {
+            "eyePlaneAltL": {
+              "stretchX": 1.0,
+              "stretchY": 1.0,
+              "stretchZ": 1.0
+            },
+            "eyePlaneAltR": {
+              "stretchX": 1.0,
+              "stretchY": 1.0,
+              "stretchZ": 1.0
+            }
+          }
+        },
+        {
+          "frame": 217,
+          "elements": {
+            "eyePlaneAltL": {
+              "stretchX": 1.0,
+              "stretchY": 0.1,
+              "stretchZ": 1.0
+            },
+            "eyePlaneAltR": {
+              "stretchX": 1.0,
+              "stretchY": 0.1,
+              "stretchZ": 1.0
+            }
+          }
+        },
+        {
+          "frame": 218,
+          "elements": {
+            "eyePlaneAltL": {
+              "stretchX": 1.0,
+              "stretchY": 0.1,
+              "stretchZ": 1.0
+            },
+            "eyePlaneAltR": {
+              "stretchX": 1.0,
+              "stretchY": 0.1,
+              "stretchZ": 1.0
+            }
+          }
+        },
+        {
+          "frame": 221,
+          "elements": {
+            "eyePlaneAltL": {
+              "stretchX": 1.0,
+              "stretchY": 1.0,
+              "stretchZ": 1.0
+            },
+            "eyePlaneAltR": {
+              "stretchX": 1.0,
+              "stretchY": 1.0,
+              "stretchZ": 1.0
+            }
+          }
+        },
+        {
+          "frame": 239,
+          "elements": {
+            "eyePlaneAltL": {
+              "stretchX": 1.0,
+              "stretchY": 1.0,
+              "stretchZ": 1.0
+            },
+            "eyePlaneAltR": {
+              "stretchX": 1.0,
+              "stretchY": 1.0,
+              "stretchZ": 1.0
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

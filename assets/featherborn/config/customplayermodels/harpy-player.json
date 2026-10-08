@@ -617,34 +617,37 @@
         "targetSkinParts": ["eyes"],
         "variants": [
           {
+            "code": "block-2"
+          },
+          {
+            "code": "block-3"
+          },
+          {
+            "code": "block-4"
+          },
+          {
+            "code": "block-5"
+          },
+          {
+            "code": "block-6"
+          },
+          {
+            "code": "block-7"
+          },
+          {
+            "code": "block-8"
+          },
+          {
+            "code": "block-9"
+          },
+          {
+            "code": "block-10"
+          },
+          {
+            "code": "block-11"
+          },
+          {
             "code": "base"
-          },
-          {
-            "code": "base-2"
-          },
-          {
-            "code": "base-3"
-          },
-          {
-            "code": "base-4"
-          },
-          {
-            "code": "base-5"
-          },
-          {
-            "code": "base-6"
-          },
-          {
-            "code": "base-7"
-          },
-          {
-            "code": "base-8"
-          },
-          {
-            "code": "base-9"
-          },
-          {
-            "code": "base-10"
           }
         ]
       },
@@ -688,30 +691,21 @@
         "priority": 1,
         "textureTarget": "eye-back-base",
         "overlayTexture": "true",
-        "overlayMode": "Normal",
+        "overlayMode": "MultiplyPreserveAlpha",
         "targetSkinParts": ["eyes"],
         "textureTemplate": "featherborn:face/eyes/eye-back-pupil-{code}",
         "variants": [
           {
-            "code": "tiny"
+            "code": "iris-rect-medium"
           },
           {
-            "code": "small"
+            "code": "iris-rect-small"
           },
           {
-            "code": "medium"
+            "code": "iris-rect-large"
           },
           {
-            "code": "outlined"
-          },
-          {
-            "code": "round-small"
-          },
-          {
-            "code": "round-medium"
-          },
-          {
-            "code": "round-large"
+            "code": "iris-rect-slit"
           }
         ]
       },
@@ -730,6 +724,59 @@
           {
             "code": "#ff8A562C",
             "color": "9066028"
+          }
+        ]
+      },
+      //pupil (drawn over the iris, under the shine)
+      {
+        "code": "eyepupilcore",
+        "tabCode": "Head",
+        "type": "texture",
+        "priority": 1.5,
+        "textureTarget": "eye-back-base",
+        "overlayTexture": true,
+        "overlayMode": "MultiplyPreserveAlpha",
+        "targetSkinParts": ["eyes"],
+        "useDropDown": true,
+        "textureTemplate": "featherborn:face/eyes/eye-back-pupilcore-{code}",
+        "variants": [
+          {
+            "code": "none"
+          },
+          {
+            "code": "square-tiny"
+          },
+          {
+            "code": "square-small"
+          },
+          {
+            "code": "square-medium"
+          },
+          {
+            "code": "square-large"
+          }
+        ]
+      },
+      //eye shine
+      {
+        "code": "eyeshine",
+        "tabCode": "Head",
+        "type": "texture",
+        "priority": 2,
+        "textureTarget": "eye-back-base",
+        "overlayTexture": true,
+        "overlayMode": "NormalPreserveAlpha",
+        "targetSkinParts": ["eyes"],
+        "textureTemplate": "featherborn:face/eyes/eye-back-shine-{code}",
+        "variants": [
+          {
+            "code": "dot"
+          },
+          {
+            "code": "dot-small"
+          },
+          {
+            "code": "none"
           }
         ]
       },
@@ -755,6 +802,9 @@
           },
           {
             "code": "arched-thick"
+          },
+          {
+            "code": "seraph"
           }
         ]
       },

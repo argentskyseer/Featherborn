@@ -600,10 +600,10 @@
         "targetSkinParts": ["eyes"],
         "variants": [
           {
-            "code": "1"
+            "code": "block-1"
           },
-                    {
-            "code": "2"
+          {
+            "code": "block-2"
           }
         ]
       },
@@ -613,7 +613,7 @@
         "tabCode": "Head",
         "type": "shape",
         "shapeTemplate": {
-          "base": "featherborn:face/eyes/{code}"
+          "base": "featherborn:face/eyes/blink/{code}"
         },
         "variants": [
           {
@@ -647,30 +647,21 @@
         "priority": 1,
         "textureTarget": "eye-back-base",
         "overlayTexture": "true",
-        "overlayMode": "Normal",
+        "overlayMode": "MultiplyPreserveAlpha",
         "targetSkinParts": ["eyes"],
         "textureTemplate": "featherborn:face/eyes/eye-back-pupil-{code}",
         "variants": [
           {
-            "code": "tiny"
+            "code": "iris-rect-medium"
           },
           {
-            "code": "small"
+            "code": "iris-rect-small"
           },
           {
-            "code": "medium"
+            "code": "iris-rect-large"
           },
           {
-            "code": "outlined"
-          },
-          {
-            "code": "round-small"
-          },
-          {
-            "code": "round-medium"
-          },
-          {
-            "code": "round-large"
+            "code": "iris-rect-slit"
           }
         ]
       },
@@ -689,6 +680,59 @@
           {
             "code": "#ff8A562C",
             "color": "9066028"
+          }
+        ]
+      },
+      //pupil (drawn over the iris, under the shine)
+      {
+        "code": "eyepupilcore",
+        "tabCode": "Head",
+        "type": "texture",
+        "priority": 1.5,
+        "textureTarget": "eye-back-base",
+        "overlayTexture": true,
+        "overlayMode": "MultiplyPreserveAlpha",
+        "targetSkinParts": ["eyes"],
+        "useDropDown": true,
+        "textureTemplate": "featherborn:face/eyes/eye-back-pupilcore-{code}",
+        "variants": [
+          {
+            "code": "none"
+          },
+          {
+            "code": "square-tiny"
+          },
+          {
+            "code": "square-small"
+          },
+          {
+            "code": "square-medium"
+          },
+          {
+            "code": "square-large"
+          }
+        ]
+      },
+      //eye shine
+      {
+        "code": "eyeshine",
+        "tabCode": "Head",
+        "type": "texture",
+        "priority": 2,
+        "textureTarget": "eye-back-base",
+        "overlayTexture": true,
+        "overlayMode": "NormalPreserveAlpha",
+        "targetSkinParts": ["eyes"],
+        "textureTemplate": "featherborn:face/eyes/eye-back-shine-{code}",
+        "variants": [
+          {
+            "code": "dot"
+          },
+          {
+            "code": "dot-small"
+          },
+          {
+            "code": "none"
           }
         ]
       },
