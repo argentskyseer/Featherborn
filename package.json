@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "packagevsmod": "node node_modules/vs-mod-packager/packager/cli.js ."
+    "packagevsmod": "node scripts/package.js",
+    "packagevsmod-raw": "node node_modules/vs-mod-packager/packager/cli.js ."
   },
   "dependencies": {
     "vs-mod-packager": "^1.0.0"

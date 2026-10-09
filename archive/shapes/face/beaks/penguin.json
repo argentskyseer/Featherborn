@@ -22,7 +22,7 @@
     ]
   },
   "textures": {
-    "beakcolor": "featherborn:body/base/black"
+    "beakcolor": "featherborn:face/beaks/black"
   },
   "elements": [
     {

@@ -174,7 +174,7 @@
                 27.0
               ],
               "autoUv": false,
-              "enabled": true
+              "enabled": false
             },
             "down": {
               "texture": "#feather-main",
@@ -185,7 +185,7 @@
                 27.0
               ],
               "autoUv": false,
-              "enabled": true
+              "enabled": false
             }
           },
           "rotationZ": -18,
@@ -218,7 +218,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 },
                 "south": {
                   "texture": "#feather-main",
@@ -229,7 +229,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 },
                 "east": {
                   "texture": "#feather-main",
@@ -262,7 +262,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 },
                 "down": {
                   "texture": "#feather-main",
@@ -273,7 +273,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 }
               }
             },
@@ -305,7 +305,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 },
                 "south": {
                   "texture": "#feather-main",
@@ -316,7 +316,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 },
                 "east": {
                   "texture": "#feather-main",
@@ -349,7 +349,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 },
                 "down": {
                   "texture": "#feather-main",
@@ -360,7 +360,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 }
               }
             },
@@ -392,7 +392,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 },
                 "south": {
                   "texture": "#feather-main",
@@ -403,7 +403,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 },
                 "east": {
                   "texture": "#feather-main",
@@ -436,7 +436,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 },
                 "down": {
                   "texture": "#feather-main",
@@ -447,7 +447,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 }
               }
             },
@@ -479,7 +479,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 },
                 "south": {
                   "texture": "#feather-main",
@@ -490,7 +490,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 },
                 "east": {
                   "texture": "#feather-main",
@@ -523,7 +523,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 },
                 "down": {
                   "texture": "#feather-main",
@@ -534,7 +534,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 }
               }
             },
@@ -560,7 +560,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 },
                 "south": {
                   "texture": "#feather-main",
@@ -571,7 +571,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 },
                 "east": {
                   "texture": "#feather-main",
@@ -604,7 +604,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 },
                 "down": {
                   "texture": "#feather-main",
@@ -615,7 +615,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 }
               }
             },
@@ -691,7 +691,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 },
                 "down": {
                   "texture": "#feather-main",
@@ -702,7 +702,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 }
               },
               "children": [
@@ -734,7 +734,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     },
                     "south": {
                       "texture": "#feather-main",
@@ -745,7 +745,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     },
                     "east": {
                       "texture": "#feather-main",
@@ -778,7 +778,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     },
                     "down": {
                       "texture": "#feather-main",
@@ -789,7 +789,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     }
                   }
                 },
@@ -821,7 +821,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     },
                     "south": {
                       "texture": "#feather-main",
@@ -832,7 +832,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     },
                     "east": {
                       "texture": "#feather-main",
@@ -865,7 +865,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     },
                     "down": {
                       "texture": "#feather-main",
@@ -876,7 +876,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     }
                   }
                 },
@@ -908,7 +908,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     },
                     "south": {
                       "texture": "#feather-main",
@@ -919,7 +919,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     },
                     "east": {
                       "texture": "#feather-main",
@@ -952,7 +952,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     },
                     "down": {
                       "texture": "#feather-main",
@@ -963,7 +963,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     }
                   }
                 },
@@ -995,7 +995,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     },
                     "south": {
                       "texture": "#feather-main",
@@ -1006,7 +1006,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     },
                     "east": {
                       "texture": "#feather-main",
@@ -1039,7 +1039,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     },
                     "down": {
                       "texture": "#feather-main",
@@ -1050,7 +1050,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     }
                   }
                 },
@@ -1076,7 +1076,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     },
                     "south": {
                       "texture": "#feather-main",
@@ -1087,7 +1087,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     },
                     "east": {
                       "texture": "#feather-main",
@@ -1120,7 +1120,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     },
                     "down": {
                       "texture": "#feather-main",
@@ -1131,7 +1131,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     }
                   }
                 },
@@ -1207,7 +1207,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     },
                     "down": {
                       "texture": "#feather-main",
@@ -1218,7 +1218,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     }
                   },
                   "children": [
@@ -1250,7 +1250,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         },
                         "south": {
                           "texture": "#feather-main",
@@ -1261,7 +1261,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         },
                         "east": {
                           "texture": "#feather-main",
@@ -1294,7 +1294,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         },
                         "down": {
                           "texture": "#feather-main",
@@ -1305,7 +1305,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         }
                       }
                     },
@@ -1337,7 +1337,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         },
                         "south": {
                           "texture": "#feather-main",
@@ -1348,7 +1348,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         },
                         "east": {
                           "texture": "#feather-main",
@@ -1381,7 +1381,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         },
                         "down": {
                           "texture": "#feather-main",
@@ -1392,7 +1392,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         }
                       }
                     },
@@ -1424,7 +1424,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         },
                         "south": {
                           "texture": "#feather-main",
@@ -1435,7 +1435,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         },
                         "east": {
                           "texture": "#feather-main",
@@ -1468,7 +1468,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         },
                         "down": {
                           "texture": "#feather-main",
@@ -1479,7 +1479,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         }
                       }
                     },
@@ -1511,7 +1511,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         },
                         "south": {
                           "texture": "#feather-main",
@@ -1522,7 +1522,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         },
                         "east": {
                           "texture": "#feather-main",
@@ -1555,7 +1555,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         },
                         "down": {
                           "texture": "#feather-main",
@@ -1566,7 +1566,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         }
                       }
                     },
@@ -1592,7 +1592,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         },
                         "south": {
                           "texture": "#feather-main",
@@ -1603,7 +1603,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         },
                         "east": {
                           "texture": "#feather-main",
@@ -1636,7 +1636,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         },
                         "down": {
                           "texture": "#feather-main",
@@ -1647,7 +1647,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         }
                       }
                     },
@@ -1723,7 +1723,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         },
                         "down": {
                           "texture": "#feather-main",
@@ -1734,7 +1734,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         }
                       },
                       "children": [
@@ -1766,7 +1766,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             },
                             "south": {
                               "texture": "#feather-main",
@@ -1777,7 +1777,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             },
                             "east": {
                               "texture": "#feather-main",
@@ -1810,7 +1810,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             },
                             "down": {
                               "texture": "#feather-main",
@@ -1821,7 +1821,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             }
                           }
                         },
@@ -1853,7 +1853,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             },
                             "south": {
                               "texture": "#feather-main",
@@ -1864,7 +1864,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             },
                             "east": {
                               "texture": "#feather-main",
@@ -1897,7 +1897,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             },
                             "down": {
                               "texture": "#feather-main",
@@ -1908,7 +1908,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             }
                           }
                         },
@@ -1940,7 +1940,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             },
                             "south": {
                               "texture": "#feather-main",
@@ -1951,7 +1951,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             },
                             "east": {
                               "texture": "#feather-main",
@@ -1984,7 +1984,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             },
                             "down": {
                               "texture": "#feather-main",
@@ -1995,7 +1995,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             }
                           }
                         },
@@ -2027,7 +2027,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             },
                             "south": {
                               "texture": "#feather-main",
@@ -2038,7 +2038,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             },
                             "east": {
                               "texture": "#feather-main",
@@ -2071,7 +2071,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             },
                             "down": {
                               "texture": "#feather-main",
@@ -2082,7 +2082,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             }
                           }
                         },
@@ -2108,7 +2108,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             },
                             "south": {
                               "texture": "#feather-main",
@@ -2119,7 +2119,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             },
                             "east": {
                               "texture": "#feather-main",
@@ -2152,7 +2152,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             },
                             "down": {
                               "texture": "#feather-main",
@@ -2163,7 +2163,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             }
                           }
                         },
@@ -2239,7 +2239,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             },
                             "down": {
                               "texture": "#feather-main",
@@ -2250,7 +2250,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             }
                           },
                           "children": [
@@ -2282,7 +2282,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 },
                                 "south": {
                                   "texture": "#feather-main",
@@ -2293,7 +2293,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 },
                                 "east": {
                                   "texture": "#feather-main",
@@ -2326,7 +2326,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 },
                                 "down": {
                                   "texture": "#feather-main",
@@ -2337,7 +2337,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 }
                               }
                             },
@@ -2369,7 +2369,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 },
                                 "south": {
                                   "texture": "#feather-main",
@@ -2380,7 +2380,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 },
                                 "east": {
                                   "texture": "#feather-main",
@@ -2413,7 +2413,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 },
                                 "down": {
                                   "texture": "#feather-main",
@@ -2424,7 +2424,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 }
                               }
                             },
@@ -2456,7 +2456,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 },
                                 "south": {
                                   "texture": "#feather-main",
@@ -2467,7 +2467,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 },
                                 "east": {
                                   "texture": "#feather-main",
@@ -2500,7 +2500,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 },
                                 "down": {
                                   "texture": "#feather-main",
@@ -2511,7 +2511,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 }
                               }
                             },
@@ -2543,7 +2543,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 },
                                 "south": {
                                   "texture": "#feather-main",
@@ -2554,7 +2554,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 },
                                 "east": {
                                   "texture": "#feather-main",
@@ -2587,7 +2587,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 },
                                 "down": {
                                   "texture": "#feather-main",
@@ -2598,7 +2598,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 }
                               }
                             },
@@ -2624,7 +2624,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 },
                                 "south": {
                                   "texture": "#feather-main",
@@ -2635,7 +2635,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 },
                                 "east": {
                                   "texture": "#feather-main",
@@ -2668,7 +2668,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 },
                                 "down": {
                                   "texture": "#feather-main",
@@ -2679,7 +2679,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 }
                               }
                             },
@@ -2755,7 +2755,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 },
                                 "down": {
                                   "texture": "#feather-main",
@@ -2766,7 +2766,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 }
                               },
                               "children": [
@@ -2798,7 +2798,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     },
                                     "south": {
                                       "texture": "#feather-main",
@@ -2809,7 +2809,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     },
                                     "east": {
                                       "texture": "#feather-main",
@@ -2842,7 +2842,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     },
                                     "down": {
                                       "texture": "#feather-main",
@@ -2853,7 +2853,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     }
                                   }
                                 },
@@ -2885,7 +2885,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     },
                                     "south": {
                                       "texture": "#feather-main",
@@ -2896,7 +2896,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     },
                                     "east": {
                                       "texture": "#feather-main",
@@ -2929,7 +2929,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     },
                                     "down": {
                                       "texture": "#feather-main",
@@ -2940,7 +2940,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     }
                                   }
                                 },
@@ -2972,7 +2972,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     },
                                     "south": {
                                       "texture": "#feather-main",
@@ -2983,7 +2983,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     },
                                     "east": {
                                       "texture": "#feather-main",
@@ -3016,7 +3016,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     },
                                     "down": {
                                       "texture": "#feather-main",
@@ -3027,7 +3027,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     }
                                   }
                                 },
@@ -3059,7 +3059,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     },
                                     "south": {
                                       "texture": "#feather-main",
@@ -3070,7 +3070,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     },
                                     "east": {
                                       "texture": "#feather-main",
@@ -3103,7 +3103,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     },
                                     "down": {
                                       "texture": "#feather-main",
@@ -3114,7 +3114,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     }
                                   }
                                 },
@@ -3140,7 +3140,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     },
                                     "south": {
                                       "texture": "#feather-main",
@@ -3151,7 +3151,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     },
                                     "east": {
                                       "texture": "#feather-main",
@@ -3184,7 +3184,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     },
                                     "down": {
                                       "texture": "#feather-main",
@@ -3195,7 +3195,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     }
                                   }
                                 },
@@ -3271,7 +3271,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     },
                                     "down": {
                                       "texture": "#feather-main",
@@ -3282,7 +3282,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     }
                                   },
                                   "children": [
@@ -3314,7 +3314,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         },
                                         "south": {
                                           "texture": "#feather-main",
@@ -3325,7 +3325,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         },
                                         "east": {
                                           "texture": "#feather-main",
@@ -3358,7 +3358,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         },
                                         "down": {
                                           "texture": "#feather-main",
@@ -3369,7 +3369,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         }
                                       }
                                     },
@@ -3401,7 +3401,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         },
                                         "south": {
                                           "texture": "#feather-main",
@@ -3412,7 +3412,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         },
                                         "east": {
                                           "texture": "#feather-main",
@@ -3445,7 +3445,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         },
                                         "down": {
                                           "texture": "#feather-main",
@@ -3456,7 +3456,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         }
                                       }
                                     },
@@ -3488,7 +3488,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         },
                                         "south": {
                                           "texture": "#feather-main",
@@ -3499,7 +3499,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         },
                                         "east": {
                                           "texture": "#feather-main",
@@ -3532,7 +3532,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         },
                                         "down": {
                                           "texture": "#feather-main",
@@ -3543,7 +3543,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         }
                                       }
                                     },
@@ -3575,7 +3575,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         },
                                         "south": {
                                           "texture": "#feather-main",
@@ -3586,7 +3586,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         },
                                         "east": {
                                           "texture": "#feather-main",
@@ -3619,7 +3619,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         },
                                         "down": {
                                           "texture": "#feather-main",
@@ -3630,7 +3630,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         }
                                       }
                                     },
@@ -3656,7 +3656,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         },
                                         "south": {
                                           "texture": "#feather-main",
@@ -3667,7 +3667,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         },
                                         "east": {
                                           "texture": "#feather-main",
@@ -3700,7 +3700,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         },
                                         "down": {
                                           "texture": "#feather-main",
@@ -3711,7 +3711,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         }
                                       }
                                     },
@@ -3787,7 +3787,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         },
                                         "down": {
                                           "texture": "#feather-main",
@@ -3798,7 +3798,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         }
                                       },
                                       "children": [
@@ -3830,7 +3830,7 @@
                                                 27.0
                                               ],
                                               "autoUv": false,
-                                              "enabled": true
+                                              "enabled": false
                                             },
                                             "south": {
                                               "texture": "#feather-main",
@@ -3841,7 +3841,7 @@
                                                 27.0
                                               ],
                                               "autoUv": false,
-                                              "enabled": true
+                                              "enabled": false
                                             },
                                             "east": {
                                               "texture": "#feather-main",
@@ -3874,7 +3874,7 @@
                                                 27.0
                                               ],
                                               "autoUv": false,
-                                              "enabled": true
+                                              "enabled": false
                                             },
                                             "down": {
                                               "texture": "#feather-main",
@@ -3885,7 +3885,7 @@
                                                 27.0
                                               ],
                                               "autoUv": false,
-                                              "enabled": true
+                                              "enabled": false
                                             }
                                           }
                                         },
@@ -3917,7 +3917,7 @@
                                                 27.0
                                               ],
                                               "autoUv": false,
-                                              "enabled": true
+                                              "enabled": false
                                             },
                                             "south": {
                                               "texture": "#feather-main",
@@ -3928,7 +3928,7 @@
                                                 27.0
                                               ],
                                               "autoUv": false,
-                                              "enabled": true
+                                              "enabled": false
                                             },
                                             "east": {
                                               "texture": "#feather-main",
@@ -3961,7 +3961,7 @@
                                                 27.0
                                               ],
                                               "autoUv": false,
-                                              "enabled": true
+                                              "enabled": false
                                             },
                                             "down": {
                                               "texture": "#feather-main",
@@ -3972,7 +3972,7 @@
                                                 27.0
                                               ],
                                               "autoUv": false,
-                                              "enabled": true
+                                              "enabled": false
                                             }
                                           }
                                         },
@@ -4004,7 +4004,7 @@
                                                 27.0
                                               ],
                                               "autoUv": false,
-                                              "enabled": true
+                                              "enabled": false
                                             },
                                             "south": {
                                               "texture": "#feather-main",
@@ -4015,7 +4015,7 @@
                                                 27.0
                                               ],
                                               "autoUv": false,
-                                              "enabled": true
+                                              "enabled": false
                                             },
                                             "east": {
                                               "texture": "#feather-main",
@@ -4048,7 +4048,7 @@
                                                 27.0
                                               ],
                                               "autoUv": false,
-                                              "enabled": true
+                                              "enabled": false
                                             },
                                             "down": {
                                               "texture": "#feather-main",
@@ -4059,7 +4059,7 @@
                                                 27.0
                                               ],
                                               "autoUv": false,
-                                              "enabled": true
+                                              "enabled": false
                                             }
                                           }
                                         },
@@ -4091,7 +4091,7 @@
                                                 27.0
                                               ],
                                               "autoUv": false,
-                                              "enabled": true
+                                              "enabled": false
                                             },
                                             "south": {
                                               "texture": "#feather-main",
@@ -4102,7 +4102,7 @@
                                                 27.0
                                               ],
                                               "autoUv": false,
-                                              "enabled": true
+                                              "enabled": false
                                             },
                                             "east": {
                                               "texture": "#feather-main",
@@ -4135,7 +4135,7 @@
                                                 27.0
                                               ],
                                               "autoUv": false,
-                                              "enabled": true
+                                              "enabled": false
                                             },
                                             "down": {
                                               "texture": "#feather-main",
@@ -4146,7 +4146,7 @@
                                                 27.0
                                               ],
                                               "autoUv": false,
-                                              "enabled": true
+                                              "enabled": false
                                             }
                                           }
                                         },
@@ -4172,7 +4172,7 @@
                                                 27.0
                                               ],
                                               "autoUv": false,
-                                              "enabled": true
+                                              "enabled": false
                                             },
                                             "south": {
                                               "texture": "#feather-main",
@@ -4183,7 +4183,7 @@
                                                 27.0
                                               ],
                                               "autoUv": false,
-                                              "enabled": true
+                                              "enabled": false
                                             },
                                             "east": {
                                               "texture": "#feather-main",
@@ -4216,7 +4216,7 @@
                                                 27.0
                                               ],
                                               "autoUv": false,
-                                              "enabled": true
+                                              "enabled": false
                                             },
                                             "down": {
                                               "texture": "#feather-main",
@@ -4227,7 +4227,7 @@
                                                 27.0
                                               ],
                                               "autoUv": false,
-                                              "enabled": true
+                                              "enabled": false
                                             }
                                           }
                                         }
@@ -4408,7 +4408,7 @@
                 27.0
               ],
               "autoUv": false,
-              "enabled": true
+              "enabled": false
             },
             "down": {
               "texture": "#feather-main",
@@ -4419,7 +4419,7 @@
                 27.0
               ],
               "autoUv": false,
-              "enabled": true
+              "enabled": false
             }
           },
           "rotationZ": -18,
@@ -4452,7 +4452,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 },
                 "south": {
                   "texture": "#feather-main",
@@ -4463,7 +4463,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 },
                 "east": {
                   "texture": "#feather-main",
@@ -4496,7 +4496,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 },
                 "down": {
                   "texture": "#feather-main",
@@ -4507,7 +4507,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 }
               }
             },
@@ -4539,7 +4539,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 },
                 "south": {
                   "texture": "#feather-main",
@@ -4550,7 +4550,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 },
                 "east": {
                   "texture": "#feather-main",
@@ -4583,7 +4583,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 },
                 "down": {
                   "texture": "#feather-main",
@@ -4594,7 +4594,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 }
               }
             },
@@ -4626,7 +4626,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 },
                 "south": {
                   "texture": "#feather-main",
@@ -4637,7 +4637,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 },
                 "east": {
                   "texture": "#feather-main",
@@ -4670,7 +4670,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 },
                 "down": {
                   "texture": "#feather-main",
@@ -4681,7 +4681,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 }
               }
             },
@@ -4713,7 +4713,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 },
                 "south": {
                   "texture": "#feather-main",
@@ -4724,7 +4724,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 },
                 "east": {
                   "texture": "#feather-main",
@@ -4757,7 +4757,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 },
                 "down": {
                   "texture": "#feather-main",
@@ -4768,7 +4768,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 }
               }
             },
@@ -4794,7 +4794,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 },
                 "south": {
                   "texture": "#feather-main",
@@ -4805,7 +4805,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 },
                 "east": {
                   "texture": "#feather-main",
@@ -4838,7 +4838,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 },
                 "down": {
                   "texture": "#feather-main",
@@ -4849,7 +4849,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 }
               }
             },
@@ -4925,7 +4925,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 },
                 "down": {
                   "texture": "#feather-main",
@@ -4936,7 +4936,7 @@
                     27.0
                   ],
                   "autoUv": false,
-                  "enabled": true
+                  "enabled": false
                 }
               },
               "children": [
@@ -4968,7 +4968,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     },
                     "south": {
                       "texture": "#feather-main",
@@ -4979,7 +4979,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     },
                     "east": {
                       "texture": "#feather-main",
@@ -5012,7 +5012,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     },
                     "down": {
                       "texture": "#feather-main",
@@ -5023,7 +5023,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     }
                   }
                 },
@@ -5055,7 +5055,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     },
                     "south": {
                       "texture": "#feather-main",
@@ -5066,7 +5066,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     },
                     "east": {
                       "texture": "#feather-main",
@@ -5099,7 +5099,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     },
                     "down": {
                       "texture": "#feather-main",
@@ -5110,7 +5110,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     }
                   }
                 },
@@ -5142,7 +5142,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     },
                     "south": {
                       "texture": "#feather-main",
@@ -5153,7 +5153,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     },
                     "east": {
                       "texture": "#feather-main",
@@ -5186,7 +5186,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     },
                     "down": {
                       "texture": "#feather-main",
@@ -5197,7 +5197,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     }
                   }
                 },
@@ -5229,7 +5229,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     },
                     "south": {
                       "texture": "#feather-main",
@@ -5240,7 +5240,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     },
                     "east": {
                       "texture": "#feather-main",
@@ -5273,7 +5273,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     },
                     "down": {
                       "texture": "#feather-main",
@@ -5284,7 +5284,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     }
                   }
                 },
@@ -5310,7 +5310,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     },
                     "south": {
                       "texture": "#feather-main",
@@ -5321,7 +5321,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     },
                     "east": {
                       "texture": "#feather-main",
@@ -5354,7 +5354,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     },
                     "down": {
                       "texture": "#feather-main",
@@ -5365,7 +5365,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     }
                   }
                 },
@@ -5441,7 +5441,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     },
                     "down": {
                       "texture": "#feather-main",
@@ -5452,7 +5452,7 @@
                         27.0
                       ],
                       "autoUv": false,
-                      "enabled": true
+                      "enabled": false
                     }
                   },
                   "children": [
@@ -5484,7 +5484,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         },
                         "south": {
                           "texture": "#feather-main",
@@ -5495,7 +5495,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         },
                         "east": {
                           "texture": "#feather-main",
@@ -5528,7 +5528,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         },
                         "down": {
                           "texture": "#feather-main",
@@ -5539,7 +5539,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         }
                       }
                     },
@@ -5571,7 +5571,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         },
                         "south": {
                           "texture": "#feather-main",
@@ -5582,7 +5582,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         },
                         "east": {
                           "texture": "#feather-main",
@@ -5615,7 +5615,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         },
                         "down": {
                           "texture": "#feather-main",
@@ -5626,7 +5626,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         }
                       }
                     },
@@ -5658,7 +5658,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         },
                         "south": {
                           "texture": "#feather-main",
@@ -5669,7 +5669,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         },
                         "east": {
                           "texture": "#feather-main",
@@ -5702,7 +5702,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         },
                         "down": {
                           "texture": "#feather-main",
@@ -5713,7 +5713,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         }
                       }
                     },
@@ -5745,7 +5745,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         },
                         "south": {
                           "texture": "#feather-main",
@@ -5756,7 +5756,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         },
                         "east": {
                           "texture": "#feather-main",
@@ -5789,7 +5789,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         },
                         "down": {
                           "texture": "#feather-main",
@@ -5800,7 +5800,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         }
                       }
                     },
@@ -5826,7 +5826,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         },
                         "south": {
                           "texture": "#feather-main",
@@ -5837,7 +5837,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         },
                         "east": {
                           "texture": "#feather-main",
@@ -5870,7 +5870,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         },
                         "down": {
                           "texture": "#feather-main",
@@ -5881,7 +5881,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         }
                       }
                     },
@@ -5957,7 +5957,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         },
                         "down": {
                           "texture": "#feather-main",
@@ -5968,7 +5968,7 @@
                             27.0
                           ],
                           "autoUv": false,
-                          "enabled": true
+                          "enabled": false
                         }
                       },
                       "children": [
@@ -6000,7 +6000,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             },
                             "south": {
                               "texture": "#feather-main",
@@ -6011,7 +6011,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             },
                             "east": {
                               "texture": "#feather-main",
@@ -6044,7 +6044,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             },
                             "down": {
                               "texture": "#feather-main",
@@ -6055,7 +6055,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             }
                           }
                         },
@@ -6087,7 +6087,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             },
                             "south": {
                               "texture": "#feather-main",
@@ -6098,7 +6098,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             },
                             "east": {
                               "texture": "#feather-main",
@@ -6131,7 +6131,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             },
                             "down": {
                               "texture": "#feather-main",
@@ -6142,7 +6142,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             }
                           }
                         },
@@ -6174,7 +6174,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             },
                             "south": {
                               "texture": "#feather-main",
@@ -6185,7 +6185,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             },
                             "east": {
                               "texture": "#feather-main",
@@ -6218,7 +6218,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             },
                             "down": {
                               "texture": "#feather-main",
@@ -6229,7 +6229,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             }
                           }
                         },
@@ -6261,7 +6261,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             },
                             "south": {
                               "texture": "#feather-main",
@@ -6272,7 +6272,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             },
                             "east": {
                               "texture": "#feather-main",
@@ -6305,7 +6305,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             },
                             "down": {
                               "texture": "#feather-main",
@@ -6316,7 +6316,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             }
                           }
                         },
@@ -6342,7 +6342,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             },
                             "south": {
                               "texture": "#feather-main",
@@ -6353,7 +6353,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             },
                             "east": {
                               "texture": "#feather-main",
@@ -6386,7 +6386,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             },
                             "down": {
                               "texture": "#feather-main",
@@ -6397,7 +6397,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             }
                           }
                         },
@@ -6473,7 +6473,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             },
                             "down": {
                               "texture": "#feather-main",
@@ -6484,7 +6484,7 @@
                                 27.0
                               ],
                               "autoUv": false,
-                              "enabled": true
+                              "enabled": false
                             }
                           },
                           "children": [
@@ -6516,7 +6516,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 },
                                 "south": {
                                   "texture": "#feather-main",
@@ -6527,7 +6527,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 },
                                 "east": {
                                   "texture": "#feather-main",
@@ -6560,7 +6560,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 },
                                 "down": {
                                   "texture": "#feather-main",
@@ -6571,7 +6571,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 }
                               }
                             },
@@ -6603,7 +6603,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 },
                                 "south": {
                                   "texture": "#feather-main",
@@ -6614,7 +6614,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 },
                                 "east": {
                                   "texture": "#feather-main",
@@ -6647,7 +6647,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 },
                                 "down": {
                                   "texture": "#feather-main",
@@ -6658,7 +6658,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 }
                               }
                             },
@@ -6690,7 +6690,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 },
                                 "south": {
                                   "texture": "#feather-main",
@@ -6701,7 +6701,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 },
                                 "east": {
                                   "texture": "#feather-main",
@@ -6734,7 +6734,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 },
                                 "down": {
                                   "texture": "#feather-main",
@@ -6745,7 +6745,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 }
                               }
                             },
@@ -6777,7 +6777,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 },
                                 "south": {
                                   "texture": "#feather-main",
@@ -6788,7 +6788,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 },
                                 "east": {
                                   "texture": "#feather-main",
@@ -6821,7 +6821,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 },
                                 "down": {
                                   "texture": "#feather-main",
@@ -6832,7 +6832,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 }
                               }
                             },
@@ -6858,7 +6858,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 },
                                 "south": {
                                   "texture": "#feather-main",
@@ -6869,7 +6869,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 },
                                 "east": {
                                   "texture": "#feather-main",
@@ -6902,7 +6902,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 },
                                 "down": {
                                   "texture": "#feather-main",
@@ -6913,7 +6913,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 }
                               }
                             },
@@ -6989,7 +6989,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 },
                                 "down": {
                                   "texture": "#feather-main",
@@ -7000,7 +7000,7 @@
                                     27.0
                                   ],
                                   "autoUv": false,
-                                  "enabled": true
+                                  "enabled": false
                                 }
                               },
                               "children": [
@@ -7032,7 +7032,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     },
                                     "south": {
                                       "texture": "#feather-main",
@@ -7043,7 +7043,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     },
                                     "east": {
                                       "texture": "#feather-main",
@@ -7076,7 +7076,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     },
                                     "down": {
                                       "texture": "#feather-main",
@@ -7087,7 +7087,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     }
                                   }
                                 },
@@ -7119,7 +7119,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     },
                                     "south": {
                                       "texture": "#feather-main",
@@ -7130,7 +7130,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     },
                                     "east": {
                                       "texture": "#feather-main",
@@ -7163,7 +7163,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     },
                                     "down": {
                                       "texture": "#feather-main",
@@ -7174,7 +7174,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     }
                                   }
                                 },
@@ -7206,7 +7206,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     },
                                     "south": {
                                       "texture": "#feather-main",
@@ -7217,7 +7217,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     },
                                     "east": {
                                       "texture": "#feather-main",
@@ -7250,7 +7250,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     },
                                     "down": {
                                       "texture": "#feather-main",
@@ -7261,7 +7261,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     }
                                   }
                                 },
@@ -7293,7 +7293,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     },
                                     "south": {
                                       "texture": "#feather-main",
@@ -7304,7 +7304,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     },
                                     "east": {
                                       "texture": "#feather-main",
@@ -7337,7 +7337,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     },
                                     "down": {
                                       "texture": "#feather-main",
@@ -7348,7 +7348,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     }
                                   }
                                 },
@@ -7374,7 +7374,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     },
                                     "south": {
                                       "texture": "#feather-main",
@@ -7385,7 +7385,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     },
                                     "east": {
                                       "texture": "#feather-main",
@@ -7418,7 +7418,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     },
                                     "down": {
                                       "texture": "#feather-main",
@@ -7429,7 +7429,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     }
                                   }
                                 },
@@ -7505,7 +7505,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     },
                                     "down": {
                                       "texture": "#feather-main",
@@ -7516,7 +7516,7 @@
                                         27.0
                                       ],
                                       "autoUv": false,
-                                      "enabled": true
+                                      "enabled": false
                                     }
                                   },
                                   "children": [
@@ -7548,7 +7548,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         },
                                         "south": {
                                           "texture": "#feather-main",
@@ -7559,7 +7559,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         },
                                         "east": {
                                           "texture": "#feather-main",
@@ -7592,7 +7592,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         },
                                         "down": {
                                           "texture": "#feather-main",
@@ -7603,7 +7603,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         }
                                       }
                                     },
@@ -7635,7 +7635,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         },
                                         "south": {
                                           "texture": "#feather-main",
@@ -7646,7 +7646,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         },
                                         "east": {
                                           "texture": "#feather-main",
@@ -7679,7 +7679,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         },
                                         "down": {
                                           "texture": "#feather-main",
@@ -7690,7 +7690,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         }
                                       }
                                     },
@@ -7722,7 +7722,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         },
                                         "south": {
                                           "texture": "#feather-main",
@@ -7733,7 +7733,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         },
                                         "east": {
                                           "texture": "#feather-main",
@@ -7766,7 +7766,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         },
                                         "down": {
                                           "texture": "#feather-main",
@@ -7777,7 +7777,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         }
                                       }
                                     },
@@ -7809,7 +7809,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         },
                                         "south": {
                                           "texture": "#feather-main",
@@ -7820,7 +7820,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         },
                                         "east": {
                                           "texture": "#feather-main",
@@ -7853,7 +7853,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         },
                                         "down": {
                                           "texture": "#feather-main",
@@ -7864,7 +7864,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         }
                                       }
                                     },
@@ -7890,7 +7890,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         },
                                         "south": {
                                           "texture": "#feather-main",
@@ -7901,7 +7901,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         },
                                         "east": {
                                           "texture": "#feather-main",
@@ -7934,7 +7934,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         },
                                         "down": {
                                           "texture": "#feather-main",
@@ -7945,7 +7945,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         }
                                       }
                                     },
@@ -8021,7 +8021,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         },
                                         "down": {
                                           "texture": "#feather-main",
@@ -8032,7 +8032,7 @@
                                             27.0
                                           ],
                                           "autoUv": false,
-                                          "enabled": true
+                                          "enabled": false
                                         }
                                       },
                                       "children": [
@@ -8064,7 +8064,7 @@
                                                 27.0
                                               ],
                                               "autoUv": false,
-                                              "enabled": true
+                                              "enabled": false
                                             },
                                             "south": {
                                               "texture": "#feather-main",
@@ -8075,7 +8075,7 @@
                                                 27.0
                                               ],
                                               "autoUv": false,
-                                              "enabled": true
+                                              "enabled": false
                                             },
                                             "east": {
                                               "texture": "#feather-main",
@@ -8108,7 +8108,7 @@
                                                 27.0
                                               ],
                                               "autoUv": false,
-                                              "enabled": true
+                                              "enabled": false
                                             },
                                             "down": {
                                               "texture": "#feather-main",
@@ -8119,7 +8119,7 @@
                                                 27.0
                                               ],
                                               "autoUv": false,
-                                              "enabled": true
+                                              "enabled": false
                                             }
                                           }
                                         },
@@ -8151,7 +8151,7 @@
                                                 27.0
                                               ],
                                               "autoUv": false,
-                                              "enabled": true
+                                              "enabled": false
                                             },
                                             "south": {
                                               "texture": "#feather-main",
@@ -8162,7 +8162,7 @@
                                                 27.0
                                               ],
                                               "autoUv": false,
-                                              "enabled": true
+                                              "enabled": false
                                             },
                                             "east": {
                                               "texture": "#feather-main",
@@ -8195,7 +8195,7 @@
                                                 27.0
                                               ],
                                               "autoUv": false,
-                                              "enabled": true
+                                              "enabled": false
                                             },
                                             "down": {
                                               "texture": "#feather-main",
@@ -8206,7 +8206,7 @@
                                                 27.0
                                               ],
                                               "autoUv": false,
-                                              "enabled": true
+                                              "enabled": false
                                             }
                                           }
                                         },
@@ -8238,7 +8238,7 @@
                                                 27.0
                                               ],
                                               "autoUv": false,
-                                              "enabled": true
+                                              "enabled": false
                                             },
                                             "south": {
                                               "texture": "#feather-main",
@@ -8249,7 +8249,7 @@
                                                 27.0
                                               ],
                                               "autoUv": false,
-                                              "enabled": true
+                                              "enabled": false
                                             },
                                             "east": {
                                               "texture": "#feather-main",
@@ -8282,7 +8282,7 @@
                                                 27.0
                                               ],
                                               "autoUv": false,
-                                              "enabled": true
+                                              "enabled": false
                                             },
                                             "down": {
                                               "texture": "#feather-main",
@@ -8293,7 +8293,7 @@
                                                 27.0
                                               ],
                                               "autoUv": false,
-                                              "enabled": true
+                                              "enabled": false
                                             }
                                           }
                                         },
@@ -8325,7 +8325,7 @@
                                                 27.0
                                               ],
                                               "autoUv": false,
-                                              "enabled": true
+                                              "enabled": false
                                             },
                                             "south": {
                                               "texture": "#feather-main",
@@ -8336,7 +8336,7 @@
                                                 27.0
                                               ],
                                               "autoUv": false,
-                                              "enabled": true
+                                              "enabled": false
                                             },
                                             "east": {
                                               "texture": "#feather-main",
@@ -8369,7 +8369,7 @@
                                                 27.0
                                               ],
                                               "autoUv": false,
-                                              "enabled": true
+                                              "enabled": false
                                             },
                                             "down": {
                                               "texture": "#feather-main",
@@ -8380,7 +8380,7 @@
                                                 27.0
                                               ],
                                               "autoUv": false,
-                                              "enabled": true
+                                              "enabled": false
                                             }
                                           }
                                         },
@@ -8406,7 +8406,7 @@
                                                 27.0
                                               ],
                                               "autoUv": false,
-                                              "enabled": true
+                                              "enabled": false
                                             },
                                             "south": {
                                               "texture": "#feather-main",
@@ -8417,7 +8417,7 @@
                                                 27.0
                                               ],
                                               "autoUv": false,
-                                              "enabled": true
+                                              "enabled": false
                                             },
                                             "east": {
                                               "texture": "#feather-main",
@@ -8450,7 +8450,7 @@
                                                 27.0
                                               ],
                                               "autoUv": false,
-                                              "enabled": true
+                                              "enabled": false
                                             },
                                             "down": {
                                               "texture": "#feather-main",
@@ -8461,7 +8461,7 @@
                                                 27.0
                                               ],
                                               "autoUv": false,
-                                              "enabled": true
+                                              "enabled": false
                                             }
                                           }
                                         }

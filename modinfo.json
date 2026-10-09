@@ -3,10 +3,10 @@
   "modid": "featherborn",
   "name": "Featherborn",
   "authors": ["argentskyseer"],
-  "description": "Add bird type player models, avian and harpy.",
+  "description": "Adds bird player models: Avian, Cyndari and Harpy.",
   "version": "1.2.2",
   "dependencies": {
-    "playermodellib": "1.21.5"
+    "playermodellib": "1.23.2"
   },
 
   "side": "universal",
