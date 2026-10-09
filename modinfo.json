@@ -4,7 +4,7 @@
   "name": "Featherborn",
   "authors": ["argentskyseer"],
   "description": "Adds bird player models: Avian, Cyndari and Harpy.",
-  "version": "1.2.2",
+  "version": "1.3.28",
   "dependencies": {
     "playermodellib": "1.23.2"
   },
