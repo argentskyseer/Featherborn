@@ -101,6 +101,49 @@
           }
         ]
       },
+      //underwing & under-tail colour (split out of the secondary mask)
+      {
+        "code": "featherborn-under",
+        "tabCode": "Body",
+        "type": "texture",
+        "textureTarget": "featherborn-main",
+        "targetSkinParts": ["featherborn-under-color"],
+        "overlayMode": "AlphaMaskBlackAndWhite",
+        "textureTemplate": "featherborn:body/accent/baseskin-accent-{code}",
+        "variants": [
+          {
+            "code": "under"
+          }
+        ]
+      },
+      {
+        "code": "featherborn-under-color",
+        "tabCode": "Body",
+        "type": "texture",
+        "textureTarget": "featherborn-main",
+        "targetSkinParts": ["base", "body-type", "armfeathers", "tailfeathers"],
+        "overlayMode": "NormalPreserveAlpha",
+        "solidColor": true,
+        "size": [304, 152],
+        "variants": [
+          {
+            "code": "#ffdac2af",
+            "color": "9066028"
+          },
+          {
+            "code": "#ffede6b9",
+            "color": "15125273"
+          },
+          {
+            "code": "#ffc9b1b9",
+            "color": "8195123"
+          },
+          {
+            "code": "#ffffffff",
+            "color": "13947603"
+          }
+        ]
+      },
       //head-pattern (mask)
       {
         "code": "head-pattern",
@@ -218,6 +261,18 @@
           },
                     {
             "code": "sweep"
+          },
+          {
+            "code": "secretary-crest"
+          },
+          {
+            "code": "side-plumes"
+          },
+          {
+            "code": "horn-tufts"
+          },
+          {
+            "code": "face-ruff"
           }
         ]
       },
@@ -604,6 +659,27 @@
           },
           {
             "code": "block-2"
+          },
+          {
+            "code": "block-4"
+          },
+          {
+            "code": "block-6"
+          },
+          {
+            "code": "block-7"
+          },
+          {
+            "code": "block-8"
+          },
+          {
+            "code": "block-9"
+          },
+          {
+            "code": "block-10"
+          },
+          {
+            "code": "block-11"
           }
         ]
       },
@@ -633,6 +709,26 @@
         "size": [240, 144],
         "targetSkinParts": ["eyes"],
         "variants": [
+          {
+            "code": "#ffFFFFFF",
+            "color": "16777215"
+          },
+          {
+            "code": "#ffF2E6CC",
+            "color": "15918796"
+          },
+          {
+            "code": "#ffF2D24A",
+            "color": "15913546"
+          },
+          {
+            "code": "#ffF0962A",
+            "color": "15767082"
+          },
+          {
+            "code": "#ffD2402E",
+            "color": "13778990"
+          },
           {
             "code": "#ff8A562C",
             "color": "9066028"
@@ -678,6 +774,34 @@
         "targetSkinParts": ["eyepupil"],
         "variants": [
           {
+            "code": "#ffD9962B",
+            "color": "14259755"
+          },
+          {
+            "code": "#ffE8C547",
+            "color": "15254855"
+          },
+          {
+            "code": "#ff4E9A4A",
+            "color": "5151306"
+          },
+          {
+            "code": "#ff3A7AC8",
+            "color": "3832520"
+          },
+          {
+            "code": "#ff8A8F96",
+            "color": "9080726"
+          },
+          {
+            "code": "#ffB0302A",
+            "color": "11546666"
+          },
+          {
+            "code": "#ff7A4FB0",
+            "color": "8015792"
+          },
+          {
             "code": "#ff8A562C",
             "color": "9066028"
           }
@@ -691,7 +815,7 @@
         "priority": 1.5,
         "textureTarget": "eye-back-base",
         "overlayTexture": true,
-        "overlayMode": "MultiplyPreserveAlpha",
+        "overlayMode": "NormalPreserveAlpha",
         "targetSkinParts": ["eyes"],
         "useDropDown": true,
         "textureTemplate": "featherborn:face/eyes/eye-back-pupilcore-{code}",
@@ -710,6 +834,28 @@
           },
           {
             "code": "square-large"
+          }
+        ]
+      },
+      //pupil colour (recolours the pupil, like pupil-color does for the iris)
+      {
+        "code": "eyepupilcore-color",
+        "tabCode": "Head",
+        "type": "texture",
+        "textureTarget": "eye-back-base",
+        "overlayTexture": true,
+        "overlayMode": "NormalPreserveAlpha",
+        "solidColor": true,
+        "size": [240, 144],
+        "targetSkinParts": ["eyepupilcore"],
+        "variants": [
+          {
+            "code": "#ff000000",
+            "color": "0"
+          },
+          {
+            "code": "#ffFFFFFF",
+            "color": "16777215"
           }
         ]
       },
@@ -764,6 +910,30 @@
           },
                                        {
             "code": "heron"
+          },
+          {
+            "code": "toucan"
+          },
+          {
+            "code": "flamingo"
+          },
+          {
+            "code": "pelican"
+          },
+          {
+            "code": "macaw"
+          },
+          {
+            "code": "ibis"
+          },
+          {
+            "code": "secretary"
+          },
+          {
+            "code": "crow"
+          },
+          {
+            "code": "raven"
           }
         ]
       },
@@ -772,18 +942,61 @@
         "tabCode": "Head",
         "type": "texture",
         "textureTarget": "beakcolor",
-        "overlayTexture": true,
+        "overlayTexture": false,
         "targetSkinParts": ["facialbeak", "beakcore"],
-        "size": [48, 48],
-        "solidColor": true,
+        //same list as avian; per-variant textures (no template) so the two original solid-colour codes keep working for saved characters
         "variants": [
-                    {
+          {
             "code": "#ff8A562C",
-            "color": "9066028"
+            "texture": "featherborn:face/beaks/solid-brown"
           },
           {
             "code": "#ffe6cb19",
-            "color": "15125273"
+            "texture": "featherborn:face/beaks/solid-gold"
+          },
+          {
+            "code": "gray",
+            "texture": "featherborn:face/beaks/gray"
+          },
+          {
+            "code": "yellow",
+            "texture": "featherborn:face/beaks/yellow"
+          },
+          {
+            "code": "black",
+            "texture": "featherborn:face/beaks/black"
+          },
+          {
+            "code": "base-beak",
+            "texture": "featherborn:face/beaks/base-beak"
+          },
+          {
+            "code": "toucan",
+            "texture": "featherborn:face/beaks/toucan"
+          },
+          {
+            "code": "flamingo",
+            "texture": "featherborn:face/beaks/flamingo"
+          },
+          {
+            "code": "pelican",
+            "texture": "featherborn:face/beaks/pelican"
+          },
+          {
+            "code": "macaw",
+            "texture": "featherborn:face/beaks/macaw"
+          },
+          {
+            "code": "ibis",
+            "texture": "featherborn:face/beaks/ibis"
+          },
+          {
+            "code": "secretary",
+            "texture": "featherborn:face/beaks/secretary"
+          },
+          {
+            "code": "raven",
+            "texture": "featherborn:face/beaks/raven"
           }
         ]
       },

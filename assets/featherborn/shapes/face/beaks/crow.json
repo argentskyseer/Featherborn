@@ -1,0 +1,1318 @@
+{
+  "editor": {
+    "allAngles": true,
+    "entityTextureMode": true
+  },
+  "textureWidth": 24,
+  "textureHeight": 24,
+  "textureSizes": {
+    "beakcolor": [
+      24,
+      24
+    ]
+  },
+  "textures": {
+    "beakcolor": "featherborn:face/beaks/raven"
+  },
+  "elements": [
+    {
+      "name": "crowRoot",
+      "stepParentName": "Head",
+      "from": [
+        1.1,
+        3.239,
+        2.5
+      ],
+      "to": [
+        1.1,
+        3.239,
+        2.5
+      ],
+      "rotationOrigin": [
+        1.1,
+        3.239,
+        2.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#beakcolor",
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "enabled": false
+        },
+        "east": {
+          "texture": "#beakcolor",
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "enabled": false
+        },
+        "south": {
+          "texture": "#beakcolor",
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "enabled": false
+        },
+        "west": {
+          "texture": "#beakcolor",
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "enabled": false
+        },
+        "up": {
+          "texture": "#beakcolor",
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "enabled": false
+        },
+        "down": {
+          "texture": "#beakcolor",
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "enabled": false
+        }
+      },
+      "children": [
+        {
+          "name": "crowUpper1",
+          "from": [
+            -1.2,
+            -1.05,
+            -0.5
+          ],
+          "to": [
+            0.0,
+            0.0,
+            0.5
+          ],
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationZ": -3,
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv": [
+                14.5,
+                0.5,
+                15.5,
+                1.5
+              ]
+            }
+          },
+          "children": [
+            {
+              "name": "crowUpper2",
+              "from": [
+                -1.1,
+                0.10000000000000009,
+                0.04999999999999999
+              ],
+              "to": [
+                0.0,
+                1.05,
+                0.95
+              ],
+              "rotationOrigin": [
+                0.0,
+                1.05,
+                0.5
+              ],
+              "rotationZ": 4,
+              "faces": {
+                "north": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    2.5,
+                    0.5,
+                    3.5,
+                    1.5
+                  ]
+                },
+                "south": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    2.5,
+                    0.5,
+                    3.5,
+                    1.5
+                  ]
+                },
+                "up": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    2.5,
+                    0.5,
+                    3.5,
+                    1.5
+                  ]
+                },
+                "down": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    2.5,
+                    0.5,
+                    3.5,
+                    1.5
+                  ]
+                },
+                "west": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    2.5,
+                    0.5,
+                    3.5,
+                    1.5
+                  ]
+                },
+                "east": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    14.5,
+                    0.5,
+                    15.5,
+                    1.5
+                  ]
+                }
+              },
+              "children": [
+                {
+                  "name": "crowUpper3",
+                  "from": [
+                    -1.0,
+                    0.13,
+                    0.06
+                  ],
+                  "to": [
+                    0.0,
+                    0.95,
+                    0.8400000000000001
+                  ],
+                  "rotationOrigin": [
+                    0.0,
+                    0.95,
+                    0.45
+                  ],
+                  "rotationZ": 7,
+                  "faces": {
+                    "north": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        4.5,
+                        0.5,
+                        5.5,
+                        1.5
+                      ]
+                    },
+                    "south": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        4.5,
+                        0.5,
+                        5.5,
+                        1.5
+                      ]
+                    },
+                    "up": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        4.5,
+                        0.5,
+                        5.5,
+                        1.5
+                      ]
+                    },
+                    "down": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        4.5,
+                        0.5,
+                        5.5,
+                        1.5
+                      ]
+                    },
+                    "west": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        4.5,
+                        0.5,
+                        5.5,
+                        1.5
+                      ]
+                    },
+                    "east": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        14.5,
+                        0.5,
+                        15.5,
+                        1.5
+                      ]
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "crowUpper4",
+                      "from": [
+                        -0.9,
+                        0.15999999999999992,
+                        0.07
+                      ],
+                      "to": [
+                        0.0,
+                        0.82,
+                        0.71
+                      ],
+                      "rotationOrigin": [
+                        0.0,
+                        0.82,
+                        0.39
+                      ],
+                      "rotationZ": 10,
+                      "faces": {
+                        "north": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            2.5,
+                            0.5,
+                            3.5,
+                            1.5
+                          ]
+                        },
+                        "south": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            2.5,
+                            0.5,
+                            3.5,
+                            1.5
+                          ]
+                        },
+                        "up": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            2.5,
+                            0.5,
+                            3.5,
+                            1.5
+                          ]
+                        },
+                        "down": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            2.5,
+                            0.5,
+                            3.5,
+                            1.5
+                          ]
+                        },
+                        "west": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            2.5,
+                            0.5,
+                            3.5,
+                            1.5
+                          ]
+                        },
+                        "east": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            14.5,
+                            0.5,
+                            15.5,
+                            1.5
+                          ]
+                        }
+                      },
+                      "children": [
+                        {
+                          "name": "crowUpper5",
+                          "from": [
+                            -0.7,
+                            0.18000000000000005,
+                            0.07
+                          ],
+                          "to": [
+                            0.0,
+                            0.66,
+                            0.5700000000000001
+                          ],
+                          "rotationOrigin": [
+                            0.0,
+                            0.66,
+                            0.32
+                          ],
+                          "rotationZ": 14,
+                          "faces": {
+                            "north": {
+                              "texture": "#beakcolor",
+                              "uv": [
+                                0.5,
+                                0.5,
+                                1.5,
+                                1.5
+                              ]
+                            },
+                            "south": {
+                              "texture": "#beakcolor",
+                              "uv": [
+                                0.5,
+                                0.5,
+                                1.5,
+                                1.5
+                              ]
+                            },
+                            "up": {
+                              "texture": "#beakcolor",
+                              "uv": [
+                                0.5,
+                                0.5,
+                                1.5,
+                                1.5
+                              ]
+                            },
+                            "down": {
+                              "texture": "#beakcolor",
+                              "uv": [
+                                0.5,
+                                0.5,
+                                1.5,
+                                1.5
+                              ]
+                            },
+                            "west": {
+                              "texture": "#beakcolor",
+                              "uv": [
+                                0.5,
+                                0.5,
+                                1.5,
+                                1.5
+                              ]
+                            },
+                            "east": {
+                              "texture": "#beakcolor",
+                              "uv": [
+                                14.5,
+                                0.5,
+                                15.5,
+                                1.5
+                              ]
+                            }
+                          },
+                          "children": [
+                            {
+                              "name": "crowUpper6",
+                              "from": [
+                                -0.45,
+                                0.18,
+                                0.07999999999999999
+                              ],
+                              "to": [
+                                0.0,
+                                0.48,
+                                0.42000000000000004
+                              ],
+                              "rotationOrigin": [
+                                0.0,
+                                0.48,
+                                0.25
+                              ],
+                              "rotationZ": 24,
+                              "faces": {
+                                "north": {
+                                  "texture": "#beakcolor",
+                                  "uv": [
+                                    0.5,
+                                    0.5,
+                                    1.5,
+                                    1.5
+                                  ]
+                                },
+                                "south": {
+                                  "texture": "#beakcolor",
+                                  "uv": [
+                                    0.5,
+                                    0.5,
+                                    1.5,
+                                    1.5
+                                  ]
+                                },
+                                "up": {
+                                  "texture": "#beakcolor",
+                                  "uv": [
+                                    0.5,
+                                    0.5,
+                                    1.5,
+                                    1.5
+                                  ]
+                                },
+                                "down": {
+                                  "texture": "#beakcolor",
+                                  "uv": [
+                                    0.5,
+                                    0.5,
+                                    1.5,
+                                    1.5
+                                  ]
+                                },
+                                "west": {
+                                  "texture": "#beakcolor",
+                                  "uv": [
+                                    0.5,
+                                    0.5,
+                                    1.5,
+                                    1.5
+                                  ]
+                                },
+                                "east": {
+                                  "texture": "#beakcolor",
+                                  "uv": [
+                                    14.5,
+                                    0.5,
+                                    15.5,
+                                    1.5
+                                  ]
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "crowLower1",
+          "from": [
+            -1.2,
+            -1.6,
+            -0.475
+          ],
+          "to": [
+            0.0,
+            -1.05,
+            0.475
+          ],
+          "rotationOrigin": [
+            0.0,
+            -1.05,
+            0.0
+          ],
+          "rotationZ": -5.0,
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv": [
+                6.5,
+                0.5,
+                7.5,
+                1.5
+              ]
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv": [
+                6.5,
+                0.5,
+                7.5,
+                1.5
+              ]
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv": [
+                6.5,
+                0.5,
+                7.5,
+                1.5
+              ]
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv": [
+                6.5,
+                0.5,
+                7.5,
+                1.5
+              ]
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv": [
+                6.5,
+                0.5,
+                7.5,
+                1.5
+              ]
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv": [
+                14.5,
+                0.5,
+                15.5,
+                1.5
+              ]
+            }
+          },
+          "children": [
+            {
+              "name": "crowLower2",
+              "from": [
+                -1.1,
+                0.09000000000000002,
+                0.04999999999999999
+              ],
+              "to": [
+                0.0,
+                0.55,
+                0.8999999999999999
+              ],
+              "rotationOrigin": [
+                0.0,
+                0.55,
+                0.475
+              ],
+              "rotationZ": 2.75,
+              "faces": {
+                "north": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    6.5,
+                    0.5,
+                    7.5,
+                    1.5
+                  ]
+                },
+                "south": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    6.5,
+                    0.5,
+                    7.5,
+                    1.5
+                  ]
+                },
+                "up": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    6.5,
+                    0.5,
+                    7.5,
+                    1.5
+                  ]
+                },
+                "down": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    6.5,
+                    0.5,
+                    7.5,
+                    1.5
+                  ]
+                },
+                "west": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    6.5,
+                    0.5,
+                    7.5,
+                    1.5
+                  ]
+                },
+                "east": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    14.5,
+                    0.5,
+                    15.5,
+                    1.5
+                  ]
+                }
+              },
+              "children": [
+                {
+                  "name": "crowLower3",
+                  "from": [
+                    -1.0,
+                    0.08000000000000002,
+                    0.065
+                  ],
+                  "to": [
+                    0.0,
+                    0.46,
+                    0.7849999999999999
+                  ],
+                  "rotationOrigin": [
+                    0.0,
+                    0.46,
+                    0.425
+                  ],
+                  "rotationZ": 1.25,
+                  "faces": {
+                    "north": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        6.5,
+                        0.5,
+                        7.5,
+                        1.5
+                      ]
+                    },
+                    "south": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        6.5,
+                        0.5,
+                        7.5,
+                        1.5
+                      ]
+                    },
+                    "up": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        6.5,
+                        0.5,
+                        7.5,
+                        1.5
+                      ]
+                    },
+                    "down": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        6.5,
+                        0.5,
+                        7.5,
+                        1.5
+                      ]
+                    },
+                    "west": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        6.5,
+                        0.5,
+                        7.5,
+                        1.5
+                      ]
+                    },
+                    "east": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        14.5,
+                        0.5,
+                        15.5,
+                        1.5
+                      ]
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "crowLower4",
+                      "from": [
+                        -0.8,
+                        0.09999999999999998,
+                        0.07
+                      ],
+                      "to": [
+                        0.0,
+                        0.38,
+                        0.6499999999999999
+                      ],
+                      "rotationOrigin": [
+                        0.0,
+                        0.38,
+                        0.36
+                      ],
+                      "rotationZ": 12.25,
+                      "faces": {
+                        "north": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            6.5,
+                            0.5,
+                            7.5,
+                            1.5
+                          ]
+                        },
+                        "south": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            6.5,
+                            0.5,
+                            7.5,
+                            1.5
+                          ]
+                        },
+                        "up": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            6.5,
+                            0.5,
+                            7.5,
+                            1.5
+                          ]
+                        },
+                        "down": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            6.5,
+                            0.5,
+                            7.5,
+                            1.5
+                          ]
+                        },
+                        "west": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            6.5,
+                            0.5,
+                            7.5,
+                            1.5
+                          ]
+                        },
+                        "east": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            14.5,
+                            0.5,
+                            15.5,
+                            1.5
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "crowBristles",
+          "from": [
+            -1.0627191120937731,
+            -0.16000000000000003,
+            -0.42
+          ],
+          "to": [
+            -0.05,
+            0.12,
+            0.42
+          ],
+          "rotationOrigin": [
+            -0.05,
+            0.12,
+            0.0
+          ],
+          "rotationZ": 9.09,
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv": [
+                8.5,
+                0.5,
+                9.5,
+                1.5
+              ]
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv": [
+                8.5,
+                0.5,
+                9.5,
+                1.5
+              ]
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv": [
+                8.5,
+                0.5,
+                9.5,
+                1.5
+              ]
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv": [
+                8.5,
+                0.5,
+                9.5,
+                1.5
+              ]
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv": [
+                8.5,
+                0.5,
+                9.5,
+                1.5
+              ]
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv": [
+                14.5,
+                0.5,
+                15.5,
+                1.5
+              ]
+            }
+          }
+        },
+        {
+          "name": "crowBlendSideL",
+          "from": [
+            -0.6534381289530575,
+            -1.05,
+            0.5449999999999999
+          ],
+          "to": [
+            -0.11,
+            0.0,
+            0.725
+          ],
+          "rotationOrigin": [
+            -0.11,
+            0.0,
+            0.725
+          ],
+          "rotationY": -25.622,
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv": [
+                14.5,
+                0.5,
+                15.5,
+                1.5
+              ]
+            }
+          }
+        },
+        {
+          "name": "crowBlendJawL",
+          "from": [
+            -0.6484612915521412,
+            -1.6,
+            0.50875
+          ],
+          "to": [
+            -0.11,
+            -1.03,
+            0.68875
+          ],
+          "rotationOrigin": [
+            -0.11,
+            0.0,
+            0.68875
+          ],
+          "rotationY": -24.495,
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv": [
+                6.5,
+                0.5,
+                7.5,
+                1.5
+              ]
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv": [
+                6.5,
+                0.5,
+                7.5,
+                1.5
+              ]
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv": [
+                6.5,
+                0.5,
+                7.5,
+                1.5
+              ]
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv": [
+                6.5,
+                0.5,
+                7.5,
+                1.5
+              ]
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv": [
+                6.5,
+                0.5,
+                7.5,
+                1.5
+              ]
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv": [
+                14.5,
+                0.5,
+                15.5,
+                1.5
+              ]
+            }
+          }
+        },
+        {
+          "name": "crowBlendSideR",
+          "from": [
+            -0.6534381289530575,
+            -1.05,
+            -0.725
+          ],
+          "to": [
+            -0.11,
+            0.0,
+            -0.5449999999999999
+          ],
+          "rotationOrigin": [
+            -0.11,
+            0.0,
+            -0.725
+          ],
+          "rotationY": 25.622,
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv": [
+                14.5,
+                0.5,
+                15.5,
+                1.5
+              ]
+            }
+          }
+        },
+        {
+          "name": "crowBlendJawR",
+          "from": [
+            -0.6484612915521412,
+            -1.6,
+            -0.68875
+          ],
+          "to": [
+            -0.11,
+            -1.03,
+            -0.50875
+          ],
+          "rotationOrigin": [
+            -0.11,
+            0.0,
+            -0.68875
+          ],
+          "rotationY": 24.495,
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv": [
+                6.5,
+                0.5,
+                7.5,
+                1.5
+              ]
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv": [
+                6.5,
+                0.5,
+                7.5,
+                1.5
+              ]
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv": [
+                6.5,
+                0.5,
+                7.5,
+                1.5
+              ]
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv": [
+                6.5,
+                0.5,
+                7.5,
+                1.5
+              ]
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv": [
+                6.5,
+                0.5,
+                7.5,
+                1.5
+              ]
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv": [
+                14.5,
+                0.5,
+                15.5,
+                1.5
+              ]
+            }
+          }
+        },
+        {
+          "name": "crowBlendChin",
+          "from": [
+            -0.7425345840347387,
+            -2.0,
+            -0.5225
+          ],
+          "to": [
+            -0.11,
+            -1.65,
+            0.5225
+          ],
+          "rotationOrigin": [
+            -0.11,
+            -1.65,
+            0.0
+          ],
+          "rotationZ": -39.226,
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv": [
+                6.5,
+                0.5,
+                7.5,
+                1.5
+              ]
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv": [
+                6.5,
+                0.5,
+                7.5,
+                1.5
+              ]
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv": [
+                6.5,
+                0.5,
+                7.5,
+                1.5
+              ]
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv": [
+                6.5,
+                0.5,
+                7.5,
+                1.5
+              ]
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv": [
+                6.5,
+                0.5,
+                7.5,
+                1.5
+              ]
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv": [
+                14.5,
+                0.5,
+                15.5,
+                1.5
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

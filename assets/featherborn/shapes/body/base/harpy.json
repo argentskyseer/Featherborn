@@ -267,18 +267,18 @@
                               "from":[2.3499999046325684,0.0,-2.3],
                               "to":[3.7899999618530273,1.0,2.7],
                               "faces": {
-                                "north":{"texture": "#featherborn-main", "uv": [17.5, 15.5, 18.5, 16.5]},
-                                "east":{"texture": "#featherborn-main", "uv": [18.5, 15.5, 23.5, 16.5], "windData": [1, 1, 1, 1]},
-                                "south":{"texture": "#featherborn-main", "uv": [23.5, 15.5, 24.5, 16.5], "windData": [1, 1, 1, 1]},
-                                "west":{"texture": "#featherborn-main", "uv": [24.5, 15.5, 29.5, 16.5], "windData": [1, 1, 1, 1]},
-                                "up":{"texture": "#featherborn-main", "uv": [17.5, 10.5, 18.5, 15.5], "windData": [1, 1, 1, 1]},
-                                "down":{"texture": "#featherborn-main", "uv": [18.5, 10.5, 19.5, 15.5], "windData": [1, 1, 1, 1]}
+                                "north":{"texture": "#featherborn-main", "uv": [18.5, 12.0, 19.5, 13.0]},
+                                "east":{"texture": "#featherborn-main", "uv": [19.5, 12.0, 24.5, 13.0], "windData": [1, 1, 1, 1]},
+                                "south":{"texture": "#featherborn-main", "uv": [24.5, 12.0, 25.5, 13.0], "windData": [1, 1, 1, 1]},
+                                "west":{"texture": "#featherborn-main", "uv": [25.5, 12.0, 30.5, 13.0], "windData": [1, 1, 1, 1]},
+                                "up":{"texture": "#featherborn-main", "uv": [18.5, 7.0, 19.5, 12.0], "windData": [1, 1, 1, 1]},
+                                "down":{"texture": "#featherborn-main", "uv": [19.5, 7.0, 20.5, 12.0], "windData": [1, 1, 1, 1]}
                               },
                               "rotationOrigin":[2.3499999046325684,0.0,-1.8],
-                              "uv":[17.5,10.5]
+                              "uv":[18.5,7.0]
                             },
                             {
-                              "name": "Nose3",
+                              "name": "Nose4",
                               "from":[0.0,-0.1,0.0],
                               "to":[2.0,0.9,0.4],
                               "faces": {
@@ -365,82 +365,114 @@
                         },
                         {
                           "name": "Head_R",
-                          "from":[0.0,0.0,1.0],
-                          "to":[5.5,5.0,4.0],
+                          "from":[0.0,0.0,1.5],
+                          "to":[5.5,5.0,3.5],
                           "faces": {
-                            "north":{"texture": "#featherborn-main", "uv": [0.0, 7.5, 5.5, 12.5]},
-                            "east":{"texture": "#featherborn-main", "uv": [5.5, 7.5, 8.5, 12.5]},
+                            "north":{"texture": "#featherborn-main", "uv": [1.0, 7.5, 6.5, 12.5]},
+                            "east":{"texture": "#featherborn-main", "uv": [6.5, 7.5, 8.5, 12.5]},
                             "south":{"texture": "#featherborn-main", "uv": [8.5, 7.5, 14.0, 12.5]},
-                            "west":{"texture": "#featherborn-main", "uv": [14.0, 7.5, 17.0, 12.5]},
-                            "up":{"texture": "#featherborn-main", "uv": [0.0, 4.5, 5.5, 7.5]},
-                            "down":{"texture": "#featherborn-main", "uv": [5.5, 4.5, 11.0, 7.5]}
+                            "west":{"texture": "#featherborn-main", "uv": [14.0, 7.5, 16.0, 12.5]},
+                            "up":{"texture": "#featherborn-main", "uv": [1.0, 5.5, 6.5, 7.5]},
+                            "down":{"texture": "#featherborn-main", "uv": [6.5, 5.5, 12.0, 7.5]}
                           },
-                          "rotationOrigin":[0.0,0.0,2.0],
-                          "uv":[0.0,4.5],
+                          "rotationOrigin":[0.0,0.0,2.5],
+                          "uv":[1.0,5.5],
                           "children": [
                             {
                               "name": "HeadTopR",
-                              "from":[0.0,1.0,-1.0],
+                              "from":[0.0,1.5,-1.5],
                               "to":[5.5,5.0,0.0],
                               "faces": {
-                                "north":{"texture": "#featherborn-main", "uv": [31.0, 1.0, 36.5, 5.0]},
-                                "east":{"texture": "#featherborn-main", "uv": [36.5, 1.0, 37.5, 5.0]},
-                                "south":{"texture": "#featherborn-main", "uv": [37.5, 1.0, 43.0, 5.0]},
-                                "west":{"texture": "#featherborn-main", "uv": [43.0, 1.0, 44.0, 5.0]},
-                                "up":{"texture": "#featherborn-main", "uv": [31.0, 0.0, 36.5, 1.0]},
-                                "down":{"texture": "#featherborn-main", "uv": [36.5, 0.0, 42.0, 1.0]}
+                                "north":{"texture": "#featherborn-main", "uv": [30.5, 1.5, 36.0, 5.0]},
+                                "east":{"texture": "#featherborn-main", "uv": [36.0, 1.5, 37.5, 5.0]},
+                                "south":{"texture": "#featherborn-main", "uv": [37.5, 1.5, 43.0, 5.0]},
+                                "west":{"texture": "#featherborn-main", "uv": [43.0, 1.5, 44.5, 5.0]},
+                                "up":{"texture": "#featherborn-main", "uv": [30.5, 0.0, 36.0, 1.5]},
+                                "down":{"texture": "#featherborn-main", "uv": [36.0, 0.0, 41.5, 1.5]}
                               },
-                              "rotationOrigin":[0.0,1.0,-1.0],
-                              "uv":[31.0,0.0],
+                              "rotationOrigin":[0.0,1.5,-1.5],
+                              "uv":[30.5,0.0],
                               "children": [
                                 {
                                   "name": "HeadTopR2",
-                                  "from":[0.02,-1.0,1.0],
-                                  "to":[5.52,0.41,2.0],
+                                  "from":[0.0,-1.0903,0.0],
+                                  "to":[5.5,0.0,1.6],
                                   "faces": {
-                                    "north":{"texture": "#featherborn-main", "uv": [31.0, 6.0, 36.5, 7.0]},
-                                    "east":{"texture": "#featherborn-main", "uv": [36.5, 6.0, 37.5, 7.0]},
-                                    "south":{"texture": "#featherborn-main", "uv": [37.5, 6.0, 43.0, 7.0]},
-                                    "west":{"texture": "#featherborn-main", "uv": [43.0, 6.0, 44.0, 7.0]},
-                                    "up":{"texture": "#featherborn-main", "uv": [31.0, 5.0, 36.5, 6.0]},
-                                    "down":{"texture": "#featherborn-main", "uv": [36.5, 5.0, 42.0, 6.0]}
+                                    "north":{"texture": "#featherborn-main", "uv": [30.5, 5.0, 36.0, 6.0]},
+                                    "east":{"texture": "#featherborn-main", "uv": [36.0, 5.0, 37.5, 6.0]},
+                                    "south":{"texture": "#featherborn-main", "uv": [37.5, 5.0, 43.0, 6.0]},
+                                    "west":{"texture": "#featherborn-main", "uv": [43.0, 5.0, 44.5, 6.0]},
+                                    "up":{"texture": "#featherborn-main", "uv": [30.5, 3.5, 36.0, 5.0]},
+                                    "down":{"texture": "#featherborn-main", "uv": [36.0, 3.5, 41.5, 5.0]}
                                   },
-                                  "rotationOrigin":[0.0,-1.0,1.0],
-                                  "rotationX": -45.0,
-                                  "uv":[31.0,5.0]
+                                  "rotationOrigin":[-0.02,0.0,0.0],
+                                  "rotationX": -31.61,
+                                  "uv":[30.5,3.5]
+                                },
+                                {
+                                  "name": "HeadTopR3",
+                                  "from":[0.0,-2.0189,0.5714],
+                                  "to":[5.5,-0.9286,2.1714],
+                                  "faces": {
+                                    "north":{"texture": "#featherborn-main", "uv": [31.0, 5.5, 36.5, 6.5]},
+                                    "east":{"texture": "#featherborn-main", "uv": [36.5, 5.5, 38.0, 6.5]},
+                                    "south":{"texture": "#featherborn-main", "uv": [38.0, 5.5, 43.5, 6.5]},
+                                    "west":{"texture": "#featherborn-main", "uv": [43.5, 5.5, 45.0, 6.5]},
+                                    "up":{"texture": "#featherborn-main", "uv": [31.0, 4.0, 36.5, 5.5]},
+                                    "down":{"texture": "#featherborn-main", "uv": [36.5, 4.0, 42.0, 5.5]}
+                                  },
+                                  "rotationOrigin":[-0.02,-0.9286,0.5714],
+                                  "rotationX": -58.39,
+                                  "uv":[31.0,4.0]
                                 }
                               ]
                             },
                             {
                               "name": "HeadTopL",
-                              "from":[0.0,1.0,3.0],
-                              "to":[5.5,5.0,4.0],
+                              "from":[0.0,1.5,2.0],
+                              "to":[5.5,5.0,3.5],
                               "faces": {
-                                "north":{"texture": "#featherborn-main", "uv": [31.0, 8.0, 36.5, 12.0]},
-                                "east":{"texture": "#featherborn-main", "uv": [36.5, 8.0, 37.5, 12.0]},
-                                "south":{"texture": "#featherborn-main", "uv": [37.5, 8.0, 43.0, 12.0]},
-                                "west":{"texture": "#featherborn-main", "uv": [43.0, 8.0, 44.0, 12.0]},
-                                "up":{"texture": "#featherborn-main", "uv": [31.0, 7.0, 36.5, 8.0]},
-                                "down":{"texture": "#featherborn-main", "uv": [36.5, 7.0, 42.0, 8.0]}
+                                "north":{"texture": "#featherborn-main", "uv": [30.0, 8.5, 35.5, 12.0]},
+                                "east":{"texture": "#featherborn-main", "uv": [35.5, 8.5, 37.0, 12.0]},
+                                "south":{"texture": "#featherborn-main", "uv": [37.0, 8.5, 42.5, 12.0]},
+                                "west":{"texture": "#featherborn-main", "uv": [42.5, 8.5, 44.0, 12.0]},
+                                "up":{"texture": "#featherborn-main", "uv": [30.0, 7.0, 35.5, 8.5]},
+                                "down":{"texture": "#featherborn-main", "uv": [35.5, 7.0, 41.0, 8.5]}
                               },
-                              "rotationOrigin":[0.0,1.0,3.0],
-                              "uv":[31.0,7.0],
+                              "rotationOrigin":[0.0,1.5,2.0],
+                              "uv":[30.0,7.0],
                               "children": [
                                 {
                                   "name": "HeadTopL2",
-                                  "from":[0.02,-1.0,-1.0],
-                                  "to":[5.52,0.41,0.0],
+                                  "from":[0.0,-1.0903,-0.1],
+                                  "to":[5.5,0.0,1.5],
+                                  "faces": {
+                                    "north":{"texture": "#featherborn-main", "uv": [31.0, 12.0, 36.5, 13.0]},
+                                    "east":{"texture": "#featherborn-main", "uv": [36.5, 12.0, 38.0, 13.0]},
+                                    "south":{"texture": "#featherborn-main", "uv": [38.0, 12.0, 43.5, 13.0]},
+                                    "west":{"texture": "#featherborn-main", "uv": [43.5, 12.0, 45.0, 13.0]},
+                                    "up":{"texture": "#featherborn-main", "uv": [31.0, 10.5, 36.5, 12.0]},
+                                    "down":{"texture": "#featherborn-main", "uv": [36.5, 10.5, 42.0, 12.0]}
+                                  },
+                                  "rotationOrigin":[-0.02,0.0,1.5],
+                                  "rotationX": 31.61,
+                                  "uv":[31.0,10.5]
+                                },
+                                {
+                                  "name": "HeadTopL3",
+                                  "from":[0.0,-2.0189,-0.6714],
+                                  "to":[5.5,-0.9286,0.9286],
                                   "faces": {
                                     "north":{"texture": "#featherborn-main", "uv": [31.0, 13.0, 36.5, 14.0]},
-                                    "east":{"texture": "#featherborn-main", "uv": [36.5, 13.0, 37.5, 14.0]},
-                                    "south":{"texture": "#featherborn-main", "uv": [37.5, 13.0, 43.0, 14.0]},
-                                    "west":{"texture": "#featherborn-main", "uv": [43.0, 13.0, 44.0, 14.0]},
-                                    "up":{"texture": "#featherborn-main", "uv": [31.0, 12.0, 36.5, 13.0]},
-                                    "down":{"texture": "#featherborn-main", "uv": [36.5, 12.0, 42.0, 13.0]}
+                                    "east":{"texture": "#featherborn-main", "uv": [36.5, 13.0, 38.0, 14.0]},
+                                    "south":{"texture": "#featherborn-main", "uv": [38.0, 13.0, 43.5, 14.0]},
+                                    "west":{"texture": "#featherborn-main", "uv": [43.5, 13.0, 45.0, 14.0]},
+                                    "up":{"texture": "#featherborn-main", "uv": [31.0, 11.5, 36.5, 13.0]},
+                                    "down":{"texture": "#featherborn-main", "uv": [36.5, 11.5, 42.0, 13.0]}
                                   },
-                                  "rotationOrigin":[0.0,-1.0,0.0],
-                                  "rotationX": 45.0,
-                                  "uv":[31.0,12.0]
+                                  "rotationOrigin":[-0.02,-0.9286,0.9286],
+                                  "rotationX": 58.39,
+                                  "uv":[31.0,11.5]
                                 }
                               ]
                             }
@@ -916,7 +948,6 @@
       "name": "Walk2",
       "code": "walk",
       "quantityframes": 24,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -1237,7 +1268,6 @@
       "name": "Walk-fp",
       "code": "walk-fp",
       "quantityframes": 25,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -1332,7 +1362,6 @@
       "name": "Crawl",
       "code": "crawl",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -1789,7 +1818,6 @@
       "name": "Sprint",
       "code": "sprint",
       "quantityframes": 24,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -2094,7 +2122,6 @@
       "name": "Sprint-fp",
       "code": "sprint-fp",
       "quantityframes": 24,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -2312,7 +2339,6 @@
       "name": "Flap",
       "code": "ww_flap",
       "quantityframes": 40,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -2371,7 +2397,6 @@
       "name": "Glide",
       "code": "glide",
       "quantityframes": 40,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -2446,7 +2471,6 @@
       "name": "Glide-fp",
       "code": "glide-fp",
       "quantityframes": 40,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -2526,7 +2550,6 @@
       "name": "Creativefly",
       "code": "creativefly",
       "quantityframes": 40,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -2600,7 +2623,6 @@
       "name": "Creativefly-fp",
       "code": "creativefly-fp",
       "quantityframes": 40,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "Rewind",
       "keyframes": [
         {
@@ -2852,7 +2874,6 @@
       "name": "SneakWalk",
       "code": "sneakwalk",
       "quantityframes": 40,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -3409,7 +3430,6 @@
       "name": "SneakWalk-fp",
       "code": "sneakwalk-fp",
       "quantityframes": 40,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "Rewind",
       "keyframes": [
         {
@@ -3486,7 +3506,6 @@
       "name": "SneakIdle",
       "code": "sneakidle",
       "quantityframes": 80,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -4602,7 +4621,6 @@
       "name": "SneakIdle-fp",
       "code": "sneakidle-fp",
       "quantityframes": 35,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "Rewind",
       "keyframes": [
         {
@@ -4656,7 +4674,6 @@
       "name": "Block",
       "code": "block",
       "quantityframes": 35,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "Rewind",
       "keyframes": [
         {
@@ -4692,7 +4709,6 @@
       "name": "Swim",
       "code": "swim",
       "quantityframes": 55,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -4854,7 +4870,6 @@
       "name": "Swim-fp",
       "code": "swim-fp",
       "quantityframes": 55,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -4977,7 +4992,6 @@
       "name": "SwimIdle",
       "code": "swimidle",
       "quantityframes": 55,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -5100,7 +5114,6 @@
       "name": "Idle1",
       "code": "idle1",
       "quantityframes": 50,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -5135,7 +5148,6 @@
       "name": "Idle1-fp",
       "code": "idle1-fp",
       "quantityframes": 50,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -5314,7 +5326,6 @@
       "name": "Idle2",
       "code": "idle2",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "Rewind",
       "keyframes": [
         {
@@ -5396,7 +5407,6 @@
       "name": "Idle3",
       "code": "idle3",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "Rewind",
       "keyframes": [
         {
@@ -5699,7 +5709,6 @@
       "name": "SwordHit",
       "code": "swordhit",
       "quantityframes": 25,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -6282,7 +6291,6 @@
       "name": "SitIdle",
       "code": "sitidle",
       "quantityframes": 60,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "Rewind",
       "keyframes": [
         {
@@ -6347,7 +6355,6 @@
       "name": "SitBoatIdle",
       "code": "sitboatidle",
       "quantityframes": 60,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "Rewind",
       "keyframes": [
         {
@@ -6414,7 +6421,6 @@
       "name": "SitIdle2",
       "code": "sitidle2",
       "quantityframes": 60,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "Rewind",
       "keyframes": [
         {
@@ -6491,7 +6497,6 @@
       "name": "Lie",
       "code": "lie",
       "quantityframes": 50,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -6689,7 +6694,6 @@
       "name": "Smithing",
       "code": "smithing",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -6773,7 +6777,6 @@
       "name": "Smithing-fp",
       "code": "smithing-fp",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -7297,7 +7300,6 @@
       "name": "BreakHand",
       "code": "breakhand",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -7368,7 +7370,6 @@
       "name": "BreakHand-fp",
       "code": "breakhand-fp",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -7549,7 +7550,6 @@
       "name": "PlaceBlock",
       "code": "placeblock",
       "quantityframes": 20,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -7603,7 +7603,6 @@
       "name": "InteractStatic",
       "code": "interactstatic",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -7657,7 +7656,6 @@
       "name": "InteractStatic-fp",
       "code": "interactstatic-fp",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -7711,7 +7709,6 @@
       "name": "InteractStaticLong",
       "code": "interactstaticlong",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -7767,7 +7764,6 @@
       "name": "InteractStaticLong-fp",
       "code": "interactstaticlong-fp",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -7823,7 +7819,6 @@
       "name": "LadderUp",
       "code": "ladderup",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "Rewind",
       "keyframes": [
         {
@@ -7902,7 +7897,6 @@
       "name": "LadderIdle",
       "code": "ladderidle",
       "quantityframes": 20,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "Rewind",
       "keyframes": [
         {
@@ -7959,7 +7953,6 @@
       "name": "LadderDown",
       "code": "ladderdown",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "Rewind",
       "keyframes": [
         {
@@ -8037,7 +8030,6 @@
       "name": "SitFloorIdle",
       "code": "sitflooridle",
       "quantityframes": 60,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -8150,7 +8142,6 @@
       "name": "WalkRight",
       "code": "walkright",
       "quantityframes": 52,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "Rewind",
       "keyframes": [
         {
@@ -8260,7 +8251,6 @@
       "name": "WalkLeft",
       "code": "walkleft",
       "quantityframes": 52,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "Rewind",
       "keyframes": [
         {
@@ -8370,7 +8360,6 @@
       "name": "WalkBack",
       "code": "walkback",
       "quantityframes": 25,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "Rewind",
       "keyframes": [
         {
@@ -8476,7 +8465,6 @@
       "name": "LowHealth",
       "code": "lowhealth",
       "quantityframes": 50,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "Rewind",
       "keyframes": [
         {
@@ -8533,7 +8521,6 @@
       "name": "AxeChop",
       "code": "axechop",
       "quantityframes": 34,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -8576,7 +8563,6 @@
       "name": "AxeChop-fp",
       "code": "axechop-fp",
       "quantityframes": 34,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -8751,7 +8737,6 @@
       "name": "KnockbackHit",
       "code": "knockbackhit",
       "quantityframes": 12,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "Rewind",
       "keyframes": [
         {
@@ -8824,7 +8809,6 @@
       "name": "KnockbackMidair",
       "code": "knockbackmidair",
       "quantityframes": 20,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "Rewind",
       "keyframes": [
         {
@@ -8881,7 +8865,6 @@
       "name": "KnockbackLand",
       "code": "knockbackland",
       "quantityframes": 90,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "Rewind",
       "keyframes": [
         {
@@ -9027,7 +9010,6 @@
       "name": "SwordHit2",
       "code": "swordhit2",
       "quantityframes": 20,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "Rewind",
       "keyframes": [
         {
@@ -9100,7 +9082,6 @@
       "name": "HurtPose",
       "code": "hurtpose",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "Rewind",
       "keyframes": [
         {
@@ -9141,7 +9122,6 @@
       "name": "Holding large animal",
       "code": "holdunderarm",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -9164,7 +9144,6 @@
       "name": "Holding large animal-fp",
       "code": "holdunderarm-fp",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -9187,7 +9166,6 @@
       "name": "Holding with both hands",
       "code": "holdbothhands",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -9216,7 +9194,6 @@
       "name": "Holding TONGS with both hands",
       "code": "holdbothhands-tongs1",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -9245,7 +9222,6 @@
       "name": "Holding with both hands-fp",
       "code": "holdbothhands-fp",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -9276,7 +9252,6 @@
       "name": "Holding TONGS with both hands-fp",
       "code": "holdbothhands-tongs1-fp",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -9307,7 +9282,6 @@
       "name": "Holding with both hands (large object)",
       "code": "holdbothhandslarge",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -9334,7 +9308,6 @@
       "name": "Holding with both hands (large object)-fp",
       "code": "holdbothhandslarge-fp",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -9361,7 +9334,6 @@
       "name": "ShovelDig",
       "code": "shoveldig",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -9437,7 +9409,6 @@
       "name": "ShovelDig-fp",
       "code": "shoveldig-fp",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -9705,7 +9676,6 @@
       "name": "Scythe",
       "code": "scythe",
       "quantityframes": 26,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -9748,7 +9718,6 @@
       "name": "Scythe-fp",
       "code": "scythe-fp",
       "quantityframes": 26,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -9791,7 +9760,6 @@
       "name": "Scythe-IFP",
       "code": "scythe-ifp",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -9864,7 +9832,6 @@
       "name": "scytheIdle",
       "code": "scytheidle",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -9889,7 +9856,6 @@
       "name": "scytheIdle-fp",
       "code": "scytheidle-fp",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -9952,7 +9918,6 @@
       "name": "Shears",
       "code": "shears",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -10010,7 +9975,6 @@
       "name": "Shears-fp",
       "code": "shears-fp",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -10068,7 +10032,6 @@
       "name": "Knap",
       "code": "knap",
       "quantityframes": 12,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -10102,7 +10065,6 @@
       "name": "Knap-IFP",
       "code": "knap-ifp",
       "quantityframes": 12,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -10129,7 +10091,6 @@
       "name": "Knap-FP",
       "code": "knap-fp",
       "quantityframes": 12,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -10163,7 +10124,6 @@
       "name": "Knap Sitting",
       "code": "knapsitting",
       "quantityframes": 15,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -10211,7 +10171,6 @@
       "name": "NewJump",
       "code": "newjump",
       "quantityframes": 20,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -10402,7 +10361,6 @@
       "name": "Holding lantern left hand",
       "code": "holdinglanternlefthand",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -10425,7 +10383,6 @@
       "name": "Holding lantern left hand-fp",
       "code": "holdinglanternlefthand-fp",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -10448,7 +10405,6 @@
       "name": "Holding lantern right hand",
       "code": "holdinglanternrighthand",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -10471,7 +10427,6 @@
       "name": "Holding lantern right hand-fp",
       "code": "holdinglanternrighthand-fp",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -10494,7 +10449,6 @@
       "name": "Panning",
       "code": "panning",
       "quantityframes": 27,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -10578,7 +10532,6 @@
       "name": "Panning-fp",
       "code": "panning-fp",
       "quantityframes": 27,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -10662,7 +10615,6 @@
       "name": "TwoHandPlaceBlock",
       "code": "twohandplaceblock",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -10739,7 +10691,6 @@
       "name": "TwoHandPlaceBlock-fp",
       "code": "twohandplaceblock-fp",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -11817,7 +11768,6 @@
       "name": "Water",
       "code": "water",
       "quantityframes": 50,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -11869,7 +11819,6 @@
       "name": "Water-fp",
       "code": "water-fp",
       "quantityframes": 50,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -11906,7 +11855,6 @@
       "name": "Hoe",
       "code": "hoe",
       "quantityframes": 40,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -12006,7 +11954,6 @@
       "name": "Hoe-fp",
       "code": "hoe-fp",
       "quantityframes": 40,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -12106,7 +12053,6 @@
       "name": "Hoe-IFP",
       "code": "hoe-ifp",
       "quantityframes": 40,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -13167,7 +13113,6 @@
       "name": "SlingAimBalearic",
       "code": "slingaimbalearic",
       "quantityframes": 21,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -13261,7 +13206,6 @@
       "name": "SlingAimBalearic-fp",
       "code": "slingaimbalearic-fp",
       "quantityframes": 21,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -13523,7 +13467,6 @@
       "name": "WoundedIdle",
       "code": "woundedidle",
       "quantityframes": 20,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -13613,7 +13556,6 @@
       "name": "HammerAndChisel",
       "code": "hammerandchisel",
       "quantityframes": 20,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -13669,7 +13611,6 @@
       "name": "HammerAndChisel-IFP",
       "code": "hammerandchisel-ifp",
       "quantityframes": 20,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -13729,7 +13670,6 @@
       "name": "Coldidle",
       "code": "coldidle",
       "quantityframes": 40,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -13871,7 +13811,6 @@
       "name": "Coldidle-fp",
       "code": "coldidle-fp",
       "quantityframes": 40,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -14013,7 +13952,6 @@
       "name": "ColdidleHeld",
       "code": "coldidleheld",
       "quantityframes": 40,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -14154,7 +14092,6 @@
       "name": "ColdidleHeld-fp",
       "code": "coldidleheld-fp",
       "quantityframes": 40,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -14295,7 +14232,6 @@
       "name": "Pour",
       "code": "pour",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -14338,7 +14274,6 @@
       "name": "Pour-fp",
       "code": "pour-fp",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -14371,7 +14306,6 @@
       "name": "PetLarge",
       "code": "petlarge",
       "quantityframes": 40,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -14429,7 +14363,6 @@
       "name": "PetSmall",
       "code": "petsmall",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -14477,7 +14410,6 @@
       "name": "PetSeraph",
       "code": "petseraph",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -14525,7 +14457,6 @@
       "name": "ProtectEyes",
       "code": "protecteyes",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "Rewind",
       "keyframes": [
         {
@@ -14552,7 +14483,6 @@
       "name": "ProtectEyes-fp",
       "code": "protecteyes-fp",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "Rewind",
       "keyframes": [
         {
@@ -14579,7 +14509,6 @@
       "name": "crudeOarIdle",
       "code": "crudeoaridle",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -14604,7 +14533,6 @@
       "name": "crudeOarIdle-fp",
       "code": "crudeoaridle-fp",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -14667,7 +14595,6 @@
       "name": "crudeOarHit",
       "code": "crudeoarhit",
       "quantityframes": 34,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "Rewind",
       "keyframes": [
         {
@@ -14710,7 +14637,6 @@
       "name": "crudeOarHit-fp",
       "code": "crudeoarhit-fp",
       "quantityframes": 34,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "Rewind",
       "keyframes": [
         {
@@ -14753,7 +14679,6 @@
       "name": "crudeOarReady",
       "code": "crudeoarready",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -14792,7 +14717,6 @@
       "name": "crudeOarReady-fp",
       "code": "crudeoarready-fp",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -14831,7 +14755,6 @@
       "name": "crudeOarForward",
       "code": "crudeoarforward",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -14894,7 +14817,6 @@
       "name": "crudeOarForward-fp",
       "code": "crudeoarforward-fp",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -14957,7 +14879,6 @@
       "name": "crudeOarBackward",
       "code": "crudeoarbackward",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -15012,7 +14933,6 @@
       "name": "crudeOarBackward-fp",
       "code": "crudeoarbackward-fp",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -15553,7 +15473,6 @@
       "name": "Raiseshield-left",
       "code": "raiseshield-left",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -15576,7 +15495,6 @@
       "name": "Raiseshield-left-fp",
       "code": "raiseshield-left-fp",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -15599,7 +15517,6 @@
       "name": "Raiseshield-right",
       "code": "raiseshield-right",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -15622,7 +15539,6 @@
       "name": "Raiseshield-right-fp",
       "code": "raiseshield-right-fp",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -15677,7 +15593,6 @@
       "name": "SpearIdle",
       "code": "spearidle",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -15702,7 +15617,6 @@
       "name": "SpearIdle-fp",
       "code": "spearidle-fp",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -15761,7 +15675,6 @@
       "name": "KnifeCut-fp",
       "code": "knifecut-fp",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -15802,7 +15715,6 @@
       "name": "Saw",
       "code": "saw",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -15843,7 +15755,6 @@
       "name": "Saw-fp",
       "code": "saw-fp",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -15922,7 +15833,6 @@
       "name": "ShovelIdle",
       "code": "shovelidle",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "Rewind",
       "keyframes": [
         {
@@ -15947,7 +15857,6 @@
       "name": "ShovelIdle-fp",
       "code": "shovelidle-fp",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "Rewind",
       "keyframes": [
         {
@@ -16164,7 +16073,6 @@
       "name": "StartFire",
       "code": "startfire",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -16218,7 +16126,6 @@
       "name": "StartFire-fp",
       "code": "startfire-fp",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -16318,7 +16225,6 @@
       "name": "ChiselHit",
       "code": "chiselhit",
       "quantityframes": 13,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -16361,7 +16267,6 @@
       "name": "ChiselHit-fp",
       "code": "chiselhit-fp",
       "quantityframes": 13,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -16400,7 +16305,6 @@
       "name": "ChiselReady",
       "code": "chiselready",
       "quantityframes": 20,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -16463,7 +16367,6 @@
       "name": "squeezehoneycomb",
       "code": "squeezehoneycomb",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -16499,7 +16402,6 @@
       "name": "squeezehoneycomb-fp",
       "code": "squeezehoneycomb-fp",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -16660,7 +16562,6 @@
       "name": "Bugnet",
       "code": "bugnet",
       "quantityframes": 60,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -16719,7 +16620,6 @@
       "name": "Bugnet-fp",
       "code": "bugnet-fp",
       "quantityframes": 60,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -16770,7 +16670,6 @@
       "name": "Rideelk-Idle",
       "code": "rideelk-idle",
       "quantityframes": 50,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -16817,7 +16716,6 @@
       "name": "RideElk-Walk",
       "code": "rideelk-walk",
       "quantityframes": 80,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -17032,7 +16930,6 @@
       "name": "RideElk-Run",
       "code": "rideelk-run",
       "quantityframes": 25,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -17107,7 +17004,6 @@
       "name": "RideElk-Run-Passenger",
       "code": "rideelk-run-passenger",
       "quantityframes": 25,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -17195,7 +17091,6 @@
       "name": "Rideelk-Idle-fp",
       "code": "rideelk-idle-fp",
       "quantityframes": 50,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -17240,7 +17135,6 @@
       "name": "RideElk-Walk-fp",
       "code": "rideelk-walk-fp",
       "quantityframes": 80,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -17452,7 +17346,6 @@
       "name": "RideElk-Run-fp",
       "code": "rideelk-run-fp",
       "quantityframes": 25,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -17526,7 +17419,6 @@
       "name": "RideElk-Run-Passenger-fp",
       "code": "rideelk-run-passenger-fp",
       "quantityframes": 25,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -17726,7 +17618,6 @@
       "name": "FluteReady",
       "code": "fluteready",
       "quantityframes": 1,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -17743,7 +17634,6 @@
       "name": "FluteReady-fp",
       "code": "fluteready-fp",
       "quantityframes": 1,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -17760,7 +17650,6 @@
       "name": "RideElk-HoldWeapon",
       "code": "rideelk-holdweapon",
       "quantityframes": 30,
-      "onAnimationEnd": "Repeat",
       "onActivityStopped": "EaseOut",
       "keyframes": [
         {
@@ -17790,10 +17679,15 @@
       "code": "featherborn-blink",
       "quantityframes": 240,
       "onActivityStopped": "EaseOut",
-      "onAnimationEnd": "Repeat",
       "keyframes": [
-        { "frame": 0, "elements": {} },
-        { "frame": 239, "elements": {} }
+        {
+          "frame": 0,
+          "elements": {}
+        },
+        {
+          "frame": 239,
+          "elements": {}
+        }
       ]
     }
   ]

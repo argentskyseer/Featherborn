@@ -1,0 +1,3413 @@
+{
+  "editor": {
+    "allAngles": true,
+    "entityTextureMode": true
+  },
+  "textureWidth": 96,
+  "textureHeight": 48,
+  "textureSizes": {
+    "feather-main": [
+      96,
+      48
+    ]
+  },
+  "textures": {
+    "feather-main": "featherborn:feathers/feather-main"
+  },
+  "elements": [
+    {
+      "name": "ruffLOuter",
+      "stepParentName": "HeadFeatherOrigin",
+      "from": [
+        1.1,
+        2.6,
+        -0.04
+      ],
+      "to": [
+        1.1,
+        2.6,
+        -0.04
+      ],
+      "rotationOrigin": [
+        1.1,
+        2.6,
+        -0.04
+      ],
+      "faces": {
+        "north": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "autoUv": false,
+          "enabled": false
+        },
+        "east": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "autoUv": false,
+          "enabled": false
+        },
+        "south": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "autoUv": false,
+          "enabled": false
+        },
+        "west": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "autoUv": false,
+          "enabled": false
+        },
+        "up": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "autoUv": false,
+          "enabled": false
+        },
+        "down": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "autoUv": false,
+          "enabled": false
+        }
+      },
+      "children": [
+        {
+          "name": "ruffLOuter1",
+          "from": [
+            -0.05,
+            -0.475,
+            -3.5
+          ],
+          "to": [
+            0.05,
+            0.475,
+            0.0
+          ],
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationX": 64,
+          "rotationY": -10,
+          "faces": {
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 90
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 90
+            },
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "ruffLOuter2",
+          "from": [
+            -0.05,
+            -0.475,
+            -3.0
+          ],
+          "to": [
+            0.05,
+            0.475,
+            0.0
+          ],
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationX": 44,
+          "rotationY": -10,
+          "faces": {
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 90
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 90
+            },
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "ruffLOuter3",
+          "from": [
+            -0.05,
+            -0.45,
+            -2.6
+          ],
+          "to": [
+            0.05,
+            0.45,
+            0.0
+          ],
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationX": 24,
+          "rotationY": -10,
+          "faces": {
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 90
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 90
+            },
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "ruffLOuter4",
+          "from": [
+            -0.05,
+            -0.45,
+            -2.4
+          ],
+          "to": [
+            0.05,
+            0.45,
+            0.0
+          ],
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationX": 4,
+          "rotationY": -10,
+          "faces": {
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 90
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 90
+            },
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "ruffLOuter5",
+          "from": [
+            -0.05,
+            -0.425,
+            -2.3
+          ],
+          "to": [
+            0.05,
+            0.425,
+            0.0
+          ],
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationX": -16,
+          "rotationY": -10,
+          "faces": {
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 90
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 90
+            },
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "ruffLOuter6",
+          "from": [
+            -0.05,
+            -0.4,
+            -2.1
+          ],
+          "to": [
+            0.05,
+            0.4,
+            0.0
+          ],
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationX": -36,
+          "rotationY": -10,
+          "faces": {
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 90
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 90
+            },
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "ruffLOuter7",
+          "from": [
+            -0.05,
+            -0.375,
+            -1.8
+          ],
+          "to": [
+            0.05,
+            0.375,
+            0.0
+          ],
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationX": -54,
+          "rotationY": -10,
+          "faces": {
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 90
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 90
+            },
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "ruffLInner",
+      "stepParentName": "HeadFeatherOrigin",
+      "from": [
+        0.75,
+        2.6,
+        -0.04
+      ],
+      "to": [
+        0.75,
+        2.6,
+        -0.04
+      ],
+      "rotationOrigin": [
+        0.75,
+        2.6,
+        -0.04
+      ],
+      "faces": {
+        "north": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "autoUv": false,
+          "enabled": false
+        },
+        "east": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "autoUv": false,
+          "enabled": false
+        },
+        "south": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "autoUv": false,
+          "enabled": false
+        },
+        "west": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "autoUv": false,
+          "enabled": false
+        },
+        "up": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "autoUv": false,
+          "enabled": false
+        },
+        "down": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "autoUv": false,
+          "enabled": false
+        }
+      },
+      "children": [
+        {
+          "name": "ruffLInner1",
+          "from": [
+            -0.05,
+            -0.4,
+            -2.3
+          ],
+          "to": [
+            0.05,
+            0.4,
+            0.0
+          ],
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationX": 54,
+          "rotationY": -10,
+          "faces": {
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 90
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 90
+            },
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "ruffLInner2",
+          "from": [
+            -0.05,
+            -0.39,
+            -2.0
+          ],
+          "to": [
+            0.05,
+            0.39,
+            0.0
+          ],
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationX": 34,
+          "rotationY": -10,
+          "faces": {
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 90
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 90
+            },
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "ruffLInner3",
+          "from": [
+            -0.05,
+            -0.375,
+            -1.85
+          ],
+          "to": [
+            0.05,
+            0.375,
+            0.0
+          ],
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationX": 14,
+          "rotationY": -10,
+          "faces": {
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 90
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 90
+            },
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "ruffLInner4",
+          "from": [
+            -0.05,
+            -0.36,
+            -1.75
+          ],
+          "to": [
+            0.05,
+            0.36,
+            0.0
+          ],
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationX": -6,
+          "rotationY": -10,
+          "faces": {
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 90
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 90
+            },
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "ruffLInner5",
+          "from": [
+            -0.05,
+            -0.34,
+            -1.6
+          ],
+          "to": [
+            0.05,
+            0.34,
+            0.0
+          ],
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationX": -26,
+          "rotationY": -10,
+          "faces": {
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 90
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 90
+            },
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "ruffLInner6",
+          "from": [
+            -0.05,
+            -0.31,
+            -1.4
+          ],
+          "to": [
+            0.05,
+            0.31,
+            0.0
+          ],
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationX": -44,
+          "rotationY": -10,
+          "faces": {
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 90
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 90
+            },
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "ruffROuter",
+      "stepParentName": "HeadFeatherOrigin",
+      "from": [
+        1.1,
+        2.6,
+        5.04
+      ],
+      "to": [
+        1.1,
+        2.6,
+        5.04
+      ],
+      "rotationOrigin": [
+        1.1,
+        2.6,
+        5.04
+      ],
+      "faces": {
+        "north": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "autoUv": false,
+          "enabled": false
+        },
+        "east": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "autoUv": false,
+          "enabled": false
+        },
+        "south": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "autoUv": false,
+          "enabled": false
+        },
+        "west": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "autoUv": false,
+          "enabled": false
+        },
+        "up": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "autoUv": false,
+          "enabled": false
+        },
+        "down": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "autoUv": false,
+          "enabled": false
+        }
+      },
+      "children": [
+        {
+          "name": "ruffROuter1",
+          "from": [
+            -0.05,
+            -0.475,
+            0.0
+          ],
+          "to": [
+            0.05,
+            0.475,
+            3.5
+          ],
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationX": -64,
+          "rotationY": 10,
+          "faces": {
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 270
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 270
+            },
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "ruffROuter2",
+          "from": [
+            -0.05,
+            -0.475,
+            0.0
+          ],
+          "to": [
+            0.05,
+            0.475,
+            3.0
+          ],
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationX": -44,
+          "rotationY": 10,
+          "faces": {
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 270
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 270
+            },
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "ruffROuter3",
+          "from": [
+            -0.05,
+            -0.45,
+            0.0
+          ],
+          "to": [
+            0.05,
+            0.45,
+            2.6
+          ],
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationX": -24,
+          "rotationY": 10,
+          "faces": {
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 270
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 270
+            },
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "ruffROuter4",
+          "from": [
+            -0.05,
+            -0.45,
+            0.0
+          ],
+          "to": [
+            0.05,
+            0.45,
+            2.4
+          ],
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationX": -4,
+          "rotationY": 10,
+          "faces": {
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 270
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 270
+            },
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "ruffROuter5",
+          "from": [
+            -0.05,
+            -0.425,
+            0.0
+          ],
+          "to": [
+            0.05,
+            0.425,
+            2.3
+          ],
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationX": 16,
+          "rotationY": 10,
+          "faces": {
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 270
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 270
+            },
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "ruffROuter6",
+          "from": [
+            -0.05,
+            -0.4,
+            0.0
+          ],
+          "to": [
+            0.05,
+            0.4,
+            2.1
+          ],
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationX": 36,
+          "rotationY": 10,
+          "faces": {
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 270
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 270
+            },
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "ruffROuter7",
+          "from": [
+            -0.05,
+            -0.375,
+            0.0
+          ],
+          "to": [
+            0.05,
+            0.375,
+            1.8
+          ],
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationX": 54,
+          "rotationY": 10,
+          "faces": {
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 270
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 270
+            },
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "ruffRInner",
+      "stepParentName": "HeadFeatherOrigin",
+      "from": [
+        0.75,
+        2.6,
+        5.04
+      ],
+      "to": [
+        0.75,
+        2.6,
+        5.04
+      ],
+      "rotationOrigin": [
+        0.75,
+        2.6,
+        5.04
+      ],
+      "faces": {
+        "north": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "autoUv": false,
+          "enabled": false
+        },
+        "east": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "autoUv": false,
+          "enabled": false
+        },
+        "south": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "autoUv": false,
+          "enabled": false
+        },
+        "west": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "autoUv": false,
+          "enabled": false
+        },
+        "up": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "autoUv": false,
+          "enabled": false
+        },
+        "down": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "autoUv": false,
+          "enabled": false
+        }
+      },
+      "children": [
+        {
+          "name": "ruffRInner1",
+          "from": [
+            -0.05,
+            -0.4,
+            0.0
+          ],
+          "to": [
+            0.05,
+            0.4,
+            2.3
+          ],
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationX": -54,
+          "rotationY": 10,
+          "faces": {
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 270
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 270
+            },
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "ruffRInner2",
+          "from": [
+            -0.05,
+            -0.39,
+            0.0
+          ],
+          "to": [
+            0.05,
+            0.39,
+            2.0
+          ],
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationX": -34,
+          "rotationY": 10,
+          "faces": {
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 270
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 270
+            },
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "ruffRInner3",
+          "from": [
+            -0.05,
+            -0.375,
+            0.0
+          ],
+          "to": [
+            0.05,
+            0.375,
+            1.85
+          ],
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationX": -14,
+          "rotationY": 10,
+          "faces": {
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 270
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 270
+            },
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "ruffRInner4",
+          "from": [
+            -0.05,
+            -0.36,
+            0.0
+          ],
+          "to": [
+            0.05,
+            0.36,
+            1.75
+          ],
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationX": 6,
+          "rotationY": 10,
+          "faces": {
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 270
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 270
+            },
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "ruffRInner5",
+          "from": [
+            -0.05,
+            -0.34,
+            0.0
+          ],
+          "to": [
+            0.05,
+            0.34,
+            1.6
+          ],
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationX": 26,
+          "rotationY": 10,
+          "faces": {
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 270
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 270
+            },
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "ruffRInner6",
+          "from": [
+            -0.05,
+            -0.31,
+            0.0
+          ],
+          "to": [
+            0.05,
+            0.31,
+            1.4
+          ],
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationX": 44,
+          "rotationY": 10,
+          "faces": {
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 270
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true,
+              "rotation": 270
+            },
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "antennaRootL",
+      "stepParentName": "HeadFeatherOrigin",
+      "from": [
+        1.9,
+        4.9,
+        1.3
+      ],
+      "to": [
+        1.9,
+        4.9,
+        1.3
+      ],
+      "rotationOrigin": [
+        1.9,
+        4.9,
+        1.3
+      ],
+      "rotationX": -16,
+      "rotationZ": -10,
+      "faces": {
+        "north": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "autoUv": false,
+          "enabled": false
+        },
+        "east": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "autoUv": false,
+          "enabled": false
+        },
+        "south": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "autoUv": false,
+          "enabled": false
+        },
+        "west": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "autoUv": false,
+          "enabled": false
+        },
+        "up": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "autoUv": false,
+          "enabled": false
+        },
+        "down": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "autoUv": false,
+          "enabled": false
+        }
+      },
+      "children": [
+        {
+          "name": "antennaShaftL",
+          "from": [
+            -0.06,
+            0.0,
+            -0.06
+          ],
+          "to": [
+            0.06,
+            5.2,
+            0.06
+          ],
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "faces": {
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                35.5,
+                17.0,
+                36.5,
+                47.5
+              ],
+              "autoUv": false,
+              "enabled": true
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                35.5,
+                17.0,
+                36.5,
+                47.5
+              ],
+              "autoUv": false,
+              "enabled": true
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                35.5,
+                17.0,
+                36.5,
+                47.5
+              ],
+              "autoUv": false,
+              "enabled": true
+            },
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                35.5,
+                17.0,
+                36.5,
+                47.5
+              ],
+              "autoUv": false,
+              "enabled": true
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "antennaVaneL",
+          "from": [
+            -0.04,
+            2.6,
+            -0.38
+          ],
+          "to": [
+            0.04,
+            5.0,
+            0.38
+          ],
+          "rotationOrigin": [
+            0.0,
+            2.6,
+            0.0
+          ],
+          "faces": {
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true
+            },
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "antennaTipL",
+          "from": [
+            -0.07,
+            5.0,
+            -0.07
+          ],
+          "to": [
+            0.07,
+            6.4,
+            0.07
+          ],
+          "rotationOrigin": [
+            0.0,
+            5.0,
+            0.0
+          ],
+          "faces": {
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                34.5,
+                2.0,
+                37.5,
+                15.0
+              ],
+              "autoUv": false,
+              "enabled": true
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                34.5,
+                2.0,
+                37.5,
+                15.0
+              ],
+              "autoUv": false,
+              "enabled": true
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                34.5,
+                2.0,
+                37.5,
+                15.0
+              ],
+              "autoUv": false,
+              "enabled": true
+            },
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                34.5,
+                2.0,
+                37.5,
+                15.0
+              ],
+              "autoUv": false,
+              "enabled": true
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                34.5,
+                2.0,
+                37.5,
+                15.0
+              ],
+              "autoUv": false,
+              "enabled": true
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "antennaRootR",
+      "stepParentName": "HeadFeatherOrigin",
+      "from": [
+        1.9,
+        4.9,
+        3.7
+      ],
+      "to": [
+        1.9,
+        4.9,
+        3.7
+      ],
+      "rotationOrigin": [
+        1.9,
+        4.9,
+        3.7
+      ],
+      "rotationX": 16,
+      "rotationZ": -10,
+      "faces": {
+        "north": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "autoUv": false,
+          "enabled": false
+        },
+        "east": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "autoUv": false,
+          "enabled": false
+        },
+        "south": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "autoUv": false,
+          "enabled": false
+        },
+        "west": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "autoUv": false,
+          "enabled": false
+        },
+        "up": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "autoUv": false,
+          "enabled": false
+        },
+        "down": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "autoUv": false,
+          "enabled": false
+        }
+      },
+      "children": [
+        {
+          "name": "antennaShaftR",
+          "from": [
+            -0.06,
+            0.0,
+            -0.06
+          ],
+          "to": [
+            0.06,
+            5.2,
+            0.06
+          ],
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "faces": {
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                35.5,
+                17.0,
+                36.5,
+                47.5
+              ],
+              "autoUv": false,
+              "enabled": true
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                35.5,
+                17.0,
+                36.5,
+                47.5
+              ],
+              "autoUv": false,
+              "enabled": true
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                35.5,
+                17.0,
+                36.5,
+                47.5
+              ],
+              "autoUv": false,
+              "enabled": true
+            },
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                35.5,
+                17.0,
+                36.5,
+                47.5
+              ],
+              "autoUv": false,
+              "enabled": true
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "antennaVaneR",
+          "from": [
+            -0.04,
+            2.6,
+            -0.38
+          ],
+          "to": [
+            0.04,
+            5.0,
+            0.38
+          ],
+          "rotationOrigin": [
+            0.0,
+            2.6,
+            0.0
+          ],
+          "faces": {
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true
+            },
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "antennaTipR",
+          "from": [
+            -0.07,
+            5.0,
+            -0.07
+          ],
+          "to": [
+            0.07,
+            6.4,
+            0.07
+          ],
+          "rotationOrigin": [
+            0.0,
+            5.0,
+            0.0
+          ],
+          "faces": {
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                34.5,
+                2.0,
+                37.5,
+                15.0
+              ],
+              "autoUv": false,
+              "enabled": true
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                34.5,
+                2.0,
+                37.5,
+                15.0
+              ],
+              "autoUv": false,
+              "enabled": true
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                34.5,
+                2.0,
+                37.5,
+                15.0
+              ],
+              "autoUv": false,
+              "enabled": true
+            },
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                34.5,
+                2.0,
+                37.5,
+                15.0
+              ],
+              "autoUv": false,
+              "enabled": true
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                34.5,
+                2.0,
+                37.5,
+                15.0
+              ],
+              "autoUv": false,
+              "enabled": true
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

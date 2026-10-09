@@ -1,0 +1,1149 @@
+{
+  "editor": {
+    "allAngles": true,
+    "entityTextureMode": true
+  },
+  "textureWidth": 96,
+  "textureHeight": 48,
+  "textureSizes": {
+    "feather-main": [
+      96,
+      48
+    ]
+  },
+  "textures": {
+    "feather-main": "featherborn:feathers/feather-main"
+  },
+  "elements": [
+    {
+      "name": "sidePlumeRootL",
+      "stepParentName": "HeadFeatherOrigin",
+      "from": [
+        2.2,
+        3.6,
+        -0.03
+      ],
+      "to": [
+        2.2,
+        3.6,
+        -0.03
+      ],
+      "rotationOrigin": [
+        2.2,
+        3.6,
+        -0.03
+      ],
+      "faces": {
+        "north": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "rotation": 270,
+          "autoUv": false,
+          "enabled": false
+        },
+        "east": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "rotation": 270,
+          "autoUv": false,
+          "enabled": false
+        },
+        "south": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "rotation": 270,
+          "autoUv": false,
+          "enabled": false
+        },
+        "west": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "rotation": 270,
+          "autoUv": false,
+          "enabled": false
+        },
+        "up": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "rotation": 270,
+          "autoUv": false,
+          "enabled": false
+        },
+        "down": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "rotation": 270,
+          "autoUv": false,
+          "enabled": false
+        }
+      },
+      "children": [
+        {
+          "name": "sidePlumeL1",
+          "from": [
+            0.0,
+            0.03999999999999998,
+            0.0
+          ],
+          "to": [
+            5.4,
+            0.6599999999999999,
+            0.0
+          ],
+          "rotationOrigin": [
+            0.0,
+            0.35,
+            0.0
+          ],
+          "rotationY": 18,
+          "rotationZ": 58,
+          "faces": {
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": true
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                48.0,
+                30.5,
+                4.5
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": true
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": false
+            },
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": false
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "sidePlumeL2",
+          "from": [
+            0.0,
+            -0.18000000000000002,
+            0.0
+          ],
+          "to": [
+            6.3,
+            0.48,
+            0.0
+          ],
+          "rotationOrigin": [
+            0.0,
+            0.15,
+            0.0
+          ],
+          "rotationY": 24,
+          "rotationZ": 40,
+          "faces": {
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": true
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                48.0,
+                30.5,
+                4.5
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": true
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": false
+            },
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": false
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "sidePlumeL3",
+          "from": [
+            0.0,
+            -0.32,
+            0.0
+          ],
+          "to": [
+            6.0,
+            0.32,
+            0.0
+          ],
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationY": 28,
+          "rotationZ": 24,
+          "faces": {
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": true
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                48.0,
+                30.5,
+                4.5
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": true
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": false
+            },
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": false
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "sidePlumeL4",
+          "from": [
+            0.0,
+            -0.44999999999999996,
+            0.0
+          ],
+          "to": [
+            5.0,
+            0.15,
+            0.0
+          ],
+          "rotationOrigin": [
+            0.0,
+            -0.15,
+            0.0
+          ],
+          "rotationY": 30,
+          "rotationZ": 9,
+          "faces": {
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": true
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                48.0,
+                30.5,
+                4.5
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": true
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": false
+            },
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": false
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "sidePlumeL5",
+          "from": [
+            0.0,
+            -1.65,
+            0.0
+          ],
+          "to": [
+            3.6,
+            -1.15,
+            0.0
+          ],
+          "rotationOrigin": [
+            0.0,
+            -1.4,
+            0.0
+          ],
+          "rotationY": 26,
+          "rotationZ": -12,
+          "faces": {
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": true
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                48.0,
+                30.5,
+                4.5
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": true
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": false
+            },
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": false
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "sidePlumeRootR",
+      "stepParentName": "HeadFeatherOrigin",
+      "from": [
+        2.2,
+        3.6,
+        5.03
+      ],
+      "to": [
+        2.2,
+        3.6,
+        5.03
+      ],
+      "rotationOrigin": [
+        2.2,
+        3.6,
+        5.03
+      ],
+      "faces": {
+        "north": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "rotation": 270,
+          "autoUv": false,
+          "enabled": false
+        },
+        "east": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "rotation": 270,
+          "autoUv": false,
+          "enabled": false
+        },
+        "south": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "rotation": 270,
+          "autoUv": false,
+          "enabled": false
+        },
+        "west": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "rotation": 270,
+          "autoUv": false,
+          "enabled": false
+        },
+        "up": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "rotation": 270,
+          "autoUv": false,
+          "enabled": false
+        },
+        "down": {
+          "texture": "#feather-main",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "rotation": 270,
+          "autoUv": false,
+          "enabled": false
+        }
+      },
+      "children": [
+        {
+          "name": "sidePlumeR1",
+          "from": [
+            0.0,
+            0.03999999999999998,
+            0.0
+          ],
+          "to": [
+            5.4,
+            0.6599999999999999,
+            0.0
+          ],
+          "rotationOrigin": [
+            0.0,
+            0.35,
+            0.0
+          ],
+          "rotationY": -18,
+          "rotationZ": 58,
+          "faces": {
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": true
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                48.0,
+                30.5,
+                4.5
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": true
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": false
+            },
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": false
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "sidePlumeR2",
+          "from": [
+            0.0,
+            -0.18000000000000002,
+            0.0
+          ],
+          "to": [
+            6.3,
+            0.48,
+            0.0
+          ],
+          "rotationOrigin": [
+            0.0,
+            0.15,
+            0.0
+          ],
+          "rotationY": -24,
+          "rotationZ": 40,
+          "faces": {
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": true
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                48.0,
+                30.5,
+                4.5
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": true
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": false
+            },
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": false
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "sidePlumeR3",
+          "from": [
+            0.0,
+            -0.32,
+            0.0
+          ],
+          "to": [
+            6.0,
+            0.32,
+            0.0
+          ],
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationY": -28,
+          "rotationZ": 24,
+          "faces": {
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": true
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                48.0,
+                30.5,
+                4.5
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": true
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": false
+            },
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": false
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "sidePlumeR4",
+          "from": [
+            0.0,
+            -0.44999999999999996,
+            0.0
+          ],
+          "to": [
+            5.0,
+            0.15,
+            0.0
+          ],
+          "rotationOrigin": [
+            0.0,
+            -0.15,
+            0.0
+          ],
+          "rotationY": -30,
+          "rotationZ": 9,
+          "faces": {
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": true
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                48.0,
+                30.5,
+                4.5
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": true
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": false
+            },
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": false
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "sidePlumeR5",
+          "from": [
+            0.0,
+            -1.65,
+            0.0
+          ],
+          "to": [
+            3.6,
+            -1.15,
+            0.0
+          ],
+          "rotationOrigin": [
+            0.0,
+            -1.4,
+            0.0
+          ],
+          "rotationY": -26,
+          "rotationZ": -12,
+          "faces": {
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                4.5,
+                30.5,
+                48.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": true
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                48.0,
+                30.5,
+                4.5
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": true
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": false
+            },
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": false
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "rotation": 270,
+              "autoUv": false,
+              "enabled": false
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

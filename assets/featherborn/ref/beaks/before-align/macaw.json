@@ -1,0 +1,1241 @@
+{
+  "editor": {
+    "allAngles": true,
+    "entityTextureMode": true
+  },
+  "textureWidth": 24,
+  "textureHeight": 24,
+  "textureSizes": {
+    "beakcolor": [
+      24,
+      24
+    ]
+  },
+  "textures": {
+    "beakcolor": "featherborn:face/beaks/macaw"
+  },
+  "elements": [
+    {
+      "name": "macawRoot",
+      "stepParentName": "Head",
+      "from": [
+        1.1,
+        3.3,
+        2.5
+      ],
+      "to": [
+        1.1,
+        3.3,
+        2.5
+      ],
+      "rotationOrigin": [
+        1.1,
+        3.3,
+        2.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#beakcolor",
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "enabled": false
+        },
+        "east": {
+          "texture": "#beakcolor",
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "enabled": false
+        },
+        "south": {
+          "texture": "#beakcolor",
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "enabled": false
+        },
+        "west": {
+          "texture": "#beakcolor",
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "enabled": false
+        },
+        "up": {
+          "texture": "#beakcolor",
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "enabled": false
+        },
+        "down": {
+          "texture": "#beakcolor",
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "enabled": false
+        }
+      },
+      "children": [
+        {
+          "name": "macawUpper1",
+          "from": [
+            -1.2,
+            -1.65,
+            -0.625
+          ],
+          "to": [
+            0.0,
+            0.0,
+            0.625
+          ],
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationZ": -6,
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv": [
+                14.5,
+                0.5,
+                15.5,
+                1.5
+              ]
+            }
+          },
+          "children": [
+            {
+              "name": "macawUpper2",
+              "from": [
+                -1.05,
+                0.19999999999999996,
+                0.050000000000000044
+              ],
+              "to": [
+                0.0,
+                1.65,
+                1.2
+              ],
+              "rotationOrigin": [
+                0.0,
+                1.65,
+                0.625
+              ],
+              "rotationZ": 14,
+              "faces": {
+                "north": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    4.5,
+                    0.5,
+                    5.5,
+                    1.5
+                  ]
+                },
+                "south": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    4.5,
+                    0.5,
+                    5.5,
+                    1.5
+                  ]
+                },
+                "up": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    4.5,
+                    0.5,
+                    5.5,
+                    1.5
+                  ]
+                },
+                "down": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    4.5,
+                    0.5,
+                    5.5,
+                    1.5
+                  ]
+                },
+                "west": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    4.5,
+                    0.5,
+                    5.5,
+                    1.5
+                  ]
+                },
+                "east": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    14.5,
+                    0.5,
+                    15.5,
+                    1.5
+                  ]
+                }
+              },
+              "children": [
+                {
+                  "name": "macawUpper3",
+                  "from": [
+                    -0.95,
+                    0.25,
+                    0.07499999999999996
+                  ],
+                  "to": [
+                    0.0,
+                    1.45,
+                    1.075
+                  ],
+                  "rotationOrigin": [
+                    0.0,
+                    1.45,
+                    0.575
+                  ],
+                  "rotationZ": 22,
+                  "faces": {
+                    "north": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        0.5,
+                        0.5,
+                        1.5,
+                        1.5
+                      ]
+                    },
+                    "south": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        0.5,
+                        0.5,
+                        1.5,
+                        1.5
+                      ]
+                    },
+                    "up": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        0.5,
+                        0.5,
+                        1.5,
+                        1.5
+                      ]
+                    },
+                    "down": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        0.5,
+                        0.5,
+                        1.5,
+                        1.5
+                      ]
+                    },
+                    "west": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        0.5,
+                        0.5,
+                        1.5,
+                        1.5
+                      ]
+                    },
+                    "east": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        14.5,
+                        0.5,
+                        15.5,
+                        1.5
+                      ]
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "macawUpper4",
+                      "from": [
+                        -0.85,
+                        0.2799999999999999,
+                        0.07500000000000001
+                      ],
+                      "to": [
+                        0.0,
+                        1.2,
+                        0.925
+                      ],
+                      "rotationOrigin": [
+                        0.0,
+                        1.2,
+                        0.5
+                      ],
+                      "rotationZ": 28,
+                      "faces": {
+                        "north": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            2.5,
+                            0.5,
+                            3.5,
+                            1.5
+                          ]
+                        },
+                        "south": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            2.5,
+                            0.5,
+                            3.5,
+                            1.5
+                          ]
+                        },
+                        "up": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            2.5,
+                            0.5,
+                            3.5,
+                            1.5
+                          ]
+                        },
+                        "down": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            2.5,
+                            0.5,
+                            3.5,
+                            1.5
+                          ]
+                        },
+                        "west": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            2.5,
+                            0.5,
+                            3.5,
+                            1.5
+                          ]
+                        },
+                        "east": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            14.5,
+                            0.5,
+                            15.5,
+                            1.5
+                          ]
+                        }
+                      },
+                      "children": [
+                        {
+                          "name": "macawUpper5",
+                          "from": [
+                            -0.75,
+                            0.26,
+                            0.09999999999999998
+                          ],
+                          "to": [
+                            0.0,
+                            0.92,
+                            0.75
+                          ],
+                          "rotationOrigin": [
+                            0.0,
+                            0.92,
+                            0.425
+                          ],
+                          "rotationZ": 30,
+                          "faces": {
+                            "north": {
+                              "texture": "#beakcolor",
+                              "uv": [
+                                2.5,
+                                0.5,
+                                3.5,
+                                1.5
+                              ]
+                            },
+                            "south": {
+                              "texture": "#beakcolor",
+                              "uv": [
+                                2.5,
+                                0.5,
+                                3.5,
+                                1.5
+                              ]
+                            },
+                            "up": {
+                              "texture": "#beakcolor",
+                              "uv": [
+                                2.5,
+                                0.5,
+                                3.5,
+                                1.5
+                              ]
+                            },
+                            "down": {
+                              "texture": "#beakcolor",
+                              "uv": [
+                                2.5,
+                                0.5,
+                                3.5,
+                                1.5
+                              ]
+                            },
+                            "west": {
+                              "texture": "#beakcolor",
+                              "uv": [
+                                2.5,
+                                0.5,
+                                3.5,
+                                1.5
+                              ]
+                            },
+                            "east": {
+                              "texture": "#beakcolor",
+                              "uv": [
+                                14.5,
+                                0.5,
+                                15.5,
+                                1.5
+                              ]
+                            }
+                          },
+                          "children": [
+                            {
+                              "name": "macawUpper6",
+                              "from": [
+                                -0.7,
+                                0.24000000000000005,
+                                0.1
+                              ],
+                              "to": [
+                                0.0,
+                                0.66,
+                                0.55
+                              ],
+                              "rotationOrigin": [
+                                0.0,
+                                0.66,
+                                0.325
+                              ],
+                              "rotationZ": 30,
+                              "faces": {
+                                "north": {
+                                  "texture": "#beakcolor",
+                                  "uv": [
+                                    8.5,
+                                    0.5,
+                                    9.5,
+                                    1.5
+                                  ]
+                                },
+                                "south": {
+                                  "texture": "#beakcolor",
+                                  "uv": [
+                                    8.5,
+                                    0.5,
+                                    9.5,
+                                    1.5
+                                  ]
+                                },
+                                "up": {
+                                  "texture": "#beakcolor",
+                                  "uv": [
+                                    8.5,
+                                    0.5,
+                                    9.5,
+                                    1.5
+                                  ]
+                                },
+                                "down": {
+                                  "texture": "#beakcolor",
+                                  "uv": [
+                                    8.5,
+                                    0.5,
+                                    9.5,
+                                    1.5
+                                  ]
+                                },
+                                "west": {
+                                  "texture": "#beakcolor",
+                                  "uv": [
+                                    8.5,
+                                    0.5,
+                                    9.5,
+                                    1.5
+                                  ]
+                                },
+                                "east": {
+                                  "texture": "#beakcolor",
+                                  "uv": [
+                                    14.5,
+                                    0.5,
+                                    15.5,
+                                    1.5
+                                  ]
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "macawLower1",
+          "from": [
+            -1.05,
+            -2.25,
+            -0.575
+          ],
+          "to": [
+            0.0,
+            -1.2999999999999998,
+            0.575
+          ],
+          "rotationOrigin": [
+            0.0,
+            -1.2999999999999998,
+            0.0
+          ],
+          "rotationZ": -10,
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv": [
+                6.5,
+                0.5,
+                7.5,
+                1.5
+              ]
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv": [
+                6.5,
+                0.5,
+                7.5,
+                1.5
+              ]
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv": [
+                6.5,
+                0.5,
+                7.5,
+                1.5
+              ]
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv": [
+                6.5,
+                0.5,
+                7.5,
+                1.5
+              ]
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv": [
+                6.5,
+                0.5,
+                7.5,
+                1.5
+              ]
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv": [
+                14.5,
+                0.5,
+                15.5,
+                1.5
+              ]
+            }
+          },
+          "children": [
+            {
+              "name": "macawLower2",
+              "from": [
+                -0.8,
+                0.19999999999999996,
+                0.07499999999999996
+              ],
+              "to": [
+                0.0,
+                0.95,
+                1.075
+              ],
+              "rotationOrigin": [
+                0.0,
+                0.95,
+                0.575
+              ],
+              "rotationZ": -16,
+              "faces": {
+                "north": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    6.5,
+                    0.5,
+                    7.5,
+                    1.5
+                  ]
+                },
+                "south": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    6.5,
+                    0.5,
+                    7.5,
+                    1.5
+                  ]
+                },
+                "up": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    6.5,
+                    0.5,
+                    7.5,
+                    1.5
+                  ]
+                },
+                "down": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    6.5,
+                    0.5,
+                    7.5,
+                    1.5
+                  ]
+                },
+                "west": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    6.5,
+                    0.5,
+                    7.5,
+                    1.5
+                  ]
+                },
+                "east": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    14.5,
+                    0.5,
+                    15.5,
+                    1.5
+                  ]
+                }
+              },
+              "children": [
+                {
+                  "name": "macawLower3",
+                  "from": [
+                    -0.55,
+                    0.22999999999999998,
+                    0.07500000000000001
+                  ],
+                  "to": [
+                    0.0,
+                    0.75,
+                    0.925
+                  ],
+                  "rotationOrigin": [
+                    0.0,
+                    0.75,
+                    0.5
+                  ],
+                  "rotationZ": -14,
+                  "faces": {
+                    "north": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        2.5,
+                        0.5,
+                        3.5,
+                        1.5
+                      ]
+                    },
+                    "south": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        2.5,
+                        0.5,
+                        3.5,
+                        1.5
+                      ]
+                    },
+                    "up": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        2.5,
+                        0.5,
+                        3.5,
+                        1.5
+                      ]
+                    },
+                    "down": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        2.5,
+                        0.5,
+                        3.5,
+                        1.5
+                      ]
+                    },
+                    "west": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        2.5,
+                        0.5,
+                        3.5,
+                        1.5
+                      ]
+                    },
+                    "east": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        14.5,
+                        0.5,
+                        15.5,
+                        1.5
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "macawBlendSideL",
+          "from": [
+            -0.6813047019760996,
+            -1.2999999999999998,
+            0.7262500000000001
+          ],
+          "to": [
+            -0.11,
+            0.0,
+            0.90625
+          ],
+          "rotationOrigin": [
+            -0.11,
+            0.0,
+            0.90625
+          ],
+          "rotationY": -30.942,
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv": [
+                14.5,
+                0.5,
+                15.5,
+                1.5
+              ]
+            }
+          }
+        },
+        {
+          "name": "macawBlendJawL",
+          "from": [
+            -0.6695847232546649,
+            -2.25,
+            0.6537499999999998
+          ],
+          "to": [
+            -0.11,
+            -1.63,
+            0.8337499999999999
+          ],
+          "rotationOrigin": [
+            -0.11,
+            0.0,
+            0.8337499999999999
+          ],
+          "rotationY": -28.878,
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv": [
+                6.5,
+                0.5,
+                7.5,
+                1.5
+              ]
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv": [
+                6.5,
+                0.5,
+                7.5,
+                1.5
+              ]
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv": [
+                6.5,
+                0.5,
+                7.5,
+                1.5
+              ]
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv": [
+                6.5,
+                0.5,
+                7.5,
+                1.5
+              ]
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv": [
+                6.5,
+                0.5,
+                7.5,
+                1.5
+              ]
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv": [
+                14.5,
+                0.5,
+                15.5,
+                1.5
+              ]
+            }
+          }
+        },
+        {
+          "name": "macawBlendSideR",
+          "from": [
+            -0.6813047019760996,
+            -1.2999999999999998,
+            -0.90625
+          ],
+          "to": [
+            -0.11,
+            0.0,
+            -0.7262500000000001
+          ],
+          "rotationOrigin": [
+            -0.11,
+            0.0,
+            -0.90625
+          ],
+          "rotationY": 30.942,
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv": [
+                14.5,
+                0.5,
+                15.5,
+                1.5
+              ]
+            }
+          }
+        },
+        {
+          "name": "macawBlendJawR",
+          "from": [
+            -0.6695847232546649,
+            -2.25,
+            -0.8337499999999999
+          ],
+          "to": [
+            -0.11,
+            -1.63,
+            -0.6537499999999998
+          ],
+          "rotationOrigin": [
+            -0.11,
+            0.0,
+            -0.8337499999999999
+          ],
+          "rotationY": 28.878,
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv": [
+                6.5,
+                0.5,
+                7.5,
+                1.5
+              ]
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv": [
+                6.5,
+                0.5,
+                7.5,
+                1.5
+              ]
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv": [
+                6.5,
+                0.5,
+                7.5,
+                1.5
+              ]
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv": [
+                6.5,
+                0.5,
+                7.5,
+                1.5
+              ]
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv": [
+                6.5,
+                0.5,
+                7.5,
+                1.5
+              ]
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv": [
+                14.5,
+                0.5,
+                15.5,
+                1.5
+              ]
+            }
+          }
+        },
+        {
+          "name": "macawBlendBrow",
+          "from": [
+            -0.7752818951391959,
+            0.0,
+            -0.75
+          ],
+          "to": [
+            -0.11,
+            0.45,
+            0.75
+          ],
+          "rotationOrigin": [
+            -0.11,
+            0.45,
+            0.0
+          ],
+          "rotationZ": 42.563,
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv": [
+                14.5,
+                0.5,
+                15.5,
+                1.5
+              ]
+            }
+          }
+        },
+        {
+          "name": "macawBlendChin",
+          "from": [
+            -0.7425345840347387,
+            -2.65,
+            -0.6325
+          ],
+          "to": [
+            -0.11,
+            -2.3,
+            0.6325
+          ],
+          "rotationOrigin": [
+            -0.11,
+            -2.3,
+            0.0
+          ],
+          "rotationZ": -39.226,
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv": [
+                6.5,
+                0.5,
+                7.5,
+                1.5
+              ]
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv": [
+                6.5,
+                0.5,
+                7.5,
+                1.5
+              ]
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv": [
+                6.5,
+                0.5,
+                7.5,
+                1.5
+              ]
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv": [
+                6.5,
+                0.5,
+                7.5,
+                1.5
+              ]
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv": [
+                6.5,
+                0.5,
+                7.5,
+                1.5
+              ]
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv": [
+                14.5,
+                0.5,
+                15.5,
+                1.5
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

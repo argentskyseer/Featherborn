@@ -1,0 +1,1387 @@
+{
+  "editor": {
+    "editorVersion": "VSMC2v0.5.0",
+    "allAngles": true,
+    "entityTextureMode": true,
+    "backdrops": [
+      {
+        "shapeFilepath": "body/base/avian",
+        "opacity": 1.0,
+        "enabled": true
+      }
+    ],
+    "attachments": []
+  },
+  "textureWidth": 24,
+  "textureHeight": 24,
+  "textureSizes": {
+    "beakcolor": [
+      24,
+      24
+    ]
+  },
+  "textures": {
+    "beakcolor": "featherborn:face/beaks/flamingo"
+  },
+  "elements": [
+    {
+      "name": "flamingoRoot",
+      "from": [
+        1.1,
+        3.1,
+        2.5
+      ],
+      "to": [
+        1.1,
+        3.1,
+        2.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "enabled": false,
+          "autoUv": false,
+          "snapUV": false
+        },
+        "east": {
+          "texture": "#",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "enabled": false,
+          "autoUv": false,
+          "snapUV": false
+        },
+        "south": {
+          "texture": "#",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "enabled": false,
+          "autoUv": false,
+          "snapUV": false
+        },
+        "west": {
+          "texture": "#",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "enabled": false,
+          "autoUv": false,
+          "snapUV": false
+        },
+        "up": {
+          "texture": "#",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "enabled": false,
+          "autoUv": false,
+          "snapUV": false
+        },
+        "down": {
+          "texture": "#",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "enabled": false,
+          "autoUv": false,
+          "snapUV": false
+        }
+      },
+      "rotationOrigin": [
+        1.1,
+        3.1,
+        2.5
+      ],
+      "stepParentName": "Head",
+      "uv": [
+        0.0,
+        0.0
+      ],
+      "children": [
+        {
+          "name": "flamingoUpper1",
+          "from": [
+            -1.2,
+            -0.9,
+            -0.6
+          ],
+          "to": [
+            0.0,
+            0.0,
+            0.6
+          ],
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ],
+              "autoUv": false,
+              "snapUV": false
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv": [
+                14.5,
+                0.5,
+                15.5,
+                1.5
+              ],
+              "autoUv": false,
+              "snapUV": false
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ],
+              "autoUv": false,
+              "snapUV": false
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ],
+              "autoUv": false,
+              "snapUV": false
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            }
+          },
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationZ": -7.0,
+          "uv": [
+            0.0,
+            0.0
+          ],
+          "children": [
+            {
+              "name": "flamingoUpper2",
+              "from": [
+                -1.0,
+                0.09999999999999998,
+                0.07499999999999996
+              ],
+              "to": [
+                0.0,
+                0.9,
+                1.125
+              ],
+              "faces": {
+                "north": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    2.5,
+                    0.5,
+                    3.5,
+                    1.5
+                  ],
+                  "autoUv": false,
+                  "snapUV": false
+                },
+                "east": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    14.5,
+                    0.5,
+                    15.5,
+                    1.5
+                  ],
+                  "autoUv": false,
+                  "snapUV": false
+                },
+                "south": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    2.5,
+                    0.5,
+                    3.5,
+                    1.5
+                  ],
+                  "autoUv": false,
+                  "snapUV": false
+                },
+                "west": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    2.5,
+                    0.5,
+                    3.5,
+                    1.5
+                  ],
+                  "autoUv": false,
+                  "snapUV": false
+                },
+                "up": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    2.5,
+                    0.5,
+                    3.5,
+                    1.5
+                  ]
+                },
+                "down": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    2.5,
+                    0.5,
+                    3.5,
+                    1.5
+                  ]
+                }
+              },
+              "rotationOrigin": [
+                0.0,
+                0.9,
+                0.6
+              ],
+              "rotationZ": -4.0,
+              "uv": [
+                0.0,
+                0.0
+              ],
+              "children": [
+                {
+                  "name": "flamingoUpper3",
+                  "from": [
+                    -1.1,
+                    0.18000000000000005,
+                    0.07500000000000001
+                  ],
+                  "to": [
+                    0.0,
+                    0.8,
+                    0.9750000000000001
+                  ],
+                  "faces": {
+                    "north": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        4.5,
+                        0.5,
+                        5.5,
+                        1.5
+                      ],
+                      "autoUv": false,
+                      "snapUV": false
+                    },
+                    "east": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        14.5,
+                        0.5,
+                        15.5,
+                        1.5
+                      ],
+                      "autoUv": false,
+                      "snapUV": false
+                    },
+                    "south": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        4.5,
+                        0.5,
+                        5.5,
+                        1.5
+                      ],
+                      "autoUv": false,
+                      "snapUV": false
+                    },
+                    "west": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        4.5,
+                        0.5,
+                        5.5,
+                        1.5
+                      ],
+                      "autoUv": false,
+                      "snapUV": false
+                    },
+                    "up": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        4.5,
+                        0.5,
+                        5.5,
+                        1.5
+                      ],
+                      "autoUv": false,
+                      "snapUV": false
+                    },
+                    "down": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        4.5,
+                        0.5,
+                        5.5,
+                        1.5
+                      ],
+                      "autoUv": false,
+                      "snapUV": false
+                    }
+                  },
+                  "rotationOrigin": [
+                    0.0,
+                    0.8,
+                    0.525
+                  ],
+                  "rotationZ": 58.0,
+                  "uv": [
+                    0.0,
+                    0.0
+                  ],
+                  "children": [
+                    {
+                      "name": "flamingoUpper4",
+                      "from": [
+                        -0.9,
+                        0.12,
+                        0.07500000000000001
+                      ],
+                      "to": [
+                        0.0,
+                        0.62,
+                        0.825
+                      ],
+                      "faces": {
+                        "north": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            4.5,
+                            0.5,
+                            5.5,
+                            1.5
+                          ],
+                          "autoUv": false,
+                          "snapUV": false
+                        },
+                        "east": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            14.5,
+                            0.5,
+                            15.5,
+                            1.5
+                          ],
+                          "autoUv": false,
+                          "snapUV": false
+                        },
+                        "south": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            4.5,
+                            0.5,
+                            5.5,
+                            1.5
+                          ],
+                          "autoUv": false,
+                          "snapUV": false
+                        },
+                        "west": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            4.5,
+                            0.5,
+                            5.5,
+                            1.5
+                          ],
+                          "autoUv": false,
+                          "snapUV": false
+                        },
+                        "up": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            4.5,
+                            0.5,
+                            5.5,
+                            1.5
+                          ],
+                          "autoUv": false,
+                          "snapUV": false
+                        },
+                        "down": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            4.5,
+                            0.5,
+                            5.5,
+                            1.5
+                          ],
+                          "autoUv": false,
+                          "snapUV": false
+                        }
+                      },
+                      "rotationOrigin": [
+                        0.0,
+                        0.62,
+                        0.45
+                      ],
+                      "rotationZ": 10.0,
+                      "uv": [
+                        0.0,
+                        0.0
+                      ],
+                      "children": [
+                        {
+                          "name": "flamingoUpper5",
+                          "from": [
+                            -0.35,
+                            0.04999999999999999,
+                            0.07500000000000001
+                          ],
+                          "to": [
+                            0.0,
+                            0.5,
+                            0.675
+                          ],
+                          "faces": {
+                            "north": {
+                              "texture": "#beakcolor",
+                              "uv": [
+                                6.5,
+                                0.5,
+                                7.5,
+                                1.5
+                              ],
+                              "autoUv": false,
+                              "snapUV": false
+                            },
+                            "east": {
+                              "texture": "#beakcolor",
+                              "uv": [
+                                14.5,
+                                0.5,
+                                15.5,
+                                1.5
+                              ],
+                              "autoUv": false,
+                              "snapUV": false
+                            },
+                            "south": {
+                              "texture": "#beakcolor",
+                              "uv": [
+                                6.5,
+                                0.5,
+                                7.5,
+                                1.5
+                              ],
+                              "autoUv": false,
+                              "snapUV": false
+                            },
+                            "west": {
+                              "texture": "#beakcolor",
+                              "uv": [
+                                6.5,
+                                0.5,
+                                7.5,
+                                1.5
+                              ],
+                              "autoUv": false,
+                              "snapUV": false
+                            },
+                            "up": {
+                              "texture": "#beakcolor",
+                              "uv": [
+                                6.5,
+                                0.5,
+                                7.5,
+                                1.5
+                              ],
+                              "autoUv": false,
+                              "snapUV": false
+                            },
+                            "down": {
+                              "texture": "#beakcolor",
+                              "uv": [
+                                6.5,
+                                0.5,
+                                7.5,
+                                1.5
+                              ],
+                              "autoUv": false,
+                              "snapUV": false
+                            }
+                          },
+                          "rotationOrigin": [
+                            0.0,
+                            0.5,
+                            0.375
+                          ],
+                          "rotationZ": 28.0,
+                          "uv": [
+                            0.0,
+                            0.0
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "flamingoLower1",
+          "from": [
+            -1.2,
+            -1.9500000000000002,
+            -0.55
+          ],
+          "to": [
+            0.0,
+            -0.9,
+            0.55
+          ],
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv": [
+                14.5,
+                0.5,
+                15.5,
+                1.5
+              ]
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            }
+          },
+          "rotationOrigin": [
+            0.0,
+            -0.9,
+            0.0
+          ],
+          "rotationZ": -4.0,
+          "uv": [
+            0.0,
+            0.0
+          ],
+          "children": [
+            {
+              "name": "flamingoLower2",
+              "from": [
+                -1.0,
+                0.10000000000000009,
+                0.050000000000000044
+              ],
+              "to": [
+                0.0,
+                1.05,
+                1.05
+              ],
+              "faces": {
+                "north": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    2.5,
+                    0.5,
+                    3.5,
+                    1.5
+                  ],
+                  "autoUv": false,
+                  "snapUV": false
+                },
+                "east": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    14.5,
+                    0.5,
+                    15.5,
+                    1.5
+                  ],
+                  "autoUv": false,
+                  "snapUV": false
+                },
+                "south": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    2.5,
+                    0.5,
+                    3.5,
+                    1.5
+                  ],
+                  "autoUv": false,
+                  "snapUV": false
+                },
+                "west": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    2.5,
+                    0.5,
+                    3.5,
+                    1.5
+                  ],
+                  "autoUv": false,
+                  "snapUV": false
+                },
+                "up": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    2.5,
+                    0.5,
+                    3.5,
+                    1.5
+                  ]
+                },
+                "down": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    2.5,
+                    0.5,
+                    3.5,
+                    1.5
+                  ]
+                }
+              },
+              "rotationOrigin": [
+                0.0,
+                1.05,
+                0.55
+              ],
+              "rotationZ": -3.0,
+              "uv": [
+                0.0,
+                0.0
+              ],
+              "children": [
+                {
+                  "name": "flamingoLower3",
+                  "from": [
+                    -0.95,
+                    0.22999999999999998,
+                    0.07500000000000001
+                  ],
+                  "to": [
+                    0.0,
+                    0.95,
+                    0.925
+                  ],
+                  "faces": {
+                    "north": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        4.5,
+                        0.5,
+                        5.5,
+                        1.5
+                      ],
+                      "autoUv": false,
+                      "snapUV": false
+                    },
+                    "east": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        14.5,
+                        0.5,
+                        15.5,
+                        1.5
+                      ],
+                      "autoUv": false,
+                      "snapUV": false
+                    },
+                    "south": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        4.5,
+                        0.5,
+                        5.5,
+                        1.5
+                      ],
+                      "autoUv": false,
+                      "snapUV": false
+                    },
+                    "west": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        4.5,
+                        0.5,
+                        5.5,
+                        1.5
+                      ],
+                      "autoUv": false,
+                      "snapUV": false
+                    },
+                    "up": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        4.5,
+                        0.5,
+                        5.5,
+                        1.5
+                      ],
+                      "autoUv": false,
+                      "snapUV": false
+                    },
+                    "down": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        4.5,
+                        0.5,
+                        5.5,
+                        1.5
+                      ],
+                      "autoUv": false,
+                      "snapUV": false
+                    }
+                  },
+                  "rotationOrigin": [
+                    0.0,
+                    0.95,
+                    0.5
+                  ],
+                  "rotationZ": 46.0,
+                  "uv": [
+                    0.0,
+                    0.0
+                  ],
+                  "children": [
+                    {
+                      "name": "flamingoLower4",
+                      "from": [
+                        -0.75,
+                        0.19999999999999996,
+                        0.07500000000000001
+                      ],
+                      "to": [
+                        0.0,
+                        0.72,
+                        0.7749999999999999
+                      ],
+                      "faces": {
+                        "north": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            4.5,
+                            0.5,
+                            5.5,
+                            1.5
+                          ],
+                          "autoUv": false,
+                          "snapUV": false
+                        },
+                        "east": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            14.5,
+                            0.5,
+                            15.5,
+                            1.5
+                          ],
+                          "autoUv": false,
+                          "snapUV": false
+                        },
+                        "south": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            4.5,
+                            0.5,
+                            5.5,
+                            1.5
+                          ],
+                          "autoUv": false,
+                          "snapUV": false
+                        },
+                        "west": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            4.5,
+                            0.5,
+                            5.5,
+                            1.5
+                          ],
+                          "autoUv": false,
+                          "snapUV": false
+                        },
+                        "up": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            4.5,
+                            0.5,
+                            5.5,
+                            1.5
+                          ],
+                          "autoUv": false,
+                          "snapUV": false
+                        },
+                        "down": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            4.5,
+                            0.5,
+                            5.5,
+                            1.5
+                          ],
+                          "autoUv": false,
+                          "snapUV": false
+                        }
+                      },
+                      "rotationOrigin": [
+                        0.0,
+                        0.72,
+                        0.425
+                      ],
+                      "rotationZ": 20.0,
+                      "uv": [
+                        0.0,
+                        0.0
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "flamingoBlendSideL",
+          "from": [
+            -0.6753529870797536,
+            -0.9,
+            0.69
+          ],
+          "to": [
+            -0.11,
+            0.0,
+            0.87
+          ],
+          "rotationOrigin": [
+            -0.11,
+            0.0,
+            0.87
+          ],
+          "rotationY": -29.921,
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv": [
+                14.5,
+                0.5,
+                15.5,
+                1.5
+              ]
+            }
+          }
+        },
+        {
+          "name": "flamingoBlendJawL",
+          "from": [
+            -0.6640056407655069,
+            -1.9500000000000002,
+            0.6174999999999999
+          ],
+          "to": [
+            -0.11,
+            -0.88,
+            0.7975
+          ],
+          "rotationOrigin": [
+            -0.11,
+            0.0,
+            0.7975
+          ],
+          "rotationY": -27.814,
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv": [
+                14.5,
+                0.5,
+                15.5,
+                1.5
+              ]
+            }
+          }
+        },
+        {
+          "name": "flamingoBlendSideR",
+          "from": [
+            -0.6753529870797536,
+            -0.9,
+            -0.87
+          ],
+          "to": [
+            -0.11,
+            0.0,
+            -0.69
+          ],
+          "rotationOrigin": [
+            -0.11,
+            0.0,
+            -0.87
+          ],
+          "rotationY": 29.921,
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv": [
+                14.5,
+                0.5,
+                15.5,
+                1.5
+              ]
+            }
+          }
+        },
+        {
+          "name": "flamingoBlendJawR",
+          "from": [
+            -0.6640056407655069,
+            -1.9500000000000002,
+            -0.7975
+          ],
+          "to": [
+            -0.11,
+            -0.88,
+            -0.6174999999999999
+          ],
+          "rotationOrigin": [
+            -0.11,
+            0.0,
+            -0.7975
+          ],
+          "rotationY": 27.814,
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv": [
+                14.5,
+                0.5,
+                15.5,
+                1.5
+              ]
+            }
+          }
+        },
+        {
+          "name": "flamingoBlendBrow",
+          "from": [
+            -0.7752818951391959,
+            0.0,
+            -0.72
+          ],
+          "to": [
+            -0.11,
+            0.45,
+            0.72
+          ],
+          "rotationOrigin": [
+            -0.11,
+            0.45,
+            0.0
+          ],
+          "rotationZ": 42.563,
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv": [
+                14.5,
+                0.5,
+                15.5,
+                1.5
+              ]
+            }
+          }
+        },
+        {
+          "name": "flamingoBlendChin",
+          "from": [
+            -0.7425345840347387,
+            -2.35,
+            -0.6050000000000001
+          ],
+          "to": [
+            -0.11,
+            -2.0,
+            0.6050000000000001
+          ],
+          "rotationOrigin": [
+            -0.11,
+            -2.0,
+            0.0
+          ],
+          "rotationZ": -39.226,
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv": [
+                0.5,
+                0.5,
+                1.5,
+                1.5
+              ]
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv": [
+                14.5,
+                0.5,
+                15.5,
+                1.5
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "animations": []
+}

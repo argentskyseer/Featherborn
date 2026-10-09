@@ -1,0 +1,1085 @@
+{
+  "editor": {
+    "allAngles": true,
+    "entityTextureMode": true
+  },
+  "textureWidth": 96,
+  "textureHeight": 48,
+  "textureSizes": {
+    "feather-main": [
+      96,
+      48
+    ]
+  },
+  "textures": {
+    "feather-main": "featherborn:feathers/feather-main"
+  },
+  "elements": [
+    {
+      "name": "hornTuftRootL",
+      "stepParentName": "HeadFeatherOrigin",
+      "from": [
+        1.8,
+        4.85,
+        1.0
+      ],
+      "to": [
+        1.8,
+        4.85,
+        1.0
+      ],
+      "rotationOrigin": [
+        1.8,
+        4.85,
+        1.0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#feather-main",
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "autoUv": false,
+          "enabled": false
+        },
+        "east": {
+          "texture": "#feather-main",
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "autoUv": false,
+          "enabled": false
+        },
+        "south": {
+          "texture": "#feather-main",
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "autoUv": false,
+          "enabled": false
+        },
+        "west": {
+          "texture": "#feather-main",
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "autoUv": false,
+          "enabled": false
+        },
+        "up": {
+          "texture": "#feather-main",
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "autoUv": false,
+          "enabled": false
+        },
+        "down": {
+          "texture": "#feather-main",
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "autoUv": false,
+          "enabled": false
+        }
+      },
+      "children": [
+        {
+          "name": "hornTuftL1",
+          "from": [
+            -0.09,
+            0.0,
+            -0.5
+          ],
+          "to": [
+            0.09,
+            1.15,
+            0.5
+          ],
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationX": -38,
+          "faces": {
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                37.46842105263158,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                37.46842105263158,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true
+            },
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                23.5,
+                37.46842105263158,
+                24.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                23.5,
+                37.46842105263158,
+                24.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                23.5,
+                37.46842105263158,
+                24.5,
+                37.96842105263158
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "autoUv": false,
+              "enabled": false
+            }
+          },
+          "rotationZ": -12,
+          "children": [
+            {
+              "name": "hornTuftL2",
+              "from": [
+                0.0,
+                1.15,
+                0.03999999999999998
+              ],
+              "to": [
+                0.18,
+                2.2,
+                0.96
+              ],
+              "rotationOrigin": [
+                0.09,
+                1.15,
+                0.5
+              ],
+              "rotationX": 14,
+              "faces": {
+                "west": {
+                  "texture": "#feather-main",
+                  "uv": [
+                    17.5,
+                    27.852631578947367,
+                    30.5,
+                    37.46842105263158
+                  ],
+                  "autoUv": false,
+                  "enabled": true
+                },
+                "east": {
+                  "texture": "#feather-main",
+                  "uv": [
+                    17.5,
+                    27.852631578947367,
+                    30.5,
+                    37.46842105263158
+                  ],
+                  "autoUv": false,
+                  "enabled": true
+                },
+                "north": {
+                  "texture": "#feather-main",
+                  "uv": [
+                    23.5,
+                    27.852631578947367,
+                    24.5,
+                    37.46842105263158
+                  ],
+                  "autoUv": false,
+                  "enabled": true
+                },
+                "south": {
+                  "texture": "#feather-main",
+                  "uv": [
+                    23.5,
+                    27.852631578947367,
+                    24.5,
+                    37.46842105263158
+                  ],
+                  "autoUv": false,
+                  "enabled": true
+                },
+                "up": {
+                  "texture": "#feather-main",
+                  "uv": [
+                    23.5,
+                    27.852631578947367,
+                    24.5,
+                    28.352631578947367
+                  ],
+                  "autoUv": false,
+                  "enabled": false
+                },
+                "down": {
+                  "texture": "#feather-main",
+                  "uv": [
+                    0,
+                    0,
+                    1,
+                    1
+                  ],
+                  "autoUv": false,
+                  "enabled": false
+                }
+              },
+              "children": [
+                {
+                  "name": "hornTuftL3",
+                  "from": [
+                    0.0,
+                    1.05,
+                    0.07
+                  ],
+                  "to": [
+                    0.18,
+                    2.0,
+                    0.8500000000000001
+                  ],
+                  "rotationOrigin": [
+                    0.09,
+                    1.05,
+                    0.46
+                  ],
+                  "rotationX": 17,
+                  "faces": {
+                    "west": {
+                      "texture": "#feather-main",
+                      "uv": [
+                        17.5,
+                        19.152631578947368,
+                        30.5,
+                        27.852631578947367
+                      ],
+                      "autoUv": false,
+                      "enabled": true
+                    },
+                    "east": {
+                      "texture": "#feather-main",
+                      "uv": [
+                        17.5,
+                        19.152631578947368,
+                        30.5,
+                        27.852631578947367
+                      ],
+                      "autoUv": false,
+                      "enabled": true
+                    },
+                    "north": {
+                      "texture": "#feather-main",
+                      "uv": [
+                        23.5,
+                        19.152631578947368,
+                        24.5,
+                        27.852631578947367
+                      ],
+                      "autoUv": false,
+                      "enabled": true
+                    },
+                    "south": {
+                      "texture": "#feather-main",
+                      "uv": [
+                        23.5,
+                        19.152631578947368,
+                        24.5,
+                        27.852631578947367
+                      ],
+                      "autoUv": false,
+                      "enabled": true
+                    },
+                    "up": {
+                      "texture": "#feather-main",
+                      "uv": [
+                        23.5,
+                        19.152631578947368,
+                        24.5,
+                        19.652631578947368
+                      ],
+                      "autoUv": false,
+                      "enabled": false
+                    },
+                    "down": {
+                      "texture": "#feather-main",
+                      "uv": [
+                        0,
+                        0,
+                        1,
+                        1
+                      ],
+                      "autoUv": false,
+                      "enabled": false
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "hornTuftL4",
+                      "from": [
+                        0.0,
+                        0.95,
+                        0.10000000000000003
+                      ],
+                      "to": [
+                        0.18,
+                        1.7999999999999998,
+                        0.6799999999999999
+                      ],
+                      "rotationOrigin": [
+                        0.09,
+                        0.95,
+                        0.39
+                      ],
+                      "rotationX": 21,
+                      "faces": {
+                        "west": {
+                          "texture": "#feather-main",
+                          "uv": [
+                            17.5,
+                            11.368421052631582,
+                            30.5,
+                            19.152631578947368
+                          ],
+                          "autoUv": false,
+                          "enabled": true
+                        },
+                        "east": {
+                          "texture": "#feather-main",
+                          "uv": [
+                            17.5,
+                            11.368421052631582,
+                            30.5,
+                            19.152631578947368
+                          ],
+                          "autoUv": false,
+                          "enabled": true
+                        },
+                        "north": {
+                          "texture": "#feather-main",
+                          "uv": [
+                            23.5,
+                            11.368421052631582,
+                            24.5,
+                            19.152631578947368
+                          ],
+                          "autoUv": false,
+                          "enabled": true
+                        },
+                        "south": {
+                          "texture": "#feather-main",
+                          "uv": [
+                            23.5,
+                            11.368421052631582,
+                            24.5,
+                            19.152631578947368
+                          ],
+                          "autoUv": false,
+                          "enabled": true
+                        },
+                        "up": {
+                          "texture": "#feather-main",
+                          "uv": [
+                            23.5,
+                            11.368421052631582,
+                            24.5,
+                            11.868421052631582
+                          ],
+                          "autoUv": false,
+                          "enabled": false
+                        },
+                        "down": {
+                          "texture": "#feather-main",
+                          "uv": [
+                            0,
+                            0,
+                            1,
+                            1
+                          ],
+                          "autoUv": false,
+                          "enabled": false
+                        }
+                      },
+                      "children": [
+                        {
+                          "name": "hornTuftL5",
+                          "from": [
+                            0.0,
+                            0.85,
+                            0.12999999999999998
+                          ],
+                          "to": [
+                            0.18,
+                            1.6,
+                            0.44999999999999996
+                          ],
+                          "rotationOrigin": [
+                            0.09,
+                            0.85,
+                            0.29
+                          ],
+                          "rotationX": 26,
+                          "faces": {
+                            "west": {
+                              "texture": "#feather-main",
+                              "uv": [
+                                17.5,
+                                4.5,
+                                30.5,
+                                11.368421052631582
+                              ],
+                              "autoUv": false,
+                              "enabled": true
+                            },
+                            "east": {
+                              "texture": "#feather-main",
+                              "uv": [
+                                17.5,
+                                4.5,
+                                30.5,
+                                11.368421052631582
+                              ],
+                              "autoUv": false,
+                              "enabled": true
+                            },
+                            "north": {
+                              "texture": "#feather-main",
+                              "uv": [
+                                23.5,
+                                4.5,
+                                24.5,
+                                11.368421052631582
+                              ],
+                              "autoUv": false,
+                              "enabled": true
+                            },
+                            "south": {
+                              "texture": "#feather-main",
+                              "uv": [
+                                23.5,
+                                4.5,
+                                24.5,
+                                11.368421052631582
+                              ],
+                              "autoUv": false,
+                              "enabled": true
+                            },
+                            "up": {
+                              "texture": "#feather-main",
+                              "uv": [
+                                23.5,
+                                4.5,
+                                24.5,
+                                5.0
+                              ],
+                              "autoUv": false,
+                              "enabled": true
+                            },
+                            "down": {
+                              "texture": "#feather-main",
+                              "uv": [
+                                0,
+                                0,
+                                1,
+                                1
+                              ],
+                              "autoUv": false,
+                              "enabled": false
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "hornTuftRootR",
+      "stepParentName": "HeadFeatherOrigin",
+      "from": [
+        1.8,
+        4.85,
+        4.0
+      ],
+      "to": [
+        1.8,
+        4.85,
+        4.0
+      ],
+      "rotationOrigin": [
+        1.8,
+        4.85,
+        4.0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#feather-main",
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "autoUv": false,
+          "enabled": false
+        },
+        "east": {
+          "texture": "#feather-main",
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "autoUv": false,
+          "enabled": false
+        },
+        "south": {
+          "texture": "#feather-main",
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "autoUv": false,
+          "enabled": false
+        },
+        "west": {
+          "texture": "#feather-main",
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "autoUv": false,
+          "enabled": false
+        },
+        "up": {
+          "texture": "#feather-main",
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "autoUv": false,
+          "enabled": false
+        },
+        "down": {
+          "texture": "#feather-main",
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "autoUv": false,
+          "enabled": false
+        }
+      },
+      "children": [
+        {
+          "name": "hornTuftR1",
+          "from": [
+            -0.09,
+            0.0,
+            -0.5
+          ],
+          "to": [
+            0.09,
+            1.15,
+            0.5
+          ],
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationX": 38,
+          "faces": {
+            "west": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                37.46842105263158,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true
+            },
+            "east": {
+              "texture": "#feather-main",
+              "uv": [
+                17.5,
+                37.46842105263158,
+                30.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true
+            },
+            "north": {
+              "texture": "#feather-main",
+              "uv": [
+                23.5,
+                37.46842105263158,
+                24.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true
+            },
+            "south": {
+              "texture": "#feather-main",
+              "uv": [
+                23.5,
+                37.46842105263158,
+                24.5,
+                48.0
+              ],
+              "autoUv": false,
+              "enabled": true
+            },
+            "up": {
+              "texture": "#feather-main",
+              "uv": [
+                23.5,
+                37.46842105263158,
+                24.5,
+                37.96842105263158
+              ],
+              "autoUv": false,
+              "enabled": false
+            },
+            "down": {
+              "texture": "#feather-main",
+              "uv": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "autoUv": false,
+              "enabled": false
+            }
+          },
+          "rotationZ": -12,
+          "children": [
+            {
+              "name": "hornTuftR2",
+              "from": [
+                0.0,
+                1.15,
+                0.03999999999999998
+              ],
+              "to": [
+                0.18,
+                2.2,
+                0.96
+              ],
+              "rotationOrigin": [
+                0.09,
+                1.15,
+                0.5
+              ],
+              "rotationX": -14,
+              "faces": {
+                "west": {
+                  "texture": "#feather-main",
+                  "uv": [
+                    17.5,
+                    27.852631578947367,
+                    30.5,
+                    37.46842105263158
+                  ],
+                  "autoUv": false,
+                  "enabled": true
+                },
+                "east": {
+                  "texture": "#feather-main",
+                  "uv": [
+                    17.5,
+                    27.852631578947367,
+                    30.5,
+                    37.46842105263158
+                  ],
+                  "autoUv": false,
+                  "enabled": true
+                },
+                "north": {
+                  "texture": "#feather-main",
+                  "uv": [
+                    23.5,
+                    27.852631578947367,
+                    24.5,
+                    37.46842105263158
+                  ],
+                  "autoUv": false,
+                  "enabled": true
+                },
+                "south": {
+                  "texture": "#feather-main",
+                  "uv": [
+                    23.5,
+                    27.852631578947367,
+                    24.5,
+                    37.46842105263158
+                  ],
+                  "autoUv": false,
+                  "enabled": true
+                },
+                "up": {
+                  "texture": "#feather-main",
+                  "uv": [
+                    23.5,
+                    27.852631578947367,
+                    24.5,
+                    28.352631578947367
+                  ],
+                  "autoUv": false,
+                  "enabled": false
+                },
+                "down": {
+                  "texture": "#feather-main",
+                  "uv": [
+                    0,
+                    0,
+                    1,
+                    1
+                  ],
+                  "autoUv": false,
+                  "enabled": false
+                }
+              },
+              "children": [
+                {
+                  "name": "hornTuftR3",
+                  "from": [
+                    0.0,
+                    1.05,
+                    0.07
+                  ],
+                  "to": [
+                    0.18,
+                    2.0,
+                    0.8500000000000001
+                  ],
+                  "rotationOrigin": [
+                    0.09,
+                    1.05,
+                    0.46
+                  ],
+                  "rotationX": -17,
+                  "faces": {
+                    "west": {
+                      "texture": "#feather-main",
+                      "uv": [
+                        17.5,
+                        19.152631578947368,
+                        30.5,
+                        27.852631578947367
+                      ],
+                      "autoUv": false,
+                      "enabled": true
+                    },
+                    "east": {
+                      "texture": "#feather-main",
+                      "uv": [
+                        17.5,
+                        19.152631578947368,
+                        30.5,
+                        27.852631578947367
+                      ],
+                      "autoUv": false,
+                      "enabled": true
+                    },
+                    "north": {
+                      "texture": "#feather-main",
+                      "uv": [
+                        23.5,
+                        19.152631578947368,
+                        24.5,
+                        27.852631578947367
+                      ],
+                      "autoUv": false,
+                      "enabled": true
+                    },
+                    "south": {
+                      "texture": "#feather-main",
+                      "uv": [
+                        23.5,
+                        19.152631578947368,
+                        24.5,
+                        27.852631578947367
+                      ],
+                      "autoUv": false,
+                      "enabled": true
+                    },
+                    "up": {
+                      "texture": "#feather-main",
+                      "uv": [
+                        23.5,
+                        19.152631578947368,
+                        24.5,
+                        19.652631578947368
+                      ],
+                      "autoUv": false,
+                      "enabled": false
+                    },
+                    "down": {
+                      "texture": "#feather-main",
+                      "uv": [
+                        0,
+                        0,
+                        1,
+                        1
+                      ],
+                      "autoUv": false,
+                      "enabled": false
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "hornTuftR4",
+                      "from": [
+                        0.0,
+                        0.95,
+                        0.10000000000000003
+                      ],
+                      "to": [
+                        0.18,
+                        1.7999999999999998,
+                        0.6799999999999999
+                      ],
+                      "rotationOrigin": [
+                        0.09,
+                        0.95,
+                        0.39
+                      ],
+                      "rotationX": -21,
+                      "faces": {
+                        "west": {
+                          "texture": "#feather-main",
+                          "uv": [
+                            17.5,
+                            11.368421052631582,
+                            30.5,
+                            19.152631578947368
+                          ],
+                          "autoUv": false,
+                          "enabled": true
+                        },
+                        "east": {
+                          "texture": "#feather-main",
+                          "uv": [
+                            17.5,
+                            11.368421052631582,
+                            30.5,
+                            19.152631578947368
+                          ],
+                          "autoUv": false,
+                          "enabled": true
+                        },
+                        "north": {
+                          "texture": "#feather-main",
+                          "uv": [
+                            23.5,
+                            11.368421052631582,
+                            24.5,
+                            19.152631578947368
+                          ],
+                          "autoUv": false,
+                          "enabled": true
+                        },
+                        "south": {
+                          "texture": "#feather-main",
+                          "uv": [
+                            23.5,
+                            11.368421052631582,
+                            24.5,
+                            19.152631578947368
+                          ],
+                          "autoUv": false,
+                          "enabled": true
+                        },
+                        "up": {
+                          "texture": "#feather-main",
+                          "uv": [
+                            23.5,
+                            11.368421052631582,
+                            24.5,
+                            11.868421052631582
+                          ],
+                          "autoUv": false,
+                          "enabled": false
+                        },
+                        "down": {
+                          "texture": "#feather-main",
+                          "uv": [
+                            0,
+                            0,
+                            1,
+                            1
+                          ],
+                          "autoUv": false,
+                          "enabled": false
+                        }
+                      },
+                      "children": [
+                        {
+                          "name": "hornTuftR5",
+                          "from": [
+                            0.0,
+                            0.85,
+                            0.12999999999999998
+                          ],
+                          "to": [
+                            0.18,
+                            1.6,
+                            0.44999999999999996
+                          ],
+                          "rotationOrigin": [
+                            0.09,
+                            0.85,
+                            0.29
+                          ],
+                          "rotationX": -26,
+                          "faces": {
+                            "west": {
+                              "texture": "#feather-main",
+                              "uv": [
+                                17.5,
+                                4.5,
+                                30.5,
+                                11.368421052631582
+                              ],
+                              "autoUv": false,
+                              "enabled": true
+                            },
+                            "east": {
+                              "texture": "#feather-main",
+                              "uv": [
+                                17.5,
+                                4.5,
+                                30.5,
+                                11.368421052631582
+                              ],
+                              "autoUv": false,
+                              "enabled": true
+                            },
+                            "north": {
+                              "texture": "#feather-main",
+                              "uv": [
+                                23.5,
+                                4.5,
+                                24.5,
+                                11.368421052631582
+                              ],
+                              "autoUv": false,
+                              "enabled": true
+                            },
+                            "south": {
+                              "texture": "#feather-main",
+                              "uv": [
+                                23.5,
+                                4.5,
+                                24.5,
+                                11.368421052631582
+                              ],
+                              "autoUv": false,
+                              "enabled": true
+                            },
+                            "up": {
+                              "texture": "#feather-main",
+                              "uv": [
+                                23.5,
+                                4.5,
+                                24.5,
+                                5.0
+                              ],
+                              "autoUv": false,
+                              "enabled": true
+                            },
+                            "down": {
+                              "texture": "#feather-main",
+                              "uv": [
+                                0,
+                                0,
+                                1,
+                                1
+                              ],
+                              "autoUv": false,
+                              "enabled": false
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

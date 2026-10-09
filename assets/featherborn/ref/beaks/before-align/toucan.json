@@ -1,0 +1,1328 @@
+{
+  "editor": {
+    "editorVersion": "VSMC2v0.5.0",
+    "allAngles": true,
+    "entityTextureMode": true,
+    "backdrops": [
+      {
+        "shapeFilepath": "body/base/avian",
+        "opacity": 1.0,
+        "enabled": true
+      }
+    ],
+    "attachments": []
+  },
+  "textureWidth": 24,
+  "textureHeight": 24,
+  "textureSizes": {
+    "beakcolor": [
+      24,
+      24
+    ]
+  },
+  "textures": {
+    "beakcolor": "featherborn:face/beaks/toucan"
+  },
+  "elements": [
+    {
+      "name": "toucanRoot",
+      "from": [
+        1.1,
+        3.6,
+        2.5
+      ],
+      "to": [
+        1.1,
+        3.6,
+        2.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "enabled": false,
+          "autoUv": false,
+          "snapUV": false
+        },
+        "east": {
+          "texture": "#",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "enabled": false,
+          "autoUv": false,
+          "snapUV": false
+        },
+        "south": {
+          "texture": "#",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "enabled": false,
+          "autoUv": false,
+          "snapUV": false
+        },
+        "west": {
+          "texture": "#",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "enabled": false,
+          "autoUv": false,
+          "snapUV": false
+        },
+        "up": {
+          "texture": "#",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "enabled": false,
+          "autoUv": false,
+          "snapUV": false
+        },
+        "down": {
+          "texture": "#",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "enabled": false,
+          "autoUv": false,
+          "snapUV": false
+        }
+      },
+      "rotationOrigin": [
+        1.1,
+        3.6,
+        2.5
+      ],
+      "stepParentName": "Head",
+      "uv": [
+        0.0,
+        0.0
+      ],
+      "children": [
+        {
+          "name": "toucanUpper1",
+          "from": [
+            -2.0625,
+            -1.875,
+            -0.7188
+          ],
+          "to": [
+            0.0,
+            0.0,
+            0.7188
+          ],
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv": [
+                2.5,
+                0.5,
+                3.5,
+                1.5
+              ],
+              "autoUv": false,
+              "snapUV": false
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv": [
+                14.5,
+                0.5,
+                15.5,
+                1.5
+              ],
+              "autoUv": false,
+              "snapUV": false
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv": [
+                2.5,
+                0.5,
+                3.5,
+                1.5
+              ],
+              "autoUv": false,
+              "snapUV": false
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv": [
+                2.5,
+                0.5,
+                3.5,
+                1.5
+              ],
+              "autoUv": false,
+              "snapUV": false
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv": [
+                2.5,
+                0.5,
+                3.5,
+                1.5
+              ],
+              "autoUv": false,
+              "snapUV": false
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv": [
+                2.5,
+                0.5,
+                3.5,
+                1.5
+              ],
+              "autoUv": false,
+              "snapUV": false
+            }
+          },
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationZ": 4.0,
+          "uv": [
+            0.0,
+            0.0
+          ],
+          "children": [
+            {
+              "name": "toucanUpper2",
+              "from": [
+                -1.875,
+                0.3125,
+                0.0937
+              ],
+              "to": [
+                0.0,
+                1.875,
+                1.3438
+              ],
+              "faces": {
+                "north": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    0.5,
+                    0.5,
+                    1.5,
+                    1.5
+                  ],
+                  "autoUv": false,
+                  "snapUV": false
+                },
+                "east": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    14.5,
+                    0.5,
+                    15.5,
+                    1.5
+                  ]
+                },
+                "south": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    0.5,
+                    0.5,
+                    1.5,
+                    1.5
+                  ],
+                  "autoUv": false,
+                  "snapUV": false
+                },
+                "west": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    0.5,
+                    0.5,
+                    1.5,
+                    1.5
+                  ]
+                },
+                "up": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    0.5,
+                    0.5,
+                    1.5,
+                    1.5
+                  ],
+                  "autoUv": false,
+                  "snapUV": false
+                },
+                "down": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    0.5,
+                    0.5,
+                    1.5,
+                    1.5
+                  ],
+                  "autoUv": false,
+                  "snapUV": false
+                }
+              },
+              "rotationOrigin": [
+                0.0,
+                1.875,
+                0.7188
+              ],
+              "rotationZ": 5.0,
+              "uv": [
+                0.0,
+                0.0
+              ],
+              "children": [
+                {
+                  "name": "toucanUpper3",
+                  "from": [
+                    -1.75,
+                    0.3125,
+                    0.0938
+                  ],
+                  "to": [
+                    0.0,
+                    1.5625,
+                    1.1562
+                  ],
+                  "faces": {
+                    "north": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        4.5,
+                        0.5,
+                        5.5,
+                        1.5
+                      ]
+                    },
+                    "east": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        14.5,
+                        0.5,
+                        15.5,
+                        1.5
+                      ],
+                      "autoUv": false,
+                      "snapUV": false
+                    },
+                    "south": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        4.5,
+                        0.5,
+                        5.5,
+                        1.5
+                      ]
+                    },
+                    "west": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        4.5,
+                        0.5,
+                        5.5,
+                        1.5
+                      ],
+                      "autoUv": false,
+                      "snapUV": false
+                    },
+                    "up": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        4.5,
+                        0.5,
+                        5.5,
+                        1.5
+                      ],
+                      "autoUv": false,
+                      "snapUV": false
+                    },
+                    "down": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        4.5,
+                        0.5,
+                        5.5,
+                        1.5
+                      ],
+                      "autoUv": false,
+                      "snapUV": false
+                    }
+                  },
+                  "rotationOrigin": [
+                    0.0,
+                    1.5625,
+                    0.625
+                  ],
+                  "rotationZ": 7.0,
+                  "uv": [
+                    0.0,
+                    0.0
+                  ],
+                  "children": [
+                    {
+                      "name": "toucanUpper4",
+                      "from": [
+                        -1.4375,
+                        0.35,
+                        0.0938
+                      ],
+                      "to": [
+                        0.0,
+                        1.25,
+                        0.9687
+                      ],
+                      "faces": {
+                        "north": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            6.5,
+                            0.5,
+                            7.5,
+                            1.5
+                          ],
+                          "autoUv": false,
+                          "snapUV": false
+                        },
+                        "east": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            14.5,
+                            0.5,
+                            15.5,
+                            1.5
+                          ],
+                          "autoUv": false,
+                          "snapUV": false
+                        },
+                        "south": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            6.5,
+                            0.5,
+                            7.5,
+                            1.5
+                          ],
+                          "autoUv": false,
+                          "snapUV": false
+                        },
+                        "west": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            6.5,
+                            0.5,
+                            7.5,
+                            1.5
+                          ],
+                          "autoUv": false,
+                          "snapUV": false
+                        },
+                        "up": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            6.5,
+                            0.5,
+                            7.5,
+                            1.5
+                          ],
+                          "autoUv": false,
+                          "snapUV": false
+                        },
+                        "down": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            6.5,
+                            0.5,
+                            7.5,
+                            1.5
+                          ],
+                          "autoUv": false,
+                          "snapUV": false
+                        }
+                      },
+                      "rotationOrigin": [
+                        0.0,
+                        1.25,
+                        0.5312
+                      ],
+                      "rotationZ": 11.0,
+                      "uv": [
+                        0.0,
+                        0.0
+                      ],
+                      "children": [
+                        {
+                          "name": "toucanUpper5",
+                          "from": [
+                            -0.8125,
+                            0.3375,
+                            0.125
+                          ],
+                          "to": [
+                            0.0,
+                            0.9,
+                            0.75
+                          ],
+                          "faces": {
+                            "north": {
+                              "texture": "#beakcolor",
+                              "uv": [
+                                8.5,
+                                0.5,
+                                9.5,
+                                1.5
+                              ],
+                              "autoUv": false,
+                              "snapUV": false
+                            },
+                            "east": {
+                              "texture": "#beakcolor",
+                              "uv": [
+                                14.5,
+                                0.5,
+                                15.5,
+                                1.5
+                              ],
+                              "autoUv": false,
+                              "snapUV": false
+                            },
+                            "south": {
+                              "texture": "#beakcolor",
+                              "uv": [
+                                8.5,
+                                0.5,
+                                9.5,
+                                1.5
+                              ],
+                              "autoUv": false,
+                              "snapUV": false
+                            },
+                            "west": {
+                              "texture": "#beakcolor",
+                              "uv": [
+                                8.5,
+                                0.5,
+                                9.5,
+                                1.5
+                              ],
+                              "autoUv": false,
+                              "snapUV": false
+                            },
+                            "up": {
+                              "texture": "#beakcolor",
+                              "uv": [
+                                8.5,
+                                0.5,
+                                9.5,
+                                1.5
+                              ],
+                              "autoUv": false,
+                              "snapUV": false
+                            },
+                            "down": {
+                              "texture": "#beakcolor",
+                              "uv": [
+                                8.5,
+                                0.5,
+                                9.5,
+                                1.5
+                              ],
+                              "autoUv": false,
+                              "snapUV": false
+                            }
+                          },
+                          "rotationOrigin": [
+                            0.0,
+                            0.9,
+                            0.4375
+                          ],
+                          "rotationZ": 32.0,
+                          "uv": [
+                            0.0,
+                            0.0
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "toucanLower1",
+          "from": [
+            -2.0625,
+            -2.4375,
+            -0.625
+          ],
+          "to": [
+            0.0,
+            -1.875,
+            0.625
+          ],
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv": [
+                10.5,
+                0.5,
+                11.5,
+                1.5
+              ],
+              "autoUv": false,
+              "snapUV": false
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv": [
+                14.5,
+                0.5,
+                15.5,
+                1.5
+              ],
+              "autoUv": false,
+              "snapUV": false
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv": [
+                10.5,
+                0.5,
+                11.5,
+                1.5
+              ],
+              "autoUv": false,
+              "snapUV": false
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv": [
+                10.5,
+                0.5,
+                11.5,
+                1.5
+              ],
+              "autoUv": false,
+              "snapUV": false
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv": [
+                10.5,
+                0.5,
+                11.5,
+                1.5
+              ],
+              "autoUv": false,
+              "snapUV": false
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv": [
+                10.5,
+                0.5,
+                11.5,
+                1.5
+              ],
+              "autoUv": false,
+              "snapUV": false
+            }
+          },
+          "rotationOrigin": [
+            0.0,
+            -1.875,
+            0.0
+          ],
+          "rotationZ": 4.0,
+          "uv": [
+            0.0,
+            0.0
+          ],
+          "children": [
+            {
+              "name": "toucanLower2",
+              "from": [
+                -1.875,
+                0.0625,
+                0.0938
+              ],
+              "to": [
+                0.0,
+                0.5625,
+                1.1562
+              ],
+              "faces": {
+                "north": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    12.5,
+                    0.5,
+                    13.5,
+                    1.5
+                  ],
+                  "autoUv": false,
+                  "snapUV": false
+                },
+                "east": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    14.5,
+                    0.5,
+                    15.5,
+                    1.5
+                  ],
+                  "autoUv": false,
+                  "snapUV": false
+                },
+                "south": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    12.5,
+                    0.5,
+                    13.5,
+                    1.5
+                  ],
+                  "autoUv": false,
+                  "snapUV": false
+                },
+                "west": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    12.5,
+                    0.5,
+                    13.5,
+                    1.5
+                  ],
+                  "autoUv": false,
+                  "snapUV": false
+                },
+                "up": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    12.5,
+                    0.5,
+                    13.5,
+                    1.5
+                  ],
+                  "autoUv": false,
+                  "snapUV": false
+                },
+                "down": {
+                  "texture": "#beakcolor",
+                  "uv": [
+                    12.5,
+                    0.5,
+                    13.5,
+                    1.5
+                  ],
+                  "autoUv": false,
+                  "snapUV": false
+                }
+              },
+              "rotationOrigin": [
+                0.0,
+                0.5625,
+                0.625
+              ],
+              "rotationZ": 3.0,
+              "uv": [
+                0.0,
+                0.0
+              ],
+              "children": [
+                {
+                  "name": "toucanLower3",
+                  "from": [
+                    -1.75,
+                    0.1,
+                    0.0938
+                  ],
+                  "to": [
+                    0.0,
+                    0.5,
+                    0.9687
+                  ],
+                  "faces": {
+                    "north": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        12.5,
+                        0.5,
+                        13.5,
+                        1.5
+                      ],
+                      "autoUv": false,
+                      "snapUV": false
+                    },
+                    "east": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        14.5,
+                        0.5,
+                        15.5,
+                        1.5
+                      ],
+                      "autoUv": false,
+                      "snapUV": false
+                    },
+                    "south": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        12.5,
+                        0.5,
+                        13.5,
+                        1.5
+                      ],
+                      "autoUv": false,
+                      "snapUV": false
+                    },
+                    "west": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        12.5,
+                        0.5,
+                        13.5,
+                        1.5
+                      ],
+                      "autoUv": false,
+                      "snapUV": false
+                    },
+                    "up": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        12.5,
+                        0.5,
+                        13.5,
+                        1.5
+                      ],
+                      "autoUv": false,
+                      "snapUV": false
+                    },
+                    "down": {
+                      "texture": "#beakcolor",
+                      "uv": [
+                        12.5,
+                        0.5,
+                        13.5,
+                        1.5
+                      ],
+                      "autoUv": false,
+                      "snapUV": false
+                    }
+                  },
+                  "rotationOrigin": [
+                    0.0,
+                    0.5,
+                    0.5312
+                  ],
+                  "rotationZ": 4.0,
+                  "uv": [
+                    0.0,
+                    0.0
+                  ],
+                  "children": [
+                    {
+                      "name": "toucanLower4",
+                      "from": [
+                        -1.125,
+                        0.075,
+                        0.0937
+                      ],
+                      "to": [
+                        0.0,
+                        0.4,
+                        0.7812
+                      ],
+                      "faces": {
+                        "north": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            6.5,
+                            0.5,
+                            7.5,
+                            1.5
+                          ],
+                          "autoUv": false,
+                          "snapUV": false
+                        },
+                        "east": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            14.5,
+                            0.5,
+                            15.5,
+                            1.5
+                          ],
+                          "autoUv": false,
+                          "snapUV": false
+                        },
+                        "south": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            6.5,
+                            0.5,
+                            7.5,
+                            1.5
+                          ],
+                          "autoUv": false,
+                          "snapUV": false
+                        },
+                        "west": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            6.5,
+                            0.5,
+                            7.5,
+                            1.5
+                          ],
+                          "autoUv": false,
+                          "snapUV": false
+                        },
+                        "up": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            6.5,
+                            0.5,
+                            7.5,
+                            1.5
+                          ],
+                          "autoUv": false,
+                          "snapUV": false
+                        },
+                        "down": {
+                          "texture": "#beakcolor",
+                          "uv": [
+                            6.5,
+                            0.5,
+                            7.5,
+                            1.5
+                          ],
+                          "autoUv": false,
+                          "snapUV": false
+                        }
+                      },
+                      "rotationOrigin": [
+                        0.0,
+                        0.4,
+                        0.4375
+                      ],
+                      "rotationZ": 7.0,
+                      "uv": [
+                        0.0,
+                        0.0
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "toucanBlendSideL",
+          "from": [
+            -0.8336941086508858,
+            -1.875,
+            0.86226
+          ],
+          "to": [
+            -0.11,
+            0.0,
+            1.04226
+          ],
+          "rotationOrigin": [
+            -0.11,
+            0.0,
+            1.04226
+          ],
+          "rotationY": -27.828,
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv": [
+                2.5,
+                0.5,
+                3.5,
+                1.5
+              ]
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv": [
+                2.5,
+                0.5,
+                3.5,
+                1.5
+              ]
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv": [
+                2.5,
+                0.5,
+                3.5,
+                1.5
+              ]
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv": [
+                2.5,
+                0.5,
+                3.5,
+                1.5
+              ]
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv": [
+                2.5,
+                0.5,
+                3.5,
+                1.5
+              ]
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv": [
+                14.5,
+                0.5,
+                15.5,
+                1.5
+              ]
+            }
+          }
+        },
+        {
+          "name": "toucanBlendJawL",
+          "from": [
+            -0.8141939097294153,
+            -2.4375,
+            0.7262500000000001
+          ],
+          "to": [
+            -0.11,
+            -1.855,
+            0.90625
+          ],
+          "rotationOrigin": [
+            -0.11,
+            0.0,
+            0.90625
+          ],
+          "rotationY": -24.654,
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv": [
+                10.5,
+                0.5,
+                11.5,
+                1.5
+              ]
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv": [
+                10.5,
+                0.5,
+                11.5,
+                1.5
+              ]
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv": [
+                10.5,
+                0.5,
+                11.5,
+                1.5
+              ]
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv": [
+                10.5,
+                0.5,
+                11.5,
+                1.5
+              ]
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv": [
+                10.5,
+                0.5,
+                11.5,
+                1.5
+              ]
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv": [
+                14.5,
+                0.5,
+                15.5,
+                1.5
+              ]
+            }
+          }
+        },
+        {
+          "name": "toucanBlendSideR",
+          "from": [
+            -0.8336941086508858,
+            -1.875,
+            -1.04226
+          ],
+          "to": [
+            -0.11,
+            0.0,
+            -0.86226
+          ],
+          "rotationOrigin": [
+            -0.11,
+            0.0,
+            -1.04226
+          ],
+          "rotationY": 27.828,
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv": [
+                2.5,
+                0.5,
+                3.5,
+                1.5
+              ]
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv": [
+                2.5,
+                0.5,
+                3.5,
+                1.5
+              ]
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv": [
+                2.5,
+                0.5,
+                3.5,
+                1.5
+              ]
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv": [
+                2.5,
+                0.5,
+                3.5,
+                1.5
+              ]
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv": [
+                2.5,
+                0.5,
+                3.5,
+                1.5
+              ]
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv": [
+                14.5,
+                0.5,
+                15.5,
+                1.5
+              ]
+            }
+          }
+        },
+        {
+          "name": "toucanBlendJawR",
+          "from": [
+            -0.8141939097294153,
+            -2.4375,
+            -0.90625
+          ],
+          "to": [
+            -0.11,
+            -1.855,
+            -0.7262500000000001
+          ],
+          "rotationOrigin": [
+            -0.11,
+            0.0,
+            -0.90625
+          ],
+          "rotationY": 24.654,
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv": [
+                10.5,
+                0.5,
+                11.5,
+                1.5
+              ]
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv": [
+                10.5,
+                0.5,
+                11.5,
+                1.5
+              ]
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv": [
+                10.5,
+                0.5,
+                11.5,
+                1.5
+              ]
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv": [
+                10.5,
+                0.5,
+                11.5,
+                1.5
+              ]
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv": [
+                10.5,
+                0.5,
+                11.5,
+                1.5
+              ]
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv": [
+                14.5,
+                0.5,
+                15.5,
+                1.5
+              ]
+            }
+          }
+        },
+        {
+          "name": "toucanBlendChin",
+          "from": [
+            -0.8647184905645282,
+            -2.8375,
+            -0.6875
+          ],
+          "to": [
+            -0.11,
+            -2.4875,
+            0.6875
+          ],
+          "rotationOrigin": [
+            -0.11,
+            -2.4875,
+            0.0
+          ],
+          "rotationZ": -32.005,
+          "faces": {
+            "north": {
+              "texture": "#beakcolor",
+              "uv": [
+                10.5,
+                0.5,
+                11.5,
+                1.5
+              ]
+            },
+            "south": {
+              "texture": "#beakcolor",
+              "uv": [
+                10.5,
+                0.5,
+                11.5,
+                1.5
+              ]
+            },
+            "up": {
+              "texture": "#beakcolor",
+              "uv": [
+                10.5,
+                0.5,
+                11.5,
+                1.5
+              ]
+            },
+            "down": {
+              "texture": "#beakcolor",
+              "uv": [
+                10.5,
+                0.5,
+                11.5,
+                1.5
+              ]
+            },
+            "west": {
+              "texture": "#beakcolor",
+              "uv": [
+                10.5,
+                0.5,
+                11.5,
+                1.5
+              ]
+            },
+            "east": {
+              "texture": "#beakcolor",
+              "uv": [
+                14.5,
+                0.5,
+                15.5,
+                1.5
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "animations": []
+}
