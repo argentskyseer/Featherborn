@@ -1,0 +1,14 @@
+{
+  "textureWidth": 76,
+  "textureHeight": 76,
+  "textureSizes": {
+    "featherborn-main": [
+      152,
+      76
+    ]
+  },
+  "textures": {
+    "featherborn-main": "featherborn:body/base/featherborn-main"
+  },
+  "elements": []
+}

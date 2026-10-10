@@ -1,0 +1,282 @@
+{
+  "editor": {
+    "editorVersion": "VSMC2v0.5.0",
+    "allAngles": true,
+    "backdrops": [
+      {
+        "shapeFilepath": "body/base/harpy",
+        "opacity": 1.0,
+        "enabled": true
+      }
+    ],
+    "attachments": []
+  },
+  "textureWidth": 76,
+  "textureHeight": 76,
+  "textureSizes": {
+    "featherborn-main": [
+      152,
+      76
+    ]
+  },
+  "textures": {
+    "featherborn-main": "featherborn:body/base/featherborn-main"
+  },
+  "elements": [
+    {
+      "name": "Bust",
+      "from": [
+        -1.100000023841858,
+        1.1794,
+        0.6
+      ],
+      "to": [
+        0.6999999284744263,
+        3.7794,
+        5.6
+      ],
+      "faces": {
+        "north": {
+          "texture": "#featherborn-main",
+          "uv": [
+            8.0,
+            18.721,
+            9.8,
+            21.321
+          ],
+          "autoUv": false,
+          "snapUV": false
+        },
+        "east": {
+          "texture": "#featherborn-main",
+          "uv": [
+            13.6,
+            18.721,
+            18.6,
+            21.321
+          ],
+          "autoUv": false,
+          "snapUV": false
+        },
+        "south": {
+          "texture": "#featherborn-main",
+          "uv": [
+            19.0,
+            18.721,
+            20.8,
+            21.321
+          ],
+          "autoUv": false,
+          "snapUV": false
+        },
+        "west": {
+          "texture": "#featherborn-main",
+          "uv": [
+            13.6,
+            18.721,
+            18.6,
+            21.321
+          ],
+          "autoUv": false,
+          "snapUV": false
+        },
+        "up": {
+          "texture": "#featherborn-main",
+          "uv": [
+            13.6,
+            17.5,
+            18.6,
+            19.3
+          ],
+          "autoUv": false,
+          "snapUV": false
+        },
+        "down": {
+          "texture": "#featherborn-main",
+          "uv": [
+            13.6,
+            21.321,
+            18.6,
+            22.5
+          ],
+          "autoUv": false,
+          "snapUV": false
+        }
+      },
+      "rotationOrigin": [
+        -0.30000002384185787,
+        1.1794,
+        3.1
+      ],
+      "rotationZ": -22.5,
+      "stepParentName": "UpperTorso",
+      "uv": [
+        0.0,
+        0.0
+      ],
+      "children": [
+        {
+          "name": "BustUnder",
+          "from": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "to": [
+            1.0,
+            1.0,
+            5.0
+          ],
+          "faces": {
+            "east": {
+              "texture": "#featherborn-main",
+              "uv": [
+                13.6,
+                21.321,
+                18.6,
+                22.5
+              ]
+            },
+            "west": {
+              "texture": "#featherborn-main",
+              "uv": [
+                13.6,
+                21.321,
+                18.6,
+                22.5
+              ]
+            },
+            "up": {
+              "texture": "#featherborn-main",
+              "uv": [
+                13.6,
+                21.321,
+                18.6,
+                22.5
+              ]
+            },
+            "down": {
+              "texture": "#featherborn-main",
+              "uv": [
+                13.6,
+                21.321,
+                18.6,
+                22.5
+              ]
+            },
+            "north": {
+              "texture": "#featherborn-main",
+              "uv": [
+                8.0,
+                20.321,
+                9.0,
+                21.321
+              ]
+            },
+            "south": {
+              "texture": "#featherborn-main",
+              "uv": [
+                19.8,
+                20.321,
+                20.8,
+                21.321
+              ]
+            }
+          },
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationZ": -22.5,
+          "uv": [
+            0.0,
+            0.0
+          ],
+          "children": [
+            {
+              "name": "BustUnder2",
+              "from": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "to": [
+                2.0,
+                1.0,
+                5.0
+              ],
+              "faces": {
+                "east": {
+                  "texture": "#featherborn-main",
+                  "uv": [
+                    13.6,
+                    21.321,
+                    18.6,
+                    22.5
+                  ]
+                },
+                "west": {
+                  "texture": "#featherborn-main",
+                  "uv": [
+                    13.6,
+                    21.321,
+                    18.6,
+                    22.5
+                  ]
+                },
+                "up": {
+                  "texture": "#featherborn-main",
+                  "uv": [
+                    13.6,
+                    21.321,
+                    18.6,
+                    22.5
+                  ]
+                },
+                "down": {
+                  "texture": "#featherborn-main",
+                  "uv": [
+                    13.6,
+                    21.321,
+                    18.6,
+                    22.5
+                  ]
+                },
+                "north": {
+                  "texture": "#featherborn-main",
+                  "uv": [
+                    8.0,
+                    20.321,
+                    9.0,
+                    21.321
+                  ]
+                },
+                "south": {
+                  "texture": "#featherborn-main",
+                  "uv": [
+                    19.8,
+                    20.321,
+                    20.8,
+                    21.321
+                  ]
+                }
+              },
+              "rotationOrigin": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "rotationZ": 22.5,
+              "uv": [
+                0.0,
+                0.0
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": []
+}
